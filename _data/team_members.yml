@@ -24,19 +24,19 @@
 
 - name: <a href="http://haslab.uminho.pt">Tânia Esteves</a>
   photo: nophoto.jpg
-  info: MsC Student
+  info: MSc Student
   email: 
   number_educ: 0
 
 - name: <a href="https://www.inesctec.pt/en/people/manuel-castro-freitas">Manuel Freitas</a>
   photo: nophoto.jpg
-  info: MsC Student
+  info: MSc Student
   email: manuel.c.freitas@inesctec.pt
   number_educ: 0
   
 - name: <a href="https://www.inesctec.pt/en/people/alberto-campinho-faria">Alberto Faria</a>
   photo: alberto.jpg
-  info: Bachelor Student
+  info: BSc Student
   email: alberto.c.faria@inesctec.pt
   number_educ: 0
   
