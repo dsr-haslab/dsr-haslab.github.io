@@ -18,11 +18,10 @@ The work on software-defined storage aims at building a new generation of adapta
 
 [SafeFS](https://github.com/safecloud-project/safefs) is a software-defined file system based on a modular architecture featuring stackable layers that can be combined to construct a secure distributed file system. SafeFS allows users to specialize their data store to their specific needs by choosing the combination of layers that provide the best safety and performance tradeoffs. The prototype is implemented in user space using FUSE. The provided layers include mechanisms based on encryption, replication, and coding.
 
-#### Collaboration
+#### Collaboration with other researchers
 
-This work is the result of a collaboration with researchers from:
-- [Université de Neuchâtel](https://www.unine.ch) - Design and implementation of the original SafeFS system.
-- [IBM Research Haifa](http://www.research.ibm.com/labs/haifa/) - Current work on improving the security of SafeFS.
+- [P. Felber](http://members.unine.ch/pascal.felber/index.html), [V. Schiavoni](http://members.unine.ch/valerio.schiavoni/), and [D. Burihabwa](https://libra.unine.ch/Personnes/Dorian_Burihabwa/L-en), [Université de Neuchâtel](https://www.unine.ch) - Design and implementation of the original SafeFS system.
+- [Danny Harnik](https://researcher.watson.ibm.com/researcher/view.php?person=il-DANNYH), [IBM Research Haifa](http://www.research.ibm.com/labs/haifa/) - Current work on improving the security of SafeFS.
 
 #### Selected publications
 
@@ -52,9 +51,9 @@ Current storage benchmarking tools lack realistic features in order to properly 
 
 [qemu-Disksim](https://github.com/jopereira/qemu-disksim) is a version of QEMU that includes a block device (disksim) that introduces I/O delays according to a simulator. This allows you to use a ramdisk while obtaining performance consistent with what a real disk would produce.
 
-#### Collaboration
+#### Collaboration with other researchers
 
-- [IBM Research Haifa](http://www.research.ibm.com/labs/haifa/) - Current work on improving the realism of DEDISbench content generation.
+- [Danny Harnik](https://researcher.watson.ibm.com/researcher/view.php?person=il-DANNYH), [IBM Research Haifa](http://www.research.ibm.com/labs/haifa/) - Current work on improving the realism of DEDISbench content generation.
 
 #### Selected publications
 
