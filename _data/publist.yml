@@ -10,7 +10,7 @@
 
 - title: "SafeFS: a modular architecture for secure user-space file systems: one FUSE to rule them all"
   authors: Pontes R, Burihabwa D, Maia F, Paulo J, Schiavoni V, Felber P, Mercier H, Oliveira R
-  where: ACM International Systems and Storage Conference (SYSTOR) (best student paper award).
+  where: ACM International Systems and Storage Conference (SYSTOR) (best student paper award)
   year: 2017
   #link:
     #url: https://arxiv.org/abs/1712.08620

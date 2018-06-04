@@ -6,6 +6,8 @@ sitemap: false
 permalink: /team/
 ---
 
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
 # Members
 
 **We are looking for new Postdocs, PhD students and Master/Bachelor students to join the team**.<br>
@@ -23,7 +25,10 @@ If you are interested in working with us, please send me an [email](mailto:jtpau
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4>
-  <i>{{ member.info }}<br>email: <{{ member.email }}></i>
+  <i>{{ member.info }}</i><br>
+  <span><a href="mailto:{{ member.email }}"><i class="fas fa-envelope fa-lg"></i></a></span>
+  {% if member.git %} <span><a href="{{ member.git }}"><i class="fab fa-github fa-lg"></i></a></span> {% endif %}
+  {% if member.ldin %} <span><a href="{{ member.ldin }}"><i class="fab fa-linkedin-in fa-lg"></i></a></span> {% endif %}
   <ul style="overflow: hidden">
   
   {% if member.number_educ == 1 %}
