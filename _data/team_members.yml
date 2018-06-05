@@ -31,11 +31,11 @@
   number_educ: 0
   
 - name: <a href="http://haslab.uminho.pt">Tânia Esteves</a>
-  photo: nophoto.jpg
+  photo: tania.jpg
   info: MSc Student
   email: tania.c.araujo@inesctec.pt
-  git:
-  ldin:
+  git: https://github.com/taniaesteves
+  ldin: https://linkedin.com/in/tania-esteves
   number_educ: 0
 
 - name: <a href="https://www.inesctec.pt/en/people/manuel-castro-freitas">Manuel Freitas</a>
@@ -50,7 +50,7 @@
   photo: alberto.jpg
   info: BSc Student
   email: alberto.c.faria@inesctec.pt
-  git:
+  git: https://github.com/albertofaria/
   ldin:
   number_educ: 0
   
