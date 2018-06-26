@@ -1,7 +1,7 @@
 ---
-title: "DSR @ HASLab - Research"
+title: "DBR @ HASLab - Research"
 layout: textlay
-excerpt: "DSR @ HASLab -- Research"
+excerpt: "DBR @ HASLab -- Research"
 sitemap: false
 permalink: /research/
 ---
@@ -10,24 +10,74 @@ permalink: /research/
 
 Our research is currently divided in three main topics: 
 
-### Software-Defined Storage
+### Large Scale Data Processing
 
-The work on software-defined storage aims at building a new generation of adaptable and programmable storage solutions that can automatically and efficiently leverage the storage of heterogeneous clusters, IoT devices, and cloud storage services. These solutions, built along a control and a data plane, neeed to support multiple combinations of well-known distinct storage specializations such as load balancing, caching, replication, security, compression, and deduplication (data plane). These combinations need to be automatically configured and managed in order to suit different application performance, energy, security, and dependability requirements (control plane).
+The work on large scale data processing e focused in develop new solutions to fit current demands in cloud based database solutions. These leverage the scalability and elastic capabilities of this programming model to serve both larger user domains and disruptive data volumes. The developed systems span from middleware solutions either to complement or to fully provide processing semantics over already existing systems or full query engines that incomporate the developed techniques. 
+
 
 #### Projects
 
-[SafeFS](https://github.com/safecloud-project/safefs) is a software-defined file system based on a modular architecture featuring stackable layers that can be combined to construct a secure distributed file system. SafeFS allows users to specialize their data store to their specific needs by choosing the combination of layers that provide the best safety and performance tradeoffs. The prototype is implemented in user space using FUSE. The provided layers include mechanisms based on encryption, replication, and coding.
+[CloudDBAppliance](http://clouddb.eu) This project aims at producing a European Cloud Database Appliance for providing a Database as a Service able to match the predictable performance, robustness and trustworthiness of on premise architectures such as those based on mainframes. We are particularly involved in tasks related to the load balancing and faul-tolerance of database requests and the orchestration/deployment of database components.
+
+[Accelerated Object Stores]() This project builds a joint atempt with [IBM Research Zurich](https://www.zurich.ibm.com/) to design a middleware system that is able to efficiently handle data from document-based repositories. The system is built from a caching mechanism that leverages a in-house designed columnar format, specifically deisigned for data analytics. Moreover, it integrates RDMA network interconnects to handle seamless distributed execution over the document repository.
+
+[Distributed Window Functions]() 
+
+[Radicalize]() Descrição projeto outsystems. Ana ficou de enviar frase com descrição.
+
+[Lattice Based Optimisations] JNO
+
+[Spark Analytics] Ricardo Macedo (Tese Daniel) ?
+
 
 #### Collaboration with other researchers
 
-- [P. Felber](http://members.unine.ch/pascal.felber/index.html), [V. Schiavoni](http://members.unine.ch/valerio.schiavoni/), and [D. Burihabwa](https://libra.unine.ch/Personnes/Dorian_Burihabwa/L-en), [Université de Neuchâtel](https://www.unine.ch) - Design and implementation of the original SafeFS system.
-- [Danny Harnik](https://researcher.watson.ibm.com/researcher/view.php?person=il-DANNYH), [IBM Research Haifa](http://www.research.ibm.com/labs/haifa/) - Current work on improving the security of SafeFS.
+- [C. Bekas](https://researcher.watson.ibm.com/researcher/view.php?person=zurich-bek), [IBM Research Zurich](https://www.zurich.ibm.com/) - Envisioning the architecture for the Accelerated Object Stores project.
+
 
 #### Selected publications
 
 {% for publi in site.data.publist %}
 
-  {% if publi.highlight == 2 %}
+  {% if publi.highlight == 0 %}
+
+  - {{ publi.authors }} ({{ publi.year }}). <strong>{{ publi.title }}</strong>. {{ publi.where }}.
+
+  {% endif %}
+
+{% endfor %}
+
+
+#### Funding
+
+This work is being funded by [CloudDBAppliance](http://clouddb.eu) Horizon 2020 DS-2016-12, reference: 732051.
+
+---
+
+### Secure Data Processing
+
+
+
+#### Projects
+
+[Dartagnan]()
+
+[SGX]()
+
+[SafeNoSQL]() This project comprehends a generic NoSQL framework, together with a set of libraries supporting data processing cryptographic techniques that can be used with existing NoSQL engines and composed
+to meet the privacy and performance requirements of different applications. This is achieved through a modular and extensible design that enables data processing over multiple cryptographic techniques applied on the same database.
+
+[Privacy Aware Web-based query processing]() Tese Diogo
+
+
+#### Collaboration with other researchers
+
+
+#### Selected publications
+
+{% for publi in site.data.publist %}
+
+  {% if publi.highlight == 1 %}
 
   - {{ publi.authors }} ({{ publi.year }}). <strong>{{ publi.title }}</strong>. {{ publi.where }}.
 
@@ -41,19 +91,46 @@ This work is being funded by [SafeCloud](http://www.safecloud-project.eu) Horizo
 
 ---
 
-### Storage Benchmarking
+### Benchmarking
 
-Current storage benchmarking tools lack realistic features in order to properly assess the performance and resiliency of nowadays solutions. The goal of this work is to provide novel features such as realistic content generation, data integrity validation, among others. 
 
 #### Projects
 
-[DEDISbench](https://github.com/jtpaulo/dedisbench) is an open source micro I/O benchmark suitable for evaluating deduplication systems by generating blocks with a realistic content distribution. The benchmark also allows running tests with different load intensities and introduces a novel hotspot access pattern for I/O requests.
-
-[qemu-Disksim](https://github.com/jopereira/qemu-disksim) is a version of QEMU that includes a block device (disksim) that introduces I/O delays according to a simulator. This allows you to use a ramdisk while obtaining performance consistent with what a real disk would produce.
+[HTAPBench](https://github.com/faclc4/HTAPBench) HTAPBench is a benchmarking suite designed for database engines that support hybrid workloads (HTAP) composed of high levels of transactional activity and, at the same time, provide business analytics directly over production data. It provides a unified metric for HTAP systems geared toward the execution of constantly increasing OLAP requests limited by an admissible impact on OLTP performance.
 
 #### Collaboration with other researchers
 
-- [Danny Harnik](https://researcher.watson.ibm.com/researcher/view.php?person=il-DANNYH), [IBM Research Haifa](http://www.research.ibm.com/labs/haifa/) - Current work on improving the realism of DEDISbench content generation.
+
+#### Selected publications
+
+{% for publi in site.data.publist %}
+
+  {% if publi.highlight == 2 %}
+
+  - {{ publi.authors }} ({{ publi.year }}). <strong>{{ publi.title }}</strong>. {{ publi.where }}.
+
+  {% endif %}
+
+{% endfor %}
+
+
+#### Funding
+
+This work is being funded by [SafeCloud](http://www.safecloud-project.eu) Horizon 2020 DS-2014-1, reference: 653884 and by FCT (Portuguese Funding Agency) Ref:UID/EEA/50014/2013.
+
+---
+
+<!-- ### Blockchain Technology
+
+
+#### Projects
+
+[]()
+
+
+#### Collaboration with other researchers
+
+
 
 #### Selected publications
 
@@ -64,36 +141,16 @@ Current storage benchmarking tools lack realistic features in order to properly 
   - {{ publi.authors }} ({{ publi.year }}). <strong>{{ publi.title }}</strong>. {{ publi.where }}.
 
   {% endif %}
-  
+
 {% endfor %}
 
-#### Funding
 
-This work was partially funded by FEDER through FCT by projects [Pastramy](http://pastramy.gsd.inesc-id.pt) (PTDC/EIA/72405/2006) and [ReD](http://red.lsd.di.uminho.pt) (PDTC/EIA-EIA/109044/2008), and by Bolsa de Doutoramento (SFRH/BD/31114/2006).
+#### Funding -->
 
----
 
-### Storage Optimization
 
-With the exponential increase of digital information it becomes critical to find novel storage optimizations that can cope with the storage and retrieval of large amounts of data in a efficient and dependable fashion. 
+<!-- [SafeFS](https://github.com/safecloud-project/safefs) is a software-defined file system based on a modular architecture featuring stackable layers that can be combined to construct a secure distributed file system. SafeFS allows users to specialize their data store to their specific needs by choosing the combination of layers that provide the best safety and performance tradeoffs. The prototype is implemented in user space using FUSE. The provided layers include mechanisms based on encryption, replication, and coding. -->
 
-#### Projects
 
-[DEDIS](https://launchpad.net/holeycow/dedis-deduplication-system) is a novel open source distributed post-processing deduplication system. Its main contribution is a novel optimistic asynchronous mechanism for eliminating duplicated data among virtual machines deployed on several remote hosts. This mechanism along with other optimizations allows achieving nearly native disk I/O throughput for virtual machines even when deduplication is being performed in the background. Additionally, DEDIS is fully distributed, allowing the system to scale, and is resilient to server failures. DEDIS prototype is implemented within XEN by leveraging the Tap:aio Blktap Driver asynchronous I/O block device.
 
-#### Selected publications
-
-{% for publi in site.data.publist %}
-
-  {% if publi.highlight == 4 %}
-
-  - {{ publi.authors }} ({{ publi.year }}). <strong>{{ publi.title }}</strong>. {{ publi.where }}.
-
-  {% endif %}
-  
-{% endfor %}
-
-#### Funding
-
-This work was partially funded by FEDER through FCT by projects [Pastramy](http://pastramy.gsd.inesc-id.pt) (PTDC/EIA/72405/2006) and [ReD](http://red.lsd.di.uminho.pt) (PDTC/EIA-EIA/109044/2008), and by Bolsa de Doutoramento (SFRH/BD/31114/2006).
 

@@ -1,83 +1,43 @@
-- title: "DDFlasks: Deduplicated Very Large Scale Data Store"
-  authors: Maia F, Paulo J, Coelho F, Neves F, Pereira J, Oliveira R
-  where: Distributed Applications and Interoperable Systems (DAIS)
+- title: "HTAPbench: Hybrid Transactional and Analytical Processing Benchmark"
+  authors: Coelho F, Paulo J, Vilaça R, Pereira J, Oliveira R
+  where: ACM/SPEC International Conference on Performance Engineering (ICPE)
   year: 2017
-  #link:
-    #url: https://arxiv.org/abs/1712.08620
-    #display:  arxiv:1712.08620 (2017)
-  highlight: 0
-  #news2: 
-
-- title: "SafeFS: a modular architecture for secure user-space file systems: one FUSE to rule them all"
-  authors: Pontes R, Burihabwa D, Maia F, Paulo J, Schiavoni V, Felber P, Mercier H, Oliveira R
-  where: ACM International Systems and Storage Conference (SYSTOR) (best student paper award)
-  year: 2017
-  #link:
-    #url: https://arxiv.org/abs/1712.08620
-    #display:  arxiv:1712.08620 (2017)
-  highlight: 2
-
-  #news2: 
-
-- title: "Efficient Deduplication in a Distributed Primary Storage Infrastructure"
-  authors: Paulo J, Pereira J
-  where: ACM Transactions on Storage (TOS)
-  year: 2016
-  #link:
-    #url: https://arxiv.org/abs/1712.08620
-    #display:  arxiv:1712.08620 (2017)
-  highlight: 4
-  #news2: 
-
-- title: "On the Cost of Safe Storage for Public Clouds: an Experimental Evaluation"
-  authors: Burihabwa D, Pontes R, Felber P, Maia F, Mercier H, Oliveira R, Paulo J, Schiavoni V
-  where: IEEE International Symposium on Reliable Distributed Systems (SRDS) 
-  year: 2016
-  #link:
-    #url: https://arxiv.org/abs/1712.08620
+  link:
+    url: https://research.spec.org/icpe_proceedings/2017/proceedings/p293.pdf
     #display:  arxiv:1712.08620 (2017)
   highlight: 2
   #news2: 
 
-- title: "A Survey and Classification of Storage Deduplication Systems"
-  authors: Paulo J, Pereira J
-  where: ACM Computing Surveys (CSUR).
-  year: 2014
-  #link:
-    #url: https://arxiv.org/abs/1712.08620
+- title: "A Practical Framework for Privacy-Preserving NoSQL Databases"
+  authors: Macedo R, Paulo J, Pontes R, Portela B, Oliveira T, Matos M, Oliveira R
+  where: IEEE International Symposium on Reliable Distributed Systems (SRDS)
+  year: 2017
+  link:
+    #url: http://www.gsd.inesc-id.pt/~mm/papers/2017/srds_safenosql.pdf
     #display:  arxiv:1712.08620 (2017)
-  highlight: 4
-  #news2: 
+  highlight: 1
+  #news2:   
 
-- title: "Distributed Exact Deduplication for Primary Storage Infrastructures"
-  authors: Paulo J, Pereira J
+- title: "Similarity Aware Shuffling for the Distributed Processing of SQL Window Functions"
+  authors: Coelho F, Matos M, Pereira J, Oliveira R
   where: Distributed Applications and Interoperable Systems (DAIS)
-  year: 2014
-  #link:
-    #url: https://arxiv.org/abs/1712.08620
+  year: 2017
+  link:
+    #url: http://www.gsd.inesc-id.pt/~mm/papers/2017/srds_safenosql.pdf
     #display:  arxiv:1712.08620 (2017)
   highlight: 0
   #news2: 
 
-- title: "Towards an Accurate Evaluation of Deduplicated Storage Systems"
-  authors: Paulo J, Reis P, Pereira J, Sousa A
-  where: International Journal of Computer Systems Science and Engineering
-  year: 2013
-  #link:
-    #url: https://arxiv.org/abs/1712.08620
+- title: "Holistic Shuffler for the Parallel Execution of SQL Window Functions"
+  authors: Coelho F, Pereira J, Vilaça R, Oliveira R
+  where: Distributed Applications and Interoperable Systems (DAIS)
+  year: 2016
+  link:
+    #url: http://www.gsd.inesc-id.pt/~mm/papers/2017/srds_safenosql.pdf
     #display:  arxiv:1712.08620 (2017)
-  highlight: 3
-  #news2: 
+  highlight: 0
+  #news2:   
 
-- title: "DEDISbench: A Benchmark for Deduplicated Storage Systems"
-  authors: Paulo J, Reis P, Pereira J, Sousa A
-  where: International Symposium on Secure Virtual Infrastructures (DOA-SVI)
-  year: 2012
-  #link:
-    #url: https://arxiv.org/abs/1712.08620
-    #display:  arxiv:1712.08620 (2017)
-  highlight: 3
-  #news2: 
 
 
 

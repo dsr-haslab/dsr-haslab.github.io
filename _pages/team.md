@@ -1,7 +1,7 @@
 ---
-title: "DSR - People"
+title: "DBR - People"
 layout: gridlay
-excerpt: "DSR - People"
+excerpt: "DBR - People"
 sitemap: false
 permalink: /people/
 ---
@@ -12,10 +12,10 @@ permalink: /people/
 
 
 
-We are looking for new Postdocs, PhD students and Master/Bachelor students to join HASLab and work on storage research topics.<br>
-If you are interested in working with us, please send me an [email](mailto:jtpaulo@inesctec.pt).
+We are looking for new Postdocs, PhD students and Master/Bachelor students to join HASLab and work on database research topics.<br>
+If you are interested in working with us, please send me an [email](mailto:fabio.a.coelho@inesctec.pt).
 
-HASLab members involved in distributed storage research:
+HASLab members involved in database research:
 
 {% assign number_printed = 0 %}
 {% for member in site.data.team_members %}

@@ -5,8 +5,8 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>DSR @ HASLab - Research</title>
-  <meta name="description" content="DSR @ HASLab -- Research">
+  <title>DBR @ HASLab - Research</title>
+  <meta name="description" content="DBR @ HASLab -- Research">
   <link rel="stylesheet" href="http://localhost:4000/css/main.css">
   <link rel="canonical" href="http://localhost:4000/research/">
 <link rel="shortcut icon" type ="image/x-icon" href="http://localhost:4000/images/favicon.ico">
@@ -28,7 +28,7 @@
 		<span class="icon-bar"></span>
 	  </button>
 	
-    <a class="navbar-brand" href="http://localhost:4000/">Distributed Storage Research @ HASLab </a>
+    <a class="navbar-brand" href="http://localhost:4000/">DataBase Research @ HASLab </a>
 	</div>
 	<div class="collapse navbar-collapse" id="navbar-collapse-1">
 	  <ul class="nav navbar-nav navbar-right">
@@ -36,6 +36,7 @@
 		<li><a href="http://localhost:4000/research">Research</a></li>
 		<li><a href="http://localhost:4000/publications">Publications</a></li>
 		<li><a href="http://localhost:4000/people">People</a></li>
+		<li><a href="http://localhost:4000/alumni">Alumni</a></li>
 	  </ul>
 	</div>
   </div>
@@ -49,93 +50,130 @@
 
 <p>Our research is currently divided in three main topics:</p>
 
-<h3 id="software-defined-storage">Software-Defined Storage</h3>
+<h3 id="large-scale-data-processing">Large Scale Data Processing</h3>
 
-<p>The work on software-defined storage aims at building a new generation of adaptable and programmable storage solutions that can automatically and efficiently leverage the storage of heterogeneous clusters, IoT devices, and cloud storage services. These solutions, built along a control and a data plane, neeed to support multiple combinations of well-known distinct storage specializations such as load balancing, caching, replication, security, compression, and deduplication (data plane). These combinations need to be automatically configured and managed in order to suit different application performance, energy, security, and dependability requirements (control plane).</p>
+<p>The work on large scale data processing e focused in develop new solutions to fit current demands in cloud based database solutions. These leverage the scalability and elastic capabilities of this programming model to serve both larger user domains and disruptive data volumes. The developed systems span from middleware solutions either to complement or to fully provide processing semantics over already existing systems or full query engines that incomporate the developed techniques.</p>
 
 <h4 id="projects">Projects</h4>
 
-<p><a href="https://github.com/safecloud-project/safefs">SafeFS</a> is a software-defined file system based on a modular architecture featuring stackable layers that can be combined to construct a secure distributed file system. SafeFS allows users to specialize their data store to their specific needs by choosing the combination of layers that provide the best safety and performance tradeoffs. The prototype is implemented in user space using FUSE. The provided layers include mechanisms based on encryption, replication, and coding.</p>
+<p><a href="http://clouddb.eu">CloudDBAppliance</a> This project aims at producing a European Cloud Database Appliance for providing a Database as a Service able to match the predictable performance, robustness and trustworthiness of on premise architectures such as those based on mainframes. We are particularly involved in tasks related to the load balancing and faul-tolerance of database requests and the orchestration/deployment of database components.</p>
+
+<p><a href="">Accelerated Object Stores</a> This project builds a joint atempt with <a href="https://www.zurich.ibm.com/">IBM Research Zurich</a> to design a middleware system that is able to efficiently handle data from document-based repositories. The system is built from a caching mechanism that leverages a in-house designed columnar format, specifically deisigned for data analytics. Moreover, it integrates RDMA network interconnects to handle seamless distributed execution over the document repository.</p>
+
+<p><a href="">Distributed Window Functions</a></p>
+
+<p><a href="">Radicalize</a> Descrição projeto outsystems. Ana ficou de enviar frase com descrição.</p>
+
+<p>[Lattice Based Optimisations] JNO</p>
+
+<p>[Spark Analytics] Ricardo Macedo (Tese Daniel) ?</p>
 
 <h4 id="collaboration-with-other-researchers">Collaboration with other researchers</h4>
 
 <ul>
-  <li><a href="http://members.unine.ch/pascal.felber/index.html">P. Felber</a>, <a href="http://members.unine.ch/valerio.schiavoni/">V. Schiavoni</a>, and <a href="https://libra.unine.ch/Personnes/Dorian_Burihabwa/L-en">D. Burihabwa</a>, <a href="https://www.unine.ch">Université de Neuchâtel</a> - Design and implementation of the original SafeFS system.</li>
-  <li><a href="https://researcher.watson.ibm.com/researcher/view.php?person=il-DANNYH">Danny Harnik</a>, <a href="http://www.research.ibm.com/labs/haifa/">IBM Research Haifa</a> - Current work on improving the security of SafeFS.</li>
+  <li><a href="https://researcher.watson.ibm.com/researcher/view.php?person=zurich-bek">C. Bekas</a>, <a href="https://www.zurich.ibm.com/">IBM Research Zurich</a> - Envisioning the architecture for the Accelerated Object Stores project.</li>
 </ul>
 
 <h4 id="selected-publications">Selected publications</h4>
 
 <ul>
   <li>
-    <p>Pontes R, Burihabwa D, Maia F, Paulo J, Schiavoni V, Felber P, Mercier H, Oliveira R (2017). <strong>SafeFS: a modular architecture for secure user-space file systems: one FUSE to rule them all</strong>. ACM International Systems and Storage Conference (SYSTOR) (best student paper award).</p>
+    <p>Coelho F, Matos M, Pereira J, Oliveira R (2017). <strong>Similarity Aware Shuffling for the Distributed Processing of SQL Window Functions</strong>. Distributed Applications and Interoperable Systems (DAIS).</p>
   </li>
   <li>
-    <p>Burihabwa D, Pontes R, Felber P, Maia F, Mercier H, Oliveira R, Paulo J, Schiavoni V (2016). <strong>On the Cost of Safe Storage for Public Clouds: an Experimental Evaluation</strong>. IEEE International Symposium on Reliable Distributed Systems (SRDS).</p>
+    <p>Coelho F, Pereira J, Vilaça R, Oliveira R (2016). <strong>Holistic Shuffler for the Parallel Execution of SQL Window Functions</strong>. Distributed Applications and Interoperable Systems (DAIS).</p>
   </li>
 </ul>
 
 <h4 id="funding">Funding</h4>
 
-<p>This work is being funded by <a href="http://www.safecloud-project.eu">SafeCloud</a> Horizon 2020 DS-2014-1, reference: 653884.</p>
+<p>This work is being funded by <a href="http://clouddb.eu">CloudDBAppliance</a> Horizon 2020 DS-2016-12, reference: 732051.</p>
 
 <hr />
 
-<h3 id="storage-benchmarking">Storage Benchmarking</h3>
-
-<p>Current storage benchmarking tools lack realistic features in order to properly assess the performance and resiliency of nowadays solutions. The goal of this work is to provide novel features such as realistic content generation, data integrity validation, among others.</p>
+<h3 id="secure-data-processing">Secure Data Processing</h3>
 
 <h4 id="projects-1">Projects</h4>
 
-<p><a href="https://github.com/jtpaulo/dedisbench">DEDISbench</a> is an open source micro I/O benchmark suitable for evaluating deduplication systems by generating blocks with a realistic content distribution. The benchmark also allows running tests with different load intensities and introduces a novel hotspot access pattern for I/O requests.</p>
+<p><a href="">Dartagnan</a></p>
 
-<p><a href="https://github.com/jopereira/qemu-disksim">qemu-Disksim</a> is a version of QEMU that includes a block device (disksim) that introduces I/O delays according to a simulator. This allows you to use a ramdisk while obtaining performance consistent with what a real disk would produce.</p>
+<p><a href="">SGX</a></p>
+
+<p><a href="">SafeNoSQL</a> This project comprehends a generic NoSQL framework, together with a set of libraries supporting data processing cryptographic techniques that can be used with existing NoSQL engines and composed
+to meet the privacy and performance requirements of different applications. This is achieved through a modular and extensible design that enables data processing over multiple cryptographic techniques applied on the same database.</p>
+
+<p><a href="">Privacy Aware Web-based query processing</a> Tese Diogo</p>
 
 <h4 id="collaboration-with-other-researchers-1">Collaboration with other researchers</h4>
-
-<ul>
-  <li><a href="https://researcher.watson.ibm.com/researcher/view.php?person=il-DANNYH">Danny Harnik</a>, <a href="http://www.research.ibm.com/labs/haifa/">IBM Research Haifa</a> - Current work on improving the realism of DEDISbench content generation.</li>
-</ul>
 
 <h4 id="selected-publications-1">Selected publications</h4>
 
 <ul>
-  <li>
-    <p>Paulo J, Reis P, Pereira J, Sousa A (2013). <strong>Towards an Accurate Evaluation of Deduplicated Storage Systems</strong>. International Journal of Computer Systems Science and Engineering.</p>
-  </li>
-  <li>
-    <p>Paulo J, Reis P, Pereira J, Sousa A (2012). <strong>DEDISbench: A Benchmark for Deduplicated Storage Systems</strong>. International Symposium on Secure Virtual Infrastructures (DOA-SVI).</p>
-  </li>
+  <li>Macedo R, Paulo J, Pontes R, Portela B, Oliveira T, Matos M, Oliveira R (2017). <strong>A Practical Framework for Privacy-Preserving NoSQL Databases</strong>. IEEE International Symposium on Reliable Distributed Systems (SRDS).</li>
 </ul>
 
 <h4 id="funding-1">Funding</h4>
 
-<p>This work was partially funded by FEDER through FCT by projects <a href="http://pastramy.gsd.inesc-id.pt">Pastramy</a> (PTDC/EIA/72405/2006) and <a href="http://red.lsd.di.uminho.pt">ReD</a> (PDTC/EIA-EIA/109044/2008), and by Bolsa de Doutoramento (SFRH/BD/31114/2006).</p>
+<p>This work is being funded by <a href="http://www.safecloud-project.eu">SafeCloud</a> Horizon 2020 DS-2014-1, reference: 653884.</p>
 
 <hr />
 
-<h3 id="storage-optimization">Storage Optimization</h3>
-
-<p>With the exponential increase of digital information it becomes critical to find novel storage optimizations that can cope with the storage and retrieval of large amounts of data in a efficient and dependable fashion.</p>
+<h3 id="benchmarking">Benchmarking</h3>
 
 <h4 id="projects-2">Projects</h4>
 
-<p><a href="https://launchpad.net/holeycow/dedis-deduplication-system">DEDIS</a> is a novel open source distributed post-processing deduplication system. Its main contribution is a novel optimistic asynchronous mechanism for eliminating duplicated data among virtual machines deployed on several remote hosts. This mechanism along with other optimizations allows achieving nearly native disk I/O throughput for virtual machines even when deduplication is being performed in the background. Additionally, DEDIS is fully distributed, allowing the system to scale, and is resilient to server failures. DEDIS prototype is implemented within XEN by leveraging the Tap:aio Blktap Driver asynchronous I/O block device.</p>
+<p><a href="https://github.com/faclc4/HTAPBench">HTAPBench</a> HTAPBench is a benchmarking suite designed for database engines that support hybrid workloads (HTAP) composed of high levels of transactional activity and, at the same time, provide business analytics directly over production data. It provides a unified metric for HTAP systems geared toward the execution of constantly increasing OLAP requests limited by an admissible impact on OLTP performance.</p>
+
+<h4 id="collaboration-with-other-researchers-2">Collaboration with other researchers</h4>
 
 <h4 id="selected-publications-2">Selected publications</h4>
 
 <ul>
-  <li>
-    <p>Paulo J, Pereira J (2016). <strong>Efficient Deduplication in a Distributed Primary Storage Infrastructure</strong>. ACM Transactions on Storage (TOS).</p>
-  </li>
-  <li>
-    <p>Paulo J, Pereira J (2014). <strong>A Survey and Classification of Storage Deduplication Systems</strong>. ACM Computing Surveys (CSUR)..</p>
-  </li>
+  <li>Coelho F, Paulo J, Vilaça R, Pereira J, Oliveira R (2017). <strong>HTAPbench: Hybrid Transactional and Analytical Processing Benchmark</strong>. ACM/SPEC International Conference on Performance Engineering (ICPE).</li>
 </ul>
 
 <h4 id="funding-2">Funding</h4>
 
-<p>This work was partially funded by FEDER through FCT by projects <a href="http://pastramy.gsd.inesc-id.pt">Pastramy</a> (PTDC/EIA/72405/2006) and <a href="http://red.lsd.di.uminho.pt">ReD</a> (PDTC/EIA-EIA/109044/2008), and by Bolsa de Doutoramento (SFRH/BD/31114/2006).</p>
+<p>This work is being funded by <a href="http://www.safecloud-project.eu">SafeCloud</a> Horizon 2020 DS-2014-1, reference: 653884 and by FCT (Portuguese Funding Agency) Ref:UID/EEA/50014/2013.</p>
+
+<hr />
+
+<!-- ### Blockchain Technology
+
+
+#### Projects
+
+[]()
+
+
+#### Collaboration with other researchers
+
+
+
+#### Selected publications
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+  
+
+
+
+
+#### Funding -->
+
+<!-- [SafeFS](https://github.com/safecloud-project/safefs) is a software-defined file system based on a modular architecture featuring stackable layers that can be combined to construct a secure distributed file system. SafeFS allows users to specialize their data store to their specific needs by choosing the combination of layers that provide the best safety and performance tradeoffs. The prototype is implemented in user space using FUSE. The provided layers include mechanisms based on encryption, replication, and coding. -->
 
 
 </div>
@@ -155,11 +193,12 @@
 		</div>
 		<div class="col-sm-4">
 		  Current Funding:<br />
+		  - <a href="http://clouddb.eu">CloudDBAppliance</a> Horizon 2020 DS-2016-12, reference: 732051<br />
 		  - <a href="http://www.safecloud-project.eu">SafeCloud</a> Horizon 2020 DS-2014-1, reference: 653884<br />
 		  Past Funding:<br />
-		  - <a href="http://pastramy.gsd.inesc-id.pt">Pastramy</a> (PTDC/EIA/72405/2006)<br />
-		  - <a href="http://red.lsd.di.uminho.pt">ReD</a> (PDTC/EIA-EIA/109044/2008)<br />
-		  - Bolsa de Doutoramento (SFRH/BD/31114/2006)<br />
+		  - <a href="http://leanbigdata.eu">LeanBigData</a> EU FP7, reference: 619606<br />
+		  - <a href="http://coherentpaas.eu">CohereentPaaS</a> EU FP7, reference: 611068<br />
+		  - <a href="http://https://cordis.europa.eu/project/rcn/96235_en.html">CumuloNinbo</a> EU FP7, reference: 257993<br />
 		</div>
 		<div class="col-sm-4">
 		  Address:<br />

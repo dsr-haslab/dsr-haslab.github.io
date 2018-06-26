@@ -1,7 +1,7 @@
 ---
 title: "Home"
 layout: textlay
-excerpt: "Distributed Storage Research @ HASLab"
+excerpt: "DataBase Research @ HASLab"
 sitemap: false
 permalink: /allnews.html
 ---

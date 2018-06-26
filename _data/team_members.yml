@@ -1,11 +1,3 @@
-- name: <a href="http://haslab.uminho.pt/jtpaulo">João Paulo</a>
-  photo: jtpaulo.jpg
-  info: Researcher
-  email: jtpaulo@inesctec.pt
-  git: https://github.com/jtpaulo/
-  ldin:
-  number_educ: 0
-  
 - name: <a href="http://haslab.uminho.pt/jop">José Pereira</a>
   photo: jop.jpg
   info: Assistant professor
@@ -13,14 +5,38 @@
   git: https://github.com/jopereira
   ldin:
   number_educ: 0
-  
+
+- name: <a href="http://haslab.uminho.pt/rco">Rui Oliveira</a>
+  photo: rco.jpg
+  info: Assistant professor
+  email: rco@di.uminho.pt
+  git:
+  ldin: https://www.linkedin.com/in/rcmoliveira/
+  number_educ: 0
+
+- name: <a href="http://haslab.uminho.pt/facoelho">Fábio Coelho</a>
+  photo: facoelho.png
+  info: PostDoc Researcher
+  email: fabio.a.coelho@inesctec.pt
+  git: https://github.com/faclc4
+  ldin: https://www.linkedin.com/in/fabio-coelho-02907136/
+  number_educ: 0
+
+- name: <a href="http://haslab.uminho.pt/aln">Ana Nunes</a>
+  photo: anunes.png
+  info: PostDoc Researcher
+  email: ana.n.alonso@inesctec.pt
+  git: 
+  ldin: https://www.linkedin.com/in/ana-nunes-alonso-bb08b95b/
+  number_educ: 0 
+
 - name: <a href="https://www.inesctec.pt/en/people/ricardo-goncalves-macedo">Ricardo Macedo</a>
   photo: rgmacedo.jpg
   info: PhD student
   email: ricardo.g.macedo@inesctec.pt
   git: https://github.com/ricardomacedo13
   ldin:
-  number_educ: 0
+  number_educ: 0 
     
 - name: <a href="http://haslab.uminho.pt/racp">Rogério Pontes</a>
   photo: rogerio.jpg
@@ -30,27 +46,20 @@
   email: rogerio.a.pontes@inesctec.pt
   number_educ: 0
   
-- name: <a href="http://haslab.uminho.pt">Tânia Esteves</a>
-  photo: tania.jpg
-  info: MSc Student
-  email: tania.c.araujo@inesctec.pt
-  git: https://github.com/taniaesteves
-  ldin: https://linkedin.com/in/tania-esteves
-  number_educ: 0
-
-- name: <a href="https://www.inesctec.pt/en/people/manuel-castro-freitas">Manuel Freitas</a>
+- name: <a href="https://www.inesctec.pt/en/people/daniel-filipe-tavares#intro">Daniel Tavares</a>
   photo: nophoto.jpg
   info: MSc Student
-  email: manuel.c.freitas@inesctec.pt
-  git:
-  ldin:
+  email: daniel.f.tavares@inesctec.pt
+  git: 
+  ldin: 
   number_educ: 0
-  
-- name: <a href="https://www.inesctec.pt/en/people/alberto-campinho-faria">Alberto Faria</a>
-  photo: alberto.jpg
+
+- name: <a href="https://www.inesctec.pt/en/people/luis-manuel-ferreira">Luís Ferreira</a>
+  photo: nophoto.jpg
   info: BSc Student
-  email: alberto.c.faria@inesctec.pt
-  git: https://github.com/albertofaria/
-  ldin:
+  email: luis.m.ferreira@inesctec.pt
+  git: 
+  ldin: 
   number_educ: 0
+
   

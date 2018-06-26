@@ -1,13 +1,13 @@
 ---
-title: "DSR @ HASLab - Home"
+title: "DBR @ HASLab - Home"
 layout: homelay
-excerpt: "Distributed Storage Research @ HASLab"
+excerpt: "DataBase Research @ HASLab"
 sitemap: false
 permalink: /
 ---
 
+Database research at [HASLab](http://www.haslab.uminho.pt) is motivated by the key role played by database systems in modern society, triggering a lot of interest from research to industry such as cloud computing, internet-of-things, storage formats for data processing or machine learning/artificial inteligence. All of these topics, but particularly the first one is what drives us to develop efficient, scalable, resilient and secure solutions that are able to adapt to sheer volume of data handled today and the expected increase in years to come.
 
-Distributed storage research at [HASLab](http://www.haslab.uminho.pt) is motivated by the observation that storage systems are a cornerstone component for a wide range of research and industrial areas such as, cloud computing, internet-of-things, databases, machine learning/artificial inteligence. Moreover, our research is driven by the need of such systems to provide efficient, scalable, resilient and secure solutions that can adapt to the exponential increase of digital information and to the different needs of very heterogeneous applications and infrastructures. 
 
 <!-- 
 
@@ -50,7 +50,7 @@ Distributed storage research at [HASLab](http://www.haslab.uminho.pt) is motivat
 </div>
 -->
 
-To this end, our research is focused on three main areas: **Software-Defined Storage**, **Storage Benchmarking**, **Storage Optimization**. In detail, with these three areas we intend to provide a new generation of programmable distributed storage systems that can adapt to heterogeneous storage workloads and deployment infrastructures, proper benchmarking tools for evaluating such systems, and novel storage functionalities and optimizations that can further improve the performance, reliability, and security of current solutions (see [Research](research)).
+To this end, our research is focused on three main areas: **Large Scale Data Processing**, **Secure Data Processing**, **Blockchain Technology**. These three areas comprehend a set of specific sub-topics such as: **Distributed Databases**, **Distributed Transaction Processing**, **Scalable SQL Analytics**, **Secure NoSQL/SQL**, **Secure Analytics** and transversal topics such as **Benchmarking**. By covering a large spectrum of nowadays Database research, we intend to contribute to the next generation of distributed, scalable and fault-tolerant database systems that are able to seamlessly adapt to heterogeneous hardware configurations powered by current cloud computing infraestructures (see [Research](research)). 
 
 Our team is composed of researchers from the [High-Assurance Software Laboratory (HASLab)](http://www.haslab.uminho.pt), mainly from the Distributed Systems field. HASLab is one of the integrated R&D centres of [INESC TEC](https://www.inesctec.pt), a leading national associate laboratory, and a teaching and research subunit of the [University of Minho](http://www.uminho.pt), where it is headquartered.
 
