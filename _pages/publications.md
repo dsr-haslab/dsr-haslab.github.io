@@ -1,7 +1,7 @@
 ---
-title: "DSR @ HASLab - Publications"
+title: "DBR @ HASLab - Publications"
 layout: gridlay
-excerpt: "DSR @ HASLab -- Publications."
+excerpt: "DBR @ HASLab -- Publications."
 sitemap: false
 permalink: /publications/
 ---
