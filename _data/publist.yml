@@ -36,7 +36,18 @@
     #url: http://www.gsd.inesc-id.pt/~mm/papers/2017/srds_safenosql.pdf
     #display:  arxiv:1712.08620 (2017)
   highlight: 0
-  #news2:   
+  #news2:
+
+- title: "Totally Ordered Replication for Massive Scale Key-Value Stores"
+  authors: Ribeiro J, Machado N, Maia F, Matos M.
+  where: Distributed Applications and Interoperable Systems (DAIS)
+  year: 2018
+  link:
+    #url: http://www.gsd.inesc-id.pt/~mm/papers/2017/srds_safenosql.pdf
+    #display:  arxiv:1712.08620 (2017)
+  highlight: 10
+  #news2:
+   
 
 
 
