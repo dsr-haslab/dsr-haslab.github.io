@@ -47,7 +47,29 @@
     #display:  arxiv:1712.08620 (2017)
   highlight: 10
   #news2:
+
+- title: "DDFlasks: Deduplicated Very Large Scale Data Store"
+  authors: Maia F, Paulo J, Coelho F, Neves F, Pereira J, Oliveira R
+  where: Distributed Applications and Interoperable Systems (DAIS)
+  year: 2017
+  #link:
+    #url: https://arxiv.org/abs/1712.08620
+    #display:  arxiv:1712.08620 (2017)
+  highlight: 10  
    
+- title: "MeT: workload aware elasticity for NoSQL "
+  authors: Cruz F, Maia F, Matos M, Oliveira R, Paulo J, Pereira J, Vilaça R
+  where: Proceedings of the 8th ACM European Conference on Computer Systems (EuroSys)
+  year: 2013
+  #link:
+    #url: https://arxiv.org/abs/1712.08620
+    #display:  arxiv:1712.08620 (2017)
+  highlight: 0 
+ 
+
+
+
+  
 
 
 
