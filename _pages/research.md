@@ -116,7 +116,7 @@ This work is being funded by [SafeCloud](http://www.safecloud-project.eu) Horizo
 
 #### Funding
 
-This work is being funded by [SafeCloud](http://www.safecloud-project.eu) Horizon 2020 DS-2014-1, reference: 653884 and by FCT (Portuguese Funding Agency) Ref:UID/EEA/50014/2013.
+This work is being funded by [SafeCloud](http://www.safecloud-project.eu) Horizon 2020 DS-2014-1, reference: 653884 and by FCT (Portuguese Funding Agency) Ref:UID/EEA/50014/2013 and by [CloudDBAppliance](http://clouddb.eu) Horizon 2020 DS-2016-12, reference: 732051.
 
 ---
 
