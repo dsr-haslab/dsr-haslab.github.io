@@ -15,12 +15,12 @@
   number_educ: 0
 
 - name: <a href="http://haslab.uminho.pt/jtpaulo">João Paulo</a>
- photo: jtpaulo.jpg
- info: Researcher
- email: jtpaulo@inesctec.pt
- git: https://github.com/jtpaulo/
- ldin:
- number_educ: 0
+  photo: jtpaulo.jpg
+  info: Researcher
+  email: jtpaulo@inesctec.pt
+  git: https://github.com/jtpaulo/
+  ldin:
+  number_educ: 0
 
 - name: <a href="http://haslab.uminho.pt/facoelho">Fábio Coelho</a>
   photo: facoelho.png
