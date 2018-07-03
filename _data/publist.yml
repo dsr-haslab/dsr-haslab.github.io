@@ -1,80 +1,99 @@
-- title: "HTAPbench: Hybrid Transactional and Analytical Processing Benchmark"
-  authors: Coelho F, Paulo J, Vilaça R, Pereira J, Oliveira R
-  where: ACM/SPEC International Conference on Performance Engineering (ICPE)
-  year: 2017
-  link:
-    url: https://research.spec.org/icpe_proceedings/2017/proceedings/p293.pdf
-    #display:  arxiv:1712.08620 (2017)
-  highlight: 2
-  #news2: 
+- year: 2018
+  list:
+    - title: "Totally Ordered Replication for Massive Scale Key-Value Stores"
+      authors: Ribeiro J, Machado N, Maia F, Matos M
+      where: Distributed Applications and Interoperable Systems (DAIS)
+      link:
+        #url: http://www.gsd.inesc-id.pt/~mm/papers/2017/srds_safenosql.pdf
+        #display:  arxiv:1712.08620 (2017)
+      highlight: 10
+      #news2:
 
-- title: "A Practical Framework for Privacy-Preserving NoSQL Databases"
-  authors: Macedo R, Paulo J, Pontes R, Portela B, Oliveira T, Matos M, Oliveira R
-  where: IEEE International Symposium on Reliable Distributed Systems (SRDS)
-  year: 2017
-  link:
-    #url: http://www.gsd.inesc-id.pt/~mm/papers/2017/srds_safenosql.pdf
-    #display:  arxiv:1712.08620 (2017)
-  highlight: 1
-  #news2: 
 
-- title: "SafeRegions: Performance Evaluation of Multi-party Protocols on HBase."
-  authors: Pontes R, Maia F, Paulo J, Vilaça R.
-  where: IEEE International Symposium on Reliable Distributed Systems Workshops (SRDSW)
-  year: 2016
-  link:
-    #url: http://www.gsd.inesc-id.pt/~mm/papers/2017/srds_safenosql.pdf
-    #display:  arxiv:1712.08620 (2017)
-  highlight: 1
-  #news2:   
+- year: 2017
+  list:
+    - title: "HTAPbench: Hybrid Transactional and Analytical Processing Benchmark"
+      authors: Coelho F, Paulo J, Vilaça R, Pereira J, Oliveira R
+      where: ACM/SPEC International Conference on Performance Engineering (ICPE)
+      link:
+      url: https://research.spec.org/icpe_proceedings/2017/proceedings/p293.pdf
+      #display:  arxiv:1712.08620 (2017)
+      highlight: 2
+      #news2: 
 
-- title: "Similarity Aware Shuffling for the Distributed Processing of SQL Window Functions"
-  authors: Coelho F, Matos M, Pereira J, Oliveira R
-  where: Distributed Applications and Interoperable Systems (DAIS)
-  year: 2017
-  link:
-    #url: http://www.gsd.inesc-id.pt/~mm/papers/2017/srds_safenosql.pdf
-    #display:  arxiv:1712.08620 (2017)
-  highlight: 0
-  #news2: 
+    - title: "A Practical Framework for Privacy-Preserving NoSQL Databases"
+      authors: Macedo R, Paulo J, Pontes R, Portela B, Oliveira T, Matos M, Oliveira R
+      where: IEEE International Symposium on Reliable Distributed Systems (SRDS)
+      link:
+        #url: http://www.gsd.inesc-id.pt/~mm/papers/2017/srds_safenosql.pdf
+        #display:  arxiv:1712.08620 (2017)
+      highlight: 1
+      #news2: 
 
-- title: "Holistic Shuffler for the Parallel Execution of SQL Window Functions"
-  authors: Coelho F, Pereira J, Vilaça R, Oliveira R
-  where: Distributed Applications and Interoperable Systems (DAIS)
-  year: 2016
-  link:
-    #url: http://www.gsd.inesc-id.pt/~mm/papers/2017/srds_safenosql.pdf
-    #display:  arxiv:1712.08620 (2017)
-  highlight: 0
-  #news2:
+    - title: "Performance trade-offs on a secure multi-party relational database"
+      authors: Pontes R, Pinto M, Barbosa M , Vilaça R, Matos M, Oliveira R.
+      where: ACM Symposium on Applied Computing (SAC)
+      link:
+        #url: http://www.gsd.inesc-id.pt/~mm/papers/2017/srds_safenosql.pdf
+        #display:  arxiv:1712.08620 (2017)
+      highlight: 1
+      #news2:
 
-- title: "Totally Ordered Replication for Massive Scale Key-Value Stores"
-  authors: Ribeiro J, Machado N, Maia F, Matos M.
-  where: Distributed Applications and Interoperable Systems (DAIS)
-  year: 2018
-  link:
-    #url: http://www.gsd.inesc-id.pt/~mm/papers/2017/srds_safenosql.pdf
-    #display:  arxiv:1712.08620 (2017)
-  highlight: 10
-  #news2:
+    - title: "Similarity Aware Shuffling for the Distributed Processing of SQL Window Functions"
+      authors: Coelho F, Matos M, Pereira J, Oliveira R
+      where: Distributed Applications and Interoperable Systems (DAIS)
+      link:
+        #url: http://www.gsd.inesc-id.pt/~mm/papers/2017/srds_safenosql.pdf
+        #display:  arxiv:1712.08620 (2017)
+      highlight: 0
+      #news2: 
 
-- title: "DDFlasks: Deduplicated Very Large Scale Data Store"
-  authors: Maia F, Paulo J, Coelho F, Neves F, Pereira J, Oliveira R
-  where: Distributed Applications and Interoperable Systems (DAIS)
-  year: 2017
-  #link:
-    #url: https://arxiv.org/abs/1712.08620
-    #display:  arxiv:1712.08620 (2017)
-  highlight: 10  
-   
-- title: "MeT: workload aware elasticity for NoSQL "
-  authors: Cruz F, Maia F, Matos M, Oliveira R, Paulo J, Pereira J, Vilaça R
-  where: Proceedings of the 8th ACM European Conference on Computer Systems (EuroSys)
-  year: 2013
-  #link:
-    #url: https://arxiv.org/abs/1712.08620
-    #display:  arxiv:1712.08620 (2017)
-  highlight: 0 
+    - title: "DDFlasks: Deduplicated Very Large Scale Data Store"
+      authors: Maia F, Paulo J, Coelho F, Neves F, Pereira J, Oliveira R
+      where: Distributed Applications and Interoperable Systems (DAIS)
+      #link:
+        #url: https://arxiv.org/abs/1712.08620
+        #display:  arxiv:1712.08620 (2017)
+      highlight: 10  
+
+
+
+- year: 2016
+  list:
+    - title: "SafeRegions: Performance Evaluation of Multi-party Protocols on HBase"
+      authors: Pontes R, Maia F, Paulo J, Vilaça R
+      where: IEEE International Symposium on Reliable Distributed Systems Workshops (SRDSW)
+      link:
+        #url: http://www.gsd.inesc-id.pt/~mm/papers/2017/srds_safenosql.pdf
+        #display:  arxiv:1712.08620 (2017)
+      highlight: 1
+      #news2:
+    - title: "Holistic Shuffler for the Parallel Execution of SQL Window Functions"
+      authors: Coelho F, Pereira J, Vilaça R, Oliveira R
+      where: Distributed Applications and Interoperable Systems (DAIS)
+      link:
+        #url: http://www.gsd.inesc-id.pt/~mm/papers/2017/srds_safenosql.pdf
+        #display:  arxiv:1712.08620 (2017)
+      highlight: 0
+      #news2:
+
+
+- year: 2015
+  list:
+    - title: Implementing a Linear Algebra Approach to Data Processing
+      authors: Pontes R, Matos M, Oliveira J, Pereira J
+      where: Grand Timely Topics (Generative and Transformational Techniques) in Software Engineering (GTTSE)
+
+
+- year: 2013
+  list:
+    - title: "MeT: workload aware elasticity for NoSQL "
+      authors: Cruz F, Maia F, Matos M, Oliveira R, Paulo J, Pereira J, Vilaça R
+      where: Proceedings of the 8th ACM European Conference on Computer Systems (EuroSys)
+      #link:
+      #url: https://arxiv.org/abs/1712.08620
+      #display:  arxiv:1712.08620 (2017)
+      highlight: 0 
  
 
 
