@@ -23,12 +23,6 @@ The work on large scale data processing e focused in develop new solutions to fi
 
 [Distributed Window Functions]() 
 
-[Radicalize]() Descrição projeto outsystems. Ana ficou de enviar frase com descrição.
-
-[Lattice Based Optimisations] JNO
-
-[Spark Analytics] Ricardo Macedo (Tese Daniel) ?
-
 
 #### Collaboration with other researchers
 
