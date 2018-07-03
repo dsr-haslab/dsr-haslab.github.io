@@ -16,6 +16,16 @@
     #url: http://www.gsd.inesc-id.pt/~mm/papers/2017/srds_safenosql.pdf
     #display:  arxiv:1712.08620 (2017)
   highlight: 1
+  #news2: 
+
+- title: "SafeRegions: Performance Evaluation of Multi-party Protocols on HBase."
+  authors: Pontes R, Maia F, Paulo J, Vilaça R.
+  where: IEEE International Symposium on Reliable Distributed Systems Workshops (SRDSW)
+  year: 2016
+  link:
+    #url: http://www.gsd.inesc-id.pt/~mm/papers/2017/srds_safenosql.pdf
+    #display:  arxiv:1712.08620 (2017)
+  highlight: 1
   #news2:   
 
 - title: "Similarity Aware Shuffling for the Distributed Processing of SQL Window Functions"

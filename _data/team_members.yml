@@ -62,6 +62,22 @@
   ldin: 
   number_educ: 0
 
+- name: <a href="">Daniel Cruz</a>
+  photo: nophoto.jpg
+  info: MSc Student
+  email: 
+  git: 
+  ldin: 
+  number_educ: 0
+
+- name: <a href="">Hugo Carvalho</a>
+  photo: nophoto.jpg
+  info: MSc Student
+  email: 
+  git: 
+  ldin: 
+  number_educ: 0
+
 - name: <a href="https://www.inesctec.pt/en/people/luis-manuel-ferreira">Luís Ferreira</a>
   photo: nophoto.jpg
   info: BSc Student

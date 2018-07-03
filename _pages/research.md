@@ -56,21 +56,21 @@ This work is being funded by [CloudDBAppliance](http://clouddb.eu) Horizon 2020 
 
 ### Secure Data Processing
 
-
+The work on secure data processing aims at building practical database systems that follow a privacy-by-design methodology. Current work explores the security, funcionality and performance tradeoffs provided by current cryptographic primitives (e.g., standard, deterministic, order-preserving, searchable encryption) and secure hardware platforms (e.g., Intel SGX) when integrated with state-of-the-art NoSQL, SQL and Analytical database engines.
 
 #### Projects
 
-[Dartagnan]()
+[SafeCloud](http://www.safecloud-project.eu) The SafeCloud H2020 project aims at re-architecting cloud infrastructures to ensure that data transmission, storage, and processing are done in a reliable and private fashion. Our work in the project is focused on providing different database solutions that provide private data storage and processing while being practical and usable in real-world deployments. Namely we highlight the following sub-projects/solutions:
 
-[SGX]()
+- [SafeNoSQL]() This solution comprehends a generic NoSQL framework, together with a set of libraries supporting data processing cryptographic techniques (e.g., standard, deterministic, order-preserving primitives) that can be used with existing NoSQL engines and composed to meet the privacy and performance requirements of different applications. This is achieved through a modular and extensible design that enables secure data processing by leveraging multiple cryptographic techniques applied on the same database. Current research is applying this framework to a wider range of NoSQL databases and supporting novel secure processing technologies such as Intel SGX.
 
-[SafeNoSQL]() This project comprehends a generic NoSQL framework, together with a set of libraries supporting data processing cryptographic techniques that can be used with existing NoSQL engines and composed
-to meet the privacy and performance requirements of different applications. This is achieved through a modular and extensible design that enables data processing over multiple cryptographic techniques applied on the same database.
+- [D'artagnan]() This solution leverages secure multi-party computation (MPC) protocols for current NoSQL databases. In detail, D'artagnan is the first NoSQL solution that resorts to MPC for providing a secure database solution. 
 
-[Privacy Aware Web-based query processing]() Tese Diogo
+- [Secure Queries Solutions]() These solutions provide a scalable database design, exporting an ansi-SQL interface, 
+that can be combined with either SafeNoSQL or D'artagnan to provide a secure SQL database. This work also contemplates novel database systems for analytical and web-based query processing that leverage multiple cryptographic primitives and the Intel SGX platform to enable privacy-aware processing.
 
 
-#### Collaboration with other researchers
+[comment]: #### Collaboration with other researchers
 
 
 #### Selected publications
@@ -98,7 +98,7 @@ This work is being funded by [SafeCloud](http://www.safecloud-project.eu) Horizo
 
 [HTAPBench](https://github.com/faclc4/HTAPBench) HTAPBench is a benchmarking suite designed for database engines that support hybrid workloads (HTAP) composed of high levels of transactional activity and, at the same time, provide business analytics directly over production data. It provides a unified metric for HTAP systems geared toward the execution of constantly increasing OLAP requests limited by an admissible impact on OLTP performance.
 
-#### Collaboration with other researchers
+[comment]: #### Collaboration with other researchers
 
 
 #### Selected publications
