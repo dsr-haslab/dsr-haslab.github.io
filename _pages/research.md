@@ -21,7 +21,7 @@ The work on large scale data processing e focused in develop new solutions to fi
 
 [Accelerated Object Stores]() This project builds a joint atempt with [IBM Research Zurich](https://www.zurich.ibm.com/) to design a middleware system that is able to efficiently handle data from document-based repositories. The system is built from a caching mechanism that leverages a in-house designed columnar format, specifically deisigned for data analytics. Moreover, it integrates RDMA network interconnects to handle seamless distributed execution over the document repository.
 
-[Distributed Window Functions]() 
+[Distributed Window Functions]() This project leverages distributed environments and their scalability offerings for Online Analytical Processing (OLAP) or Hybrid Transactional and Analytical systems (HTAP). Window Functions are particularly appealing for both scenarios, allowing to conduct time series analysis or computing aggregations over configurable data frames, customising them to reflect newly ingested items from ETL or real-time production data. We currently research novel strategies for the parallel execution of window functions, enabling several workers to split and share query execution.
 
 
 #### Collaboration with other researchers
