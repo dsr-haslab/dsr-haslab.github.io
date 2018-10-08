@@ -11,7 +11,6 @@ permalink: /people/
 # People
 
 
-
 We are looking for new Postdocs, PhD students and Master/Bachelor students to join HASLab and work on database research topics.<br>
 If you are interested in working with us, please send me an [email](mailto:fabio.a.coelho@inesctec.pt).
 
@@ -34,29 +33,29 @@ HASLab members involved in database research:
   {% if member.git %} <span><a href="{{ member.git }}"><i class="fab fa-github fa-lg"></i></a></span> {% endif %}
   {% if member.ldin %} <span><a href="{{ member.ldin }}"><i class="fab fa-linkedin-in fa-lg"></i></a></span> {% endif %}
   <ul style="overflow: hidden">
-  
+
   {% if member.number_educ == 1 %}
   <li> {{ member.education1 }} </li>
   {% endif %}
-  
+
   {% if member.number_educ == 2 %}
   <li> {{ member.education1 }} </li>
   <li> {{ member.education2 }} </li>
   {% endif %}
-  
+
   {% if member.number_educ == 3 %}
   <li> {{ member.education1 }} </li>
   <li> {{ member.education2 }} </li>
   <li> {{ member.education3 }} </li>
   {% endif %}
-  
+
   {% if member.number_educ == 4 %}
   <li> {{ member.education1 }} </li>
   <li> {{ member.education2 }} </li>
   <li> {{ member.education3 }} </li>
   <li> {{ member.education4 }} </li>
   {% endif %}
- 
+
   {% if member.number_educ == 5 %}
   <li> {{ member.education1 }} </li>
   <li> {{ member.education2 }} </li>
@@ -64,7 +63,7 @@ HASLab members involved in database research:
   <li> {{ member.education4 }} </li>
   <li> {{ member.education5 }} </li>
   {% endif %}
-  
+
   </ul>
 </div>
 
@@ -85,7 +84,7 @@ HASLab members involved in database research:
 ## Other Members
 <table align="center" style="width:100%">
 <tr>
-    <th>Master Students</th> 
+    <th>Master Students</th>
     <th>Bachelor Students</th>
   </tr>
   <tr>
@@ -102,7 +101,7 @@ HASLab members involved in database research:
 ## Previous Members
 <table align="center" style="width:100%">
 <tr><th>Visitors</th>
-    <th>Master Students</th> 
+    <th>Master Students</th>
     <th>Bachelor Students</th>
   </tr>
   <tr>
@@ -110,11 +109,6 @@ HASLab members involved in database research:
     <td></td>
     <td>Pedro Reis, 2012/2013</td>
   </tr>
-</table> 
+</table>
 
 -->
-
-
-
-
-

@@ -3,12 +3,6 @@
     - title: "Totally Ordered Replication for Massive Scale Key-Value Stores"
       authors: Ribeiro J, Machado N, Maia F, Matos M
       where: Distributed Applications and Interoperable Systems (DAIS)
-      link:
-        #url: http://www.gsd.inesc-id.pt/~mm/papers/2017/srds_safenosql.pdf
-        #display:  arxiv:1712.08620 (2017)
-      highlight: 10
-      #news2:
-
 
 - year: 2017
   list:
@@ -17,91 +11,66 @@
       where: ACM/SPEC International Conference on Performance Engineering (ICPE)
       link:
       url: https://research.spec.org/icpe_proceedings/2017/proceedings/p293.pdf
-      #display:  arxiv:1712.08620 (2017)
-      highlight: 2
-      #news2: 
-
     - title: "A Practical Framework for Privacy-Preserving NoSQL Databases"
       authors: Macedo R, Paulo J, Pontes R, Portela B, Oliveira T, Matos M, Oliveira R
       where: IEEE International Symposium on Reliable Distributed Systems (SRDS)
-      link:
-        #url: http://www.gsd.inesc-id.pt/~mm/papers/2017/srds_safenosql.pdf
-        #display:  arxiv:1712.08620 (2017)
-      highlight: 1
-      #news2: 
-
     - title: "Performance trade-offs on a secure multi-party relational database"
       authors: Pontes R, Pinto M, Barbosa M , Vilaça R, Matos M, Oliveira R.
       where: ACM Symposium on Applied Computing (SAC)
-      link:
-        #url: http://www.gsd.inesc-id.pt/~mm/papers/2017/srds_safenosql.pdf
-        #display:  arxiv:1712.08620 (2017)
-      highlight: 1
-      #news2:
-
-    - title: "Similarity Aware Shuffling for the Distributed Processing of SQL Window Functions"
-      authors: Coelho F, Matos M, Pereira J, Oliveira R
-      where: Distributed Applications and Interoperable Systems (DAIS)
-      link:
-        #url: http://www.gsd.inesc-id.pt/~mm/papers/2017/srds_safenosql.pdf
-        #display:  arxiv:1712.08620 (2017)
-      highlight: 0
-      #news2: 
-
+    - title: "Prepared scan: efficient retrieval of structured data from HBase"
+      authors: Neves F, Vilaça R, Pereira J, Oliveira R
+      where: ACM Symposium on Applied Computing (SAC)
     - title: "DDFlasks: Deduplicated Very Large Scale Data Store"
       authors: Maia F, Paulo J, Coelho F, Neves F, Pereira J, Oliveira R
       where: Distributed Applications and Interoperable Systems (DAIS)
-      #link:
-        #url: https://arxiv.org/abs/1712.08620
-        #display:  arxiv:1712.08620 (2017)
-      highlight: 10  
-
-
 
 - year: 2016
   list:
     - title: "SafeRegions: Performance Evaluation of Multi-party Protocols on HBase"
       authors: Pontes R, Maia F, Paulo J, Vilaça R
       where: IEEE International Symposium on Reliable Distributed Systems Workshops (SRDSW)
-      link:
-        #url: http://www.gsd.inesc-id.pt/~mm/papers/2017/srds_safenosql.pdf
-        #display:  arxiv:1712.08620 (2017)
-      highlight: 1
-      #news2:
     - title: "Holistic Shuffler for the Parallel Execution of SQL Window Functions"
-      authors: Coelho F, Pereira J, Vilaça R, Oliveira R
+      authors: Coelho F, Vilaça R, Pereira J, Oliveira R
       where: Distributed Applications and Interoperable Systems (DAIS)
-      link:
-        #url: http://www.gsd.inesc-id.pt/~mm/papers/2017/srds_safenosql.pdf
-        #display:  arxiv:1712.08620 (2017)
-      highlight: 0
-      #news2:
-
+    - title: "Resource usage prediction in distributed key-value datastores"
+      authors: Cruz F, Maia F, Matos M, Oliveira R,Paulo J, Vilaça R
+      where: Distributed Applications and Interoperable Systems (DAIS)
+    - title: "Reducing Data Transfer in Parallel Processing of SQL Window Functions"
+      authors: Coelho F, Pereira J, Vilaça R, Oliveira R
+      where: Workshop on Towards Convergence of Big Data, SQL, NoSQL, NewSQL, Data streaming/CEP, OLTP and OLAP}
 
 - year: 2015
   list:
     - title: Implementing a Linear Algebra Approach to Data Processing
       authors: Pontes R, Matos M, Oliveira J, Pereira J
       where: Grand Timely Topics (Generative and Transformational Techniques) in Software Engineering (GTTSE)
+    - title : "CumuloNimbo: A Cloud Scalable Multi-tier SQL Database"
+      authors: Jimenez-Peris R, Patino-Martinez M, Kemme B, Brondino I, Pereira J, Vilaça R, Cruz F, Oliveira R, Ahmad Y
+      where: Bulletin of the Technical Committee on Data Engineering
 
+- year: 2014
+  list:
+    - title: "DATAFLASKS: epidemic store for massive scale systems"
+      authors: Maia F, Matos M, Vilaça R, Pereira J, Oliveira R, Rivière E
+      where:  Distributed Applications and Interoperable Systems (DAIS)
+    - title: "pH1: A Transactional Middleware for NoSQL"
+      authors: Coelho F, Cruz F, Vilaça R, Pereira J, Oliveira R
+      where: IEEE International Symposium on Reliable Distributed Systems
+    - title: On the Support of Versioning in Distributed Key-Value Stores
+      authors: Felber P, Pasin M, Rivière E , Schiavoni V, Sutra P, Coelho F, Oliveira, Matos M, Vilaça R
+      where: IEEE International Symposium on Reliable Distributed Systems
+    - title: Workload-aware table splitting for NoSQL
+      authors: Cruz F, Maia F, Oliveira R, Vilaça R
+      where: ACM Symposium On Applied Computing
 
 - year: 2013
   list:
     - title: "MeT: workload aware elasticity for NoSQL "
       authors: Cruz F, Maia F, Matos M, Oliveira R, Paulo J, Pereira J, Vilaça R
       where: Proceedings of the 8th ACM European Conference on Computer Systems (EuroSys)
-      #link:
-      #url: https://arxiv.org/abs/1712.08620
-      #display:  arxiv:1712.08620 (2017)
-      highlight: 0 
- 
-
-
-
-  
-
-
-
-
-
-
+    - title: "Evaluating Cassandra as a Manager of Large File Sets "
+      authors: Beernaert L, Matos M, Gomes P, Vilaça R, Oliveira R.
+      where: Third Workshop on Cloud Data and Platforms (CloudDP 13)
+    - title: "An effective scalable SQL engine for NoSQL databases}"
+      authors: Vilaça R, Cruz F, Pereira J, Oliveira R.
+      where: Distributed Applications and Interoperable Systems (DAIS)

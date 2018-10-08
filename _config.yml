@@ -8,8 +8,8 @@
 # Site settings
 title: Distributed Storage Research @ HASLab
 description: Distributed Storage Research done at the High-Assurance Software Laboratory (HASLab)
+url: "http://dbr-haslab.github.io"
 baseurl: ""
-url: ""
 
 include:
   - .htaccess
@@ -25,6 +25,19 @@ lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
+# make pages for the _projects folder
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+  past_projects:
+    output: true
+    permalink: /past_projects/:path/
+  tools:
+    output: true
+    permalink: /tools/:path/
+
+
 
 
 # Markdown Processing
@@ -39,3 +52,5 @@ kramdown:
   enable_coderay: false
   parse_block_html: true # default for kramdown is false. This will enable using Markdown links
 
+sass:
+    sass_dir: _sass

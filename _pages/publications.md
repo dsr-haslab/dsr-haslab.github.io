@@ -6,9 +6,7 @@ sitemap: false
 permalink: /publications/
 ---
 
-
 # Publications
-
 
 {% for publi in site.data.publist %}
    <h3>{{ publi.year}}</h3>
@@ -18,4 +16,3 @@ permalink: /publications/
    {% endfor %}
 	</ul>
 {% endfor %}
-

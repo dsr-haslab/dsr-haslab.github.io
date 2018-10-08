@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>DBR @ HASLab - Research</title>
-  <meta name="description" content="DBR @ HASLab -- Research">
+  <meta name="description" content="Distributed Storage Research done at the High-Assurance Software Laboratory (HASLab)">
   <link rel="stylesheet" href="http://localhost:4000/css/main.css">
   <link rel="canonical" href="http://localhost:4000/research/">
 <link rel="shortcut icon" type ="image/x-icon" href="http://localhost:4000/images/favicon.ico">
@@ -27,14 +27,16 @@
 		<span class="icon-bar"></span>
 		<span class="icon-bar"></span>
 	  </button>
-	
+
     <a class="navbar-brand" href="http://localhost:4000/">DataBase Research @ HASLab </a>
 	</div>
 	<div class="collapse navbar-collapse" id="navbar-collapse-1">
 	  <ul class="nav navbar-nav navbar-right">
 		<li><a href="http://localhost:4000/">Home</a></li>
 		<li><a href="http://localhost:4000/research">Research</a></li>
+    <li><a href="http://localhost:4000/projects">Projects</a></li>
 		<li><a href="http://localhost:4000/publications">Publications</a></li>
+    <li><a href="http://localhost:4000/tools">Tools</a></li>
 		<li><a href="http://localhost:4000/people">People</a></li>
 		<li><a href="http://localhost:4000/alumni">Alumni</a></li>
 	  </ul>
@@ -45,123 +47,38 @@
 
     <div class="container-fluid">
       <div class="row">
-        <div id="textid" class="col-sm-12">
-  <h1 id="research">Research</h1>
+        <h1 id="research">Research</h1>
 
 <p>Our research is currently divided in three main topics:</p>
 
+<h3 id="database-dependability">Database Dependability</h3>
+
+<p>With a strong background in fault-tolerant agreement and group communication protocols the natural application of the team’s knowledge in databases was research to improve databases dependability.
+Some years ago, the team had coordinated the <a href="/projects/gorda">GORDA</a> project on scalable relational database replication that involved the extension of several open source relational databases to be integrated in a scalable replication middleware. In this project we develop the <a href="/tools/escada_toolkit">ESCADA Toolkit</a> and <a href="/tools/gapi">GAPI</a> tools.  We also coordinated a national research project, <a href="/projects/red">ReD</a>, proposing a new approach that combines the benefits of the two distinct approaches for
+database server scalability and dependability: shared nothing and shared storage clusters. ReD runs shared
+nothing server software on a shared storage cluster, while also tolerating byzantine failures.</p>
+
+<p>More recently, in the context of the <a href="/projects/cloudb">CloudDB Appliance</a> the team is involved in tasks related to the load balancing and fault-tolerance of database requests and the orchestration/deployment of database components.</p>
+
 <h3 id="large-scale-data-processing">Large Scale Data Processing</h3>
 
-<p>The work on large scale data processing e focused in develop new solutions to fit current demands in cloud based database solutions. These leverage the scalability and elastic capabilities of this programming model to serve both larger user domains and disruptive data volumes. The developed systems span from middleware solutions either to complement or to fully provide processing semantics over already existing systems or full query engines that incomporate the developed techniques.</p>
+<p>The work on large scale data processing is focused in developing new solutions to fit current demands in cloud based database solutions. These leverage the scalability and elastic capabilities of this programming model to serve both larger user domains and disruptive data volumes. The developed systems span from middleware solutions either to complement or to fully provide processing semantics over already existing systems or full query engines that incorporate the developed techniques.</p>
 
-<h4 id="projects">Projects</h4>
+<p>In the <a href="/projects/stratus">Stratus</a> we research on the trade-off of early NoSQL databases, defining a two-layer architecture that allows to provide additional consistency guarantees and higher level data processing primitives that ease the migration from relational DBMS. Stratus led to the design and development of two main tools: DataDroplets and DataFlasks. DataDroplets is a flexible, efficient, dependable and fully decentralized key-value store for the management of data in a Cloud environment while DataFlasks is an epidemic store for massive scale system. Recent work on DataFlasks had achieved totally ordered replication for massive scale key-value stores.</p>
 
-<p><a href="http://clouddb.eu">CloudDBAppliance</a> This project aims at producing a European Cloud Database Appliance for providing a Database as a Service able to match the predictable performance, robustness and trustworthiness of on premise architectures such as those based on mainframes. We are particularly involved in tasks related to the load balancing and faul-tolerance of database requests and the orchestration/deployment of database components.</p>
+<p>Data management is moving from traditional relational and transactional database management systems (i.e., SQL) to a variety of systems that address different aspects of big data challenges (i.e., NoSQL). The gap between both systems makes it harder to develop and operate new applications, and forces developers to cope with multiple tools in a single application. In the  <a href="/projects/cn">CumuloNimbo</a>, <a href="/projects/cpaas">CoherentPaaS</a> and <a href="/projects/lbd">LeanBigData</a> research projects we had been researching on bridging the gap between SQL and NoSQL technologies without compromising scalability or flexibility.
+In CumuloNimbo’s we design and develop the query engine layer that is responsible for taking an SQL query and generating an efficient execution plan for the query, to be executed over the NoSQL storage layer. In CoherentPaaS we had research on data lakes support in SQL query engines to use data from external stores, such as Hadoop files, MongoDB, Neo4J, and data generated from or transformed with embedded scripting languages. In LeanBigData we defined novel strategies for parallel Hybrid transaction/analytical processing (HTAP) engines for real time analytical queries, enabling several workers to split and share query execution. More recently, we had research on to extend this parallel engine for the parallel execution of window functions queries.  In order to commercially explore key results of those three projects, in 2015 the <a href="https://www.leanxcale.com/">LeanXcale</a> startup was born with former and current members of this team.</p>
 
-<p><a href="">Accelerated Object Stores</a> This project builds a joint atempt with <a href="https://www.zurich.ibm.com/">IBM Research Zurich</a> to design a middleware system that is able to efficiently handle data from document-based repositories. The system is built from a caching mechanism that leverages a in-house designed columnar format, specifically deisigned for data analytics. Moreover, it integrates RDMA network interconnects to handle seamless distributed execution over the document repository.</p>
-
-<p><a href="">Distributed Window Functions</a></p>
-
-<h4 id="collaboration-with-other-researchers">Collaboration with other researchers</h4>
-
-<ul>
-  <li><a href="https://researcher.watson.ibm.com/researcher/view.php?person=zurich-bek">C. Bekas</a>, <a href="https://www.zurich.ibm.com/">IBM Research Zurich</a> - Envisioning the architecture for the Accelerated Object Stores project.</li>
-</ul>
-
-<h4 id="selected-publications">Selected publications</h4>
-
-<h4 id="funding">Funding</h4>
-
-<p>This work is being funded by <a href="http://clouddb.eu">CloudDBAppliance</a> Horizon 2020 DS-2016-12, reference: 732051.</p>
-
-<hr />
+<p>Jointly with IBM Research Zurich, in the <a href="/projects/ibmaos">Accelerated Object Stores</a> we are working on the
+ design of a middleware system that is able to efficiently handle data from document-based repositories.</p>
 
 <h3 id="secure-data-processing">Secure Data Processing</h3>
 
-<p>The work on secure data processing aims at building practical database systems that follow a privacy-by-design methodology. Current work explores the security, funcionality and performance tradeoffs provided by current cryptographic primitives (e.g., standard, deterministic, order-preserving, searchable encryption) and secure hardware platforms (e.g., Intel SGX) when integrated with state-of-the-art NoSQL, SQL and Analytical database engines.</p>
+<p>The work on secure data processing aims at building practical database systems that follow a privacy-by-design methodology. Current work explores the security, functionality and performance tradeoffs provided by current cryptographic primitives (e.g., standard, deterministic, order-preserving, searchable encryption) and secure hardware platforms (e.g., Intel SGX) when integrated with state-of-the-art NoSQL, SQL and Analytical database engines.</p>
 
-<h4 id="projects-1">Projects</h4>
+<p>In the context of the <a href="/projects/safecloud">SafeCloud</a> project we had work on a secure and resilient Cloud architecture, and particularly providing different database solutions that provide private data storage and processing while being practical and usable in real-world deployments. This solution comprehends a generic NoSQL framework <a href="/tools/safenosql">SafeNoSQL</a>, together with a set of libraries supporting data processing cryptographic techniques.  In order to commercially explore key results of the project, in 2017 the [SafeCloud Technologies Sàrl}(https://safecloudtech.com/), a spin-off of INESC TEC, was born with former and current members of this team.</p>
 
-<p><a href="http://www.safecloud-project.eu">SafeCloud</a> The SafeCloud H2020 project aims at re-architecting cloud infrastructures to ensure that data transmission, storage, and processing are done in a reliable and private fashion. Our work in the project is focused on providing different database solutions that provide private data storage and processing while being practical and usable in real-world deployments. Namely we highlight the following sub-projects/solutions:</p>
-
-<ul>
-  <li>
-    <p><a href="">SafeNoSQL</a> This solution comprehends a generic NoSQL framework, together with a set of libraries supporting data processing cryptographic techniques (e.g., standard, deterministic, order-preserving primitives) that can be used with existing NoSQL engines and composed to meet the privacy and performance requirements of different applications. This is achieved through a modular and extensible design that enables secure data processing by leveraging multiple cryptographic techniques applied on the same database. Current research is applying this framework to a wider range of NoSQL databases and supporting novel secure processing technologies such as Intel SGX.</p>
-  </li>
-  <li>
-    <p><a href="">D’artagnan</a> This solution leverages secure multi-party computation (MPC) protocols for current NoSQL databases. In detail, D’artagnan is the first NoSQL solution that resorts to MPC for providing a secure database solution.</p>
-  </li>
-  <li>
-    <p><a href="">Secure Queries Solutions</a> These solutions provide a scalable database design, exporting an ansi-SQL interface, 
-that can be combined with either SafeNoSQL or D’artagnan to provide a secure SQL database. This work also contemplates novel database systems for analytical and web-based query processing that leverage multiple cryptographic primitives and the Intel SGX platform to enable privacy-aware processing.</p>
-  </li>
-</ul>
-
-<h4 id="selected-publications-1">Selected publications</h4>
-
-<h4 id="funding-1">Funding</h4>
-
-<p>This work is being funded by <a href="http://www.safecloud-project.eu">SafeCloud</a> Horizon 2020 DS-2014-1, reference: 653884.</p>
-
-<hr />
-
-<h3 id="benchmarking">Benchmarking</h3>
-
-<h4 id="projects-2">Projects</h4>
-
-<p><a href="https://github.com/faclc4/HTAPBench">HTAPBench</a> HTAPBench is a benchmarking suite designed for database engines that support hybrid workloads (HTAP) composed of high levels of transactional activity and, at the same time, provide business analytics directly over production data. It provides a unified metric for HTAP systems geared toward the execution of constantly increasing OLAP requests limited by an admissible impact on OLTP performance.</p>
-
-<h4 id="selected-publications-2">Selected publications</h4>
-
-<h4 id="funding-2">Funding</h4>
-
-<p>This work is being funded by <a href="http://www.safecloud-project.eu">SafeCloud</a> Horizon 2020 DS-2014-1, reference: 653884 and by FCT (Portuguese Funding Agency) Ref:UID/EEA/50014/2013 and by <a href="http://clouddb.eu">CloudDBAppliance</a> Horizon 2020 DS-2016-12, reference: 732051.</p>
-
-<hr />
-
-<!-- ### Blockchain Technology
-
-
-#### Projects
-
-[]()
-
-
-#### Collaboration with other researchers
-
-
-
-#### Selected publications
-
-
-
-  
-
-
-
-  
-
-
-
-  
-
-
-
-  
-
-
-
-  
-
-
-
-
-#### Funding -->
-
-<!-- [SafeFS](https://github.com/safecloud-project/safefs) is a software-defined file system based on a modular architecture featuring stackable layers that can be combined to construct a secure distributed file system. SafeFS allows users to specialize their data store to their specific needs by choosing the combination of layers that provide the best safety and performance tradeoffs. The prototype is implemented in user space using FUSE. The provided layers include mechanisms based on encryption, replication, and coding. -->
-
-
-</div>
+<p>We are also researching on scalable database design, exporting an ansi-SQL interface, that contemplates novel database systems for analytical and web-based query processing that leverage multiple cryptographic primitives and the Intel SGX platform to enable privacy-aware processing.</p>
 
       </div>
     </div>
@@ -169,38 +86,24 @@ that can be combined with either SafeNoSQL or D’artagnan to provide a secure S
     <div id="footer" class="panel">
   <div class="panel-footer">
 	<div class="container-fluid">
-	  <div class="row">
-		<div class="col-sm-4">
-			
-		  
-              <p>We are part of the <a href="http://www.haslab.uminho.pt">High-Assurance Software Laboratory</a>, one of the integrated R&D centres of <a href="https://www.inesctec.pt">INESC TEC</a> and a subunit of <a href="https://www.uminho.pt">University of Minho</a>.</p>
-            <p>&copy 2018 HASLab. Site made with <a href="https://jekyllrb.com">Jekyll</a> and based on the template provided by <a href="http://www.allanlab.org">Allan Lab</a></p>
-		</div>
-		<div class="col-sm-4">
-		  Current Funding:<br />
-		  - <a href="http://clouddb.eu">CloudDBAppliance</a> Horizon 2020 DS-2016-12, reference: 732051<br />
-		  - <a href="http://www.safecloud-project.eu">SafeCloud</a> Horizon 2020 DS-2014-1, reference: 653884<br />
-		  Past Funding:<br />
-		  - <a href="http://leanbigdata.eu">LeanBigData</a> EU FP7, reference: 619606<br />
-		  - <a href="http://coherentpaas.eu">CohereentPaaS</a> EU FP7, reference: 611068<br />
-		  - <a href="http://https://cordis.europa.eu/project/rcn/96235_en.html">CumuloNimbo</a> EU FP7, reference: 257993<br />
-		</div>
-		<div class="col-sm-4">
-		  Address:<br />
-		  Departamento de Informática<br />
-		  Universidade do Minho<br />
-		  Campus de Gualtar<br />
-          4710-057 Braga<br />
-          Portugal<br />
-            (<a href="http://haslab.uminho.pt/content/contacts">Map/Directions</a>)
-		</div>
-	  </div>
-	  <br>
-	  Google Analytics is used to improve the website. The privacy terms are available at <a href="http://www.google.com/policies/privacy/partners/">www.google.com/policies/privacy/partners/</a>.
-	</div>
+    <div class="row">
+        <div class="col-sm-8">
+                <p>We are part of the <a href="http://www.haslab.uminho.pt">High-Assurance Software Laboratory</a>, one of the integrated R&D centres of <a href="https://www.inesctec.pt">INESC TEC</a> and a subunit of <a href="https://www.uminho.pt">University of Minho</a>.</p>
+                <p>&copy 2018 HASLab. Site made with <a href="https://jekyllrb.com">Jekyll</a> and based on the template provided by <a href="http://www.allanlab.org">Allan Lab</a></p>
+                Google Analytics is used to improve the website. The privacy terms are available at <a href="http://www.google.com/policies/privacy/partners/">www.google.com/policies/privacy/partners/</a>.
+        </div>
+    <div class="col-sm-4">
+      <figure class="fourth">
+        <img src="http://localhost:4000/images/logopic/haslab_logo.jpg" style="width: 80px">
+        <img src="http://localhost:4000/images/logopic/inesctec_logo.jpg" style="width: 100px">
+        <img src="http://localhost:4000/images/logopic/uminho_logo.png" style="width: 80px">
+      </figure>
+    </div>
+
   </div>
 </div>
-
+</div>
+</div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script src="http://localhost:4000/js/bootstrap.min.js"></script>
 
