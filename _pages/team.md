@@ -12,7 +12,7 @@ permalink: /people/
 
 
 We are looking for new Postdocs, PhD students and Master/Bachelor students to join HASLab and work on database research topics.<br>
-If you are interested in working with us, please send me an [email](mailto:fabio.a.coelho@inesctec.pt).
+If you are interested in working with us, please send me an [email](mailto:jop@di.uminho.pt).
 
 HASLab members involved in database research:
 

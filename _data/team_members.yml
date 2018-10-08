@@ -14,6 +14,14 @@
   ldin: https://www.linkedin.com/in/rcmoliveira/
   number_educ: 0
 
+- name: <a href="https://haslab.uminho.pt/als">António Sousa</a>
+  photo: als.jpg
+  info: Assistant professor
+  email: als@di.uminho.pt
+  git:
+  ldin: 
+  number_educ: 0  
+
 - name: <a href="http://haslab.uminho.pt/jtpaulo">João Paulo</a>
   photo: jtpaulo.jpg
   info: Researcher
