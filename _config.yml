@@ -8,7 +8,7 @@
 # Site settings
 title: Distributed Storage Research @ HASLab
 description: Distributed Storage Research done at the High-Assurance Software Laboratory (HASLab)
-url: "http://dbr-haslab.github.io"
+url: ""
 baseurl: ""
 
 include:
