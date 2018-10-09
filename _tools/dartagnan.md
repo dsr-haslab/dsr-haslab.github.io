@@ -1,4 +1,5 @@
 ---
+layout: page
 title: D'Artagan
 description: NoSQL solution that resorts to MPC for providing a secure database solution.
 ---
