@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: ReD, Resilient databases
 type: National FCT
 description: Generic, robust, and inexpensive shared-storage cluster from an off-the-shelf RDBMS.

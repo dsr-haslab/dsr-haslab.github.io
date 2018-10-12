@@ -5,11 +5,11 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>DBR @ HASLab - Research</title>
+  <title>Research</title>
   <meta name="description" content="Distributed Storage Research done at the High-Assurance Software Laboratory (HASLab)">
-  <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="/research/">
-<link rel="shortcut icon" type ="image/x-icon" href="/images/favicon.ico">
+  <link rel="stylesheet" href="http://localhost:4000/css/main.css">
+  <link rel="canonical" href="http://localhost:4000/research/">
+<link rel="shortcut icon" type ="image/x-icon" href="http://localhost:4000/images/favicon.ico">
 
 
 
@@ -28,17 +28,17 @@
 		<span class="icon-bar"></span>
 	  </button>
 
-    <a class="navbar-brand" href="/">DataBase Research @ HASLab </a>
+    <a class="navbar-brand" href="http://localhost:4000/">DataBase Research @ HASLab </a>
 	</div>
 	<div class="collapse navbar-collapse" id="navbar-collapse-1">
 	  <ul class="nav navbar-nav navbar-right">
-		<li><a href="/">Home</a></li>
-		<li><a href="/research">Research</a></li>
-    <li><a href="/projects">Projects</a></li>
-		<li><a href="/publications">Publications</a></li>
-    <li><a href="/tools">Tools</a></li>
-		<li><a href="/people">People</a></li>
-		<li><a href="/alumni">Alumni</a></li>
+		<li><a href="http://localhost:4000/">Home</a></li>
+		<li><a href="http://localhost:4000/research">Research</a></li>
+    <li><a href="http://localhost:4000/projects">Projects</a></li>
+		<li><a href="http://localhost:4000/publications">Publications</a></li>
+    <li><a href="http://localhost:4000/tools">Tools</a></li>
+		<li><a href="http://localhost:4000/people">People</a></li>
+		<li><a href="http://localhost:4000/alumni">Alumni</a></li>
 	  </ul>
 	</div>
   </div>
@@ -47,9 +47,14 @@
 
     <div class="container-fluid">
       <div class="row">
-        <h1 id="research">Research</h1>
+        <article class="post">
 
-<p>Our research is currently divided in three main topics:</p>
+  <header class="post-header">
+    <h1 class="post-title">Research</h1>
+  </header>
+
+  <div class="post-content">
+    <p>Our research is currently divided in three main topics:</p>
 
 <h3 id="database-dependability">Database Dependability</h3>
 
@@ -67,7 +72,7 @@ nothing server software on a shared storage cluster, while also tolerating byzan
 <p>In the <a href="/projects/stratus">Stratus</a> project we research on the trade-off of early NoSQL databases, defining a two-layer architecture that allows to provide additional consistency guarantees and higher level data processing primitives that ease the migration from relational DBMS. Stratus led to the design and development of two main tools: DataDroplets and DataFlasks. DataDroplets is a flexible, efficient, dependable and fully decentralized key-value store for the management of data in a Cloud environment while DataFlasks is an epidemic store for massive scale systems. Recent work on DataFlasks achieved totally ordered replication for massive scale key-value stores.</p>
 
 <p>Data management is moving from traditional relational and transactional database management systems (i.e., SQL) to a variety of systems that address different aspects of big data challenges (i.e., NoSQL). The gap between both systems makes it harder to develop and operate new applications, and forces developers to cope with multiple tools in a single application. In the  <a href="/projects/cn">CumuloNimbo</a>, <a href="/projects/cpaas">CoherentPaaS</a> and <a href="/projects/lbd">LeanBigData</a> research projects we had been researching on bridging the gap between SQL and NoSQL technologies without compromising scalability or flexibility.
-In CumuloNimbo’s we designed and developed the query engine layer that is responsible for taking an SQL query and generating an efficient execution plan for the query, to be executed over the NoSQL storage layer. In CoherentPaaS we had research on data lakes support in SQL query engines to ingest data from external stores, such as Hadoop files, MongoDB, Neo4J, and data generated from or transformed with embedded scripting languages. In LeanBigData we defined novel strategies for parallel Hybrid transaction/analytical processing (HTAP) engines for real time analytical queries, enabling several workers to split and share query execution. More recently, we had research on extending this parallel engine for the parallel execution of analytical window functions queries.  In order to commercially explore key results of those three projects, in 2015 the <a href="https://www.leanxcale.com/">LeanXcale</a> startup was born with former and current members of this team.</p>
+In CumuloNimbo’s we designed and developed the query engine layer that is responsible for taking an SQL query and generating an efficient execution plan for the query, to be executed over the NoSQL storage layer. In CoherentPaaS we had research on data lakes support in SQL query engines to ingest data from external stores, such as Hadoop files, MongoDB, Neo4J, and data generated from or transformed with embedded scripting languages. In LeanBigData we defined novel strategies for parallel Hybrid transaction/analytical processing (HTAP) engines for real time analytical queries, enabling several workers to split and share query execution. More recently, we had research on extending this parallel engine for the parallel execution of analytical window functions queries.  In order to commercially explore key results of those three projects, in 2015 the <a href="https://www.leanxcale.com/">LeanXcale</a> startup was born with former and current members of this team. In <a href="/projects/radicalize">RADicalize</a> we are leveraging polyglot research done in the <a href="/projects/cpaas">CoherentPaaS</a> project in order to enable developers using a low code platform to interact with different NoSQL data sources through the platform’s unified visual query model.</p>
 
 <p>Jointly with IBM Research Zurich, in the <a href="/projects/ibmaos">Accelerated Object Stores</a> we are working on the
  design of a middleware system that is able to efficiently handle data from document-based repositories for real-time processing.</p>
@@ -79,6 +84,10 @@ In CumuloNimbo’s we designed and developed the query engine layer that is resp
 <p>In the context of the <a href="/projects/safecloud">SafeCloud</a> project we had work on a secure and resilient Cloud architecture, and particularly providing different database solutions that provide private data storage and processing while being practical and usable in real-world deployments. This solution comprehends a generic NoSQL framework <a href="/tools/safenosql">SafeNoSQL</a>, together with a set of libraries supporting data processing cryptographic techniques.  In order to commercially explore key results of the project, in 2017 the <a href="https://safecloudtech.com/">SafeCloud Technologies Sàrl</a>, a spin-off of INESC TEC, was born with former and current members of this team.</p>
 
 <p>We are also researching on scalable database design, exporting an ansi-SQL interface, that contemplates novel database systems for analytical and web-based query processing that leverage multiple cryptographic primitives and the Intel SGX platform to enable privacy-aware processing.</p>
+
+  </div>
+
+</article>
 
       </div>
     </div>
@@ -94,9 +103,9 @@ In CumuloNimbo’s we designed and developed the query engine layer that is resp
         </div>
     <div class="col-sm-4">
       <figure class="fourth">
-        <img src="/images/logopic/haslab_logo.jpg" style="width: 80px">
-        <img src="/images/logopic/inesctec_logo.jpg" style="width: 100px">
-        <img src="/images/logopic/uminho_logo.png" style="width: 80px">
+        <img src="http://localhost:4000/images/logopic/haslab_logo.jpg" style="width: 80px">
+        <img src="http://localhost:4000/images/logopic/inesctec_logo.jpg" style="width: 100px">
+        <img src="http://localhost:4000/images/logopic/uminho_logo.png" style="width: 80px">
       </figure>
     </div>
 
@@ -105,7 +114,7 @@ In CumuloNimbo’s we designed and developed the query engine layer that is resp
 </div>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="/js/bootstrap.min.js"></script>
+<script src="http://localhost:4000/js/bootstrap.min.js"></script>
 
 
   </body>

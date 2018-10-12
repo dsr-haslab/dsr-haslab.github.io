@@ -1,6 +1,6 @@
 ---
-title: "DBR @ HASLab - Tools"
-layout: gridlay
+title: "Tools"
+layout: page
 excerpt: "DBR @ HASLab - Tools"
 sitemap: false
 permalink: /tools/

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: tool
 title: SafeNoSQL
 description: A generic NoSQL framework, together with a set of libraries supporting data processing cryptographic techniques.
 ---

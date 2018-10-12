@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: CloudDBAppliance
 description:  European Cloud Database Appliance for providing a Database as a Service able to match the predictable performance, robustness and trustworthiness of on premise architectures such as those based on mainframes.
 type: EU H2020

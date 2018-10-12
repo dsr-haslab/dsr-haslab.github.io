@@ -1,11 +1,9 @@
 ---
-title: "DBR @ HASLab - Research"
-layout: default
+title: "Research"
+layout: page
 sitemap: false
 permalink: /research/
 ---
-
-# Research
 
 Our research is currently divided in three main topics:
 
@@ -25,7 +23,7 @@ The work on large scale data processing is focused in developing new solutions t
 In the [Stratus](/projects/stratus) project we research on the trade-off of early NoSQL databases, defining a two-layer architecture that allows to provide additional consistency guarantees and higher level data processing primitives that ease the migration from relational DBMS. Stratus led to the design and development of two main tools: DataDroplets and DataFlasks. DataDroplets is a flexible, efficient, dependable and fully decentralized key-value store for the management of data in a Cloud environment while DataFlasks is an epidemic store for massive scale systems. Recent work on DataFlasks achieved totally ordered replication for massive scale key-value stores.
 
 Data management is moving from traditional relational and transactional database management systems (i.e., SQL) to a variety of systems that address different aspects of big data challenges (i.e., NoSQL). The gap between both systems makes it harder to develop and operate new applications, and forces developers to cope with multiple tools in a single application. In the  [CumuloNimbo](/projects/cn), [CoherentPaaS](/projects/cpaas) and [LeanBigData](/projects/lbd) research projects we had been researching on bridging the gap between SQL and NoSQL technologies without compromising scalability or flexibility.
-In CumuloNimbo’s we designed and developed the query engine layer that is responsible for taking an SQL query and generating an efficient execution plan for the query, to be executed over the NoSQL storage layer. In CoherentPaaS we had research on data lakes support in SQL query engines to ingest data from external stores, such as Hadoop files, MongoDB, Neo4J, and data generated from or transformed with embedded scripting languages. In LeanBigData we defined novel strategies for parallel Hybrid transaction/analytical processing (HTAP) engines for real time analytical queries, enabling several workers to split and share query execution. More recently, we had research on extending this parallel engine for the parallel execution of analytical window functions queries.  In order to commercially explore key results of those three projects, in 2015 the [LeanXcale](https://www.leanxcale.com/) startup was born with former and current members of this team.
+In CumuloNimbo’s we designed and developed the query engine layer that is responsible for taking an SQL query and generating an efficient execution plan for the query, to be executed over the NoSQL storage layer. In CoherentPaaS we had research on data lakes support in SQL query engines to ingest data from external stores, such as Hadoop files, MongoDB, Neo4J, and data generated from or transformed with embedded scripting languages. In LeanBigData we defined novel strategies for parallel Hybrid transaction/analytical processing (HTAP) engines for real time analytical queries, enabling several workers to split and share query execution. More recently, we had research on extending this parallel engine for the parallel execution of analytical window functions queries.  In order to commercially explore key results of those three projects, in 2015 the [LeanXcale](https://www.leanxcale.com/) startup was born with former and current members of this team. In [RADicalize](/projects/radicalize) we are leveraging polyglot research done in the [CoherentPaaS](/projects/cpaas) project in order to enable developers using a low code platform to interact with different NoSQL data sources through the platform's unified visual query model.
 
 Jointly with IBM Research Zurich, in the [Accelerated Object Stores](/projects/ibmaos) we are working on the
  design of a middleware system that is able to efficiently handle data from document-based repositories for real-time processing.

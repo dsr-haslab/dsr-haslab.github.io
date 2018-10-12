@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: project
 title: GORDA
 type: EU FP6
 description: Fostering database replication by standardizing architecture and interfaces, and by sparking their usage with a comprehensive set of open components ready to be deployed.

@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: project
 title: Accelerated Object Stores
-type: Industry IBM
+type: JSA IBM
 permalink: /projects/ibmaos
 description: Middleware system that is able to efficiently handle data from document-based repositories.
 ---
