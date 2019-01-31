@@ -23,6 +23,9 @@
     - title: "DDFlasks: Deduplicated Very Large Scale Data Store"
       authors: Maia F, Paulo J, Coelho F, Neves F, Pereira J, Oliveira R
       where: Distributed Applications and Interoperable Systems (DAIS)
+    - title: "Towards new data management platforms for a DSO as market enabler - UPGRID Portugal demo"
+      authors: Nunes Alonso A, Couto R, Pacheco H, Bessa R, Gouveia C, Seca L, Moreira J, Nunes P, Matos P, Oliveira A
+      where: CIRED - Open Access Proceedings Journal 2017, no.1 (CIRED)
 
 - year: 2016
   list:
@@ -73,4 +76,7 @@
       where: Third Workshop on Cloud Data and Platforms (CloudDP 13)
     - title: "An effective scalable SQL engine for NoSQL databases}"
       authors: Vilaça R, Cruz F, Pereira J, Oliveira R.
+      where: Distributed Applications and Interoperable Systems (DAIS)
+    - title: "AJITTS: Adaptive Just-In-Time Transaction Scheduling"
+      authors: Nunes Alonso A, Oliveira R, Pereira J.
       where: Distributed Applications and Interoperable Systems (DAIS)
