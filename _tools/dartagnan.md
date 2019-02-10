@@ -6,7 +6,7 @@ description: Vision of a Trusted Database on Untrusted Clouds
 
 
 <br>
-<img src="{{ site.url }}{{ site.baseurl }}/images/dartagnan/full_logo.eps" class="img-responsive" width="40%" style="display: block; margin-left: auto;margin-right: auto;" />
+<img src="{{ site.url }}{{ site.baseurl }}/images/dartagnan/logo.png" class="img-responsive" width="40%" style="display: block; margin-left: auto;margin-right: auto;" />
 ## Summary
 
 **d'Artagnan** is a multi-cloud, multi-party database that processes queries by leveraging secure multi-party computation (SMPC) protocols. The goal of this project is to move away from the state-of-the-art privacy-aware databases built with the assumption that the leakage associated to property-preserving (PPT) schemes is acceptable. We envision a class of future databases that prioritize user's confidentiality above all else while still being able to process any query with an acceptable overhead. **d'Artagnan** gives the first step towards this future with a novel architecture designed to:
@@ -33,15 +33,15 @@ In essence, d’Artagnan deviates from existing database architectures and tackl
 The system operates across a *trusted domain* and an *untrusted domain*. The *trusted domain* is where the client application resides and where data is encrypted before being outsourced to the clouds. The *untrusted domain* contains the databases hosted at different database providers, each hosting the d'Artagnan components that enable each database to communicate and play the role of a party in an SMPC protocols.
 
 <br>
-<img src="{{ site.url }}{{ site.baseurl }}/images/dartagnan/arch1.eps" class="img-responsive" width="50%" style="display: block; margin-left: auto;margin-right: auto;" />
+<img src="{{ site.url }}{{ site.baseurl }}/images/dartagnan/arch1.png" class="img-responsive" width="50%" style="display: block; margin-left: auto;margin-right: auto;" />
 <br>
 
 
-**SaveClient** is a proxy between the user's plaintext request and the logical NoSQL database. It transforms plaintext queries into secure queries sent in parallel to the databases on the cloud providers. Each request carries a single share of a sensitive value that is used to by the **SafeServer**.
+**SafeClient** is a proxy between the user's plaintext request and the logical NoSQL database. It transforms plaintext queries into secure queries sent in parallel to the databases on the cloud providers. Each request carries a single share of a sensitive value that is used to by the **SafeServer**.
 
 **SafeServer** is a distributed component, hosted in every cloud that coordinates every other system component to work together and create a logical NoSQL database. Its objective is to store and retrieve data on the underlying database hosted on the local cloud and evaluate SMPC protocols. The SafeServer nodes don't share any global state between the nodes but leverages the **Multi-party Library** to process client's requests when necessary.
 
-The **Multi-Party Library** provides a high-level API of SMPC protocols that the **SaveServer** uses to process queries. The library is designed to abstract the details of the protocol's implementation from the **SafeServer** and database context from the protocols. This approach also enables the integration of new protocols without that have no concept of a database and how queries are processed.
+The **Multi-Party Library** provides a high-level API of SMPC protocols that the **SafeServer** uses to process queries. The library is designed to abstract the details of the protocol's implementation from the **SafeServer** and database context from the protocols. This approach also enables the integration of new protocols without that have no concept of a database and how queries are processed.
 
 The **Network-Middleware** and **Discovery Service** are two distinct network components that support the database's computing components communication and enable each party on a protocol execution to exchange shares. These two components abstract how communications are set up between the parties and ensure that shares are always correctly sent and received by the computing parties.
 
