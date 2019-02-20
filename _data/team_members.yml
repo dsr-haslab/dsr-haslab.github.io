@@ -1,19 +1,19 @@
-- name: <a href="http://haslab.uminho.pt/jtpaulo">João Paulo</a>
+- name: <a href="https://www.inesctec.pt/en/people/joao-tiago-paulo">João Paulo</a>
   photo: jtpaulo.jpg
   info: Researcher
   email: jtpaulo@inesctec.pt
   git: https://github.com/jtpaulo/
   ldin:
   number_educ: 0
-  
-- name: <a href="http://haslab.uminho.pt/jop">José Pereira</a>
+
+- name: <a href="https://www.inesctec.pt/en/people/jose-orlando-pereira">José Pereira</a>
   photo: jop.jpg
   info: Assistant professor
   email: jose.o.pereira@inesctec.pt
   git: https://github.com/jopereira
   ldin:
   number_educ: 0
-  
+
 - name: <a href="https://www.inesctec.pt/en/people/ricardo-goncalves-macedo">Ricardo Macedo</a>
   photo: rgmacedo.jpg
   info: PhD student
@@ -21,16 +21,16 @@
   git: https://github.com/ricardomacedo13
   ldin:
   number_educ: 0
-    
-- name: <a href="http://haslab.uminho.pt/racp">Rogério Pontes</a>
+
+- name: <a href="https://www.inesctec.pt/en/people/rogerio-antonio-pontes">Rogério Pontes</a>
   photo: rogerio.jpg
   info: PhD student
   git: https://github.com/roger62
   ldin: https://www.linkedin.com/in/rogerpontes
   email: rogerio.a.pontes@inesctec.pt
   number_educ: 0
-  
-- name: <a href="http://haslab.uminho.pt">Tânia Esteves</a>
+
+- name: <a href="https://www.inesctec.pt/en/people/tania-conceicao-araujo">Tânia Esteves</a>
   photo: tania.jpg
   info: MSc Student
   email: tania.c.araujo@inesctec.pt
@@ -45,7 +45,7 @@
   git:
   ldin:
   number_educ: 0
-  
+
 - name: <a href="https://www.inesctec.pt/en/people/alberto-campinho-faria">Alberto Faria</a>
   photo: alberto.jpg
   info: BSc Student
@@ -53,4 +53,3 @@
   git: https://github.com/albertofaria/
   ldin:
   number_educ: 0
-  
