@@ -33,6 +33,9 @@ HASLab members involved in distributed storage research:
   <span><a href="mailto:{{ member.email }}"><i class="fas fa-envelope fa-lg"></i></a></span>
   {% if member.git %} <span><a href="{{ member.git }}"><i class="fab fa-github fa-lg"></i></a></span> {% endif %}
   {% if member.ldin %} <span><a href="{{ member.ldin }}"><i class="fab fa-linkedin-in fa-lg"></i></a></span> {% endif %}
+  {% if member.dblp %} <span><a href="{{ member.dblp}}"><i class="fas fa-university"></i></a></span>{% endif %}
+
+
   <ul style="overflow: hidden">
   
   {% if member.number_educ == 1 %}
