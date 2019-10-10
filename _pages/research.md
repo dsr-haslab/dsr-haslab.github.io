@@ -30,7 +30,7 @@ Jointly with IBM Research Zurich, in the [Accelerated Object Stores](/projects/i
 
 ### Secure Data Processing
 
-The work on secure data processing aims at building practical database systems that follow a privacy-by-design methodology. Current work explores the security, functionality and performance tradeoffs provided by current cryptographic primitives (e.g., standard, deterministic, order-preserving, searchable encryption) and secure hardware platforms (e.g., Intel SGX) when integrated with state-of-the-art NoSQL, SQL and Analytical database engines.
+The work on secure data processing aims at building practical database systems that follow a privacy-by-design methodology. Current work explores the security, functionality and performance tradeoffs provided by current cryptographic primitives (e.g., standard, deterministic, order-preserving, searchable encryption) and secure hardware platforms (e.g., Intel SGX) when integrated with state-of-the-art NoSQL, SQL, Analytical and Machine/Deep Learning database engines.
 
 In the context of the [SafeCloud](/projects/safecloud) project we had work on a secure and resilient Cloud architecture, and particularly providing different database solutions that provide private data storage and processing while being practical and usable in real-world deployments. This solution comprehends a generic NoSQL framework [SafeNoSQL](/tools/safenosql), together with a set of libraries supporting data processing cryptographic techniques.  In order to commercially explore key results of the project, in 2017 the [SafeCloud Technologies Sàrl](https://safecloudtech.com/), a spin-off of INESC TEC, was born with former and current members of this team.
 
