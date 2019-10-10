@@ -7,7 +7,7 @@ permalink: /
 ---
 
 
-Distributed storage research at [HASLab](http://www.haslab.uminho.pt) is motivated by the observation that storage systems are a cornerstone component for a wide range of research and industrial areas such as, cloud computing, high-performance computing, internet-of-things, databases, machine learning, and artificial inteligence. Moreover, our research is driven by the need of such systems to provide efficient, scalable, resilient and secure solutions that can adapt to the exponential increase of digital information and to the different needs of very heterogeneous applications and infrastructures. 
+Distributed storage research at [HASLab](http://www.haslab.uminho.pt) is motivated by the observation that storage systems are a cornerstone component for a wide range of research and industrial areas such as, cloud computing, high-performance computing, internet-of-things, databases, and artificial inteligence. Moreover, our research is driven by the need of such systems to provide efficient, scalable, resilient and secure solutions that can adapt to the exponential increase of digital information and to the different needs of very heterogeneous applications and infrastructures. 
 
 <!-- 
 
