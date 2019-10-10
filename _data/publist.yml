@@ -3,7 +3,7 @@
   list: 
     - title: "A Case for Dynamically Programmable Storage Background Tasks"
       authors: Macedo R, Faria A, Paulo J, Pereira J
-      where: Workshop on Distributed and Reliable Storage Systems (DRSS), collocated with SRDS
+      where: Workshop on Distributed and Reliable Storage Systems (DRSS), colocated with SRDS
       #link:
         #url: https://arxiv.org/abs/1712.08620
         #display:  arxiv:1712.08620 (2017)
@@ -11,7 +11,7 @@
       #news2: 
     - title: "TrustFS: An SGX-Enabled Stackable File System Framework"
       authors: Esteves T, Macedo R, Faria A, Portela B, Paulo J, Pereira J, Harnik D
-      where: Workshop on Distributed and Reliable Storage Systems (DRSS), collocated with SRDS
+      where: Workshop on Distributed and Reliable Storage Systems (DRSS), colocated with SRDS
       #link:
         #url: https://arxiv.org/abs/1712.08620
         #display:  arxiv:1712.08620 (2017)

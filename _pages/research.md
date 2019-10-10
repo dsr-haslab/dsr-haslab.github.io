@@ -12,16 +12,16 @@ Our research is currently divided in three main topics:
 
 ### Software-Defined Storage
 
-The work on software-defined storage aims at building a new generation of adaptable and programmable storage solutions that can automatically and efficiently leverage the storage of heterogeneous clusters, IoT devices, as well as cloud, HPC and AI storage services. These solutions, built along a control and a data plane, neeed to support multiple combinations of well-known distinct storage specializations such as load balancing, caching, replication, security, data reduction (data plane). These combinations need to be automatically configured and managed in order to suit different application performance, energy, security, and dependability requirements (control plane). Namely, we are working on novel:
+The work on software-defined storage aims at building a new generation of adaptable and programmable storage solutions that can automatically and efficiently leverage the storage of heterogeneous clusters, IoT devices, as well as cloud, HPC and AI storage services. These solutions, built along a control and a data plane, need to support multiple combinations of well-known distinct storage specializations such as load balancing, caching, replication, security, data reduction (data plane). These combinations need to be automatically configured and managed in order to suit different application performance, energy, security, and dependability requirements (control plane). Namely, we are working on novel:
 
 - architectures and designs for SDS data and control planes,
 - stackable and programmable storage solutions,
-- userspace frameworks for easing the implementation of complex storage solutions. 
+- user space frameworks for easing the implementation of complex storage solutions. 
 
 
 #### Selected Projects
 
-[SafeFS](https://github.com/safecloud-project/safefs) is a software-defined file system based on a modular architecture featuring stackable layers that can be combined to construct a secure distributed file system. SafeFS allows users to specialize their data store to their specific needs by choosing the combination of layers that provide the best safety and performance tradeoffs. The prototype is implemented in user space using FUSE. The provided layers include mechanisms based on encryption, replication, and coding. TrustFS, currently under development, is an evolution of SafeFS that eases the development of secure content-aware storage functionalities (e.g., compression and deduplication) over Intel SGX.
+[SafeFS](https://github.com/safecloud-project/safefs) is a software-defined file system based on a modular architecture featuring stackable layers that can be combined to construct a secure distributed file system. SafeFS allows users to specialize their data store to their specific needs by choosing the combination of layers that provide the best safety and performance trade offs. The prototype is implemented in user space using FUSE. The provided layers include mechanisms based on encryption, replication, and coding. TrustFS, currently under development, is an evolution of SafeFS that eases the development of secure content-aware storage functionalities (e.g., compression and deduplication) over Intel SGX.
 
 #### Collaboration with other researchers
 
@@ -48,11 +48,11 @@ This work was funded by [SafeCloud](http://www.safecloud-project.eu) Horizon 202
 
 ### Storage Benchmarking and Monitoring
 
-As the complexity of current storage solutions grows, it becomes increasingly harder to find proper benchmarking and monitoring tools to assess these systems' performance, resiliency and security. Our goals for this topic are to:
+As the complexity of current storage solutions grows, it becomes increasingly harder to find proper benchmarking and monitoring tools to assess these systems' performance, resiliency and security. Our goals for this topic are to design:
 
-- design benchmarking solutions that can accurately evaluate storage systems by providing features such as realistic content generation, storage access patterns, data integrity validation, and fault injection,
-- design benchmarking tools that ease the setup, reproducibility and analysis of experiments,
-- develop scalable black-box monitoring solutions for complex data-centric infrastructures.   
+- benchmarking solutions that can accurately evaluate storage systems by providing features such as realistic content generation, storage access patterns, data integrity validation, and fault injection,
+- benchmarking tools that ease the setup, reproducibility and analysis of experiments,
+- scalable black-box monitoring solutions for complex data-centric infrastructures.   
 
 #### Selected Projects
 
