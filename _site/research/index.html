@@ -51,32 +51,94 @@
 
 <h3 id="software-defined-storage">Software-Defined Storage</h3>
 
-<p>The work on software-defined storage aims at building a new generation of adaptable and programmable storage solutions that can automatically and efficiently leverage the storage of heterogeneous clusters, IoT devices, and cloud storage services. These solutions, built along a control and a data plane, neeed to support multiple combinations of well-known distinct storage specializations such as load balancing, caching, replication, security, compression, and deduplication (data plane). These combinations need to be automatically configured and managed in order to suit different application performance, energy, security, and dependability requirements (control plane).</p>
+<p>The work on software-defined storage aims at building a new generation of adaptable and programmable storage solutions that can automatically and efficiently leverage the storage of heterogeneous clusters, IoT devices, as well as cloud, HPC and AI storage services. These solutions, built along a control and a data plane, need to support multiple combinations of well-known distinct storage specializations such as load balancing, caching, replication, security, data reduction (data plane). These combinations need to be automatically configured and managed in order to suit different application performance, energy, security, and dependability requirements (control plane). Namely, we are working on novel:</p>
 
-<h4 id="projects">Projects</h4>
+<ul>
+  <li>architectures and designs for SDS data and control planes,</li>
+  <li>stackable and programmable storage solutions,</li>
+  <li>user space frameworks for easing the implementation of complex storage solutions.</li>
+</ul>
 
-<p><a href="https://github.com/safecloud-project/safefs">SafeFS</a> is a software-defined file system based on a modular architecture featuring stackable layers that can be combined to construct a secure distributed file system. SafeFS allows users to specialize their data store to their specific needs by choosing the combination of layers that provide the best safety and performance tradeoffs. The prototype is implemented in user space using FUSE. The provided layers include mechanisms based on encryption, replication, and coding.</p>
+<h4 id="selected-projects">Selected Projects</h4>
+
+<p><a href="https://github.com/safecloud-project/safefs">SafeFS</a> is a software-defined file system based on a modular architecture featuring stackable layers that can be combined to construct a secure distributed file system. SafeFS allows users to specialize their data store to their specific needs by choosing the combination of layers that provide the best safety and performance trade offs. The prototype is implemented in user space using FUSE. The provided layers include mechanisms based on encryption, replication, and coding. TrustFS, currently under development, is an evolution of SafeFS that eases the development of secure content-aware storage functionalities (e.g., compression and deduplication) over Intel SGX.</p>
 
 <h4 id="collaboration-with-other-researchers">Collaboration with other researchers</h4>
 
 <ul>
   <li><a href="http://members.unine.ch/pascal.felber/index.html">P. Felber</a>, <a href="http://members.unine.ch/valerio.schiavoni/">V. Schiavoni</a>, and <a href="https://libra.unine.ch/Personnes/Dorian_Burihabwa/L-en">D. Burihabwa</a>, <a href="https://www.unine.ch">Université de Neuchâtel</a> - Design and implementation of the original SafeFS system.</li>
-  <li><a href="https://researcher.watson.ibm.com/researcher/view.php?person=il-DANNYH">Danny Harnik</a>, <a href="http://www.research.ibm.com/labs/haifa/">IBM Research Haifa</a> - Current work on improving the security of SafeFS.</li>
+  <li><a href="https://researcher.watson.ibm.com/researcher/view.php?person=il-DANNYH">Danny Harnik</a>, <a href="http://www.research.ibm.com/labs/haifa/">IBM Research Haifa</a> - Design and implementation of TrustFS.</li>
 </ul>
 
 <h4 id="selected-publications">Selected publications</h4>
 
+<ul>
+   
+        
+   
+        
+   	        <li><strong>TrustFS: An SGX-Enabled Stackable File System Framework</strong>. Esteves T, Macedo R, Faria A, Portela B, Paulo J, Pereira J, Harnik D. Workshop on Distributed and Reliable Storage Systems (DRSS), colocated with SRDS. 2019</li>
+   	    
+   
+	</ul>
+
+<ul>
+   
+        
+   
+        
+   	        <li><strong>SafeFS: a modular architecture for secure user-space file systems: one FUSE to rule them all</strong>. Pontes R, Burihabwa D, Maia F, Paulo J, Schiavoni V, Felber P, Mercier H, Oliveira R. ACM International Systems and Storage Conference (SYSTOR) (best student paper award). 2017</li>
+   	    
+   
+	</ul>
+
+<ul>
+   
+        
+   
+        
+   	        <li><strong>On the Cost of Safe Storage for Public Clouds: an Experimental Evaluation</strong>. Burihabwa D, Pontes R, Felber P, Maia F, Mercier H, Oliveira R, Paulo J, Schiavoni V. IEEE International Symposium on Reliable Distributed Systems (SRDS). 2016</li>
+   	    
+   
+	</ul>
+
+<ul>
+   
+        
+   
+        
+   
+	</ul>
+
+<ul>
+   
+        
+   
+	</ul>
+
+<ul>
+   
+        
+   
+	</ul>
+
 <h4 id="funding">Funding</h4>
 
-<p>This work is being funded by <a href="http://www.safecloud-project.eu">SafeCloud</a> Horizon 2020 DS-2014-1, reference: 653884.</p>
+<p>This work was funded by <a href="http://www.safecloud-project.eu">SafeCloud</a> Horizon 2020 DS-2014-1, reference: 653884.</p>
 
 <hr />
 
-<h3 id="storage-benchmarking">Storage Benchmarking</h3>
+<h3 id="storage-benchmarking-and-monitoring">Storage Benchmarking and Monitoring</h3>
 
-<p>Current storage benchmarking tools lack realistic features in order to properly assess the performance and resiliency of nowadays solutions. The goal of this work is to provide novel features such as realistic content generation, data integrity validation, among others.</p>
+<p>As the complexity of current storage solutions grows, it becomes increasingly harder to find proper benchmarking and monitoring tools to assess these systems’ performance, resiliency and security. Our goals for this topic are to design:</p>
 
-<h4 id="projects-1">Projects</h4>
+<ul>
+  <li>benchmarking solutions that can accurately evaluate storage systems by providing features such as realistic content generation, storage access patterns, data integrity validation, and fault injection,</li>
+  <li>benchmarking tools that ease the setup, reproducibility and analysis of experiments,</li>
+  <li>scalable black-box monitoring solutions for complex data-centric infrastructures.</li>
+</ul>
+
+<h4 id="selected-projects-1">Selected Projects</h4>
 
 <p><a href="https://github.com/jtpaulo/dedisbench">DEDISbench</a> is an open source micro I/O benchmark suitable for evaluating deduplication systems by generating blocks with a realistic content distribution. The benchmark also allows running tests with different load intensities and introduces a novel hotspot access pattern for I/O requests.</p>
 
@@ -90,6 +152,54 @@
 
 <h4 id="selected-publications-1">Selected publications</h4>
 
+<ul>
+   
+        
+   
+        
+   
+	</ul>
+
+<ul>
+   
+        
+   
+        
+   
+	</ul>
+
+<ul>
+   
+        
+   
+        
+   
+	</ul>
+
+<ul>
+   
+        
+   
+        
+   
+	</ul>
+
+<ul>
+   
+        
+   	        <li><strong>Towards an Accurate Evaluation of Deduplicated Storage Systems</strong>. Paulo J, Reis P, Pereira J, Sousa A. International Journal of Computer Systems Science and Engineering. 2013</li>
+   	    
+   
+	</ul>
+
+<ul>
+   
+        
+   	        <li><strong>DEDISbench: A Benchmark for Deduplicated Storage Systems</strong>. Paulo J, Reis P, Pereira J, Sousa A. International Symposium on Secure Virtual Infrastructures (DOA-SVI). 2012</li>
+   	    
+   
+	</ul>
+
 <h4 id="funding-1">Funding</h4>
 
 <p>This work was partially funded by FEDER through FCT by projects <a href="http://pastramy.gsd.inesc-id.pt">Pastramy</a> (PTDC/EIA/72405/2006) and <a href="http://red.lsd.di.uminho.pt">ReD</a> (PDTC/EIA-EIA/109044/2008), and by Bolsa de Doutoramento (SFRH/BD/31114/2006).</p>
@@ -98,13 +208,69 @@
 
 <h3 id="storage-optimization">Storage Optimization</h3>
 
-<p>With the exponential increase of digital information it becomes critical to find novel storage optimizations that can cope with the storage and retrieval of large amounts of data in a efficient and dependable fashion.</p>
+<p>With the exponential increase of digital information it becomes critical to find novel designs and storage optimizations that can cope with the storage and retrieval of large amounts of data in a efficient, secure and dependable fashion. Our main research interests include:</p>
 
-<h4 id="projects-2">Projects</h4>
+<ul>
+  <li>efficient, dependable and secure data reduction techniques,</li>
+  <li>large-scale storage solutions,</li>
+  <li>storage optimizations tailored for HPC and AI workloads.</li>
+</ul>
+
+<h4 id="selected-projects-2">Selected Projects</h4>
 
 <p><a href="https://launchpad.net/holeycow/dedis-deduplication-system">DEDIS</a> is a novel open source distributed post-processing deduplication system. Its main contribution is a novel optimistic asynchronous mechanism for eliminating duplicated data among virtual machines deployed on several remote hosts. This mechanism along with other optimizations allows achieving nearly native disk I/O throughput for virtual machines even when deduplication is being performed in the background. Additionally, DEDIS is fully distributed, allowing the system to scale, and is resilient to server failures. DEDIS prototype is implemented within XEN by leveraging the Tap:aio Blktap Driver asynchronous I/O block device.</p>
 
 <h4 id="selected-publications-2">Selected publications</h4>
+
+<ul>
+   
+        
+   
+        
+   
+	</ul>
+
+<ul>
+   
+        
+   	        <li><strong>DDFlasks: Deduplicated Very Large Scale Data Store</strong>. Maia F, Paulo J, Coelho F, Neves F, Pereira J, Oliveira R. Distributed Applications and Interoperable Systems (DAIS). 2017</li>
+   	    
+   
+        
+   
+	</ul>
+
+<ul>
+   
+        
+   	        <li><strong>Efficient Deduplication in a Distributed Primary Storage Infrastructure</strong>. Paulo J, Pereira J. ACM Transactions on Storage (TOS). 2016</li>
+   	    
+   
+        
+   
+	</ul>
+
+<ul>
+   
+        
+   	        <li><strong>A Survey and Classification of Storage Deduplication Systems</strong>. Paulo J, Pereira J. ACM Computing Surveys (CSUR).. 2014</li>
+   	    
+   
+        
+   
+	</ul>
+
+<ul>
+   
+        
+   
+	</ul>
+
+<ul>
+   
+        
+   
+	</ul>
 
 <h4 id="funding-2">Funding</h4>
 
@@ -127,9 +293,8 @@
             <p>&copy 2018 HASLab. Site made with <a href="https://jekyllrb.com">Jekyll</a> and based on the template provided by <a href="http://www.allanlab.org">Allan Lab</a></p>
 		</div>
 		<div class="col-sm-4">
-		  Current Funding:<br />
+		  Funding:<br />
 		  - <a href="http://www.safecloud-project.eu">SafeCloud</a> Horizon 2020 DS-2014-1, reference: 653884<br />
-		  Past Funding:<br />
 		  - <a href="http://pastramy.gsd.inesc-id.pt">Pastramy</a> (PTDC/EIA/72405/2006)<br />
 		  - <a href="http://red.lsd.di.uminho.pt">ReD</a> (PDTC/EIA-EIA/109044/2008)<br />
 		  - Bolsa de Doutoramento (SFRH/BD/31114/2006)<br />

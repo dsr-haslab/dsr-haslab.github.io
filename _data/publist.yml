@@ -7,7 +7,7 @@
       #link:
         #url: https://arxiv.org/abs/1712.08620
         #display:  arxiv:1712.08620 (2017)
-      highlight: 2
+      highlight: 0
       #news2: 
     - title: "TrustFS: An SGX-Enabled Stackable File System Framework"
       authors: Esteves T, Macedo R, Faria A, Portela B, Paulo J, Pereira J, Harnik D
@@ -61,7 +61,7 @@
   list:
   - title: "A Survey and Classification of Storage Deduplication Systems"
     authors: Paulo J, Pereira J
-    where: ACM Computing Surveys (CSUR).
+    where: ACM Computing Surveys (CSUR)
     #link:
       #url: https://arxiv.org/abs/1712.08620
       #display:  arxiv:1712.08620 (2017)

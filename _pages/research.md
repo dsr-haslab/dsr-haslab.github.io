@@ -31,13 +31,13 @@ The work on software-defined storage aims at building a new generation of adapta
 #### Selected publications
 
 {% for publi in site.data.publist %}
-
-  {% if publi.highlight == 2 %}
-
-  - {{ publi.authors }} ({{ publi.year }}). <strong>{{ publi.title }}</strong>. {{ publi.where }}.
-
-  {% endif %}
-
+   <ul>
+   {% for pub in publi.list %}
+        {% if pub.highlight == 2 %}
+   	        <li><strong>{{ pub.title }}</strong>. {{ pub.authors }}. {{ pub.where }}. {{ publi.year}}</li>
+   	    {% endif %}
+   {% endfor %}
+	</ul>
 {% endfor %}
 
 #### Funding
@@ -67,13 +67,13 @@ As the complexity of current storage solutions grows, it becomes increasingly ha
 #### Selected publications
 
 {% for publi in site.data.publist %}
-
-  {% if publi.highlight == 3 %}
-
-  - {{ publi.authors }} ({{ publi.year }}). <strong>{{ publi.title }}</strong>. {{ publi.where }}.
-
-  {% endif %}
-  
+   <ul>
+   {% for pub in publi.list %}
+        {% if pub.highlight == 3 %}
+   	        <li><strong>{{ pub.title }}</strong>. {{ pub.authors }}. {{ pub.where }}. {{ publi.year}}</li>
+   	    {% endif %}
+   {% endfor %}
+	</ul>
 {% endfor %}
 
 #### Funding
@@ -97,13 +97,13 @@ With the exponential increase of digital information it becomes critical to find
 #### Selected publications
 
 {% for publi in site.data.publist %}
-
-  {% if publi.highlight == 4 %}
-
-  - {{ publi.authors }} ({{ publi.year }}). <strong>{{ publi.title }}</strong>. {{ publi.where }}.
-
-  {% endif %}
-  
+   <ul>
+   {% for pub in publi.list %}
+        {% if pub.highlight == 4 %}
+   	        <li><strong>{{ pub.title }}</strong>. {{ pub.authors }}. {{ pub.where }}. {{ publi.year}}</li>
+   	    {% endif %}
+   {% endfor %}
+	</ul>
 {% endfor %}
 
 #### Funding
