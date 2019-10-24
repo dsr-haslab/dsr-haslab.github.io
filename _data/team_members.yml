@@ -32,7 +32,7 @@
 
 - name: <a href="http://haslab.uminho.pt/facoelho">Fábio Coelho</a>
   photo: facoelho.png
-  info: PostDoc Researcher
+  info: Researcher
   email: fabio.a.coelho@inesctec.pt
   git: https://github.com/faclc4
   ldin: https://www.linkedin.com/in/fabio-coelho-02907136/
@@ -40,7 +40,7 @@
 
 - name: <a href="http://haslab.uminho.pt/aln">Ana Nunes</a>
   photo: anunes.png
-  info: PostDoc Researcher
+  info: Researcher
   email: ana.n.alonso@inesctec.pt
   git: 
   ldin: https://www.linkedin.com/in/ana-nunes-alonso-bb08b95b/
@@ -80,15 +80,7 @@
 
 - name: <a href="">Daniel Cruz</a>
   photo: nophoto.jpg
-  info: MSc Student
-  email: 
-  git: 
-  ldin: 
-  number_educ: 0
-
-- name: <a href="">Hugo Carvalho</a>
-  photo: nophoto.jpg
-  info: MSc Student
+  info: Researcher
   email: 
   git: 
   ldin: 
@@ -96,7 +88,7 @@
 
 - name: <a href="https://www.inesctec.pt/en/people/luis-manuel-ferreira">Luís Ferreira</a>
   photo: nophoto.jpg
-  info: BSc Student
+  info: MSc Student
   email: luis.m.ferreira@inesctec.pt
   git: 
   ldin: 
