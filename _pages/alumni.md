@@ -11,13 +11,13 @@ permalink: /alumni.html
 This page showcases previous students that completed thesis related with our research topics.
 
 ### MSc Thesis
-- Hugo Alves Carvalho, SafeSpark: Processamento Analítico de Dados Seguro, 2019, Now at [Bosch] (https://www.bosch.pt)
-- Hugo Abreu, High Availability Architecture for Cloud Based Databases, 2019, Now at [Feedzai] (https://www.feedzai.com)
-- Diogo Couto, Aplicações web com requisitos de armazenamento e processamento privados, 2018, Now at [Keyruptive] (https://www.keyruptive.com)
+- Hugo Alves Carvalho, SafeSpark: Processamento Analítico de Dados Seguro, 2019, Now at [Bosch](https://www.bosch.pt)
+- Hugo Abreu, High Availability Architecture for Cloud Based Databases, 2019, Now at [Feedzai](https://www.feedzai.com)
+- Diogo Couto, Aplicações web com requisitos de armazenamento e processamento privados, 2018, Now at [Keyruptive](https://www.keyruptive.com)
 - Cláudia Vanessa Brito, Cloud-based Analytics for Monitoring and Classification of Arrhythmias, 2018
 - Daniel Cruz, SafeAnalytics: Plataforma para analítico seguro de dados, 2018
-- Daniel Tavares, Armazenamento de Dados Colunar para Processamento Analítico, 2018, Now at [XPandIT] (https://www.xpand-it.com)
-- José Carlos Morais, Escalonamento de transações em bases de dados não-relacionais, 2018, Now at [Farfetch] (https://www.farfetch.com)
+- Daniel Tavares, Armazenamento de Dados Colunar para Processamento Analítico, 2018, Now at [XPandIT](https://www.xpand-it.com)
+- José Carlos Morais, Escalonamento de transações em bases de dados não-relacionais, 2018, Now at [Farfetch](https://www.farfetch.com)
 - Ricardo Gonçalves Macedo, Computação Segura em Bases de Dados NoSQL (Secure Computation on NoSQL Databases),2017
 - Cláudia Fernandes Ribeiro, Escalonamento de pedidos para um serviço de bases de dados relacional externo, 2017, Now at [VISA](https://www.visa.com/)
 - José Pedro Pereira, Towards Building Partial Memberships with Network Sampling, 2017
@@ -36,7 +36,7 @@ This page showcases previous students that completed thesis related with our res
 ---
 
 ### PhD Thesis
- - Ricardo Gonçalves, Multi-Value Distributed Key-Value Stores, 2018, Now at [UpHold] (https://www.uphold.com)
+ - Ricardo Gonçalves, Multi-Value Distributed Key-Value Stores, 2018, Now at [UpHold](https://www.uphold.com)
  - Fábio Coelho, Towards a Transactional and Analytical Data Management System for Big Data, 2018
  - Ana Nunes Alonso, Database Replication for Enterprise Applications, 2017
  - Clayton Costa, Efficient adaptive query processing on large database systems available in the cloud environment, 2017, Now faculty at [UFRN](https://www.ufrn.br/)
@@ -52,6 +52,6 @@ This page showcases previous students that completed thesis related with our res
 ---
 ### Post-Docs
  - Nuno Machado, Now at [Teradata](https://www.teradata.com/)
- - Rui Gonçalves, [LeanXcale](https://www.leanxcale.com/), [Gruppon] (www.grupon.de)
+ - Rui Gonçalves, [LeanXcale](https://www.leanxcale.com/), [Gruppon](www.grupon.de)
 
 ---
