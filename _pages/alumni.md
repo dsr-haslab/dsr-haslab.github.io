@@ -33,6 +33,7 @@ This page showcases previous students that completed thesis related with our res
 - Luís Zamith, Bridging the Gap Between SQL and NoSQL, 2012, Now at [SubVisual](https://subvisual.co/)
 - Pedro Gomes, Migração de aplicações legadas para bases de dados NOSQL, 2011, Now at [Oracle-MySQL](https://www.mysql.com)
 - Nelson Gonçalves, Large-scale privacy-preserving Bluethooth sensing, 2013, Now at [Oracle-MySQL](https://www.mysql.com) 
+
 ---
 
 ### PhD Thesis
