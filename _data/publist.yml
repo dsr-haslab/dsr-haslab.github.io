@@ -1,8 +1,32 @@
+- year: 2019
+  list:
+    - title: "[TO APPEAR] MINION: Large-Scale Distributed Systems Testing Made Practical"
+      authors: Machado N, Maia F, Neves F, Coelho F, Pereira J
+      where: International Conference on Principles of Distributed Systems (OPODIS)
+    - title: "d'Artagnan: a Trusted NoSQL Database on Untrusted Clouds"
+      authors: Pontes R, Maia F, Machado N and Vilaça R
+      where: Distributed Applications and Interoperable Systems (DAIS)
+    - title: "SafeSpark: Plataforma de Processamento Analítico Seguro"
+      authors: Carvalho H, Cruz D, Pontes R, Paulo J, Oliveira R
+      where: "INFOrum - Símpósio de Informática"
+    - title: "Electrocardiogram Beat-Classification Based on a ResNet Network"
+      authors: Brito C, Machado A, Sousa A
+      where: "Studies in Health Technology and Informatics"
+
 - year: 2018
   list:
+    - title: "Assessment of an IoT Platform for Data Collection and Analysis for Medical Sensors"
+      authors: Rei J, Brito C, Sousa A
+      where: IEEE 4th International Conference on Collaboration and Internet Computing (CIC)
     - title: "Totally Ordered Replication for Massive Scale Key-Value Stores"
       authors: Ribeiro J, Machado N, Maia F, Matos M
       where: Distributed Applications and Interoperable Systems (DAIS)
+    - title: "Recovery in CloudDBAppliance’s High-availability Middleware"
+      authors: Abreu H, Ferreira L, Coelho F, Alosno A, Pereira J
+      where:  "Proceedings of the 8th International Conference on Data Science, Technology and Applications"
+    - title: "Towards Intra-Datacentre High-Availability in CloudDBAppliance"
+      authors: Ferreira L, Coelho F, Alosno A, Pereira J
+      where:  "Proceedings of the 8th International Conference on Data Science, Technology and Applications"      
 
 - year: 2017
   list:
