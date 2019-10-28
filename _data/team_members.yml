@@ -71,15 +71,15 @@
   number_educ: 0
 
 - name: <a href="">Daniel Cruz</a>
-  photo: nophoto.jpg
+  photo: daniel.jpg
   info: Researcher
-  email: 
+  email: daniel.c.cruz@inesctec.pt
   git: 
   ldin: 
   number_educ: 0
 
 - name: <a href="https://www.inesctec.pt/en/people/luis-manuel-ferreira">Luís Ferreira</a>
-  photo: nophoto.jpg
+  photo: meruje.jpg
   info: MSc Student
   email: luis.m.ferreira@inesctec.pt
   git: 

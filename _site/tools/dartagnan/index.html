@@ -7,9 +7,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>d&#39;Artagnan</title>
   <meta name="description" content="Summary">
-  <link rel="stylesheet" href="http://localhost:4000/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/tools/dartagnan/">
-<link rel="shortcut icon" type ="image/x-icon" href="http://localhost:4000/images/favicon.ico">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="/tools/dartagnan/">
+<link rel="shortcut icon" type ="image/x-icon" href="/images/favicon.ico">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
 
@@ -31,17 +31,17 @@
 		<span class="icon-bar"></span>
 	  </button>
 
-    <a class="navbar-brand" href="http://localhost:4000/">DataBase Research @ HASLab </a>
+    <a class="navbar-brand" href="/">DataBase Research @ HASLab </a>
 	</div>
 	<div class="collapse navbar-collapse" id="navbar-collapse-1">
 	  <ul class="nav navbar-nav navbar-right">
-		<li><a href="http://localhost:4000/">Home</a></li>
-		<li><a href="http://localhost:4000/research">Research</a></li>
-    <li><a href="http://localhost:4000/projects">Projects</a></li>
-		<li><a href="http://localhost:4000/publications">Publications</a></li>
-    <li><a href="http://localhost:4000/tools">Tools</a></li>
-		<li><a href="http://localhost:4000/people">People</a></li>
-		<li><a href="http://localhost:4000/alumni">Alumni</a></li>
+		<li><a href="/">Home</a></li>
+		<li><a href="/research">Research</a></li>
+    <li><a href="/projects">Projects</a></li>
+		<li><a href="/publications">Publications</a></li>
+    <li><a href="/tools">Tools</a></li>
+		<li><a href="/people">People</a></li>
+		<li><a href="/alumni">Alumni</a></li>
 	  </ul>
 	</div>
   </div>
@@ -62,7 +62,7 @@
     <p><b></b></p>
     <p>Vision of a Trusted Database on Untrusted Clouds</p>
     <p><br />
-<img src="http://localhost:4000/images/dartagnan/logo.png" class="img-responsive" width="40%" style="display: block; margin-left: auto;margin-right: auto;" /></p>
+<img src="/images/dartagnan/logo.png" class="img-responsive" width="40%" style="display: block; margin-left: auto;margin-right: auto;" /></p>
 <h2 id="summary">Summary</h2>
 
 <p><strong>d’Artagnan</strong> is a multi-cloud, multi-party database that processes queries by leveraging secure multi-party computation (SMPC) protocols. The goal of this project is to move away from the state-of-the-art privacy-aware databases built with the assumption that the leakage associated to property-preserving (PPT) schemes is acceptable. We envision a class of future databases that prioritize user’s confidentiality above all else while still being able to process any query with an acceptable overhead. <strong>d’Artagnan</strong> gives the first step towards this future with a novel architecture designed to:</p>
@@ -93,7 +93,7 @@
 <p>The system operates across a <em>trusted domain</em> and an <em>untrusted domain</em>. The <em>trusted domain</em> is where the client application resides and where data is encrypted before being outsourced to the clouds. The <em>untrusted domain</em> contains the databases hosted at different database providers, each hosting the d’Artagnan components that enable each database to communicate and play the role of a party in an SMPC protocols.</p>
 
 <p><br />
-<img src="http://localhost:4000/images/dartagnan/arch1.png" class="img-responsive" width="50%" style="display: block; margin-left: auto;margin-right: auto;" />
+<img src="/images/dartagnan/arch1.png" class="img-responsive" width="50%" style="display: block; margin-left: auto;margin-right: auto;" />
 <br /></p>
 
 <p><strong>SafeClient</strong> is a proxy between the user’s plaintext request and the logical NoSQL database. It transforms plaintext queries into secure queries sent in parallel to the databases on the cloud providers. Each request carries a single share of a sensitive value that is used to by the <strong>SafeServer</strong>.</p>
@@ -167,9 +167,9 @@ The only missing component on the repository is the <em>DiscoveryService</em>, h
         </div>
     <div class="col-sm-4">
       <figure class="fourth">
-        <img src="http://localhost:4000/images/logopic/haslab_logo.jpg" style="width: 80px">
-        <img src="http://localhost:4000/images/logopic/inesctec_logo.jpg" style="width: 100px">
-        <img src="http://localhost:4000/images/logopic/uminho_logo.png" style="width: 80px">
+        <img src="/images/logopic/haslab_logo.jpg" style="width: 80px">
+        <img src="/images/logopic/inesctec_logo.jpg" style="width: 100px">
+        <img src="/images/logopic/uminho_logo.png" style="width: 80px">
       </figure>
     </div>
 
@@ -178,7 +178,7 @@ The only missing component on the repository is the <em>DiscoveryService</em>, h
 </div>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="http://localhost:4000/js/bootstrap.min.js"></script>
+<script src="/js/bootstrap.min.js"></script>
 
 
   </body>
