@@ -12,6 +12,12 @@
     - title: "Electrocardiogram Beat-Classification Based on a ResNet Network"
       authors: Brito C, Machado A, Sousa A
       where: "Studies in Health Technology and Informatics"
+    - title: "Recovery in CloudDBAppliance’s High-availability Middleware"
+      authors: Abreu H, Ferreira L, Coelho F, Alosno A, Pereira J
+      where:  "Proceedings of the 8th International Conference on Data Science, Technology and Applications"
+    - title: "Towards Intra-Datacentre High-Availability in CloudDBAppliance"
+      authors: Ferreira L, Coelho F, Alosno A, Pereira J
+      where:  "Proceedings of the 8th International Conference on Data Science, Technology and Applications"
 
 - year: 2018
   list:
@@ -20,13 +26,7 @@
       where: IEEE 4th International Conference on Collaboration and Internet Computing (CIC)
     - title: "Totally Ordered Replication for Massive Scale Key-Value Stores"
       authors: Ribeiro J, Machado N, Maia F, Matos M
-      where: Distributed Applications and Interoperable Systems (DAIS)
-    - title: "Recovery in CloudDBAppliance’s High-availability Middleware"
-      authors: Abreu H, Ferreira L, Coelho F, Alosno A, Pereira J
-      where:  "Proceedings of the 8th International Conference on Data Science, Technology and Applications"
-    - title: "Towards Intra-Datacentre High-Availability in CloudDBAppliance"
-      authors: Ferreira L, Coelho F, Alosno A, Pereira J
-      where:  "Proceedings of the 8th International Conference on Data Science, Technology and Applications"      
+      where: Distributed Applications and Interoperable Systems (DAIS)      
 
 - year: 2017
   list:
