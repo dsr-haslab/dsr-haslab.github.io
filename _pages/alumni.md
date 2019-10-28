@@ -44,7 +44,7 @@ This page showcases previous students that completed thesis related with our res
  - Francisco Cruz, Towards autonomic workload aware NoSQL databases, 2016, Now at [SafeCloud](https://safecloudtech.com/)
  - Francisco Maia, Epidemic Store for Massive Scale Systems, 2015, Now at [SafeCloud](https://safecloudtech.com/)
  - Miguel Matos, Epidemic algorithms for large scale data dissemination, 2013, Now faculty at [IST](https://tecnico.ulisboa.pt)
- - Ricardo Vilaça, Clouder: a flexible large scale decentralized object store, 2012, [LeanXcale](https://www.leanxcale.com/), Now at UMinho
+ - Ricardo Vilaça, Clouder: a flexible large scale decentralized object store, 2012, [LeanXcale](https://www.leanxcale.com/), Now at [UMinho](https://www.uminho.pt)
  - Alfranio Correia, Practical database replication, 2010, Now at [Oracle-MySQL](https://www.mysql.com)
  - Filipe Campos, Fault Tolerant Service Integration, 2017, Now at [Oracle-MySQL](https://www.mysql.com)
  - Paulo Jesus, Robust Distributed Data Aggregation, 2012, Now at [Oracle-MySQL](https://www.mysql.com)
@@ -53,6 +53,6 @@ This page showcases previous students that completed thesis related with our res
 ---
 ### Post-Docs
  - Nuno Machado, Now at [Teradata](https://www.teradata.com/)
- - Rui Gonçalves, [LeanXcale](https://www.leanxcale.com/), [Gruppon](www.grupon.de)
+ - Rui Gonçalves, [LeanXcale](https://www.leanxcale.com/), Now at [Gruppon](www.grupon.de)
 
 ---
