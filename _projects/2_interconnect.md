@@ -1,7 +1,7 @@
 ---
 layout: project
 title: InterConnect
-description: Interoperable Solutions Connecting Smar Homes, Buildings and Grids 
+description: Interoperable Solutions Connecting Smart Homes, Buildings and Grids 
 type: EU H2020
 img: interconnect.png
 permalink: /projects/interconnect
