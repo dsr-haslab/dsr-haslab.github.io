@@ -32,7 +32,7 @@
 
 - name: <a href="http://haslab.uminho.pt/facoelho">Fábio Coelho</a>
   photo: facoelho.png
-  info: PostDoc Researcher
+  info: Researcher
   email: fabio.a.coelho@inesctec.pt
   git: https://github.com/faclc4
   ldin: https://www.linkedin.com/in/fabio-coelho-02907136/
@@ -40,7 +40,7 @@
 
 - name: <a href="http://haslab.uminho.pt/aln">Ana Nunes</a>
   photo: anunes.png
-  info: PostDoc Researcher
+  info: Researcher
   email: ana.n.alonso@inesctec.pt
   git: 
   ldin: https://www.linkedin.com/in/ana-nunes-alonso-bb08b95b/
@@ -69,37 +69,29 @@
   ldin: www.linkedin.com/in/claudiavmbrito
   email: claudia.v.brito@inesctec.pt
   number_educ: 0
-  
-- name: <a href="https://www.inesctec.pt/en/people/daniel-filipe-tavares#intro">Daniel Tavares</a>
-  photo: nophoto.jpg
-  info: MSc Student
-  email: daniel.f.tavares@inesctec.pt
-  git: 
-  ldin: 
-  number_educ: 0
 
 - name: <a href="">Daniel Cruz</a>
-  photo: nophoto.jpg
-  info: MSc Student
-  email: 
-  git: 
-  ldin: 
-  number_educ: 0
-
-- name: <a href="">Hugo Carvalho</a>
-  photo: nophoto.jpg
-  info: MSc Student
-  email: 
+  photo: daniel.jpg
+  info: Researcher
+  email: daniel.c.cruz@inesctec.pt
   git: 
   ldin: 
   number_educ: 0
 
 - name: <a href="https://www.inesctec.pt/en/people/luis-manuel-ferreira">Luís Ferreira</a>
-  photo: nophoto.jpg
-  info: BSc Student
+  photo: meruje.jpg
+  info: MSc Student
   email: luis.m.ferreira@inesctec.pt
   git: 
   ldin: 
   number_educ: 0
+
+- name: <a href="https://www.inesctec.pt/pt/pessoas/paula-cristina-rodrigues">Paula Rodrigues</a>
+  photo: paula.jpg
+  info: Communication and Dissemination
+  email: paula.c.rodrigues@inesctec.pt
+  git: 
+  ldin: 
+  number_educ: 0  
 
   
