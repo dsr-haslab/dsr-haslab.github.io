@@ -1,3 +1,13 @@
+- year: 2020
+  list: 
+    - title: "A Survey and Classification of Software-Defined Storage Systems"
+      authors: Macedo R, Paulo J, Pereira J, Bessani, A
+      where: ACM Computing Surveys (accepted/to appear)
+      #link:
+        #url: https://arxiv.org/abs/1712.08620
+        #display:  arxiv:1712.08620 (2017)
+      highlight: 2
+      #news2: 
 
 - year: 2019
   list: 
@@ -54,7 +64,7 @@
     #link:
       #url: https://arxiv.org/abs/1712.08620
       #display:  arxiv:1712.08620 (2017)
-    highlight: 2
+    highlight: 0
     #news2: 
 
 - year: 2014
