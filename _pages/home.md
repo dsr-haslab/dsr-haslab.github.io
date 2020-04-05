@@ -7,7 +7,7 @@ permalink: /
 ---
 
 
-Distributed storage research at [HASLab](https://www.haslab.uminho.pt) is motivated by the observation that storage systems are a cornerstone component for a wide range of research and industrial areas such as, cloud computing, high-performance computing, internet-of-things, databases, and artificial inteligence. Moreover, our research is driven by the need of such systems to provide efficient, scalable, resilient and secure solutions that can adapt to the exponential increase of digital information and to the different needs of very heterogeneous applications and infrastructures. 
+Distributed storage research at [HASLab](https://www.inesctec.pt/en/centres/haslab) is motivated by the observation that storage systems are a cornerstone component for a wide range of research and industrial areas such as, cloud computing, high-performance computing, internet-of-things, databases, and artificial inteligence. Moreover, our research is driven by the need of such systems to provide efficient, scalable, resilient and secure solutions that can adapt to the exponential increase of digital information and to the different needs of very heterogeneous applications and infrastructures. 
 
 <!-- 
 
@@ -52,7 +52,7 @@ Distributed storage research at [HASLab](https://www.haslab.uminho.pt) is motiva
 
 To this end, our research is focused on three main areas: **Software-Defined Storage**, **Storage Benchmarking and Monitoring**, **Storage Optimization**. In detail, with these three areas we intend to provide a new generation of programmable distributed storage systems that can adapt to heterogeneous storage workloads and deployment infrastructures, proper benchmarking tools for evaluating such systems, and novel storage functionalities and optimizations that can further improve the performance, reliability, and security of current solutions (see [Research](research)).
 
-Our team is composed of researchers from the [High-Assurance Software Laboratory (HASLab)](https://www.haslab.uminho.pt), mainly from the Distributed Systems field. HASLab is one of the integrated R&D centres of [INESC TEC](https://www.inesctec.pt), a leading national associate laboratory, and a teaching and research subunit of the [University of Minho](http://www.uminho.pt), where it is headquartered.
+Our team is composed of researchers from the [High-Assurance Software Laboratory (HASLab)](https://www.inesctec.pt/en/centres/haslab), mainly from the Distributed Systems field. HASLab is one of the integrated R&D centres of [INESC TEC](https://www.inesctec.pt), a leading national associate laboratory, and a teaching and research subunit of the [University of Minho](http://www.uminho.pt), where it is headquartered.
 
 Research at HASLab is anchored on a rigorous approach to three areas of Computer Science: Software Engineering, Distributed Systems and Cryptography and Information Security. The laboratory's contributions to these areas range from fundamental research on formal methods and algorithms to applied research on tools and middleware that address real-world demands stemming from long-term collaborations with industry.
 
