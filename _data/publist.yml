@@ -1,15 +1,5 @@
 - year: 2020
   list: 
-    - title: "GenoDedup: Similarity-Based Deduplication and Delta-Encoding for Genome Sequencing Data"
-      authors: Cogo V, Paulo J, Bessani, A
-      where: IEEE Transactions on Computers (accepted/to appear)
-      #link:
-        #url: https://arxiv.org/abs/1712.08620
-        #display:  arxiv:1712.08620 (2017)
-      highlight: 4
-      #news2: 
-- year: 2020
-  list: 
     - title: "A Survey and Classification of Software-Defined Storage Systems"
       authors: Macedo R, Paulo J, Pereira J, Bessani, A
       where: ACM Computing Surveys (accepted/to appear)
@@ -18,6 +8,14 @@
         #display:  arxiv:1712.08620 (2017)
       highlight: 2
       #news2: 
+    - title: "GenoDedup: Similarity-Based Deduplication and Delta-Encoding for Genome Sequencing Data"
+      authors: Cogo V, Paulo J, Bessani, A
+      where: IEEE Transactions on Computers (accepted/to appear)
+      #link:
+        #url: https://arxiv.org/abs/1712.08620
+        #display:  arxiv:1712.08620 (2017)
+      highlight: 4
+      #news2:  
 
 - year: 2019
   list: 
