@@ -57,7 +57,7 @@
 - name: Daniel Fernandes
   photo: daniel.jpg
   info: MSc Student
-  email: danielsf97@gmail.com
+  email: daniel.s.fernandes@inesctec.pt
   git:
   ldin: https://www.linkedin.com/in/danielsf97/
   number_educ: 0
@@ -65,7 +65,23 @@
 - name: Mariana Miranda
   photo: mariana.jpg
   info: MSc Student
-  email: a77782@alunos.uminho.pt
+  email: mariana.m.miranda@inesctec.pt
   git:
   ldin: https://www.linkedin.com/in/mariana-miranda-89a56a173/
+  number_educ: 0
+
+- name: Diogo Leitão
+  photo: diogo.jpg
+  info: MSc Student
+  email: diogo.l.leitao@inesctec.pt
+  git: https://github.com/diogolleitao
+  ldin: 
+  number_educ: 0
+
+- name: Carlos Pedrosa
+  photo: nophoto.jpg
+  info: MSc Student
+  email: carlos.p.pedrosa@inesctec.pt
+  git:
+  ldin: 
   number_educ: 0
