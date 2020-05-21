@@ -79,9 +79,9 @@
   number_educ: 0
 
 - name: Carlos Pedrosa
-  photo: nophoto.jpg
+  photo: carlos.jpg
   info: MSc Student
   email: carlos.p.pedrosa@inesctec.pt
-  git:
-  ldin: 
+  git: https://github.com/cppedrosa
+  ldin: https://www.linkedin.com/in/cppedrosa/
   number_educ: 0
