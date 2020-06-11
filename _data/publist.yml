@@ -1,6 +1,11 @@
+- year: 2020
+  list:
+    - title: "Black-box inter-application traffic monitoring for adaptive container placement"
+      authors: Neves F, Vilaça R, Pereira J
+      where: "Proceedings of the ACM Symposium on Applied Computing"
 - year: 2019
   list:
-    - title: "[TO APPEAR] MINION: Large-Scale Distributed Systems Testing Made Practical"
+    - title: "MINION: Large-Scale Distributed Systems Testing Made Practical"
       authors: Machado N, Maia F, Neves F, Coelho F, Pereira J
       where: International Conference on Principles of Distributed Systems (OPODIS)
     - title: "d'Artagnan: a Trusted NoSQL Database on Untrusted Clouds"

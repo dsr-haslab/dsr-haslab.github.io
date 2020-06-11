@@ -22,6 +22,14 @@
   ldin: 
   number_educ: 0  
 
+- name: <a href="https://rmpvilaca.github.io/">Ricardo Vilaça</a>
+  photo: rmv.png
+  info: Researcher
+  email: rmvilaca@di.uminho.pt
+  git: https://github.com/rmpvilaca
+  ldin:
+  number_educ: 0
+
 - name: <a href="http://haslab.uminho.pt/jtpaulo">João Paulo</a>
   photo: jtpaulo.jpg
   info: Researcher
