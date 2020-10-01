@@ -13,6 +13,6 @@ The [PAstor]() project aims at providing a novel Software-Defined Storage (SDS) 
 By gathering the expertise of researchers on the AI and distributed storage fields, and by including researchers from Texas Advanced Computing Center (TACC) and Minho Advanced Computing Center (MACC) with experience on managing HPC infrastructures, the project expects to produce new high quality research findings and advance the state-of-the-art for storage solutions currently deployed at HPC centers, such as those managed by MACC and TACC. 
 
 
-Partners: INESC TEC, MACC, TACC, Hood College
+Partners: INESC TEC (coordinator), TACC (coordinator), MACC, Hood College
 
 
