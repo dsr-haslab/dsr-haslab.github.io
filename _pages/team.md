@@ -10,8 +10,6 @@ permalink: /people/
 
 # People
 
-
-
 We are looking for new Postdocs, PhD students and Master/Bachelor students to join HASLab and work on storage research topics.<br>
 If you are interested in working with us, please send me an [email](mailto:jtpaulo@inesctec.pt).
 
@@ -81,24 +79,16 @@ HASLab members involved in distributed storage research:
 </div>
 {% endif %}
 
+
+## Alumni
+
+- Alexandre Silva, MSc Thesis - "DEDISbench++: Avaliação realista de deduplicação e compressão em sistemas de armazenamento", 2020.
+
+- Daniel Fernandes, MSc Thesis - "LSFS: Sistema de ficheiros tolerante a faltas
+para armazenamento em larga escala", 2021.
+
+
 <!--
-## Other Members
-<table align="center" style="width:100%">
-<tr>
-    <th>Master Students</th> 
-    <th>Bachelor Students</th>
-  </tr>
-  <tr>
-    <td>Paulo Araújo</td>
-    <td></td>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-  </tr>
-</table>
-
-
 ## Previous Members
 <table align="center" style="width:100%">
 <tr><th>Visitors</th>

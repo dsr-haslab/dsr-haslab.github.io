@@ -38,6 +38,14 @@
   ldin: https://linkedin.com/in/tania-esteves
   number_educ: 0
 
+- name: Mariana Miranda
+  photo: mariana.jpg
+  info: PhD Student
+  email: mariana.m.miranda@inesctec.pt
+  git:
+  ldin: https://www.linkedin.com/in/mariana-miranda-89a56a173/
+  number_educ: 0
+
 - name: <a href="https://www.inesctec.pt/en/people/alberto-campinho-faria">Alberto Faria</a>
   photo: alberto.jpg
   info: MSc Student
@@ -52,22 +60,6 @@
   email: claudia.s.mendonca@inesctec.pt
   git: https://github.com/claudiacorreia60
   ldin: https://www.linkedin.com/in/claudia-correia/
-  number_educ: 0
-
-- name: Daniel Fernandes
-  photo: daniel.jpg
-  info: MSc Student
-  email: daniel.s.fernandes@inesctec.pt
-  git:
-  ldin: https://www.linkedin.com/in/danielsf97/
-  number_educ: 0
-
-- name: Mariana Miranda
-  photo: mariana.jpg
-  info: MSc Student
-  email: mariana.m.miranda@inesctec.pt
-  git:
-  ldin: https://www.linkedin.com/in/mariana-miranda-89a56a173/
   number_educ: 0
 
 - name: Diogo Leitão
@@ -85,3 +77,20 @@
   git: https://github.com/cppedrosa
   ldin: https://www.linkedin.com/in/cppedrosa/
   number_educ: 0
+
+- name: Marco Dantas
+  photo: nophoto.jpg
+  info: MSc Student
+  email: marco.f.dantas@inesctec.pt
+  git: 
+  ldin: 
+  number_educ: 0
+
+- name: César Borges
+  photo: nophoto.jpg
+  info: MSc Student
+  email: cesar.a.borges@inesctec.pt
+  git: 
+  ldin:
+  number_educ: 0
+
