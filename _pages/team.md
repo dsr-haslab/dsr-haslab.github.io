@@ -82,10 +82,20 @@ HASLab members involved in distributed storage research:
 
 ## Alumni
 
-- Alexandre Silva, MSc Thesis - "DEDISbench++: Avaliação realista de deduplicação e compressão em sistemas de armazenamento", 2020.
+- Diogo Leitão, MSc Thesis - RSafeFS: Sistema de Ficheiros Modular para Armazenamento Remoto (RSafeFS: Modular File System for Remote Storage), 2021.
 
-- Daniel Fernandes, MSc Thesis - "LSFS: Sistema de ficheiros tolerante a faltas
-para armazenamento em larga escala", 2021.
+- Carlos Pedrosa, MSc Thesis - HIODS: Hybrid Inline and Offline Deduplication System, 2021.
+
+- Cláudia Correia, MSc Thesis - PRISMA: A Prefetching Storage Middleware for Accelerating Deep Learning Frameworks, 2021.
+
+- Daniel Fernandes, MSc Thesis - LSFS: Sistema de ficheiros tolerante a faltas
+para armazenamento em larga escala (LSFS: Large-scale fault-tolerant file system), 2021.
+
+- Mariana Miranda, MSc Thesis - S2Dedup: SGX-enabled Secure Deduplication System, 2020.
+
+- Alexandre Silva, MSc Thesis - DEDISbench++: Avaliação realista de deduplicação e compressão em sistemas de armazenamento (DEDISBench++: Realistic evaluation of storage systems supporting deduplication and compression), 2020.
+
+
 
 
 <!--
