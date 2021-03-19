@@ -2,7 +2,7 @@
   list: 
     - title: "A Survey and Classification of Software-Defined Storage Systems"
       authors: Macedo R, Paulo J, Pereira J, Bessani, A
-      where: ACM Computing Surveys (accepted/to appear)
+      where: ACM Computing Surveys
       #link:
         #url: https://arxiv.org/abs/1712.08620
         #display:  arxiv:1712.08620 (2017)
@@ -10,7 +10,7 @@
       #news2: 
     - title: "GenoDedup: Similarity-Based Deduplication and Delta-Encoding for Genome Sequencing Data"
       authors: Cogo V, Paulo J, Bessani, A
-      where: IEEE Transactions on Computers (accepted/to appear)
+      where: IEEE Transactions on Computers
       #link:
         #url: https://arxiv.org/abs/1712.08620
         #display:  arxiv:1712.08620 (2017)
