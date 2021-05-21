@@ -1,3 +1,21 @@
+- year: 2021
+  list: 
+    - title: "BDUS: Implementing Block Devices in User Space"
+      authors: Faria A, Macedo R, Pereira J, Paulo J.
+      where: ACM International Systems and Storage Conference (SYSTOR)
+      #link:
+        #url: https://arxiv.org/abs/1712.08620
+        #display:  arxiv:1712.08620 (2017)
+      highlight: 2
+      #news2: 
+    - title: "S2Dedup: SGX-enabled Secure Deduplication"
+      authors: Miranda M, Esteves T, Portela B, Paulo J
+      where: ACM International Systems and Storage Conference (SYSTOR)
+      #link:
+        #url: https://arxiv.org/abs/1712.08620
+        #display:  arxiv:1712.08620 (2017)
+      highlight: 4
+      #news2:
 - year: 2020
   list: 
     - title: "A Survey and Classification of Software-Defined Storage Systems"
@@ -33,7 +51,7 @@
       #link:
         #url: https://arxiv.org/abs/1712.08620
         #display:  arxiv:1712.08620 (2017)
-      highlight: 2
+      highlight: 0
       #news2: 
 
 - year: 2017
@@ -83,7 +101,7 @@
     #link:
       #url: https://arxiv.org/abs/1712.08620
       #display:  arxiv:1712.08620 (2017)
-    highlight: 4
+    highlight: 0
     #news2: 
   - title: "Distributed Exact Deduplication for Primary Storage Infrastructures"
     authors: Paulo J, Pereira J
