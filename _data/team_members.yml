@@ -71,10 +71,42 @@
   number_educ: 0
 
 - name: César Borges
-  photo: nophoto.jpg
+  photo: cesar.jpg
   info: MSc Student
   email: cesar.a.borges@inesctec.pt
+  git: https://github.com/CesarAugustoBorges
+  ldin: https://www.linkedin.com/in/cesar-borges/
+  number_educ: 0
+
+- name: Diogo Ribeiro
+  photo: nophoto.jpg
+  info: BSc Student
+  email:
   git: 
-  ldin:
+  ldin: 
+  number_educ: 0
+
+- name: Beatriz Moreira
+  photo: nophoto.jpg
+  info: BSc Student
+  email: maria.b.moreira@inesctec.pt
+  git: 
+  ldin: 
+  number_educ: 0
+
+- name: Pedro Peixoto
+  photo: nophoto.jpg
+  info: BSc Student
+  email: jose.p.peixoto@inesctec.pt
+  git: 
+  ldin: 
+  number_educ: 0
+
+- name: Rúben Adão
+  photo: nophoto.jpg
+  info: BSc Student
+  email: ruben.d.adao@inesctec.pt
+  git: 
+  ldin: 
   number_educ: 0
 
