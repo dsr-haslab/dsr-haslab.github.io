@@ -82,6 +82,8 @@ HASLab members involved in distributed storage research:
 
 ## Alumni
 
+- Rogério Pontes, PhD Thesis - Trade-offs between privacy and efficiency on databases, 2021.
+
 - Diogo Leitão, MSc Thesis - RSafeFS: Modular File System for Remote Storage, 2021.
 
 - Carlos Pedrosa, MSc Thesis - HIODS: Hybrid Inline and Offline Deduplication System, 2021.

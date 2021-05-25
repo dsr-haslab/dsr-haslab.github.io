@@ -22,14 +22,6 @@
   ldin:
   number_educ: 0
 
-- name: <a href="https://www.inesctec.pt/en/people/rogerio-antonio-pontes">Rogério Pontes</a>
-  photo: rogerio.jpg
-  info: PhD student
-  git: https://github.com/roger62
-  ldin: https://www.linkedin.com/in/rogerpontes
-  email: rogerio.a.pontes@inesctec.pt
-  number_educ: 0
-
 - name: <a href="https://www.inesctec.pt/en/people/tania-conceicao-araujo">Tânia Esteves</a>
   photo: tania.jpg
   info: PhD Student
