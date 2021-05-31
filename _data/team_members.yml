@@ -71,11 +71,11 @@
   number_educ: 0
 
 - name: Diogo Ribeiro
-  photo: nophoto.jpg
+  photo: diogo.jpg
   info: BSc Student
-  email:
-  git: 
-  ldin: 
+  email: diogo.p.ribeiro@inesctec.pt
+  git: https://github.com/ribeiropdiogo
+  ldin: https://www.linkedin.com/in/ribeiropdiogo/
   number_educ: 0
 
 - name: Beatriz Moreira
