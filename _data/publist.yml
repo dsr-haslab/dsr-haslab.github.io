@@ -1,5 +1,13 @@
 - year: 2021
   list: 
+    - title: "PAIO: A Software-Defined Storage Data Plane Framework"
+      authors: Macedo R, Tanimura Y, Haga J, Chidambaram V, Pereira J., Paulo J.
+      where: ArXiv – Computing Research Repository (CoRR)
+      #link:
+        #url: https://arxiv.org/abs/1712.08620
+        #display:  arxiv:1712.08620 (2017)
+      highlight: 0
+      #news2: 
     - title: "BDUS: Implementing Block Devices in User Space"
       authors: Faria A, Macedo R, Pereira J, Paulo J.
       where: ACM International Systems and Storage Conference (SYSTOR)
@@ -16,6 +24,14 @@
         #display:  arxiv:1712.08620 (2017)
       highlight: 4
       #news2:
+    - title: "GenoDedup: Similarity-Based Deduplication and Delta-Encoding for Genome Sequencing Data"
+      authors: Cogo V, Paulo J, Bessani, A
+      where: IEEE Transactions on Computers
+      #link:
+        #url: https://arxiv.org/abs/1712.08620
+        #display:  arxiv:1712.08620 (2017)
+      highlight: 4
+      #news2:
 - year: 2020
   list: 
     - title: "A Survey and Classification of Software-Defined Storage Systems"
@@ -25,15 +41,7 @@
         #url: https://arxiv.org/abs/1712.08620
         #display:  arxiv:1712.08620 (2017)
       highlight: 2
-      #news2: 
-    - title: "GenoDedup: Similarity-Based Deduplication and Delta-Encoding for Genome Sequencing Data"
-      authors: Cogo V, Paulo J, Bessani, A
-      where: IEEE Transactions on Computers
-      #link:
-        #url: https://arxiv.org/abs/1712.08620
-        #display:  arxiv:1712.08620 (2017)
-      highlight: 4
-      #news2:  
+      #news2:   
 
 - year: 2019
   list: 

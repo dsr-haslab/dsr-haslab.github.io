@@ -79,7 +79,7 @@
   number_educ: 0
 
 - name: Beatriz Moreira
-  photo: nophoto.jpg
+  photo: beatriz.jpg
   info: BSc Student
   email: maria.b.moreira@inesctec.pt
   git: 
@@ -87,10 +87,10 @@
   number_educ: 0
 
 - name: Pedro Peixoto
-  photo: nophoto.jpg
+  photo: pedro.jpg
   info: BSc Student
   email: jose.p.peixoto@inesctec.pt
-  git: 
+  git: https://github.com/vaavaav
   ldin: 
   number_educ: 0
 
