@@ -16,9 +16,9 @@
         #display:  arxiv:1712.08620 (2017)
       highlight: 0
       #news2: 
-    - title: ["Realistic Assessment of Faults in Storage Systems"](https://dsr-haslab.github.io/repository/bp21.pdf)
+    - title: "Realistic Assessment of Faults in Storage Systems"
       authors: Borges C, Paulo J.
-      where: Workshop on High-Performance and Reliable Big Data (HPBD), colocated with SRDS
+      where: Workshop on High-Performance and Reliable Big Data (HPBD), colocated with SRDS. Available <a href="https://dsr-haslab.github.io/repository/bp21.pdf">here</a>
       #link:
        # url: https://dsr-haslab.github.io/repository/bp21.pdf
         #display: [url]
