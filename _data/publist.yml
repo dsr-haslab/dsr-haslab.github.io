@@ -1,10 +1,26 @@
 - year: 2021
   list: 
-    - title: "PAIO: A Software-Defined Storage Data Plane Framework"
-      authors: Macedo R, Tanimura Y, Haga J, Chidambaram V, Pereira J., Paulo J.
-      where: ArXiv – Computing Research Repository (CoRR)
+    - title: "The Case for Storage Optimization Decoupling in Deep Learning Frameworks." 
+      authors: Macedo R, Correia C, Dantas M, Brito C, Xu W, Tanimura Y, Haga J, Paulo J.
+      where: Workshop on Re-envisioning Extreme-Scale I/O for Emerging Hybrid HPC Workloads (REX-IO), colocated with Cluster
       #link:
         #url: https://arxiv.org/abs/1712.08620
+        #display:  arxiv:1712.08620 (2017)
+      highlight: 0
+      #news2:
+    - title: "Monarch: Hierarchical Storage Management for Deep Learning Frameworks."
+      authors: Dantas M, Leitão D, Correia C, Macedo R, Xu W, Paulo J.
+      where: Workshop on Re-envisioning Extreme-Scale I/O for Emerging Hybrid HPC Workloads (REX-IO), colocated with Cluster
+      #link:
+        #url: https://arxiv.org/abs/1712.08620
+        #display:  arxiv:1712.08620 (2017)
+      highlight: 0
+      #news2: 
+    - title: "Realistic Assessment of Faults in Storage Systems."
+      authors: Borges C, Paulo J.
+      where: Workshop on High-Performance and Reliable Big Data (HPBD), colocated with SRDS
+      link:
+        url: https://dsr-haslab.github.io/repository/bp21.pdf
         #display:  arxiv:1712.08620 (2017)
       highlight: 0
       #news2: 
