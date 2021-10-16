@@ -21,7 +21,7 @@
       where: Workshop on High-Performance and Reliable Big Data (HPBD), colocated with SRDS
       link:
         url: https://dsr-haslab.github.io/repository/bp21.pdf
-        #display:  arxiv:1712.08620 (2017)
+        display: [url]
       highlight: 0
       #news2: 
     - title: "BDUS: Implementing Block Devices in User Space"
