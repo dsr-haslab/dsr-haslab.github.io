@@ -32,6 +32,14 @@
         #display:  arxiv:1712.08620 (2017)
       highlight: 0
       #news2: 
+    - title: "PAIO: A Software-Defined Storage Data Plane Framework"
+      authors: Macedo R, Tanimura Y, Haga J, Chidambaram V, Pereira J, Paulo J.
+      where: ArXiv – Computing Research Repository (CoRR)
+      #link:
+        #url: https://arxiv.org/abs/1712.08620
+        #display:  arxiv:1712.08620 (2017)
+      highlight: 0
+      #news2: 
     - title: "Realistic Assessment of Faults in Storage Systems"
       authors: Borges C, Paulo J.
       where: Workshop on High-Performance and Reliable Big Data (HPBD), colocated with SRDS. Available <a href="https://dsr-haslab.github.io/repository/bp21.pdf">here</a>
