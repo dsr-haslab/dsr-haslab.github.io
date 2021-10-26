@@ -1,5 +1,21 @@
 - year: 2021
-  list: 
+  list:
+    - title: "CaT: Content-aware Tracing and Analysis for Distributed Systems" 
+      authors: Esteves T, Neves F, Oliveira R, Paulo J.
+      where: ACM/IFIP Middleware conference (Middleware)
+      #link:
+        #url: https://arxiv.org/abs/1712.08620
+        #display:  arxiv:1712.08620 (2017)
+      highlight: 3
+      #news2: 
+    - title: "Pods-as-Volumes: Effortlessly Integrating Storage Systems and Middleware into Kubernetes" 
+      authors: Faria A, Macedo R, Paulo J.
+      where: Workshop on Container Technologies and Container Clouds (WoC'21), colocated with Middleware
+      #link:
+        #url: https://arxiv.org/abs/1712.08620
+        #display:  arxiv:1712.08620 (2017)
+      highlight: 0
+      #news2: 
     - title: "The Case for Storage Optimization Decoupling in Deep Learning Frameworks" 
       authors: Macedo R, Correia C, Dantas M, Brito C, Xu W, Tanimura Y, Haga J, Paulo J.
       where: Workshop on Re-envisioning Extreme-Scale I/O for Emerging Hybrid HPC Workloads (REX-IO), colocated with Cluster
