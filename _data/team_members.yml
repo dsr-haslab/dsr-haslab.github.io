@@ -70,12 +70,40 @@
   ldin: https://www.linkedin.com/in/cesar-borges/
   number_educ: 0
 
-- name: Diogo Ribeiro
-  photo: diogo.jpg
-  info: BSc Student
-  email: diogo.p.ribeiro@inesctec.pt
-  git: https://github.com/ribeiropdiogo
-  ldin: https://www.linkedin.com/in/ribeiropdiogo/
+
+- name: João Azevedo
+  photo: nophoto.jpg
+  info: MSc Student
+  email:
+  git:
+  ldin:
+  number_educ: 0
+
+
+- name: Alexandre Ferreira
+  photo: nophoto.jpg
+  info: MSc Student
+  email:
+  git:
+  ldin:
+  number_educ: 0
+
+
+- name: Alexandre Miranda
+  photo: cesar.jpg
+  info: MSc Student
+  email:
+  git:
+  ldin:
+  number_educ: 0
+
+
+- name: Pedro Rodrigues
+  photo: cesar.jpg
+  info: MSc Student
+  email:
+  git:
+  ldin:
   number_educ: 0
 
 - name: Beatriz Moreira
