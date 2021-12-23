@@ -72,38 +72,38 @@
 
 
 - name: João Azevedo
-  photo: nophoto.jpg
+  photo: jazevedo.jpg
   info: MSc Student
-  email:
-  git:
-  ldin:
+  email: a85227@alunos.uminho.pt
+  git: https://github.com/devzizu
+  ldin: https://www.linkedin.com/in/devzizu/
   number_educ: 0
 
 
 - name: Alexandre Ferreira
-  photo: nophoto.jpg
+  photo: aferreira.jpg
   info: MSc Student
-  email:
-  git:
-  ldin:
+  email: a84961@alunos.uminho.pt
+  git: https://github.com/brancof
+  ldin: https://www.linkedin.com/in/brancof/
   number_educ: 0
 
 
 - name: Alexandre Miranda
-  photo: nophoto.jpg
+  photo: amiranda.jpg
   info: MSc Student
-  email:
-  git:
+  email: a84462@alunos.uminho.pt
+  git: https://github.com/aemiranda7
   ldin:
   number_educ: 0
 
 
 - name: Pedro Rodrigues
-  photo: nophoto.jpg
+  photo: prodrigues.jpg
   info: MSc Student
-  email:
-  git:
-  ldin:
+  email: a84783@alunos.uminho.pt
+  git: https://github.com/pedrordgs
+  ldin: https://www.linkedin.com/in/pedrombr/
   number_educ: 0
 
 - name: Beatriz Moreira
