@@ -1,3 +1,13 @@
+- year: 2022
+  - title: "PAIO: General, Portable I/O Optimizations With Minor Application Modifications" 
+      authors: Macedo R, Tanimura Y, Haga J, Chidambaram V, Pereira J., Paulo J.
+      where:  USENIX Conference on File and Storage Technologies (FAST)
+      #link:
+        #url: https://arxiv.org/abs/1712.08620
+        #display:  arxiv:1712.08620 (2017)
+      highlight: 2
+      #news2: 
+
 - year: 2021
   list:
     - title: "CaT: Content-aware Tracing and Analysis for Distributed Systems" 
@@ -72,6 +82,7 @@
         #display:  arxiv:1712.08620 (2017)
       highlight: 4
       #news2:
+
 - year: 2020
   list: 
     - title: "A Survey and Classification of Software-Defined Storage Systems"
@@ -118,7 +129,7 @@
       #link:
         #url: https://arxiv.org/abs/1712.08620
         #display:  arxiv:1712.08620 (2017)
-      highlight: 2
+      highlight: 0
       #news2: 
 
 
