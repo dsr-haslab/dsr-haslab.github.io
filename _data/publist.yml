@@ -1,5 +1,6 @@
 - year: 2022
-  - title: "PAIO: General, Portable I/O Optimizations With Minor Application Modifications" 
+  list:
+    - title: "PAIO: General, Portable I/O Optimizations With Minor Application Modifications" 
       authors: Macedo R, Tanimura Y, Haga J, Chidambaram V, Pereira J., Paulo J.
       where:  USENIX Conference on File and Storage Technologies (FAST)
       #link:
