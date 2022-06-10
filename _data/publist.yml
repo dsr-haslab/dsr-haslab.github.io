@@ -1,13 +1,22 @@
 - year: 2022
   list:
+    - title: "Accelerating Deep Learning Training Through Transparent Storage Tiering" 
+      authors: Dantas M, Leitão D, Cui P, Macedo R, Liu X, Xu W, Paulo J
+      where:  IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing (CCGrid)
+      #link:
+        #url: https://arxiv.org/abs/1712.08620
+        #display:  arxiv:1712.08620 (2017)
+      highlight: 4
+      #news2:
     - title: "PAIO: General, Portable I/O Optimizations With Minor Application Modifications" 
-      authors: Macedo R, Tanimura Y, Haga J, Chidambaram V, Pereira J., Paulo J.
+      authors: Macedo R, Tanimura Y, Haga J, Chidambaram V, Pereira J, Paulo J.
       where:  USENIX Conference on File and Storage Technologies (FAST)
       #link:
         #url: https://arxiv.org/abs/1712.08620
         #display:  arxiv:1712.08620 (2017)
       highlight: 2
-      #news2: 
+      #news2:
+     
 
 - year: 2021
   list:
@@ -142,7 +151,7 @@
     #link:
       #url: https://arxiv.org/abs/1712.08620
       #display:  arxiv:1712.08620 (2017)
-    highlight: 4
+    highlight: 0
     #news2: 
   - title: "On the Cost of Safe Storage for Public Clouds: an Experimental Evaluation"
     authors: Burihabwa D, Pontes R, Felber P, Maia F, Mercier H, Oliveira R, Paulo J, Schiavoni V
