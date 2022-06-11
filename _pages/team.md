@@ -82,11 +82,16 @@ HASLab members involved in distributed storage research:
 
 ## Alumni
 
+- Marco Dantas, MSc Thesis - Accelerating Deep Learning Training
+on High-Performance Computing with Storage Tiering, 2022.
+
+- Diogo Leitão, Research work on I/O optimizations for deep learning and persistent memory, 2022.   
+
 - Diogo Ribeiro, Research work on storage tiering, 2021.
 
 - Rogério Pontes, PhD Thesis - Trade-offs between privacy and efficiency on databases, 2021.
 
-- Diogo Leitão, MSc Thesis - RSafeFS: Modular File System for Remote Storage, 2021.
+- Diogo Leitão, MSc Thesis - RSafeFS: Modular File System for Remote Storage, 2021.   
 
 - Carlos Pedrosa, MSc Thesis - HIODS: Hybrid Inline and Offline Deduplication System, 2021.
 

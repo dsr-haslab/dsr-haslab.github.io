@@ -38,28 +38,12 @@
   ldin: https://www.linkedin.com/in/mariana-miranda-89a56a173/
   number_educ: 0
 
-- name: Diogo Leitão
-  photo: diogol.jpg
-  info: Researcher
-  email: diogo.l.leitao@inesctec.pt
-  git: https://github.com/diogolleitao
-  ldin: 
-  number_educ: 0
-
 - name: <a href="https://www.inesctec.pt/en/people/alberto-campinho-faria">Alberto Faria</a>
   photo: alberto.jpg
   info: MSc Student
   email: alberto.c.faria@inesctec.pt
   git: https://github.com/albertofaria/
   ldin:
-  number_educ: 0
-
-- name: Marco Dantas
-  photo: marco.jpg
-  info: MSc Student
-  email: marco.f.dantas@inesctec.pt
-  git: 
-  ldin: 
   number_educ: 0
 
 - name: César Borges
