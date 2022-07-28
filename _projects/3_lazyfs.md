@@ -2,7 +2,7 @@
 layout: project
 title: LazyFS
 description: Lazy Filesystem Project.
-type: 
+type: Collaboration with Jepsen, LLC
 img: lazy.png
 permalink: /projects/lazyfs
 redirect: 
