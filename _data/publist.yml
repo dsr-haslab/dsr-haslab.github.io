@@ -1,5 +1,13 @@
 - year: 2022
   list:
+    - title: "Protecting Metadata Servers From Harm Through Application-level I/O Control" 
+      authors: Macedo R, Miranda M, Tanimura Y, Haga J, Ruhela A, Harrell S, Evans T, Paulo J
+      where: Workshop on Re-envisioning Extreme-Scale I/O for Emerging Hybrid HPC Workloads (REX-IO), colocated with Cluster
+      #link:
+        #url: https://arxiv.org/abs/1712.08620
+        #display:  arxiv:1712.08620 (2017)
+      highlight: 0
+      #news2:
     - title: "Accelerating Deep Learning Training Through Transparent Storage Tiering" 
       authors: Dantas M, Leitão D, Cui P, Macedo R, Liu X, Xu W, Paulo J
       where:  IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing (CCGrid)
