@@ -87,6 +87,10 @@ on High-Performance Computing with Storage Tiering, 2022.
 
 - Diogo Leitão, Research work on I/O optimizations for deep learning and persistent memory, 2022.   
 
+- Alberto Faria, Research on userspace storage block devices, 2022.
+
+- César Borges, Research on fault-injection benchmarking, 2022.
+
 - Diogo Ribeiro, Research work on storage tiering, 2021.
 
 - Rogério Pontes, PhD Thesis - Trade-offs between privacy and efficiency on databases, 2021.

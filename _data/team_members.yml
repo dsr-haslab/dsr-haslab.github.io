@@ -30,28 +30,20 @@
   ldin: https://linkedin.com/in/tania-esteves
   number_educ: 0
 
+- name: <a href="https://www.inesctec.pt/pt/pessoas/claudia-vanessa-brito">Cláudia Brito</a>
+  photo: claudia.jpg
+  info: PhD student
+  git: https://github.com/claudiavmbrito
+  ldin: www.linkedin.com/in/claudiavmbrito
+  email: claudia.v.brito@inesctec.pt
+  number_educ: 0
+
 - name: Mariana Miranda
   photo: mariana.jpg
   info: PhD Student
   email: mariana.m.miranda@inesctec.pt
   git:
   ldin: https://www.linkedin.com/in/mariana-miranda-89a56a173/
-  number_educ: 0
-
-- name: <a href="https://www.inesctec.pt/en/people/alberto-campinho-faria">Alberto Faria</a>
-  photo: alberto.jpg
-  info: MSc Student
-  email: alberto.c.faria@inesctec.pt
-  git: https://github.com/albertofaria/
-  ldin:
-  number_educ: 0
-
-- name: César Borges
-  photo: cesar.jpg
-  info: MSc Student
-  email: cesar.a.borges@inesctec.pt
-  git: https://github.com/CesarAugustoBorges
-  ldin: https://www.linkedin.com/in/cesar-borges/
   number_educ: 0
 
 
@@ -92,7 +84,7 @@
 
 - name: Beatriz Moreira
   photo: beatriz.jpg
-  info: BSc Student
+  info: MSc Student
   email: maria.b.moreira@inesctec.pt
   git: 
   ldin: 
@@ -100,7 +92,7 @@
 
 - name: Pedro Peixoto
   photo: pedro.jpg
-  info: BSc Student
+  info: MSc Student
   email: jose.p.peixoto@inesctec.pt
   git: https://github.com/vaavaav
   ldin: 
@@ -108,11 +100,37 @@
 
 - name: Rúben Adão
   photo: ruben.jpg
-  info: BSc Student
+  info: MSc Student
   email: ruben.d.adao@inesctec.pt
   git: https://github.com/rubenadao
   ldin: 
   number_educ: 0
+
+- name: Maria Ramos
+  photo: maria.jpg
+  info: MSc Student
+  email: maria.j.ramos@inesctec.pt
+  git:  https://github.com/mj-ramos
+  ldin: https://www.linkedin.com/in/maria-ramos-33a7a7212/
+  number_educ: 0
+
+- name: Bruno Pereira
+  photo: bruno.jpg
+  info: MSc Student
+  email: bruno.f.pereira@inesctec.pt
+  git:  https://github.com/obrunofilipe
+  ldin:  https://www.linkedin.com/in/bruno-pereira-80a942227/
+  number_educ: 0
+
+- name: Rui Oliveira
+  photo: rui.jpg
+  info: BSc Student
+  email: rui.v.oliveira@inesctec.pt
+  git:  https://github.com/ruioliveira02
+  ldin: https://www.linkedin.com/in/rui-oliveira-031328258/
+  number_educ: 0
+
+
 
 - name: <a href="https://www.inesctec.pt/pt/pessoas/paula-cristina-rodrigues">Paula Rodrigues</a>
   photo: paula.jpg
