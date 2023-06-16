@@ -1,6 +1,6 @@
 - name: <a href="https://www.inesctec.pt/en/people/joao-tiago-paulo">João Paulo</a>
   photo: jtpaulo.jpg
-  info: Invited assistant professor
+  info: Assistant professor
   email: jtpaulo@inesctec.pt
   git: https://github.com/jtpaulo/
   ldin:
@@ -8,7 +8,7 @@
 
 - name: <a href="https://www.inesctec.pt/en/people/jose-orlando-pereira">José Pereira</a>
   photo: jop.jpg
-  info: Assistant professor
+  info: Associate professor
   email: jose.o.pereira@inesctec.pt
   git: https://github.com/jopereira
   ldin:
@@ -16,7 +16,7 @@
 
 - name: <a href="https://www.inesctec.pt/en/people/ricardo-goncalves-macedo">Ricardo Macedo</a>
   photo: rgmacedo.jpg
-  info: PhD student
+  info: Assistant Researcher
   email: ricardo.g.macedo@inesctec.pt
   git: https://github.com/ricardomacedo13
   ldin:
@@ -47,30 +47,12 @@
   number_educ: 0
 
 
-- name: João Azevedo
-  photo: jazevedo.jpg
-  info: MSc Student
-  email: a85227@alunos.uminho.pt
-  git: https://github.com/devzizu
-  ldin: https://www.linkedin.com/in/devzizu/
-  number_educ: 0
-
-
 - name: Alexandre Ferreira
   photo: aferreira.jpg
   info: MSc Student
   email: a84961@alunos.uminho.pt
   git: https://github.com/brancof
   ldin: https://www.linkedin.com/in/brancof/
-  number_educ: 0
-
-
-- name: Alexandre Miranda
-  photo: amiranda.jpg
-  info: MSc Student
-  email: a84462@alunos.uminho.pt
-  git: https://github.com/aemiranda7
-  ldin:
   number_educ: 0
 
 
