@@ -1,3 +1,9 @@
+- date: 1 June 2023
+  headline: "The paper Diagnosing applications’ I/O behavior through system call observability  was accepted at the DCDS workshop colocated with DSN!"
+- date: 1 February 2023
+  headline: "The paper Taming Metadata-intensive HPC Jobs Through Dynamic, Application-agnostic QoS Control was accepted at the CCGrid'23 conference!"
+- date: 21 January 2023
+  headline: "Ricardo Macedo has defended his PhD thesis entitled User-level Software-Defined Storage Data Planes. Congratulations!"
 - date: 25 May 2022
   headline: "The paper Accelerating Deep Learning Training Through Transparent Storage Tiering was presented at the CCGrid'22 conference!"
 - date: 24 February 2022
