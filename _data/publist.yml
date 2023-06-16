@@ -1,3 +1,23 @@
+- year: 2023
+  list:
+    - title: "Diagnosing applications’ I/O behavior through system call observability" 
+      authors: Esteves T, Macedo R, Oliveira R, Paulo J
+      where: Workshop on Data-Centric Dependability and Security (DCDS), colocated with DSN
+      #link:
+        #url: https://arxiv.org/abs/1712.08620
+        #display:  arxiv:1712.08620 (2017)
+      highlight: 3
+      #news2:
+    - title: "Taming Metadata-intensive HPC Jobs Through Dynamic, Application-agnostic QoS Control" 
+      authors: Macedo R, Miranda M, Tanimura Y, Haga J, Ruhela A, Harrell S, Evans T, Pereira J, Paulo J
+      where: IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing (CCGrid)
+      #link:
+        #url: https://arxiv.org/abs/1712.08620
+        #display:  arxiv:1712.08620 (2017)
+      highlight: 2
+      #news2:
+     
+
 - year: 2022
   list:
     - title: "Protecting Metadata Servers From Harm Through Application-level I/O Control" 
@@ -82,7 +102,7 @@
       #link:
         #url: https://arxiv.org/abs/1712.08620
         #display:  arxiv:1712.08620 (2017)
-      highlight: 2
+      highlight: 0
       #news2: 
     - title: "S2Dedup: SGX-enabled Secure Deduplication"
       authors: Miranda M, Esteves T, Portela B, Paulo J
@@ -209,7 +229,7 @@
     #link:
       #url: https://arxiv.org/abs/1712.08620
       #display:  arxiv:1712.08620 (2017)
-    highlight: 3
+    highlight: 0
     #news2: 
 
 
