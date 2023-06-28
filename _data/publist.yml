@@ -1,5 +1,13 @@
 - year: 2023
   list:
+    - title: "CRIBA: A Tool for Comprehensive Analysis of Cryptographic Ransomware's I/O Behavior" 
+      authors: Esteves T, Pereira B, P. Oliveira R, Marco J, Paulo J
+      where: IEEE International Symposium on Reliable Distributed Systems (SRDS)
+      #link:
+        #url: https://arxiv.org/abs/1712.08620
+        #display:  arxiv:1712.08620 (2017)
+      highlight: 3
+      #news2:
     - title: "Diagnosing applications’ I/O behavior through system call observability" 
       authors: Esteves T, Macedo R, Oliveira R, Paulo J
       where: Workshop on Data-Centric Dependability and Security (DCDS), colocated with DSN
@@ -218,7 +226,7 @@
     #link:
       #url: https://arxiv.org/abs/1712.08620
       #display:  arxiv:1712.08620 (2017)
-    highlight: 3
+    highlight: 0
     #news2: 
 
 - year: 2012
