@@ -32,13 +32,13 @@ The work on software-defined storage (SDS) aims at building a new generation of 
 
 ---
 
-### Storage Benchmarking and Monitoring
+### Storage Benchmarking and Diagnosing
 
-As the complexity of current storage solutions grows, it becomes increasingly harder to find proper benchmarking and monitoring tools to assess these systems' performance, resiliency and security. Our goals for this topic are to design:
+As the complexity of current storage solutions grows, it becomes increasingly harder to find proper benchmarking and diagnosing tools to assess these systems' performance, resiliency and security. Our goals for this topic are to design:
 
 - benchmarking solutions that can accurately evaluate storage systems by providing features such as realistic content generation, storage access patterns, data integrity validation, and fault injection,
 - benchmarking tools that ease the setup, reproducibility and analysis of experiments,
-- scalable black-box monitoring solutions for complex data-centric infrastructures.   
+- scalable black-box monitoring and diagnosing solutions for complex data-centric applications and systems.   
 
 #### Selected publications
 
