@@ -54,7 +54,7 @@ As the complexity of current storage solutions grows, it becomes increasingly ha
 
 ---
 
-### Storage Optimization
+### Storage Optimizations
 
 With the exponential increase of digital information it becomes critical to find novel designs and storage optimizations that can cope with the storage and retrieval of large amounts of data in a efficient, secure and dependable fashion. Our main research interests include:
 
