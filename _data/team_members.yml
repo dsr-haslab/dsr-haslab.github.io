@@ -46,24 +46,6 @@
   ldin: https://www.linkedin.com/in/mariana-miranda-89a56a173/
   number_educ: 0
 
-
-- name: Alexandre Ferreira
-  photo: aferreira.jpg
-  info: MSc Student
-  email: a84961@alunos.uminho.pt
-  git: https://github.com/brancof
-  ldin: https://www.linkedin.com/in/brancof/
-  number_educ: 0
-
-
-- name: Pedro Rodrigues
-  photo: prodrigues.jpg
-  info: MSc Student
-  email: a84783@alunos.uminho.pt
-  git: https://github.com/pedrordgs
-  ldin: https://www.linkedin.com/in/pedrombr/
-  number_educ: 0
-
 - name: Beatriz Moreira
   photo: beatriz.jpg
   info: MSc Student
@@ -106,12 +88,67 @@
 
 - name: Rui Oliveira
   photo: rui.jpg
-  info: BSc Student
+  info: MSc Student
   email: rui.v.oliveira@inesctec.pt
   git:  https://github.com/ruioliveira02
   ldin: https://www.linkedin.com/in/rui-oliveira-031328258/
   number_educ: 0
 
+- name: Sara Pereira
+  photo: sara.jpg
+  info: MSc Student
+  email: sara.l.pereira@inesctec.pt
+  git: https://github.com/Saralp20
+  ldin: https://www.linkedin.com/in/sara-lpereira
+  number_educ: 0
+
+- name: Mariana Amorim
+  photo: marianaa.jpg
+  info: MSc Student
+  email: mariana.a.amorim@inesctec.pt
+  git: https://github.com/MarianaCAA
+  ldin: 
+  number_educ: 0
+
+- name: José Fernandes
+  photo: jose.jpg
+  info: MSc Student
+  email: jose.p.fernandes@inesctec.pt
+  git: https://github.com/jpdiasfernandes
+  ldin: https://www.linkedin.com/in/josé-pedro-fernandes-4ba14b20b/
+  number_educ: 0
+
+- name: Diana Rodrigues
+  photo: diana.jpg
+  info: MSc Student
+  email: diana.a.rodrigues@inesctec.pt
+  git: https://github.com/dianarodrigues2
+  ldin: https://www.linkedin.com/in/dianarodrigues28
+  number_educ: 0
+
+- name: Guilherme Fernandes
+  photo: guilherme.jpg
+  info: MSc Student
+  email: guilherme.l.fernandes@inesctec.pt
+  git: https://github.com/zer0-5
+  ldin: https://www.linkedin.com/in/guilherme-fernandes-bb4863242
+  number_educ: 0
+
+- name: Francisco Neves
+  photo: francisco.jpg
+  info: MSc Student
+  email: francisco.a.neves@inesctec.pt
+  git: https://github.com/franl08
+  ldin: https://www.linkedin.com/in/franl08
+  number_educ: 0
+
+- name: Diogo Costa
+  photo: diogoc.jpg
+  info: BSc Student
+  email:  diogo.a.ribeiro@inesctec.pt
+  git: 
+  ldin: 
+  number_educ: 0
 
 
 - name: <a href="https://www.inesctec.pt/pt/pessoas/paula-cristina-rodrigues">Paula Rodrigues</a>

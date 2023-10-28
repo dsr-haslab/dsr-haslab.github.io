@@ -9,10 +9,9 @@ permalink: /tools/
 {% for tool in site.tools %}
 
 {% if tool.link %}
-[{{ tool.title }}]({{tool.link}})
+[{{ tool.title }}]({{tool.link}}): {{tool.description }}
 {% else %}
-[{{ tool.title }}]({{tool.url}})
+[{{ tool.title }}]({{tool.url}}): {{tool.description }}
 {% endif %}
 
-{{tool.description }}
 {% endfor %}

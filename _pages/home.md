@@ -50,7 +50,7 @@ Distributed storage research at [HASLab](https://www.inesctec.pt/en/centres/hasl
 </div>
 -->
 
-To this end, our research is focused on three main areas: **Software-Defined Storage**, **Storage Benchmarking and Diagnosis**, **Storage Optimization**. In detail, with these three areas we intend to provide a new generation of programmable distributed storage systems that can adapt to heterogeneous storage workloads and deployment infrastructures, proper benchmarking tools for evaluating such systems, and novel storage functionalities and optimizations that can further improve the performance, reliability, and security of current solutions (see [Research](research)).
+To this end, our research is focused on three main areas: **Software-Defined Storage**, **Storage Benchmarking and Diagnosis**, **Storage Optimization**. In detail, with these three areas we intend to provide a new generation of programmable distributed storage systems that can adapt to heterogeneous storage workloads and deployment infrastructures, proper benchmarking tools for evaluating such systems, and novel storage functionalities and optimizations that can further improve the performance, energy consumption, dependability, and security of current solutions (see [Research](research)).
 
 Our team is composed of researchers from the [High-Assurance Software Laboratory (HASLab)](https://www.inesctec.pt/en/centres/haslab), mainly from the Distributed Systems field. HASLab is one of the integrated R&D centres of [INESC TEC](https://www.inesctec.pt), a leading national associate laboratory, and a teaching and research subunit of the [University of Minho](http://www.uminho.pt), where it is headquartered.
 

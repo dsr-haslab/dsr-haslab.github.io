@@ -82,6 +82,10 @@ HASLab members involved in distributed storage research:
 
 ## Alumni
 
+- Pedro Rodrigues, MSc Thesis - Analysis of I/O patterns for Data Management Systems, 2023.
+
+- Alexandre Ferreira, MSc Thesis - Fault-tolerant and Large-scale Storage for POSIX-compliant Applications, 2023.
+
 - Alexandre Miranda, MSc Thesis - Realistic Assesment of Failures in the SPDK Platform, 2023.
 
 - João Azevedo, MSc Thesis - Realistic Fault Assessment for Distributed Storage Systems, 2022.
