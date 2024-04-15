@@ -77,7 +77,7 @@ permalink: /projects/
 </div>
 {% endif %}
 
-# Past/Present Collaborations
+# Present (and Past) Collaborations
 
 <figure class="fourth">
   <img src="{{ site.url }}{{ site.baseurl }}/images/prjpic/colabs.png" style="width: 800px">
