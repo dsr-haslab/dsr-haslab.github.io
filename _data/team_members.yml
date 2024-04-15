@@ -24,7 +24,7 @@
 
 - name: <a href="https://www.inesctec.pt/en/people/tania-conceicao-araujo">Tânia Esteves</a>
   photo: tania.jpg
-  info: PhD Student
+  info: Assistant Researcher
   email: tania.c.araujo@inesctec.pt
   git: https://github.com/taniaesteves
   ldin: https://linkedin.com/in/tania-esteves
@@ -46,12 +46,20 @@
   ldin: https://www.linkedin.com/in/mariana-miranda-89a56a173/
   number_educ: 0
 
-- name: Beatriz Moreira
-  photo: beatriz.jpg
-  info: MSc Student
-  email: maria.b.moreira@inesctec.pt
-  git: 
+- name: Rúben Adão
+  photo: ruben.jpg
+  info: PhD Student
+  email: ruben.d.adao@inesctec.pt
+  git: https://github.com/rubenadao
   ldin: 
+  number_educ: 0
+
+- name: Maria Ramos
+  photo: maria.jpg
+  info: PhD Student
+  email: maria.j.ramos@inesctec.pt
+  git:  https://github.com/mj-ramos
+  ldin: https://www.linkedin.com/in/maria-ramos-33a7a7212/
   number_educ: 0
 
 - name: Pedro Peixoto
@@ -60,22 +68,6 @@
   email: jose.p.peixoto@inesctec.pt
   git: https://github.com/vaavaav
   ldin: 
-  number_educ: 0
-
-- name: Rúben Adão
-  photo: ruben.jpg
-  info: MSc Student
-  email: ruben.d.adao@inesctec.pt
-  git: https://github.com/rubenadao
-  ldin: 
-  number_educ: 0
-
-- name: Maria Ramos
-  photo: maria.jpg
-  info: MSc Student
-  email: maria.j.ramos@inesctec.pt
-  git:  https://github.com/mj-ramos
-  ldin: https://www.linkedin.com/in/maria-ramos-33a7a7212/
   number_educ: 0
 
 - name: Bruno Pereira
@@ -142,10 +134,42 @@
   ldin: https://www.linkedin.com/in/franl08
   number_educ: 0
 
+- name: Carlos Machado
+  photo: carlosm.jpg
+  info: MSc Student
+  email:  
+  git: 
+  ldin: 
+  number_educ: 0
+
+- name: Gonçalo Sousa
+  photo: goncalos.jpg
+  info: MSc Student
+  email:  
+  git: 
+  ldin: 
+  number_educ: 0
+
+- name: André Ferreira
+  photo: andref.jpg
+  info: MSc Student
+  email:  
+  git: 
+  ldin: 
+  number_educ: 0
+
 - name: Diogo Costa
   photo: diogoc.jpg
   info: BSc Student
   email:  diogo.a.ribeiro@inesctec.pt
+  git: 
+  ldin: 
+  number_educ: 0
+
+- name: Bruno Gião
+  photo: brunog.jpg
+  info: BSc Student
+  email:  
   git: 
   ldin: 
   number_educ: 0

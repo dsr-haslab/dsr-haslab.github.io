@@ -82,6 +82,16 @@ HASLab members involved in distributed storage research:
 
 ## Alumni
 
+- Tânia Esteves, PhD Thesis - Flexible Tracing and Analysis of Applications’ I/O Behavior, 2024.
+
+- Rúben Adão, MSc Thesis - Co-designing Log-Structured Merge Key-Value Stores with a Non-Volatile Storage Hierarchy, 2024.
+
+- Maria Ramos, MSc Thesis - Reproducible Fault Injection for Local Storage Systems, 2024.
+
+- Maria Beatriz Moreira, MSc Thesis - I/O Optimizations for Distributed Deep Learning Training, 2024.
+
+- Ricardo Macedo, PhD Thesis - User-level Software-Defined Storage Data Planes, 2023.
+
 - Pedro Rodrigues, MSc Thesis - Analysis of I/O patterns for Data Management Systems, 2023.
 
 - Alexandre Ferreira, MSc Thesis - Fault-tolerant and Large-scale Storage for POSIX-compliant Applications, 2023.
