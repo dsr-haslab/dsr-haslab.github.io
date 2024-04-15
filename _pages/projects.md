@@ -76,3 +76,12 @@ permalink: /projects/
 {% if even_odd == 1 %}
 </div>
 {% endif %}
+
+# Past/Present Collaborations
+
+<figure class="fourth">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/colabs.png" style="width: 500px">
+</figure>
+
+
+
