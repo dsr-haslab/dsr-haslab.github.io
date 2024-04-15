@@ -1,10 +1,10 @@
 ---
 layout: project
-title: BigHPC
-description: A Management Framework for Consolidated Big Data and HPC.
+title: ATE
+description: Aliança para a Transição Energética.
 type: COMPETE 2020 
-img: bighpc.png
-permalink: /projects
+img: 
+permalink: https://www.inesctec.pt/pt/projetos/ate#
 redirect: 
 ---
 
