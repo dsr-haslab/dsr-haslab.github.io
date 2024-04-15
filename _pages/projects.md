@@ -80,7 +80,7 @@ permalink: /projects/
 # Past/Present Collaborations
 
 <figure class="fourth">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/colabs.png" style="width: 500px">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/prjpic/colabs.png" style="width: 800px">
 </figure>
 
 

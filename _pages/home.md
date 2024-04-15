@@ -61,7 +61,6 @@ Research at HASLab is anchored on a rigorous approach to three areas of Computer
 <!--We are grateful for funding from-->
 
 <figure class="fourth">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/haslab_logo.jpg" style="width: 180px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/inesctec_logo.jpg" style="width: 230px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/uminho_logo.png" style="width: 180px">
 </figure>
