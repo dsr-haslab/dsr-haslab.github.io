@@ -1,11 +1,17 @@
 ---
-title: "DSR @ HASLab - Projects"
-layout: gridlay
+title: "Projects"
+layout: default
+permalink: /projects
+classes: wide
 sitemap: false
-permalink: /projects/
+author_profile: false
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
 ---
 
-# Ongoing projects
+
+## Ongoing projects
 {% assign number_printed = 0 %}
 {% for project in site.projects %}
 {% assign even_odd = number_printed | modulo: 2 %}
@@ -18,12 +24,12 @@ permalink: /projects/
   <img class="img-responsive"  width="25%" style="float: left" src="{{ site.url }}{{ site.baseurl }}/images/prjpic/{{project.img }}"/>
   {% else %}
   <img class="img-responsive" src=""/>
-  {% endif %}   
+  {% endif %}
   {% if project.redirect %}
   [{{ project.title }}]({{project.redirect}})
   {% else %}
   [{{ project.title }}]({{project.url}})
-  {% endif %}  
+  {% endif %}
 
   **{{ project.type}}**
 
@@ -41,7 +47,7 @@ permalink: /projects/
 </div>
 {% endif %}
 
-# Past projects
+## Past projects
 {% assign number_printed = 0 %}
 {% for project in site.past_projects %}
 {% assign even_odd = number_printed | modulo: 2 %}
@@ -54,12 +60,12 @@ permalink: /projects/
   <img class="img-responsive"  width="25%" style="float: left" src="{{ site.url }}{{ site.baseurl }}/images/prjpic/{{project.img }}"/>
   {% else %}
   <img class="img-responsive" src=""/>
-  {% endif %}   
+  {% endif %}
   {% if project.redirect %}
   [{{ project.title }}]({{project.redirect}})
   {% else %}
   [{{ project.title }}]({{project.url}})
-  {% endif %}  
+  {% endif %}
 
   **{{ project.type}}**
 

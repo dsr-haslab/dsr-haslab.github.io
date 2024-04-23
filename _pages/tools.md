@@ -1,17 +1,72 @@
 ---
 title: "Tools"
-layout: page
-excerpt: "DBR @ HASLab - Tools"
+layout: default
+permalink: /tools
+classes: wide
+# excerpt: "Distributed Storage Research @ HASLab"
 sitemap: false
-permalink: /tools/
+author_profile: false
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+#   overlay_image: /assets/images/unsplash-image-1.jpg
+  actions:
+    - label: "DSR GitHub"
+      url: "https://github.com/dsrhaslab/"
 ---
 
-{% for tool in site.tools %}
+<script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>
+<script src="https://unpkg.com/magic-grid/dist/magic-grid.min.js"></script>
 
-{% if tool.link %}
-[{{ tool.title }}]({{tool.link}}): {{tool.description }}
-{% else %}
-[{{ tool.title }}]({{tool.url}}): {{tool.description }}
-{% endif %}
+<script src="jquery.github.min.js"></script>
 
-{% endfor %}
+<div class="tools" id="tools_section">
+    {% for tool in site.data.tools %}
+    <a href="{{ tool.repo }}" target="_blank">
+        <section>
+            <div class="section_title">{{ tool.name }}</div>
+            <div class="about_section">
+                <span style="display:block">{{ tool.description }}</span>
+            </div>
+        </section>
+    </a>
+    {% endfor %}
+</div>
+
+<script>
+
+    const magicProjectsGrid = new MagicGrid({
+      container: "#tools_section",
+      animate: false,
+      gutter: 10, // default gutter size
+      static: true,
+      useMin: false,
+      maxColumns: 4,
+      useTransform: true
+    });
+
+    $('#tools_section').children().each(function(i, obj) {
+      var href = $(this).attr('href');
+      href = href.replace("https://github.com/", "https://api.github.com/repos/");
+      var stargazers_count = -1;
+      var forks_count = -1
+      jQuery.getJSON(href, function(res) {
+        stargazers_count = res.stargazers_count
+        forks_count = res.forks_count
+      });
+      if (stargazers_count>-1) {
+        $(this).find("section").append($('<div class="bottom_section"><span><i class="fas fa-star"></i>&nbsp;'+stargazers_count+'</span><span><i class="fas fa-code-branch"></i>&nbsp;'+forks_count+'</span></div>'));
+      };
+    });
+
+    $("document").ready(() => {
+      magicProjectsGrid.listen();
+    });
+
+
+
+</script>

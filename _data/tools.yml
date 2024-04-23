@@ -1,0 +1,65 @@
+- name: Cheferd
+  description: Hierarchical Software-Defined Storage Control Plane
+  repo: https://github.com/dsrhaslab/cheferd
+  stargazers_count: 3
+  forks_count: 3
+
+- name: Criba
+  description: A Tool for Comprehensive Analysis of Cryptographic Ransomware's I/O Behavior
+  repo: https://github.com/dsrhaslab/criba
+
+- name: DIO
+  description: A tool for diagnosing applications I/O behavior through system call observability
+  repo: https://github.com/dsrhaslab/dio
+
+- name: LazyFS
+  description: A File System that forgets un-fsynced data
+  repo: https://github.com/dsrhaslab/lazyfs
+
+- name: PADLL
+  description: Programmable and Adaptable I/O for Dynamically Loaded Libraries
+  repo: https://github.com/dsrhaslab/padll
+
+- name: CaT
+  description: Content-aware tracing and analysis framework
+  repo: https://github.com/dsrhaslab/cat
+
+- name: PAIO
+  description: Library for building SDS data plane stages
+  repo: https://github.com/dsrhaslab/paio
+
+- name: PAV
+  description: Pods-as-Volumes (PAV) Kubernetes plugin
+  repo: https://github.com/albertofaria/pav
+
+- name: Prisma
+  description: Storage data plane for DL frameworks
+  repo: https://github.com/dsrhaslab/prisma
+
+- name: Monarch
+  description: Framework-agnostic middleware for hierarchical storage tiering
+  repo: https://github.com/dsrhaslab/monarch
+
+- name: S2Dedup
+  description: Trusted hardware-based privacy-preserving deduplication system
+  repo: https://github.com/marianasamiranda/S2Dedup
+
+- name: BDUS
+  description: Linux 4.0+ framework for developing block devices in user space
+  repo: https://github.com/albertofaria/bdus
+
+- name: SafeFS
+  description: A Modular Architecture for Secure User-Space File Systems
+  repo: https://github.com/safecloud-project/safefs
+
+- name: DEDISbench
+  description: Open-source I/O benchmark suitable for evaluating deduplication systems
+  repo: https://dsr-haslab.github.io/tools/6_dedisbench/
+
+- name: DEDIS
+  description: Open-source distributed post-processing deduplication system
+  repo: https://github.com/jtpaulo/dedisbench
+
+- name: qemu-Disksim
+  description: Simulated block device for QEMU
+  repo: https://github.com/jopereira/qemu-disksim

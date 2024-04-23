@@ -1,14 +1,19 @@
 ---
-title: "DSR - People"
-layout: gridlay
-excerpt: "DSR - People"
+title: "People"
+layout: default
+# excerpt: "DSR - People"
 sitemap: false
+classes: wide
 permalink: /people/
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/unsplash-image-1.jpg
 ---
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
-# People
+<!-- # People -->
 
 We are looking for new Postdocs, PhD students and Master/Bachelor students to join HASLab and work on storage research topics.<br>
 If you are interested in working with us, please send me an [email](mailto:jtpaulo@inesctec.pt).
@@ -32,29 +37,29 @@ HASLab members involved in distributed storage research:
   {% if member.git %} <span><a href="{{ member.git }}"><i class="fab fa-github fa-lg"></i></a></span> {% endif %}
   {% if member.ldin %} <span><a href="{{ member.ldin }}"><i class="fab fa-linkedin-in fa-lg"></i></a></span> {% endif %}
   <ul style="overflow: hidden">
-  
+
   {% if member.number_educ == 1 %}
   <li> {{ member.education1 }} </li>
   {% endif %}
-  
+
   {% if member.number_educ == 2 %}
   <li> {{ member.education1 }} </li>
   <li> {{ member.education2 }} </li>
   {% endif %}
-  
+
   {% if member.number_educ == 3 %}
   <li> {{ member.education1 }} </li>
   <li> {{ member.education2 }} </li>
   <li> {{ member.education3 }} </li>
   {% endif %}
-  
+
   {% if member.number_educ == 4 %}
   <li> {{ member.education1 }} </li>
   <li> {{ member.education2 }} </li>
   <li> {{ member.education3 }} </li>
   <li> {{ member.education4 }} </li>
   {% endif %}
- 
+
   {% if member.number_educ == 5 %}
   <li> {{ member.education1 }} </li>
   <li> {{ member.education2 }} </li>
@@ -62,7 +67,7 @@ HASLab members involved in distributed storage research:
   <li> {{ member.education4 }} </li>
   <li> {{ member.education5 }} </li>
   {% endif %}
-  
+
   </ul>
 </div>
 
@@ -103,7 +108,7 @@ HASLab members involved in distributed storage research:
 - Marco Dantas, MSc Thesis - Accelerating Deep Learning Training
 on High-Performance Computing with Storage Tiering, 2022.
 
-- Diogo Leitão, Research work on I/O optimizations for deep learning and persistent memory, 2022.   
+- Diogo Leitão, Research work on I/O optimizations for deep learning and persistent memory, 2022.
 
 - Alberto Faria, Research on userspace storage block devices, 2022.
 
@@ -113,7 +118,7 @@ on High-Performance Computing with Storage Tiering, 2022.
 
 - Rogério Pontes, PhD Thesis - Trade-offs between privacy and efficiency on databases, 2021.
 
-- Diogo Leitão, MSc Thesis - RSafeFS: Modular File System for Remote Storage, 2021.   
+- Diogo Leitão, MSc Thesis - RSafeFS: Modular File System for Remote Storage, 2021.
 
 - Carlos Pedrosa, MSc Thesis - HIODS: Hybrid Inline and Offline Deduplication System, 2021.
 
@@ -133,7 +138,7 @@ on High-Performance Computing with Storage Tiering, 2022.
 ## Previous Members
 <table align="center" style="width:100%">
 <tr><th>Visitors</th>
-    <th>Master Students</th> 
+    <th>Master Students</th>
     <th>Bachelor Students</th>
   </tr>
   <tr>
@@ -141,7 +146,7 @@ on High-Performance Computing with Storage Tiering, 2022.
     <td></td>
     <td>Pedro Reis, 2012/2013</td>
   </tr>
-</table> 
+</table>
 
 -->
 

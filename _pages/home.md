@@ -1,18 +1,20 @@
 ---
-title: "DSR @ HASLab - Home"
-layout: homelay
-excerpt: "Distributed Storage Research @ HASLab"
-sitemap: false
+# title: "DSR @ HASLab - Home"
+# layout: home
 permalink: /
+classes: wide
+# excerpt: "Distributed Storage Research @ HASLab"
+sitemap: false
+author_profile: false
 ---
 
 
-Distributed storage research at [HASLab](https://www.inesctec.pt/en/centres/haslab) is motivated by the observation that storage systems are a cornerstone component for a wide range of research and industrial areas such as, cloud computing, high-performance computing, internet-of-things, databases, and artificial inteligence. Moreover, our research is driven by the need of such systems to provide efficient, scalable, resilient and secure solutions that can adapt to the exponential increase of digital information and to the different needs of very heterogeneous applications and infrastructures. 
+Distributed storage research at [HASLab](https://www.inesctec.pt/en/centres/haslab) is motivated by the observation that storage systems are a cornerstone component for a wide range of research and industrial areas such as, cloud computing, high-performance computing, internet-of-things, databases, and artificial inteligence. Moreover, our research is driven by the need of such systems to provide efficient, scalable, resilient and secure solutions that can adapt to the exponential increase of digital information and to the different needs of very heterogeneous applications and infrastructures.
 
-<!-- 
+<!--
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
-    
+
     <ol class="carousel-indicators">
         <li data-target="#carousel" data-slide-to="0" class="active"></li>
         <li data-target="#carousel" data-slide-to="1"></li>
@@ -38,7 +40,7 @@ Distributed storage research at [HASLab](https://www.inesctec.pt/en/centres/hasl
         <div class="item">
             <img src="{{ site.url }}{{ site.baseurl }}/images/" alt="Slide 5" />
         </div>
-    </div> 
+    </div>
   <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
     <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
@@ -57,13 +59,13 @@ Our team is composed of researchers from the [High-Assurance Software Laboratory
 Research at HASLab is anchored on a rigorous approach to three areas of Computer Science: Software Engineering, Distributed Systems and Cryptography and Information Security. The laboratory's contributions to these areas range from fundamental research on formal methods and algorithms to applied research on tools and middleware that address real-world demands stemming from long-term collaborations with industry.
 
 <!--**We are looking for PhD students, Postdocs, and Master students to join the team** [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies) **!** -->
- 
-<!--We are grateful for funding from-->
 
+<!--We are grateful for funding from-->
+<!--
 <figure class="fourth">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/inesctec_logo.jpg" style="width: 230px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/uminho_logo.png" style="width: 180px">
-</figure>
+</figure> -->
 
 
 

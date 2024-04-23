@@ -1,24 +1,21 @@
-<div id="footer" class="panel">
-  <div class="panel-footer">
-	<div class="container-fluid">
-	  <div class="row">
-		<div class="col-sm-8">
-              <p>We are part of the <a href="https://www.inesctec.pt/en/centres/haslab">High-Assurance Software Laboratory</a>, one of the integrated R&D centres of <a href="https://www.inesctec.pt">INESC TEC</a> and a subunit of <a href="https://www.uminho.pt">University of Minho</a>.</p>
-            <p>&copy 2018 HASLab. Site made with <a href="https://jekyllrb.com">Jekyll</a> and based on the template provided by <a href="http://www.allanlab.org">Allan Lab</a></p>
-            Google Analytics is used to improve the website. The privacy terms are available at <a href="http://www.google.com/policies/privacy/partners/">www.google.com/policies/privacy/partners/</a>.
-		</div>
-		<div class="col-sm-4">
-		  Address:<br />
-		  Departamento de Informática<br />
-		  Universidade do Minho, <br />
-		  Campus de Gualtar<br />
-          4710-057 Braga, Portugal<br />
-		</div>
-	  </div>
-	  <br>
-	</div>
-  </div>
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    {% if site.data.ui-text[site.locale].follow_label %}
+      <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
+    {% endif %}
+
+    {% if site.footer.links %}
+      {% for link in site.footer.links %}
+        {% if link.label and link.url %}
+          <li><a href="{{ link.url }}" rel="nofollow noopener noreferrer"><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i> {{ link.label }}</a></li>
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+
+    {% unless site.atom_feed.hide %}
+      <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ '/feed.xml' | relative_url }}{% endif %}"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
+    {% endunless %}
+  </ul>
 </div>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="{{ site.url }}{{ site.baseurl }}/js/bootstrap.min.js"></script>
+<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {{ site.data.ui-text[site.locale].powered_by | default: "Powered by" }} <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
