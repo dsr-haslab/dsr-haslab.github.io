@@ -52,15 +52,19 @@ header:
     $('#tools_section').children().each(function(i, obj) {
       var href = $(this).attr('href');
       href = href.replace("https://github.com/", "https://api.github.com/repos/");
-      var stargazers_count = -1;
-      var forks_count = -1
+      var stargazers_count = 03;
+      var forks_count = 03;
       jQuery.getJSON(href, function(res) {
-        stargazers_count = res.stargazers_count
-        forks_count = res.forks_count
+        stargazers_count = res.stargazers_count;
+        forks_count = res.forks_count;
+        console.log(stargazers_count);
+        console.log(forks_count);
+        console.log($(this));
+        if (stargazers_count>-1) {
+          $(obj).find("section").append($('<div class="bottom_section"><span><i class="fas fa-star"></i>&nbsp;'+stargazers_count+'</span><span><i class="fas fa-code-branch"></i>&nbsp;'+forks_count+'</span></div>'));
+        };
       });
-      if (stargazers_count>-1) {
-        $(this).find("section").append($('<div class="bottom_section"><span><i class="fas fa-star"></i>&nbsp;'+stargazers_count+'</span><span><i class="fas fa-code-branch"></i>&nbsp;'+forks_count+'</span></div>'));
-      };
+
     });
 
     $("document").ready(() => {

@@ -54,11 +54,11 @@
 
 - name: DEDISbench
   description: Open-source I/O benchmark suitable for evaluating deduplication systems
-  repo: https://dsr-haslab.github.io/tools/6_dedisbench/
+  repo: https://github.com/jtpaulo/dedisbench
 
 - name: DEDIS
   description: Open-source distributed post-processing deduplication system
-  repo: https://github.com/jtpaulo/dedisbench
+  repo: https://launchpad.net/holeycow/dedis-deduplication-system
 
 - name: qemu-Disksim
   description: Simulated block device for QEMU
