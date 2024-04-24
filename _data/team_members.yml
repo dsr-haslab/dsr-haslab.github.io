@@ -137,24 +137,24 @@
 - name: Carlos Machado
   photo: carlosm.jpg
   info: MSc Student
-  email:  
-  git: 
-  ldin: 
+  email: pg52675@alunos.uminho.pt
+  git: https://github.com/hiddenduck
+  ldin: https://www.linkedin.com/in/carlos-eduardo-silva-machado/
   number_educ: 0
 
 - name: Gonçalo Sousa
   photo: goncalos.jpg
   info: MSc Student
-  email:  
-  git: 
-  ldin: 
+  email: pg52682@alunos.uminho.pt
+  git: https://github.com/mirelois
+  ldin: www.linkedin.com/in/gonçalo-sousa-3bb683270
   number_educ: 0
 
 - name: André Ferreira
-  photo: andref.jpg
+  photo: alucena.jpg
   info: MSc Student
-  email:  
-  git: 
+  email: pg52672@alunos.uminho.pt
+  git: https://github.com/Lucenix
   ldin: 
   number_educ: 0
 
@@ -169,9 +169,9 @@
 - name: Bruno Gião
   photo: brunog.jpg
   info: BSc Student
-  email:  
-  git: 
-  ldin: 
+  email: bruno.d.giao@inesctec.pt
+  git: https://github.com/greybrunix
+  ldin: https://www.linkedin.com/in/bruno-giao/
   number_educ: 0
 
 
