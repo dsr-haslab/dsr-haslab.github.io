@@ -16,7 +16,7 @@ header:
 
 {% for project in site.data.projects %}
 {% if project.status == "ongoing" %}
-- **[{{ project.alias }}](/project/{{project.alias}})**: {{ project.name }}
+- **[{{ project.alias }}](/projects/{{project.alias}})**: {{ project.name }}
 {% endif %}
 {% endfor %}
 
@@ -27,7 +27,7 @@ header:
 
 {% for project in site.data.projects %}
 {% if project.status == "concluded" %}
-- **[{{ project.alias }}](/project/{{project.alias}})**: {{ project.name }}
+- **[{{ project.alias }}](/projects/{{project.alias}})**: {{ project.name }}
 {% endif %}
 {% endfor %}
 
