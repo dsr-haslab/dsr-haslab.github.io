@@ -1,6 +1,6 @@
 ---
 title: "Projects"
-layout: default
+layout: base
 permalink: /projects
 classes: wide
 sitemap: false
@@ -12,7 +12,28 @@ header:
 
 
 ## Ongoing projects
-{% assign number_printed = 0 %}
+<hr>
+
+{% for project in site.data.projects %}
+{% if project.status == "ongoing" %}
+- **[{{ project.alias }}]({{project.alias}})**: {{ project.name }}
+{% endif %}
+{% endfor %}
+
+
+
+## Concluded projects
+<hr>
+
+{% for project in site.data.projects %}
+{% if project.status == "concluded" %}
+- **[{{ project.alias }}]({{project.alias}})**: {{ project.name }}
+{% endif %}
+{% endfor %}
+
+<!-- ## OLD -->
+
+<!-- {% assign number_printed = 0 %}
 {% for project in site.projects %}
 {% assign even_odd = number_printed | modulo: 2 %}
 {% if even_odd == 0 %}
@@ -87,7 +108,4 @@ header:
 
 <figure class="fourth">
   <img src="{{ site.url }}{{ site.baseurl }}/images/prjpic/colabs.png" style="width: 800px">
-</figure>
-
-
-
+</figure> -->

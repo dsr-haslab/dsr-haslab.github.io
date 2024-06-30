@@ -1,0 +1,187 @@
+- name: Aliança para a Transição Energética
+  alias: ATE
+  description:
+  type: PRR
+  img:
+  status: ongoing
+  website: https://www.inesctec.pt/pt/projetos/ate#
+  duration:
+  partners:
+  external_collaborations:
+  financing:
+
+- name: Efficient and Secure Data Management for HPC and Cloud Computing
+  alias: ESDMHCC
+  description: International research project on the topics of data management and security.
+  type: CENTRA project
+  img: centra.jpg
+  status: ongoing
+  website: http://www.globalcentra.org/projects/#prv
+  duration:
+  partners:
+    - name: INESC TEC
+      country: Portugal
+      website: https://www.inesctec.pt/
+      # members:
+      #   - João Paulo
+      #   - Ricardo Macedo
+      #   - Tânia Esteves
+      #   - Cláudia Brito
+      #   - Cláudia Correia
+    - name: AIST
+      country: Japan
+      website: https://www.aist.go.jp/
+      # members:
+      #   - Yusuke Tanimura
+      #   - Jason Haga
+    - name: KISTI
+      country: South Korea
+      website: https://www.kisti.re.kr/
+      # members:
+      #   - Woojin Seok
+  external_collaborations:
+    - name: UT Austin
+      country: USA
+      website: https://www.utexas.edu/
+      # members:
+      #   - Vijay Chidambaram
+    - name: TACC
+      country: USA
+      website: https://www.tacc.utexas.edu/
+      # members:
+      #   - Weijia Xu
+  financing:
+
+- name: A Management Framework for Consolidated Big Data and HPC
+  alias: BigHPC
+  description:
+  type: COMPETE 2020
+  img: bighpc.png
+  status: concluded
+  website: http://bighpc.inesctec.pt
+  duration:
+  partners:
+    - name: Wavecom
+      country: Portugal
+      website: https://www.wavecom.pt/
+    - name: INESC TEC
+      country: Portugal
+      website: https://www.inesctec.pt/
+    - name: LIP
+      country: Portugal
+      website: https://www.lip.pt/
+    - name: MACC
+      country: Portugal
+      website: https://www.macc.pt/
+    - name: TACC
+      country: USA
+      website: https://www.tacc.utexas.edu/
+    - name: UT Austin
+      country: USA
+      website: https://www.utexas.edu/
+  external_collaborations:
+  financing: This work is financed by the ERDF – European Regional Development Fund through the Operational Programme for Competitiveness and Internationalisation - COMPETE 2020 Programme and by National Funds through the Portuguese funding agency, FCT - Fundação para a Ciência e a Tecnologia within project POCI-01-0247-FEDER-045924.
+
+- name: Lazy Filesystem Project
+  alias: LazyFS
+  description:
+  type: Collaboration with Jepsen, LLC
+  img: lazy.png
+  status: concluded
+  website:
+  duration:
+  partners:
+    - name: INESC TEC
+      country: Portugal
+      website: https://www.inesctec.pt/
+    - name: Jepsen, LLC
+      country: USA
+      website: https://jepsen.io/
+  external_collaborations:
+  financing:
+
+- name: Programmable and Adaptable Storage for AI-oriented HPC Ecosystems
+  alias: Pastor
+  description:
+  type: PT-UTAustin Exploratory project
+  img: pastor.png
+  status: concluded
+  website:
+  duration:
+  partners:
+    - name: INESC TEC
+      country: Portugal
+      role: Coordinator
+      website: https://www.inesctec.pt/
+    - name: TACC
+      country: USA
+      role: Coordinator
+      website: https://www.tacc.utexas.edu/
+    - name: MACC
+      country: Portugal
+      website: https://www.macc.pt/
+    - name: Hood College
+      country: USA
+      website: https://www.hood.edu/
+  external_collaborations:
+  financing: This work is funded by National Funds through the FCT - Fundação para a Ciência e a Tecnologia (Portuguese Foundation for Science and Technology) within project UTA-EXPL/CA/0075/2019.
+
+- name: Automating Crash-Consistency Testing for Persistent Memory
+  alias: ACTPM
+  description:
+  type: PT-UTAustin Exploratory project
+  img:
+  status: concluded
+  website: https://utaustinportugal.org/projects/act-pm-automating-crash-consistency-testing-for-persistent-memory/
+  duration:
+  partners:
+  external_collaborations:
+  financing:
+
+- name: Secure and Resilient Cloud Architecture
+  alias: SafeCloud
+  description:
+  type: EU H2020
+  img: safecloud.png
+  status: concluded
+  website:
+  duration:
+  partners:
+  external_collaborations:
+  financing:
+
+- name: Storage Security and Benchmarking Research
+  alias: JSA
+  description: Joint study agreement with IBM Research Haifa on storage research
+  type: JSA IBM Research Haifa
+  img:
+  status: concluded
+  website:
+  duration:
+  partners:
+    - name: INESC TEC
+      country: Portugal
+      website: https://www.inesctec.pt/
+      # members:
+      #   - João Paulo
+      #   - Ricardo Macedo
+      #   - Tânia Esteves
+    - name: IBM Research Haifa
+      country: Israel
+      website: https://www.research.ibm.com/labs/haifa/
+      # members:
+      #   - Danny Harnik
+  external_collaborations:
+  financing:
+
+- name: Resilient databases
+  alias: ReD
+  description: Generic, robust, and inexpensive shared-storage cluster from an off-the-shelf RDBMS
+  type: National FCT
+  img: red.png
+  status: concluded
+  website: http://red.lsd.di.uminho.pt/
+  duration:
+  partners:
+  external_collaborations:
+  financing:

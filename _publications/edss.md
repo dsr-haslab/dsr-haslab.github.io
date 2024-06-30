@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: "Publications"
-subtitle: "Efficient, dependable, and secure storage"
+excerpt: "Efficient, dependable, and secure storage"
 domain: edss
 permalink: /publications/edss/
 sitemap: false

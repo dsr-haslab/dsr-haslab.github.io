@@ -1,0 +1,79 @@
+---
+layout: default
+---
+
+<div id="main" role="main">
+  {% include sidebar.html %}
+
+  <div class="domain">
+    {% unless page.header.overlay_color or page.header.overlay_image %}
+    <h1 id="page-title" class="page__title">{{ page.title }}</h1>
+    {% endunless %}
+
+    {% assign my_project = site.data.projects | find:"alias", page.excerpt %}
+
+    <div id="container">
+      {% if my_project.img %}
+      <div id="img-container"><img src="/assets/images/prjpic/{{ my_project.img }}" style='height: 100%; width: 100%; object-fit: contain'></div>
+      {% endif %}
+      <div class="text-container">
+        {% if my_project.name %}<strong>Title: </strong>{{ my_project.name }}<br>{% endif %}
+        {% if my_project.type %}<strong>Type: </strong>{{ my_project.type }}<br>{% endif %}
+        {% if my_project.duration %} <strong>Duration: </strong>{{ my_project.duration }}<br>{% endif %}
+        {% if my_project.website %} <strong>Website: </strong><a href="{{ my_project.website }}">{{ my_project.website }}</a><br>{% endif %}
+      </div>
+    </div>
+
+
+    {% assign checkcontent = page.content | strip_newlines %}
+    {% if checkcontent != ""  %}
+        <h2>Description</h2>
+        <hr>
+        {{ content }}
+    {% endif %}
+
+
+
+    {% if my_project.partners %}
+    <h2>Partners</h2>
+    <hr>
+
+    <ul>
+    {% for partner in my_project.partners %}
+        <li><a href={{ partner.website }}>{{ partner.name }}</a>{% if partner.country %} ({{ partner.country }}){% endif %}{% if partner.role %} - {{ partner.role }}{% endif %}</li>
+        {% if partner.members %}
+            <ul>
+            {% for member in partner.members %}
+                <li>{{ member}}</li>
+            {% endfor %}
+            </ul>
+        {% endif %}
+    {% endfor %}
+    </ul>
+
+    {% endif %}
+
+    {% if my_project.external_collaborations %}
+    <h2>External Collaborations</h2>
+    <hr>
+
+    <ul>
+    {% for collaboration in my_project.external_collaborations %}
+    <li><a href={{ collaboration.website }}>{{ collaboration.name }}</a>{% if collaboration.country %} ({{ collaboration.country }}){% endif %}</li>
+    {% endfor %}
+    </ul>
+
+    {% endif %}
+
+
+    {% if my_project.funding %}
+
+    <h2>Financing</h2>
+    <hr>
+
+    <p>{{ my_project.financing }}</p>
+
+    {% endif %}
+
+  </div>
+</div>

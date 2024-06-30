@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: "Publications"
-subtitle: "Storage systems for modern data centers"
+excerpt: "Storage systems for modern data centers"
 domain: ssmdc
 permalink: /publications/ssmdc/
 sitemap: false

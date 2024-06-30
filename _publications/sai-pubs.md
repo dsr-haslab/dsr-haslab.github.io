@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: "Publications"
-subtitle: "Storage and AI"
+excerpt: "Storage and AI"
 domain: sai
 permalink: /publications/sai/
 sitemap: false

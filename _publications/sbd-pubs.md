@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: "Publications"
-subtitle: "Storage Benchmarking and Diagnosis"
+excerpt: "Storage Benchmarking and Diagnosis"
 domain: sbd
 permalink: /publications/sbd/
 sitemap: false

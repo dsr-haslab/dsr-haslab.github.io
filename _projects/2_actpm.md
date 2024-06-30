@@ -1,8 +1,8 @@
 ---
 layout: project
 title: Project
-excerpt: ATE
-permalink: /projects/ATE
+excerpt: ACTPM
+permalink: /projects/ACTPM
 classes: wide
 sitemap: false
 author_profile: false

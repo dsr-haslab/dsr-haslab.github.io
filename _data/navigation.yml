@@ -1,14 +1,14 @@
 # main links
 main:
-  - title: "Research"
+  - title: Research
     url: /research
-  - title: "Projects"
+  - title: Projects
     url: /projects
-  - title: "Publications"
+  - title: Publications
     url: /publications
-  - title: "Tools"
+  - title: Tools
     url: /tools
-  - title: "People"
+  - title: People
     url: /people
   # title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
