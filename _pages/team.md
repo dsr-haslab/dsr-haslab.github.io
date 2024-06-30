@@ -1,6 +1,6 @@
 ---
 title: "People"
-layout: default
+layout: base
 permalink: /people
 classes: wide
 sitemap: false
@@ -37,7 +37,7 @@ If you are interested in working with us, please send me an [email](mailto:jtpau
           <div class="col-sm-12 text-center contIt rel shSec it5">
             <div class="item pb50">
               <div class="lineBox pb10">
-                <div class="img bgi lazyload" data-src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" style="background-image: url(&quot;{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}&quot;);"></div>
+                <div class="img bgi lazyload" data-src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/{{ member.photo }}" style="background-image: url(&quot;{{ site.url }}{{ site.baseurl }}/assets/images/teampic/{{ member.photo }}&quot;);"></div>
                 <div class="cont sh" style="height: 118px;">
                   <div class="int">
                     <h5>{{ member.name }}</h5>

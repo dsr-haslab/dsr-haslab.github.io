@@ -1,4 +1,5 @@
 - name: João Paulo
+  id: joao.t.paulo
   photo: jtpaulo.jpg
   info: Assistant Professor<br>(Coordinator)
   email: jtpaulo@inesctec.pt
@@ -8,6 +9,7 @@
   inesctec_webpage: https://www.inesctec.pt/en/people/joao-tiago-paulo
 
 - name: José Pereira
+  id: jose.o.pereira
   photo: jop.jpg
   info: Associate Professor
   email: jose.o.pereira@inesctec.pt
@@ -17,6 +19,7 @@
   inesctec_webpage: https://www.inesctec.pt/en/people/jose-orlando-pereira
 
 - name: Ricardo Macedo
+  id: ricardo.g.macedo
   photo: rgmacedo.jpg
   info: Assistant Researcher
   email: ricardo.g.macedo@inesctec.pt
@@ -26,6 +29,7 @@
   inesctec_webpage: https://www.inesctec.pt/en/people/ricardo-goncalves-macedo
 
 - name: Tânia Esteves
+  id: tania.c.araujo
   photo: tania.jpg
   info: Assistant Researcher
   email: tania.c.araujo@inesctec.pt
@@ -35,6 +39,7 @@
   inesctec_webpage: https://www.inesctec.pt/en/people/tania-conceicao-araujo
 
 - name: Cláudia Brito
+  id: claudia.v.brito
   photo: claudia.jpg
   info: PhD student
   git: https://github.com/claudiavmbrito
@@ -44,6 +49,7 @@
   inesctec_webpage: https://www.inesctec.pt/pt/pessoas/claudia-vanessa-brito
 
 - name: Mariana Miranda
+  id: mariana.m.miranda
   photo: mariana.jpg
   info: PhD Student
   email: mariana.m.miranda@inesctec.pt
@@ -52,6 +58,7 @@
   number_educ: 1
 
 - name: Rúben Adão
+  id: ruben.d.adao
   photo: ruben.jpg
   info: PhD Student
   email: ruben.d.adao@inesctec.pt
@@ -60,6 +67,7 @@
   number_educ: 1
 
 - name: Maria Ramos
+  id: maria.j.ramos
   photo: maria.jpg
   info: PhD Student
   email: maria.j.ramos@inesctec.pt
@@ -68,6 +76,7 @@
   number_educ: 1
 
 - name: Pedro Peixoto
+  id: jose.p.peixoto
   photo: pedro.jpg
   info: MSc Student
   email: jose.p.peixoto@inesctec.pt
@@ -76,6 +85,7 @@
   number_educ: 2
 
 - name: Bruno Pereira
+  id: bruno.f.pereira
   photo: bruno.jpg
   info: MSc Student
   email: bruno.f.pereira@inesctec.pt
@@ -84,6 +94,7 @@
   number_educ: 2
 
 - name: Rui Oliveira
+  id: rui.v.oliveira
   photo: rui.jpg
   info: MSc Student
   email: rui.v.oliveira@inesctec.pt
@@ -92,6 +103,7 @@
   number_educ: 2
 
 - name: Sara Pereira
+  id: sara.l.pereira
   photo: sara.jpg
   info: MSc Student
   email: sara.l.pereira@inesctec.pt
@@ -100,6 +112,7 @@
   number_educ: 2
 
 - name: Mariana Amorim
+  id: mariana.a.amorim
   photo: marianaa.jpg
   info: MSc Student
   email: mariana.a.amorim@inesctec.pt
@@ -108,6 +121,7 @@
   number_educ: 2
 
 - name: José Fernandes
+  id: jose.p.fernandes
   photo: jose.jpg
   info: MSc Student
   email: jose.p.fernandes@inesctec.pt
@@ -116,6 +130,7 @@
   number_educ: 2
 
 - name: Diana Rodrigues
+  id: diana.a.rodrigues
   photo: diana.jpg
   info: MSc Student
   email: diana.a.rodrigues@inesctec.pt
@@ -124,6 +139,7 @@
   number_educ: 2
 
 - name: Guilherme Fernandes
+  id: guilherme.l.fernandes
   photo: guilherme.jpg
   info: MSc Student
   email: guilherme.l.fernandes@inesctec.pt
@@ -132,6 +148,7 @@
   number_educ: 2
 
 - name: Francisco Neves
+  id: francisco.a.neves
   photo: francisco.jpg
   info: MSc Student
   email: francisco.a.neves@inesctec.pt
@@ -140,6 +157,7 @@
   number_educ: 2
 
 - name: Carlos Machado
+  id: carlos.machado
   photo: carlosm.jpg
   info: MSc Student
   email:
@@ -148,6 +166,7 @@
   number_educ: 2
 
 - name: Gonçalo Sousa
+  id: goncalo.sousa
   photo: goncalos.jpg
   info: MSc Student
   email:
@@ -156,6 +175,7 @@
   number_educ: 2
 
 - name: André Ferreira
+  id: andre.ferreira
   photo: andref.jpg
   info: MSc Student
   email:
@@ -164,6 +184,7 @@
   number_educ: 2
 
 - name: Diogo Costa
+  id: diogo.a.ribeiro
   photo: diogoc.jpg
   info: BSc Student
   email:  diogo.a.ribeiro@inesctec.pt
@@ -172,6 +193,7 @@
   number_educ: 3
 
 - name: Bruno Gião
+  id: bruno.giao
   photo: brunog.jpg
   info: BSc Student
   email:
@@ -181,6 +203,7 @@
 
 
 - name: Paula Rodrigues
+  id: paula.c.rodrigues
   photo: paula.jpg
   info: Communication
   email: paula.c.rodrigues@inesctec.pt
@@ -188,4 +211,3 @@
   ldin:
   number_educ: 4
   inesctec_website: https://www.inesctec.pt/pt/pessoas/paula-cristina-rodrigues
-

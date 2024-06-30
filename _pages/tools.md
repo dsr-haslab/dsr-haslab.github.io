@@ -1,6 +1,6 @@
 ---
 title: "Tools"
-layout: default
+layout: base
 permalink: /tools
 classes: wide
 # excerpt: "Distributed Storage Research @ HASLab"

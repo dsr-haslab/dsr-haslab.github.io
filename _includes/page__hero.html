@@ -29,6 +29,7 @@
         {% else %}
           {{ page.title | default: site.title | markdownify | remove: "<p>" | remove: "</p>" }}
         {% endif %}
+        <br><small>{{page.subtitle}}</small>
       </h1>
       {% if page.tagline %}
         <p class="page__lead">{{ page.tagline | markdownify | remove: "<p>" | remove: "</p>" }}</p>

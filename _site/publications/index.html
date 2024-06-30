@@ -10,29 +10,31 @@
     <meta charset="utf-8">
 
 <!-- begin _includes/seo.html --><title>Publications - Distributed Storage Research @ HASLab</title>
-<meta name="description" content="Distributed Storage Research done at the High-Assurance Software Laboratory (HASLab)">
+<meta name="description" content="">
 
 
   <meta name="author" content="Your Name">
   
+  <meta property="article:author" content="Your Name">
+  
 
 
-<meta property="og:type" content="website">
+<meta property="og:type" content="article">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="Distributed Storage Research @ HASLab">
 <meta property="og:title" content="Publications">
 <meta property="og:url" content="http://localhost:4000/publications/">
 
 
-  <meta property="og:description" content="Distributed Storage Research done at the High-Assurance Software Laboratory (HASLab)">
-
-
-
-  <meta property="og:image" content="http://localhost:4000/assets/images/unsplash-image-1.jpg">
+  <meta property="og:description" content="">
 
 
 
 
+
+
+
+  <meta property="article:published_time" content="2024-06-30T12:35:01+01:00">
 
 
 
@@ -94,7 +96,9 @@
 
   </head>
 
-  <body class="layout--default wide">
+
+
+  <body class="layout--publication wide">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -148,7 +152,7 @@
 
 
 <div class="page__hero--overlay"
-  style="background-color: #000; background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/unsplash-image-1.jpg');"
+  style="background-color: #000; background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('');"
 >
   
     <div class="wrapper">
@@ -157,7 +161,11 @@
           Publications
 
         
+        <br><small></small>
       </h1>
+      
+        <p class="page__lead">
+</p>
       
       
 
@@ -176,113 +184,299 @@
   
 
     <div class="initial-content">
-      <!-- # Publications -->
+      <div id="main" role="main">
+  
 
-<h3>2023</h3>
-<ul>
-   
-   	<li><strong>Toward a practical and timely diagnosis of applications’ I/O behavior</strong>. Esteves T, Macedo R, Oliveira R, Paulo J. IEEE Access.</li>
-   
-   	<li><strong>CRIBA: A Tool for Comprehensive Analysis of Cryptographic Ransomware's I/O Behavior</strong>. Esteves T, Pereira B, P. Oliveira R, Marco J, Paulo J. IEEE International Symposium on Reliable Distributed Systems (SRDS).</li>
-   
-   	<li><strong>Diagnosing applications’ I/O behavior through system call observability</strong>. Esteves T, Macedo R, Oliveira R, Paulo J. Workshop on Data-Centric Dependability and Security (DCDS), colocated with DSN.</li>
-   
-   	<li><strong>Taming Metadata-intensive HPC Jobs Through Dynamic, Application-agnostic QoS Control</strong>. Macedo R, Miranda M, Tanimura Y, Haga J, Ruhela A, Harrell S, Evans T, Pereira J, Paulo J. IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing (CCGrid).</li>
-   
-	</ul>
+  <div class="publication">
+    
 
-<h3>2022</h3>
-<ul>
-   
-   	<li><strong>Protecting Metadata Servers From Harm Through Application-level I/O Control</strong>. Macedo R, Miranda M, Tanimura Y, Haga J, Ruhela A, Harrell S, Evans T, Paulo J. Workshop on Re-envisioning Extreme-Scale I/O for Emerging Hybrid HPC Workloads (REX-IO), colocated with Cluster.</li>
-   
-   	<li><strong>Accelerating Deep Learning Training Through Transparent Storage Tiering</strong>. Dantas M, Leitão D, Cui P, Macedo R, Liu X, Xu W, Paulo J. IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing (CCGrid).</li>
-   
-   	<li><strong>PAIO: General, Portable I/O Optimizations With Minor Application Modifications</strong>. Macedo R, Tanimura Y, Haga J, Chidambaram V, Pereira J, Paulo J.. USENIX Conference on File and Storage Technologies (FAST).</li>
-   
-	</ul>
+    <!-- # Publications -->
 
-<h3>2021</h3>
-<ul>
-   
-   	<li><strong>CaT: Content-aware Tracing and Analysis for Distributed Systems</strong>. Esteves T, Neves F, Oliveira R, Paulo J.. ACM/IFIP Middleware conference (Middleware).</li>
-   
-   	<li><strong>Pods-as-Volumes: Effortlessly Integrating Storage Systems and Middleware into Kubernetes</strong>. Faria A, Macedo R, Paulo J.. Workshop on Container Technologies and Container Clouds (WoC'21), colocated with Middleware.</li>
-   
-   	<li><strong>The Case for Storage Optimization Decoupling in Deep Learning Frameworks</strong>. Macedo R, Correia C, Dantas M, Brito C, Xu W, Tanimura Y, Haga J, Paulo J.. Workshop on Re-envisioning Extreme-Scale I/O for Emerging Hybrid HPC Workloads (REX-IO), colocated with Cluster.</li>
-   
-   	<li><strong>Monarch: Hierarchical Storage Management for Deep Learning Frameworks</strong>. Dantas M, Leitão D, Correia C, Macedo R, Xu W, Paulo J.. Workshop on Re-envisioning Extreme-Scale I/O for Emerging Hybrid HPC Workloads (REX-IO), colocated with Cluster.</li>
-   
-   	<li><strong>PAIO: A Software-Defined Storage Data Plane Framework</strong>. Macedo R, Tanimura Y, Haga J, Chidambaram V, Pereira J, Paulo J.. ArXiv – Computing Research Repository (CoRR).</li>
-   
-   	<li><strong>Realistic Assessment of Faults in Storage Systems</strong>. Borges C, Paulo J.. Workshop on High-Performance and Reliable Big Data (HPBD), colocated with SRDS. Available <a href="https://dsr-haslab.github.io/repository/bp21.pdf">here</a>.</li>
-   
-   	<li><strong>BDUS: Implementing Block Devices in User Space</strong>. Faria A, Macedo R, Pereira J, Paulo J.. ACM International Systems and Storage Conference (SYSTOR).</li>
-   
-   	<li><strong>S2Dedup: SGX-enabled Secure Deduplication</strong>. Miranda M, Esteves T, Portela B, Paulo J. ACM International Systems and Storage Conference (SYSTOR).</li>
-   
-   	<li><strong>GenoDedup: Similarity-Based Deduplication and Delta-Encoding for Genome Sequencing Data</strong>. Cogo V, Paulo J, Bessani, A. IEEE Transactions on Computers.</li>
-   
-	</ul>
+    
+    
+    <!-- [{&quot;title&quot;=&gt;&quot;When Amnesia Strikes: Understanding and Reproducing Data Loss Bugs with Fault Injection&quot;, &quot;authors&quot;=&gt;&quot;Ramos M, Azevedo J, Kingsbury K, Pereira J, Esteves T, Macedo R, &amp; Paulo J&quot;, &quot;where&quot;=&gt;&quot;PVLDB&quot;, &quot;domain&quot;=&gt;&quot;sbd&quot;, &quot;highlight&quot;=&gt;1, &quot;link&quot;=&gt;{&quot;url&quot;=&gt;nil, &quot;pdf&quot;=&gt;&quot;/assets/files/2024/lazyfs-vldb24-mariaramos.pdf&quot;, &quot;git&quot;=&gt;&quot;https://github.com/dsrhaslab/lazyfs&quot;}}] -->
+    
+    <h3>2024</h3>
+    <hr>
+    <ul>
+    
+        <li><strong>When Amnesia Strikes: Understanding and Reproducing Data Loss Bugs with Fault Injection</strong><br>Ramos M, Azevedo J, Kingsbury K, Pereira J, Esteves T, Macedo R, & Paulo J.<br>PVLDB, 2024.<div class="social-links" display="inline-block">
+        
+        <a href=/assets/files/2024/lazyfs-vldb24-mariaramos.pdf><i class="fas fa-fw fa-file-pdf zoom"></i></a>
+        <a href=https://github.com/dsrhaslab/lazyfs><i class="fas fa-fw fa-code zoom"></i></a>
+    </div><br></li>
+    
+    </ul>
+    
+    
+    
+    <!-- [{&quot;title&quot;=&gt;&quot;Toward a practical and timely diagnosis of applications&apos; I/O behavior&quot;, &quot;authors&quot;=&gt;&quot;Esteves T, Macedo R, Oliveira R &amp; Paulo J&quot;, &quot;where&quot;=&gt;&quot;IEEE Access&quot;, &quot;domain&quot;=&gt;&quot;sbd&quot;, &quot;highlight&quot;=&gt;1, &quot;link&quot;=&gt;{&quot;url&quot;=&gt;&quot;https://doi.org/10.1109/ACCESS.2023.3322104&quot;, &quot;pdf&quot;=&gt;&quot;/assets/files/2023/dio-access23-taniaesteves.pdf&quot;, &quot;git&quot;=&gt;&quot;https://github.com/dsrhaslab/dio&quot;}}, {&quot;title&quot;=&gt;&quot;CRIBA: A Tool for Comprehensive Analysis of Cryptographic Ransomware&apos;s I/O Behavior&quot;, &quot;authors&quot;=&gt;&quot;Esteves T, Pereira B, P. Oliveira R, Marco J &amp; Paulo J&quot;, &quot;where&quot;=&gt;&quot;IEEE International Symposium on Reliable Distributed Systems (SRDS)&quot;, &quot;domain&quot;=&gt;&quot;sbd&quot;, &quot;highlight&quot;=&gt;0, &quot;link&quot;=&gt;{&quot;url&quot;=&gt;&quot;https://doi.org/10.1109/SRDS60354.2023.00015&quot;, &quot;pdf&quot;=&gt;&quot;/assets/files/2023/criba-srds23-taniaesteves.pdf&quot;, &quot;git&quot;=&gt;&quot;https://github.com/dsrhaslab/criba&quot;}}, {&quot;title&quot;=&gt;&quot;Diagnosing applications&apos; I/O behavior through system call observability&quot;, &quot;authors&quot;=&gt;&quot;Esteves T, Macedo R, Oliveira R &amp; Paulo J&quot;, &quot;where&quot;=&gt;&quot;Workshop on Data-Centric Dependability and Security (DCDS), colocated with DSN&quot;, &quot;domain&quot;=&gt;&quot;sbd&quot;, &quot;highlight&quot;=&gt;0, &quot;link&quot;=&gt;{&quot;url&quot;=&gt;&quot;https://doi.org/10.1109/DSN-W58399.2023.00022&quot;, &quot;pdf&quot;=&gt;&quot;/assets/files/2023/dio-dcds23-taniaesteves.pdf&quot;, &quot;git&quot;=&gt;&quot;https://github.com/dsrhaslab/dio&quot;}}, {&quot;title&quot;=&gt;&quot;Taming Metadata-intensive HPC Jobs Through Dynamic, Application-agnostic QoS Control&quot;, &quot;authors&quot;=&gt;&quot;Macedo R, Miranda M, Tanimura Y, Haga J, Ruhela A, Harrell S, Evans T, Pereira J, Paulo J&quot;, &quot;where&quot;=&gt;&quot;IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing (CCGrid)&quot;, &quot;domain&quot;=&gt;&quot;ssmdc&quot;, &quot;link&quot;=&gt;{&quot;url&quot;=&gt;nil, &quot;pdf&quot;=&gt;nil, &quot;git&quot;=&gt;nil}, &quot;highlight&quot;=&gt;0}] -->
+    
+    <h3>2023</h3>
+    <hr>
+    <ul>
+    
+        <li><strong>Toward a practical and timely diagnosis of applications' I/O behavior</strong><br>Esteves T, Macedo R, Oliveira R & Paulo J.<br>IEEE Access, 2023.<div class="social-links" display="inline-block">
+        <a href=https://doi.org/10.1109/ACCESS.2023.3322104><i class="fas fa-fw fa-link zoom"></i></a>
+        <a href=/assets/files/2023/dio-access23-taniaesteves.pdf><i class="fas fa-fw fa-file-pdf zoom"></i></a>
+        <a href=https://github.com/dsrhaslab/dio><i class="fas fa-fw fa-code zoom"></i></a>
+    </div><br></li>
+    
+        <li><strong>CRIBA: A Tool for Comprehensive Analysis of Cryptographic Ransomware's I/O Behavior</strong><br>Esteves T, Pereira B, P. Oliveira R, Marco J & Paulo J.<br>IEEE International Symposium on Reliable Distributed Systems (SRDS), 2023.<div class="social-links" display="inline-block">
+        <a href=https://doi.org/10.1109/SRDS60354.2023.00015><i class="fas fa-fw fa-link zoom"></i></a>
+        <a href=/assets/files/2023/criba-srds23-taniaesteves.pdf><i class="fas fa-fw fa-file-pdf zoom"></i></a>
+        <a href=https://github.com/dsrhaslab/criba><i class="fas fa-fw fa-code zoom"></i></a>
+    </div><br></li>
+    
+        <li><strong>Diagnosing applications' I/O behavior through system call observability</strong><br>Esteves T, Macedo R, Oliveira R & Paulo J.<br>Workshop on Data-Centric Dependability and Security (DCDS), colocated with DSN, 2023.<div class="social-links" display="inline-block">
+        <a href=https://doi.org/10.1109/DSN-W58399.2023.00022><i class="fas fa-fw fa-link zoom"></i></a>
+        <a href=/assets/files/2023/dio-dcds23-taniaesteves.pdf><i class="fas fa-fw fa-file-pdf zoom"></i></a>
+        <a href=https://github.com/dsrhaslab/dio><i class="fas fa-fw fa-code zoom"></i></a>
+    </div><br></li>
+    
+        <li><strong>Taming Metadata-intensive HPC Jobs Through Dynamic, Application-agnostic QoS Control</strong><br>Macedo R, Miranda M, Tanimura Y, Haga J, Ruhela A, Harrell S, Evans T, Pereira J, Paulo J.<br>IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing (CCGrid), 2023.<div class="social-links" display="inline-block">
+        
+        
+        
+    </div><br></li>
+    
+    </ul>
+    
+    
+    
+    <!-- [{&quot;title&quot;=&gt;&quot;Protecting Metadata Servers From Harm Through Application-level I/O Control&quot;, &quot;authors&quot;=&gt;&quot;Macedo R, Miranda M, Tanimura Y, Haga J, Ruhela A, Harrell S, Evans T, Paulo J&quot;, &quot;where&quot;=&gt;&quot;Workshop on Re-envisioning Extreme-Scale I/O for Emerging Hybrid HPC Workloads (REX-IO), colocated with Cluster&quot;, &quot;domain&quot;=&gt;&quot;ssmdc&quot;, &quot;link&quot;=&gt;{&quot;url&quot;=&gt;nil, &quot;pdf&quot;=&gt;nil, &quot;git&quot;=&gt;nil}, &quot;highlight&quot;=&gt;0}, {&quot;title&quot;=&gt;&quot;Accelerating Deep Learning Training Through Transparent Storage Tiering&quot;, &quot;authors&quot;=&gt;&quot;Dantas M, Leitão D, Cui P, Macedo R, Liu X, Xu W, Paulo J&quot;, &quot;where&quot;=&gt;&quot;IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing (CCGrid)&quot;, &quot;domain&quot;=&gt;&quot;sai&quot;, &quot;link&quot;=&gt;{&quot;url&quot;=&gt;nil, &quot;pdf&quot;=&gt;nil, &quot;git&quot;=&gt;nil}, &quot;highlight&quot;=&gt;0}, {&quot;title&quot;=&gt;&quot;PAIO: General, Portable I/O Optimizations With Minor Application Modifications&quot;, &quot;authors&quot;=&gt;&quot;Macedo R, Tanimura Y, Haga J, Chidambaram V, Pereira J, Paulo J.&quot;, &quot;where&quot;=&gt;&quot;USENIX Conference on File and Storage Technologies (FAST)&quot;, &quot;domain&quot;=&gt;&quot;ssmdc&quot;, &quot;link&quot;=&gt;{&quot;url&quot;=&gt;nil, &quot;pdf&quot;=&gt;nil, &quot;git&quot;=&gt;nil}, &quot;highlight&quot;=&gt;0}] -->
+    
+    <h3>2022</h3>
+    <hr>
+    <ul>
+    
+        <li><strong>Protecting Metadata Servers From Harm Through Application-level I/O Control</strong><br>Macedo R, Miranda M, Tanimura Y, Haga J, Ruhela A, Harrell S, Evans T, Paulo J.<br>Workshop on Re-envisioning Extreme-Scale I/O for Emerging Hybrid HPC Workloads (REX-IO), colocated with Cluster, 2022.<div class="social-links" display="inline-block">
+        
+        
+        
+    </div><br></li>
+    
+        <li><strong>Accelerating Deep Learning Training Through Transparent Storage Tiering</strong><br>Dantas M, Leitão D, Cui P, Macedo R, Liu X, Xu W, Paulo J.<br>IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing (CCGrid), 2022.<div class="social-links" display="inline-block">
+        
+        
+        
+    </div><br></li>
+    
+        <li><strong>PAIO: General, Portable I/O Optimizations With Minor Application Modifications</strong><br>Macedo R, Tanimura Y, Haga J, Chidambaram V, Pereira J, Paulo J..<br>USENIX Conference on File and Storage Technologies (FAST), 2022.<div class="social-links" display="inline-block">
+        
+        
+        
+    </div><br></li>
+    
+    </ul>
+    
+    
+    
+    <!-- [{&quot;title&quot;=&gt;&quot;CaT: Content-aware Tracing and Analysis for Distributed Systems&quot;, &quot;authors&quot;=&gt;&quot;Esteves T, Neves F, Oliveira R &amp; Paulo J&quot;, &quot;where&quot;=&gt;&quot;ACM/IFIP Middleware conference (Middleware)&quot;, &quot;domain&quot;=&gt;&quot;sbd&quot;, &quot;highlight&quot;=&gt;1, &quot;link&quot;=&gt;{&quot;url&quot;=&gt;&quot;https://doi.org/10.1145/3464298.3493396&quot;, &quot;pdf&quot;=&gt;&quot;/assets/files/2021/cat-middleware21-taniaesteves.pdf&quot;, &quot;git&quot;=&gt;&quot;https://github.com/dsrhaslab/cat&quot;}}, {&quot;title&quot;=&gt;&quot;Pods-as-Volumes: Effortlessly Integrating Storage Systems and Middleware into Kubernetes&quot;, &quot;authors&quot;=&gt;&quot;Faria A, Macedo R, Paulo J&quot;, &quot;where&quot;=&gt;&quot;Workshop on Container Technologies and Container Clouds (WoC&apos;21), colocated with Middleware&quot;, &quot;domain&quot;=&gt;&quot;edss&quot;, &quot;link&quot;=&gt;{&quot;url&quot;=&gt;nil, &quot;pdf&quot;=&gt;nil, &quot;git&quot;=&gt;nil}, &quot;highlight&quot;=&gt;0}, {&quot;title&quot;=&gt;&quot;The Case for Storage Optimization Decoupling in Deep Learning Frameworks&quot;, &quot;authors&quot;=&gt;&quot;Macedo R, Correia C, Dantas M, Brito C, Xu W, Tanimura Y, Haga J, Paulo J&quot;, &quot;where&quot;=&gt;&quot;Workshop on Re-envisioning Extreme-Scale I/O for Emerging Hybrid HPC Workloads (REX-IO), colocated with Cluster&quot;, &quot;domain&quot;=&gt;&quot;sai&quot;, &quot;link&quot;=&gt;{&quot;url&quot;=&gt;nil, &quot;pdf&quot;=&gt;nil, &quot;git&quot;=&gt;nil}, &quot;highlight&quot;=&gt;0}, {&quot;title&quot;=&gt;&quot;Monarch: Hierarchical Storage Management for Deep Learning Frameworks&quot;, &quot;authors&quot;=&gt;&quot;Dantas M, Leitão D, Correia C, Macedo R, Xu W, Paulo J&quot;, &quot;where&quot;=&gt;&quot;Workshop on Re-envisioning Extreme-Scale I/O for Emerging Hybrid HPC Workloads (REX-IO), colocated with Cluster&quot;, &quot;domain&quot;=&gt;&quot;sai&quot;, &quot;link&quot;=&gt;{&quot;url&quot;=&gt;nil, &quot;pdf&quot;=&gt;nil, &quot;git&quot;=&gt;nil}, &quot;highlight&quot;=&gt;0}, {&quot;title&quot;=&gt;&quot;PAIO: A Software-Defined Storage Data Plane Framework&quot;, &quot;authors&quot;=&gt;&quot;Macedo R, Tanimura Y, Haga J, Chidambaram V, Pereira J, Paulo J&quot;, &quot;where&quot;=&gt;&quot;ArXiv – Computing Research Repository (CoRR)&quot;, &quot;domain&quot;=&gt;&quot;ssmdc&quot;, &quot;link&quot;=&gt;{&quot;url&quot;=&gt;nil, &quot;pdf&quot;=&gt;nil, &quot;git&quot;=&gt;nil}, &quot;highlight&quot;=&gt;0}, {&quot;title&quot;=&gt;&quot;Realistic Assessment of Faults in Storage Systems&quot;, &quot;authors&quot;=&gt;&quot;Borges C, Paulo J.&quot;, &quot;where&quot;=&gt;&quot;Workshop on High-Performance and Reliable Big Data (HPBD), colocated with SRDS&quot;, &quot;domain&quot;=&gt;&quot;sbd&quot;, &quot;link&quot;=&gt;{&quot;url&quot;=&gt;nil, &quot;pdf&quot;=&gt;&quot;/assets/files/2021/achillesbench-hpbd21-cesarborges.pdf&quot;, &quot;git&quot;=&gt;nil}, &quot;highlight&quot;=&gt;0}, {&quot;title&quot;=&gt;&quot;BDUS: Implementing Block Devices in User Space&quot;, &quot;authors&quot;=&gt;&quot;Faria A, Macedo R, Pereira J, Paulo J.&quot;, &quot;where&quot;=&gt;&quot;ACM International Systems and Storage Conference (SYSTOR)&quot;, &quot;domain&quot;=&gt;&quot;edss&quot;, &quot;link&quot;=&gt;{&quot;url&quot;=&gt;nil, &quot;pdf&quot;=&gt;nil, &quot;git&quot;=&gt;nil}, &quot;highlight&quot;=&gt;0}, {&quot;title&quot;=&gt;&quot;S2Dedup: SGX-enabled Secure Deduplication&quot;, &quot;authors&quot;=&gt;&quot;Miranda M, Esteves T, Portela B, Paulo J&quot;, &quot;where&quot;=&gt;&quot;ACM International Systems and Storage Conference (SYSTOR)&quot;, &quot;domain&quot;=&gt;&quot;edss&quot;, &quot;link&quot;=&gt;{&quot;url&quot;=&gt;nil, &quot;pdf&quot;=&gt;nil, &quot;git&quot;=&gt;nil}, &quot;highlight&quot;=&gt;0}, {&quot;title&quot;=&gt;&quot;GenoDedup: Similarity-Based Deduplication and Delta-Encoding for Genome Sequencing Data&quot;, &quot;authors&quot;=&gt;&quot;Cogo V, Paulo J, Bessani, A&quot;, &quot;where&quot;=&gt;&quot;IEEE Transactions on Computers&quot;, &quot;domain&quot;=&gt;&quot;edss&quot;, &quot;link&quot;=&gt;{&quot;url&quot;=&gt;nil, &quot;pdf&quot;=&gt;nil, &quot;git&quot;=&gt;nil}, &quot;highlight&quot;=&gt;0}] -->
+    
+    <h3>2021</h3>
+    <hr>
+    <ul>
+    
+        <li><strong>CaT: Content-aware Tracing and Analysis for Distributed Systems</strong><br>Esteves T, Neves F, Oliveira R & Paulo J.<br>ACM/IFIP Middleware conference (Middleware), 2021.<div class="social-links" display="inline-block">
+        <a href=https://doi.org/10.1145/3464298.3493396><i class="fas fa-fw fa-link zoom"></i></a>
+        <a href=/assets/files/2021/cat-middleware21-taniaesteves.pdf><i class="fas fa-fw fa-file-pdf zoom"></i></a>
+        <a href=https://github.com/dsrhaslab/cat><i class="fas fa-fw fa-code zoom"></i></a>
+    </div><br></li>
+    
+        <li><strong>Pods-as-Volumes: Effortlessly Integrating Storage Systems and Middleware into Kubernetes</strong><br>Faria A, Macedo R, Paulo J.<br>Workshop on Container Technologies and Container Clouds (WoC'21), colocated with Middleware, 2021.<div class="social-links" display="inline-block">
+        
+        
+        
+    </div><br></li>
+    
+        <li><strong>The Case for Storage Optimization Decoupling in Deep Learning Frameworks</strong><br>Macedo R, Correia C, Dantas M, Brito C, Xu W, Tanimura Y, Haga J, Paulo J.<br>Workshop on Re-envisioning Extreme-Scale I/O for Emerging Hybrid HPC Workloads (REX-IO), colocated with Cluster, 2021.<div class="social-links" display="inline-block">
+        
+        
+        
+    </div><br></li>
+    
+        <li><strong>Monarch: Hierarchical Storage Management for Deep Learning Frameworks</strong><br>Dantas M, Leitão D, Correia C, Macedo R, Xu W, Paulo J.<br>Workshop on Re-envisioning Extreme-Scale I/O for Emerging Hybrid HPC Workloads (REX-IO), colocated with Cluster, 2021.<div class="social-links" display="inline-block">
+        
+        
+        
+    </div><br></li>
+    
+        <li><strong>PAIO: A Software-Defined Storage Data Plane Framework</strong><br>Macedo R, Tanimura Y, Haga J, Chidambaram V, Pereira J, Paulo J.<br>ArXiv – Computing Research Repository (CoRR), 2021.<div class="social-links" display="inline-block">
+        
+        
+        
+    </div><br></li>
+    
+        <li><strong>Realistic Assessment of Faults in Storage Systems</strong><br>Borges C, Paulo J..<br>Workshop on High-Performance and Reliable Big Data (HPBD), colocated with SRDS, 2021.<div class="social-links" display="inline-block">
+        
+        <a href=/assets/files/2021/achillesbench-hpbd21-cesarborges.pdf><i class="fas fa-fw fa-file-pdf zoom"></i></a>
+        
+    </div><br></li>
+    
+        <li><strong>BDUS: Implementing Block Devices in User Space</strong><br>Faria A, Macedo R, Pereira J, Paulo J..<br>ACM International Systems and Storage Conference (SYSTOR), 2021.<div class="social-links" display="inline-block">
+        
+        
+        
+    </div><br></li>
+    
+        <li><strong>S2Dedup: SGX-enabled Secure Deduplication</strong><br>Miranda M, Esteves T, Portela B, Paulo J.<br>ACM International Systems and Storage Conference (SYSTOR), 2021.<div class="social-links" display="inline-block">
+        
+        
+        
+    </div><br></li>
+    
+        <li><strong>GenoDedup: Similarity-Based Deduplication and Delta-Encoding for Genome Sequencing Data</strong><br>Cogo V, Paulo J, Bessani, A.<br>IEEE Transactions on Computers, 2021.<div class="social-links" display="inline-block">
+        
+        
+        
+    </div><br></li>
+    
+    </ul>
+    
+    
+    
+    <!-- [{&quot;title&quot;=&gt;&quot;A Survey and Classification of Software-Defined Storage Systems&quot;, &quot;authors&quot;=&gt;&quot;Macedo R, Paulo J, Pereira J, Bessani, A&quot;, &quot;where&quot;=&gt;&quot;ACM Computing Surveys&quot;, &quot;domain&quot;=&gt;&quot;ssmdc&quot;, &quot;link&quot;=&gt;{&quot;url&quot;=&gt;nil, &quot;pdf&quot;=&gt;nil, &quot;git&quot;=&gt;nil}, &quot;highlight&quot;=&gt;0}] -->
+    
+    <h3>2020</h3>
+    <hr>
+    <ul>
+    
+        <li><strong>A Survey and Classification of Software-Defined Storage Systems</strong><br>Macedo R, Paulo J, Pereira J, Bessani, A.<br>ACM Computing Surveys, 2020.<div class="social-links" display="inline-block">
+        
+        
+        
+    </div><br></li>
+    
+    </ul>
+    
+    
+    
+    <!-- [{&quot;title&quot;=&gt;&quot;A Case for Dynamically Programmable Storage Background Tasks&quot;, &quot;authors&quot;=&gt;&quot;Macedo R, Faria A, Paulo J, Pereira J&quot;, &quot;where&quot;=&gt;&quot;Workshop on Distributed and Reliable Storage Systems (DRSS), colocated with SRDS&quot;, &quot;domain&quot;=&gt;&quot;ssmdc&quot;, &quot;link&quot;=&gt;{&quot;url&quot;=&gt;nil, &quot;pdf&quot;=&gt;nil, &quot;git&quot;=&gt;nil}, &quot;highlight&quot;=&gt;0}, {&quot;title&quot;=&gt;&quot;TrustFS: An SGX-Enabled Stackable File System Framework&quot;, &quot;authors&quot;=&gt;&quot;Esteves T, Macedo R, Faria A, Portela B, Paulo J, Pereira J, Harnik D&quot;, &quot;where&quot;=&gt;&quot;Workshop on Distributed and Reliable Storage Systems (DRSS), colocated with SRDS&quot;, &quot;domain&quot;=&gt;&quot;edss&quot;, &quot;link&quot;=&gt;{&quot;url&quot;=&gt;nil, &quot;pdf&quot;=&gt;nil, &quot;git&quot;=&gt;nil}, &quot;highlight&quot;=&gt;0}] -->
+    
+    <h3>2019</h3>
+    <hr>
+    <ul>
+    
+        <li><strong>A Case for Dynamically Programmable Storage Background Tasks</strong><br>Macedo R, Faria A, Paulo J, Pereira J.<br>Workshop on Distributed and Reliable Storage Systems (DRSS), colocated with SRDS, 2019.<div class="social-links" display="inline-block">
+        
+        
+        
+    </div><br></li>
+    
+        <li><strong>TrustFS: An SGX-Enabled Stackable File System Framework</strong><br>Esteves T, Macedo R, Faria A, Portela B, Paulo J, Pereira J, Harnik D.<br>Workshop on Distributed and Reliable Storage Systems (DRSS), colocated with SRDS, 2019.<div class="social-links" display="inline-block">
+        
+        
+        
+    </div><br></li>
+    
+    </ul>
+    
+    
+    
+    <!-- [{&quot;title&quot;=&gt;&quot;DDFlasks: Deduplicated Very Large Scale Data Store&quot;, &quot;authors&quot;=&gt;&quot;Maia F, Paulo J, Coelho F, Neves F, Pereira J, Oliveira R&quot;, &quot;where&quot;=&gt;&quot;Distributed Applications and Interoperable Systems (DAIS)&quot;, &quot;domain&quot;=&gt;&quot;edss&quot;, &quot;link&quot;=&gt;{&quot;url&quot;=&gt;nil, &quot;pdf&quot;=&gt;nil, &quot;git&quot;=&gt;nil}, &quot;highlight&quot;=&gt;0}, {&quot;title&quot;=&gt;&quot;SafeFS: a modular architecture for secure user-space file systems: one FUSE to rule them all&quot;, &quot;authors&quot;=&gt;&quot;Pontes R, Burihabwa D, Maia F, Paulo J, Schiavoni V, Felber P, Mercier H, Oliveira R&quot;, &quot;where&quot;=&gt;&quot;ACM International Systems and Storage Conference (SYSTOR) (best student paper award)&quot;, &quot;domain&quot;=&gt;&quot;edss&quot;, &quot;link&quot;=&gt;{&quot;url&quot;=&gt;nil, &quot;pdf&quot;=&gt;nil, &quot;git&quot;=&gt;nil}, &quot;highlight&quot;=&gt;0}] -->
+    
+    <h3>2017</h3>
+    <hr>
+    <ul>
+    
+        <li><strong>DDFlasks: Deduplicated Very Large Scale Data Store</strong><br>Maia F, Paulo J, Coelho F, Neves F, Pereira J, Oliveira R.<br>Distributed Applications and Interoperable Systems (DAIS), 2017.<div class="social-links" display="inline-block">
+        
+        
+        
+    </div><br></li>
+    
+        <li><strong>SafeFS: a modular architecture for secure user-space file systems: one FUSE to rule them all</strong><br>Pontes R, Burihabwa D, Maia F, Paulo J, Schiavoni V, Felber P, Mercier H, Oliveira R.<br>ACM International Systems and Storage Conference (SYSTOR) (best student paper award), 2017.<div class="social-links" display="inline-block">
+        
+        
+        
+    </div><br></li>
+    
+    </ul>
+    
+    
+    
+    <!-- [{&quot;title&quot;=&gt;&quot;Efficient Deduplication in a Distributed Primary Storage Infrastructure&quot;, &quot;authors&quot;=&gt;&quot;Paulo J, Pereira J&quot;, &quot;where&quot;=&gt;&quot;ACM Transactions on Storage (TOS)&quot;, &quot;domain&quot;=&gt;&quot;edss&quot;, &quot;link&quot;=&gt;{&quot;url&quot;=&gt;nil, &quot;pdf&quot;=&gt;nil, &quot;git&quot;=&gt;nil}, &quot;highlight&quot;=&gt;0}, {&quot;title&quot;=&gt;&quot;On the Cost of Safe Storage for Public Clouds: an Experimental Evaluation&quot;, &quot;authors&quot;=&gt;&quot;Burihabwa D, Pontes R, Felber P, Maia F, Mercier H, Oliveira R, Paulo J, Schiavoni V&quot;, &quot;where&quot;=&gt;&quot;IEEE International Symposium on Reliable Distributed Systems (SRDS)&quot;, &quot;domain&quot;=&gt;&quot;edss&quot;, &quot;link&quot;=&gt;{&quot;url&quot;=&gt;nil, &quot;pdf&quot;=&gt;nil, &quot;git&quot;=&gt;nil}, &quot;highlight&quot;=&gt;0}] -->
+    
+    <h3>2016</h3>
+    <hr>
+    <ul>
+    
+        <li><strong>Efficient Deduplication in a Distributed Primary Storage Infrastructure</strong><br>Paulo J, Pereira J.<br>ACM Transactions on Storage (TOS), 2016.<div class="social-links" display="inline-block">
+        
+        
+        
+    </div><br></li>
+    
+        <li><strong>On the Cost of Safe Storage for Public Clouds: an Experimental Evaluation</strong><br>Burihabwa D, Pontes R, Felber P, Maia F, Mercier H, Oliveira R, Paulo J, Schiavoni V.<br>IEEE International Symposium on Reliable Distributed Systems (SRDS), 2016.<div class="social-links" display="inline-block">
+        
+        
+        
+    </div><br></li>
+    
+    </ul>
+    
+    
+    
+    <!-- [{&quot;title&quot;=&gt;&quot;A Survey and Classification of Storage Deduplication Systems&quot;, &quot;authors&quot;=&gt;&quot;Paulo J, Pereira J&quot;, &quot;where&quot;=&gt;&quot;ACM Computing Surveys (CSUR)&quot;, &quot;domain&quot;=&gt;&quot;edss&quot;, &quot;link&quot;=&gt;{&quot;url&quot;=&gt;nil, &quot;pdf&quot;=&gt;nil, &quot;git&quot;=&gt;nil}, &quot;highlight&quot;=&gt;0}, {&quot;title&quot;=&gt;&quot;Distributed Exact Deduplication for Primary Storage Infrastructures&quot;, &quot;authors&quot;=&gt;&quot;Paulo J, Pereira J&quot;, &quot;where&quot;=&gt;&quot;Distributed Applications and Interoperable Systems (DAIS)&quot;, &quot;domain&quot;=&gt;&quot;edss&quot;, &quot;link&quot;=&gt;{&quot;url&quot;=&gt;nil, &quot;pdf&quot;=&gt;nil, &quot;git&quot;=&gt;nil}, &quot;highlight&quot;=&gt;0}] -->
+    
+    <h3>2014</h3>
+    <hr>
+    <ul>
+    
+        <li><strong>A Survey and Classification of Storage Deduplication Systems</strong><br>Paulo J, Pereira J.<br>ACM Computing Surveys (CSUR), 2014.<div class="social-links" display="inline-block">
+        
+        
+        
+    </div><br></li>
+    
+        <li><strong>Distributed Exact Deduplication for Primary Storage Infrastructures</strong><br>Paulo J, Pereira J.<br>Distributed Applications and Interoperable Systems (DAIS), 2014.<div class="social-links" display="inline-block">
+        
+        
+        
+    </div><br></li>
+    
+    </ul>
+    
+    
+    
+    <!-- [{&quot;title&quot;=&gt;&quot;Towards an Accurate Evaluation of Deduplicated Storage Systems&quot;, &quot;authors&quot;=&gt;&quot;Paulo J, Reis P, Pereira J, Sousa A&quot;, &quot;where&quot;=&gt;&quot;International Journal of Computer Systems Science and Engineering&quot;, &quot;domain&quot;=&gt;&quot;sbd&quot;, &quot;link&quot;=&gt;{&quot;url&quot;=&gt;&quot;https://repositorio.inesctec.pt/items/81c2c2e1-5ba2-4721-a581-8733137552d7&quot;, &quot;pdf&quot;=&gt;&quot;/assets/files/2013/dedisbench-ijcsse13-joaopaulo.pdf&quot;, &quot;git&quot;=&gt;&quot;https://github.com/jtpaulo/dedisbench&quot;}, &quot;highlight&quot;=&gt;0}] -->
+    
+    <h3>2013</h3>
+    <hr>
+    <ul>
+    
+        <li><strong>Towards an Accurate Evaluation of Deduplicated Storage Systems</strong><br>Paulo J, Reis P, Pereira J, Sousa A.<br>International Journal of Computer Systems Science and Engineering, 2013.<div class="social-links" display="inline-block">
+        <a href=https://repositorio.inesctec.pt/items/81c2c2e1-5ba2-4721-a581-8733137552d7><i class="fas fa-fw fa-link zoom"></i></a>
+        <a href=/assets/files/2013/dedisbench-ijcsse13-joaopaulo.pdf><i class="fas fa-fw fa-file-pdf zoom"></i></a>
+        <a href=https://github.com/jtpaulo/dedisbench><i class="fas fa-fw fa-code zoom"></i></a>
+    </div><br></li>
+    
+    </ul>
+    
+    
+    
+    <!-- [{&quot;title&quot;=&gt;&quot;DEDISbench: A Benchmark for Deduplicated Storage Systems&quot;, &quot;authors&quot;=&gt;&quot;Paulo J, Reis P, Pereira J, Sousa A&quot;, &quot;where&quot;=&gt;&quot;International Symposium on Secure Virtual Infrastructures (DOA-SVI)&quot;, &quot;domain&quot;=&gt;&quot;sbd&quot;, &quot;link&quot;=&gt;{&quot;url&quot;=&gt;&quot;https://link.springer.com/chapter/10.1007/978-3-642-33615-7_9&quot;, &quot;pdf&quot;=&gt;&quot;/assets/files/2012/dedisbench-doa-svi12-joaopaulo.pdf&quot;, &quot;git&quot;=&gt;&quot;https://github.com/jtpaulo/dedisbench&quot;}, &quot;highlight&quot;=&gt;0}] -->
+    
+    <h3>2012</h3>
+    <hr>
+    <ul>
+    
+        <li><strong>DEDISbench: A Benchmark for Deduplicated Storage Systems</strong><br>Paulo J, Reis P, Pereira J, Sousa A.<br>International Symposium on Secure Virtual Infrastructures (DOA-SVI), 2012.<div class="social-links" display="inline-block">
+        <a href=https://link.springer.com/chapter/10.1007/978-3-642-33615-7_9><i class="fas fa-fw fa-link zoom"></i></a>
+        <a href=/assets/files/2012/dedisbench-doa-svi12-joaopaulo.pdf><i class="fas fa-fw fa-file-pdf zoom"></i></a>
+        <a href=https://github.com/jtpaulo/dedisbench><i class="fas fa-fw fa-code zoom"></i></a>
+    </div><br></li>
+    
+    </ul>
+    
+    
 
-<h3>2020</h3>
-<ul>
-   
-   	<li><strong>A Survey and Classification of Software-Defined Storage Systems</strong>. Macedo R, Paulo J, Pereira J, Bessani, A. ACM Computing Surveys.</li>
-   
-	</ul>
 
-<h3>2019</h3>
-<ul>
-   
-   	<li><strong>A Case for Dynamically Programmable Storage Background Tasks</strong>. Macedo R, Faria A, Paulo J, Pereira J. Workshop on Distributed and Reliable Storage Systems (DRSS), colocated with SRDS.</li>
-   
-   	<li><strong>TrustFS: An SGX-Enabled Stackable File System Framework</strong>. Esteves T, Macedo R, Faria A, Portela B, Paulo J, Pereira J, Harnik D. Workshop on Distributed and Reliable Storage Systems (DRSS), colocated with SRDS.</li>
-   
-	</ul>
+    
 
-<h3>2017</h3>
-<ul>
-   
-   	<li><strong>DDFlasks: Deduplicated Very Large Scale Data Store</strong>. Maia F, Paulo J, Coelho F, Neves F, Pereira J, Oliveira R. Distributed Applications and Interoperable Systems (DAIS).</li>
-   
-   	<li><strong>SafeFS: a modular architecture for secure user-space file systems: one FUSE to rule them all</strong>. Pontes R, Burihabwa D, Maia F, Paulo J, Schiavoni V, Felber P, Mercier H, Oliveira R. ACM International Systems and Storage Conference (SYSTOR) (best student paper award).</li>
-   
-	</ul>
-
-<h3>2016</h3>
-<ul>
-   
-   	<li><strong>Efficient Deduplication in a Distributed Primary Storage Infrastructure</strong>. Paulo J, Pereira J. ACM Transactions on Storage (TOS).</li>
-   
-   	<li><strong>On the Cost of Safe Storage for Public Clouds: an Experimental Evaluation</strong>. Burihabwa D, Pontes R, Felber P, Maia F, Mercier H, Oliveira R, Paulo J, Schiavoni V. IEEE International Symposium on Reliable Distributed Systems (SRDS).</li>
-   
-	</ul>
-
-<h3>2014</h3>
-<ul>
-   
-   	<li><strong>A Survey and Classification of Storage Deduplication Systems</strong>. Paulo J, Pereira J. ACM Computing Surveys (CSUR).</li>
-   
-   	<li><strong>Distributed Exact Deduplication for Primary Storage Infrastructures</strong>. Paulo J, Pereira J. Distributed Applications and Interoperable Systems (DAIS).</li>
-   
-	</ul>
-
-<h3>2013</h3>
-<ul>
-   
-   	<li><strong>Towards an Accurate Evaluation of Deduplicated Storage Systems</strong>. Paulo J, Reis P, Pereira J, Sousa A. International Journal of Computer Systems Science and Engineering.</li>
-   
-	</ul>
-
-<h3>2012</h3>
-<ul>
-   
-   	<li><strong>DEDISbench: A Benchmark for Deduplicated Storage Systems</strong>. Paulo J, Reis P, Pereira J, Sousa A. International Symposium on Secure Virtual Infrastructures (DOA-SVI).</li>
-   
-	</ul>
-
-
+  </div>
+</div>
     </div>
 
     
