@@ -1,9 +1,8 @@
 - name: Aliança para a Transição Energética
   alias: ATE
-  description:
   type: PRR
   img:
-  status: ongoing
+  status: Active
   website: https://www.inesctec.pt/pt/projetos/ate#
   duration:
   partners:
@@ -12,12 +11,13 @@
 
 - name: Efficient and Secure Data Management for HPC and Cloud Computing
   alias: ESDMHCC
-  description: International research project on the topics of data management and security.
   type: CENTRA project
   img: centra.jpg
-  status: ongoing
+  status: Active
   website: http://www.globalcentra.org/projects/#prv
   duration:
+    start: 2021-01-01
+    end: 2023-12-31
   partners:
     - name: INESC TEC
       country: Portugal
@@ -54,12 +54,13 @@
 
 - name: A Management Framework for Consolidated Big Data and HPC
   alias: BigHPC
-  description:
   type: COMPETE 2020
   img: bighpc.png
-  status: concluded
+  status: Finished
   website: http://bighpc.inesctec.pt
   duration:
+    start: 2020-03-31
+    end: 2023-06-30
   partners:
     - name: Wavecom
       country: Portugal
@@ -84,10 +85,9 @@
 
 - name: Lazy Filesystem Project
   alias: LazyFS
-  description:
   type: Collaboration with Jepsen, LLC
   img: lazy.png
-  status: concluded
+  status: Finished
   website:
   duration:
   partners:
@@ -102,12 +102,13 @@
 
 - name: Programmable and Adaptable Storage for AI-oriented HPC Ecosystems
   alias: Pastor
-  description:
   type: PT-UTAustin Exploratory project
   img: pastor.png
-  status: concluded
+  status: Finished
   website:
   duration:
+    start: 2020-10-01
+    end: 2021-12-31
   partners:
     - name: INESC TEC
       country: Portugal
@@ -128,34 +129,35 @@
 
 - name: Automating Crash-Consistency Testing for Persistent Memory
   alias: ACTPM
-  description:
   type: PT-UTAustin Exploratory project
   img:
-  status: concluded
+  status: Finished
   website: https://utaustinportugal.org/projects/act-pm-automating-crash-consistency-testing-for-persistent-memory/
   duration:
+    start: 2020-10-01
+    end: 2021-09-30
   partners:
   external_collaborations:
-  financing:
+  financing: This work is funded by National Funds through the FCT - Fundação para a Ciência e a Tecnologia (Portuguese Foundation for Science and Technology) within project UTA-EXPL/CA/0080/2019.
 
 - name: Secure and Resilient Cloud Architecture
   alias: SafeCloud
-  description:
   type: EU H2020
   img: safecloud.png
-  status: concluded
+  status: Finished
   website:
   duration:
+    start: 2015-09-01
+    end: 2018-08-31
   partners:
   external_collaborations:
   financing:
 
 - name: Storage Security and Benchmarking Research
   alias: JSA
-  description: Joint study agreement with IBM Research Haifa on storage research
-  type: JSA IBM Research Haifa
+  type: Joint study agreement with IBM Research Haifa
   img:
-  status: concluded
+  status: Finished
   website:
   duration:
   partners:
@@ -174,14 +176,13 @@
   external_collaborations:
   financing:
 
-- name: Resilient databases
-  alias: ReD
-  description: Generic, robust, and inexpensive shared-storage cluster from an off-the-shelf RDBMS
-  type: National FCT
-  img: red.png
-  status: concluded
-  website: http://red.lsd.di.uminho.pt/
-  duration:
-  partners:
-  external_collaborations:
-  financing:
+# - name: Resilient databases
+#   alias: ReD
+#   type: National FCT
+#   img: red.png
+#   status: Finished
+#   website: http://red.lsd.di.uminho.pt/
+#   duration:
+#   partners:
+#   external_collaborations:
+#   financing:

@@ -15,7 +15,7 @@ header:
 <hr>
 
 {% for project in site.data.projects %}
-{% if project.status == "ongoing" %}
+{% if project.status == "Active" %}
 - **[{{ project.alias }}](/projects/{{project.alias}})**: {{ project.name }}
 {% endif %}
 {% endfor %}
@@ -26,7 +26,7 @@ header:
 <hr>
 
 {% for project in site.data.projects %}
-{% if project.status == "concluded" %}
+{% if project.status == "Finished" %}
 - **[{{ project.alias }}](/projects/{{project.alias}})**: {{ project.name }}
 {% endif %}
 {% endfor %}

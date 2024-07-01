@@ -19,7 +19,7 @@ layout: default
       <div class="text-container">
         {% if my_project.name %}<strong>Title: </strong>{{ my_project.name }}<br>{% endif %}
         {% if my_project.type %}<strong>Type: </strong>{{ my_project.type }}<br>{% endif %}
-        {% if my_project.duration %} <strong>Duration: </strong>{{ my_project.duration }}<br>{% endif %}
+        {% if my_project.status %}<strong>Status: </strong>{{ my_project.status }}{% endif %} {% if my_project.duration %}&emsp;<strong>Start: </strong> {{ my_project.duration.start }}&emsp;<strong>End: </strong> {{ my_project.duration.end }}{% endif %}<br>
         {% if my_project.website %} <strong>Website: </strong><a href="{{ my_project.website }}">{{ my_project.website }}</a><br>{% endif %}
       </div>
     </div>

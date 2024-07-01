@@ -1,6 +1,6 @@
 ---
 title: "Tools"
-layout: base
+layout: default
 permalink: /tools
 classes: wide
 # excerpt: "Distributed Storage Research @ HASLab"
@@ -23,17 +23,32 @@ header:
 
 <script src="jquery.github.min.js"></script>
 
+{% assign tools_highlighted = site.data.tools | where_exp: "item", "item.highlight == true" %}
+
+{% assign other_tools = site.data.tools | where_exp: "item", "item.highlight == false" %}
+
 <div class="tools" id="tools_section">
-    {% for tool in site.data.tools %}
-    <a href="{{ tool.repo }}" target="_blank">
-        <section>
-            <div class="section_title">{{ tool.name }}</div>
-            <div class="about_section">
-                <span style="display:block">{{ tool.description }}</span>
-            </div>
-        </section>
-    </a>
-    {% endfor %}
+  {% for tool in tools_highlighted %}
+  <a href="{{ tool.repo }}" target="_blank">
+      <section>
+          <div class="section_title">{{ tool.name }}</div>
+          <div class="about_section">
+              <span style="display:block">{{ tool.description }}</span>
+          </div>
+      </section>
+  </a>
+  {% endfor %}
+
+  {% for tool in other_tools %}
+  <a href="{{ tool.repo }}" target="_blank">
+      <section>
+          <div class="section_title">{{ tool.name }}</div>
+          <div class="about_section">
+              <span style="display:block">{{ tool.description }}</span>
+          </div>
+      </section>
+  </a>
+  {% endfor %}
 </div>
 
 <script>

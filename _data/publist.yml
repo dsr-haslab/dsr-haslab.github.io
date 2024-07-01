@@ -47,9 +47,9 @@
     where: IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing (CCGrid)
     domain: ssmdc
     link:
-      url:
-      pdf:
-      git:
+      url: https://doi.org/10.1109/CCGrid57682.2023.00015
+      pdf: /assets/files/2023/padll-ccgrid23-ricardomacedo.pdf
+      git: https://github.com/dsrhaslab/padll
     highlight: 0
 
 
@@ -60,27 +60,27 @@
     where: Workshop on Re-envisioning Extreme-Scale I/O for Emerging Hybrid HPC Workloads (REX-IO), colocated with Cluster
     domain: ssmdc
     link:
-      url:
-      pdf:
-      git:
+      url: https://doi.org/10.1109/CLUSTER51413.2022.00075
+      pdf: /assets/files/2022/padll-cluster22-ricardomacedo.pdf
+      git: https://github.com/dsrhaslab/padll
     highlight: 0
   - title: Accelerating Deep Learning Training Through Transparent Storage Tiering
     authors: Dantas M, Leitão D, Cui P, Macedo R, Liu X, Xu W, Paulo J
     where:  IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing (CCGrid)
     domain: sai
     link:
-      url:
-      pdf:
-      git:
+      url: https://doi.org/10.1109/CCGrid54584.2022.00011
+      pdf: /assets/files/2022/monarch-ccgrid22-marcodantas.pdf
+      git: https://github.com/dsrhaslab/monarch
     highlight: 0
   - title: "PAIO: General, Portable I/O Optimizations With Minor Application Modifications"
     authors: Macedo R, Tanimura Y, Haga J, Chidambaram V, Pereira J, Paulo J.
     where:  USENIX Conference on File and Storage Technologies (FAST)
     domain: ssmdc
     link:
-      url:
-      pdf:
-      git:
+      url: https://www.usenix.org/conference/fast22/presentation/macedo
+      pdf: /assets/files/2022/paio-fast22-ricardomacedo.pdf
+      git: https://github.com/dsrhaslab/paio
     highlight: 0
 
 - year: 2021
@@ -99,36 +99,36 @@
     where: Workshop on Container Technologies and Container Clouds (WoC'21), colocated with Middleware
     domain: edss
     link:
-      url:
-      pdf:
-      git:
+      url: https://doi.org/10.1145/3493649.3493653
+      pdf: /assets/files/2021/pav-woc21-albertofaria.pdf
+      git: https://github.com/albertofaria/pav
     highlight: 0
   - title: The Case for Storage Optimization Decoupling in Deep Learning Frameworks
     authors: Macedo R, Correia C, Dantas M, Brito C, Xu W, Tanimura Y, Haga J, Paulo J
     where: Workshop on Re-envisioning Extreme-Scale I/O for Emerging Hybrid HPC Workloads (REX-IO), colocated with Cluster
     domain: sai
     link:
-      url:
-      pdf:
-      git:
+      url: https://doi.org/10.1109/Cluster48925.2021.00096
+      pdf: /assets/files/2021/prisma-cluster21-ricardomacedo.pdf
+      git: https://github.com/dsrhaslab/prisma
     highlight: 0
   - title: "Monarch: Hierarchical Storage Management for Deep Learning Frameworks"
     authors: Dantas M, Leitão D, Correia C, Macedo R, Xu W, Paulo J
     where: Workshop on Re-envisioning Extreme-Scale I/O for Emerging Hybrid HPC Workloads (REX-IO), colocated with Cluster
     domain: sai
     link:
-      url:
-      pdf:
-      git:
+      url: https://doi.org/10.1109/Cluster48925.2021.00097
+      pdf: /assets/files/2021/monarch-rexio21-marcodantas.pdf
+      git: https://github.com/dsrhaslab/monarch
     highlight: 0
   - title: "PAIO: A Software-Defined Storage Data Plane Framework"
     authors: Macedo R, Tanimura Y, Haga J, Chidambaram V, Pereira J, Paulo J
     where: ArXiv – Computing Research Repository (CoRR)
     domain: ssmdc
     link:
-      url:
-      pdf:
-      git:
+      url: https://doi.org/10.48550/arXiv.2106.03617
+      pdf: /assets/files/2021/paio-arxiv21-ricardomacedo.pdf
+      git: https://github.com/dsrhaslab/paio
     highlight: 0
   - title: Realistic Assessment of Faults in Storage Systems
     authors: Borges C, Paulo J.
@@ -137,33 +137,33 @@
     link:
       url:
       pdf: /assets/files/2021/achillesbench-hpbd21-cesarborges.pdf
-      git:
+      git:  https://github.com/CesarAugustoBorges/AchillesBench
     highlight: 0
   - title: "BDUS: Implementing Block Devices in User Space"
     authors: Faria A, Macedo R, Pereira J, Paulo J.
     where: ACM International Systems and Storage Conference (SYSTOR)
     domain: edss
     link:
-      url:
-      pdf:
-      git:
+      url: https://doi.org/10.1145/3456727.3463768
+      pdf: /assets/files/2021/bdus-systor21-albertofaria.pdf
+      git: https://github.com/albertofaria/bdus
     highlight: 0
   - title: "S2Dedup: SGX-enabled Secure Deduplication"
     authors: Miranda M, Esteves T, Portela B, Paulo J
     where: ACM International Systems and Storage Conference (SYSTOR)
     domain: edss
     link:
-      url:
-      pdf:
-      git:
+      url: https://doi.org/10.1145/3456727.3463773
+      pdf: /assets/files/2021/s2dedup-systor21-marianamiranda.pdf
+      git: https://github.com/mmm97/S2Dedup
     highlight: 0
   - title: "GenoDedup: Similarity-Based Deduplication and Delta-Encoding for Genome Sequencing Data"
     authors: Cogo V, Paulo J, Bessani, A
     where: IEEE Transactions on Computers
     domain: edss
     link:
-      url:
-      pdf:
+      url: https://doi.org/10.1109/TC.2020.2994774
+      pdf: /assets/files/2021/genodedup-toc21-viniciuscogo.pdf
       git:
     highlight: 0
 
@@ -174,8 +174,8 @@
     where: ACM Computing Surveys
     domain: ssmdc
     link:
-      url:
-      pdf:
+      url: https://doi.org/10.1145/3385896
+      pdf: /assets/files/2020/sds-survey-csur20-ricardomacedo.pdf
       git:
     highlight: 0
 
@@ -186,8 +186,8 @@
     where: Workshop on Distributed and Reliable Storage Systems (DRSS), colocated with SRDS
     domain: ssmdc
     link:
-      url:
-      pdf:
+      url: https://doi.org/10.1109/SRDSW49218.2019.00009
+      pdf: /assets/files/2019/cdpsbt-drss19-ricardomacedo.pdf
       git:
     highlight: 0
   - title: "TrustFS: An SGX-Enabled Stackable File System Framework"
@@ -195,9 +195,9 @@
     where: Workshop on Distributed and Reliable Storage Systems (DRSS), colocated with SRDS
     domain: edss
     link:
-      url:
-      pdf:
-      git:
+      url: https://doi.org/10.1109/SRDSW49218.2019.00012
+      pdf: /assets/files/2019/trustfs-drss19-taniaesteves.pdf
+      git: https://github.com/taniaesteves/TrustFS
     highlight: 0
 
 - year: 2017
@@ -207,8 +207,8 @@
     where: Distributed Applications and Interoperable Systems (DAIS)
     domain: edss
     link:
-      url:
-      pdf:
+      url: https://link.springer.com/chapter/10.1007/978-3-319-59665-5_4
+      pdf: /assets/files/2017/ddflasks-dais17-franciscomaia.pdf
       git:
     highlight: 0
   - title: "SafeFS: a modular architecture for secure user-space file systems: one FUSE to rule them all"
@@ -216,9 +216,9 @@
     where: ACM International Systems and Storage Conference (SYSTOR) (best student paper award)
     domain: edss
     link:
-      url:
-      pdf:
-      git:
+      url: https://doi.org/10.1145/3078468.3078480
+      pdf: /assets/files/2017/safefs-systor17-rogeriopontes.pdf
+      git: https://github.com/safecloud-project/safefs
     highlight: 0
 
 
@@ -229,17 +229,17 @@
     where: ACM Transactions on Storage (TOS)
     domain: edss
     link:
-      url:
-      pdf:
-      git:
+      url: https://doi.org/10.1145/2876509
+      pdf: /assets/files/2016/dedis-tos16-joaopaulo.pdf
+      git: https://launchpad.net/holeycow/dedis-deduplication-system
     highlight: 0
   - title: "On the Cost of Safe Storage for Public Clouds: an Experimental Evaluation"
     authors: Burihabwa D, Pontes R, Felber P, Maia F, Mercier H, Oliveira R, Paulo J, Schiavoni V
     where: IEEE International Symposium on Reliable Distributed Systems (SRDS)
     domain: edss
     link:
-      url:
-      pdf:
+      url: https://doi.org/10.1109/SRDS.2016.028
+      pdf: /assets/files/2016/csspcee-srds16-dorianburihabwa.pdf
       git:
     highlight: 0
 
@@ -250,8 +250,8 @@
     where: ACM Computing Surveys (CSUR)
     domain: edss
     link:
-      url:
-      pdf:
+      url: https://doi.org/10.1145/2611778
+      pdf: /assets/files/2014/dedup-survey-csur14-joaopaulo.pdf
       git:
     highlight: 0
   - title: Distributed Exact Deduplication for Primary Storage Infrastructures
@@ -259,9 +259,9 @@
     where: Distributed Applications and Interoperable Systems (DAIS)
     domain: edss
     link:
-      url:
-      pdf:
-      git:
+      url: https://link.springer.com/chapter/10.1007/978-3-662-43352-2_5
+      pdf: /assets/files/2014/dedis-dais14-joaopaulo.pdf
+      git: https://launchpad.net/holeycow/dedis-deduplication-system
     highlight: 0
 
 
