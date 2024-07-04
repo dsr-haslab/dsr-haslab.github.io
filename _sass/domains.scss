@@ -7,6 +7,7 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
+  justify-content: space-between;
   min-width: 0;
   word-wrap: break-word;
   background-color: #fff;
@@ -26,6 +27,13 @@
   transform: scale(1.03);
 }
 
+.card_text_see {
+  text-align: right;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  margin-right: 1rem;
+  font-size: 80%;
+}
 
 .card > hr {
   margin-right: 0;
@@ -188,10 +196,6 @@
   margin-top: 10px;
 }
 
-.card-group > .card {
-  margin-bottom: 20px;
-}
-
 @media (min-width: 576px) {
   .card-group {
     -webkit-box-orient: horizontal;
@@ -204,10 +208,6 @@
     -ms-flex: 1 0 0%;
     flex: 1 0 0%;
     margin-bottom: 0;
-  }
-
-  .card-group > .card:first-child {
-    margin-right: 20px;
   }
 }
 

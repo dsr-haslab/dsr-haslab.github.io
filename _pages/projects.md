@@ -11,7 +11,7 @@ header:
 ---
 
 
-## Ongoing projects
+## ACTIVE
 <hr>
 
 {% for project in site.data.projects %}
@@ -22,7 +22,7 @@ header:
 
 
 
-## Concluded projects
+## FINISHED
 <hr>
 
 {% for project in site.data.projects %}

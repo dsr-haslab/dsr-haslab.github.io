@@ -3,15 +3,12 @@ title: "Tools"
 layout: default
 permalink: /tools
 classes: wide
-# excerpt: "Distributed Storage Research @ HASLab"
+excerpt: <a href="https://github.com/dsrhaslab/" class="btn btn--light-outline btn--small" style="margin:0; padding:0.1em">DSR Github</a>
 sitemap: false
 author_profile: false
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  actions:
-    - label: "DSR GitHub"
-      url: "https://github.com/dsrhaslab/"
 ---
 
 <script

@@ -1,9 +1,7 @@
 ---
-layout: domain
-title: "Research"
-excerpt: Efficient, Dependable, and Secure Storage
-domain: edss
-permalink: /research/edss
+title: "Publications"
+layout: publication
+permalink: /publications/
 classes: wide
 sitemap: false
 author_profile: false
@@ -18,4 +16,3 @@ header:
       integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
       crossorigin="anonymous"
     ></script>
-<!-- <script src="https://unpkg.com/magic-grid/dist/magic-grid.min.js"></script> -->
