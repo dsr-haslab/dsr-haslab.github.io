@@ -29,7 +29,7 @@
 - name: Storage Benchmarking and Diagnosis
   domain: sbd
   link: /research/sbd
-  brief_description: Research on efficient and reliable storage solutions involves assessing these systems' performance, resiliency, and security. <br>DSR is dedicated to designing and developing advanced benchmarking and diagnosis tools for accurately assessing storage systems and data-centric applications and providing valuable insights for continuous improvement.
+  brief_description: Research on efficient and reliable storage solutions involves assessing these systems' performance, resiliency, and security. DSR is dedicated to designing and developing advanced benchmarking and diagnosis tools for accurately assessing storage systems and data-centric applications and providing valuable insights for continuous improvement.
   summary: As the complexity of modern storage solutions and data-centric applications grows, ensuring their efficiency, resiliency, and security becomes increasingly challenging. <br><br>Traditional benchmarking and diagnostic tools often fall short of thoroughly assessing the intricate performance aspects of these advanced systems. This gap makes it difficult to identify weaknesses, optimize performance, and guarantee data integrity and security in these increasingly complex environments.<br><br>Our research in the domain of Storage Benchmarking and Diagnosis aims to address the aforementioned challenges by developing robust tools and methodologies specifically tailored for modern storage solutions and data-centric applications.
   goals:
     - name: Benchmarking

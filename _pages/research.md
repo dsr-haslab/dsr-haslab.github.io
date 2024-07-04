@@ -10,42 +10,25 @@ header:
   overlay_filter: "0.5"
 ---
 
-<script
-    src="https://code.jquery.com/jquery-3.4.1.min.js"
-    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
-    crossorigin="anonymous"
-  ></script>
-<script src="https://unpkg.com/magic-grid/dist/magic-grid.min.js"></script>
-
-
 Our research is currently divided in four main domains:
 
-  <div class="domains" id="domain_section">
-      {% for domain in site.data.domains %}
-      <a href="{{ domain.link }}">
-          <section>
-              <div class="section_title">{{ domain.name }}</div>
-              <div class="about_section">
-                  <span style="display:block">{{ domain.brief_description }}</span>
-              </div>
-          </section>
-      </a>
-      {% endfor %}
+{% assign number_printed = 0 %}
+{% for domain in site.data.domains %}
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 0 %}
+<div class="card-group">
+{% endif %}
+<div class="card">
+<a href="{{ domain.link }}">
+  <div class="card-block">
+    <h4 class="card-title">{{ domain.name }}</h4>
+    <p class="card-text">{{ domain.brief_description }}</p>
   </div>
-
-
-<script>
-  const magicProjectsGrid = new MagicGrid({
-    container: "#domain_section",
-    animate: false,
-    gutter: 30, // default gutter size
-    static: true,
-    useMin: false,
-    maxColumns: 4,
-    useTransform: true
-  });
-
-  $("document").ready(() => {
-    magicProjectsGrid.listen();
-  });
-</script>
+</a>
+</div>
+{% assign number_printed = number_printed | plus: 1 %}
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 0 %}
+</div>
+{% endif %}
+{% endfor %}
