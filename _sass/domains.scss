@@ -27,6 +27,11 @@
   transform: scale(1.03);
 }
 
+.noHover{
+  pointer-events: none;
+}
+
+
 .card_text_see {
   text-align: right;
   margin-top: 0;

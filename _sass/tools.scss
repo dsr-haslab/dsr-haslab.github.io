@@ -1,81 +1,22 @@
-.tools {
-    margin-left: 0;
-    /* align section w/ heading above */
-  }
+.card_bottom_section {
+  // word-wrap: break-word;
+  text-align: right;
+  margin-bottom: 0.5rem;
+  margin-right: 1rem;
+  font-size: 70%;
+}
 
-  .tools a {
-    /* 10px is the gutter size in magic grid */
-    /* 49% avoids a weird single column on some wide screens */
-    width: calc(20% - 10px);
-    min-height: 250px;
-    max-height: 250px;
-    display: flex;
-    text-decoration: none;
-  }
+.card_bottom_section span {
+  margin-right: 20px;
+  font-weight: bold;
+}
 
-  .tools section {
-    width: 100%;
-    padding: 2.5vh 5%;
-    margin: 1vh 0px;
-    display: inline-block;
-    border-radius: 5px;
-    color: rgb(0, 0, 0);
-    border: 1px solid rgba(0, 0, 0, 0.08);
-    box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
-    transition: 0.4s ease-in-out;
-    transform: scale(1);
-  }
+.card_bottom_section span i {
+  font-size: 80%
+}
 
-  .tools section:hover {
-    cursor: pointer;
-    border: 1px solid rgba(0, 0, 0, 0);
-    box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.06);
-    transform: scale(1.03);
-  }
-
-  .section_title {
-    font-size: 24px;
-    font-weight: bold;
-    margin: 1vh 0px;
-    padding: 0px 1px;
-    word-wrap: break-word;
-  }
-
-  .about_section {
-    font-size: 18px;
-    font-family: "Questrial", sans-serif;
-    margin: 2vh 0px;
-    word-wrap: break-word;
-  }
-
-  .bottom_section {
-    margin: 1vh 0px;
-    font-size: 14px;
-    word-wrap: break-word;
-  }
-
-  .bottom_section span {
-    margin-right: 20px;
-    font-weight: bold;
-  }
-
-  .bottom_section span i {
-    font-size: 15px;
-  }
-
-  @media (max-width: 800px) {
-
-    .tools {
-        margin-left: 0;
-        /* remove neg margin to align w/ header */
-      }
-
-      .tools a {
-        width: 100%;
-      }
-
-      .tools section {
-        width: 88%;
-      }
-
-  }
+.card-tool-text {
+  margin: 1rem;
+  margin-bottom: 0;
+  font-size: 80%
+}
