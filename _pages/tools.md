@@ -71,6 +71,7 @@ header:
       var forks_count = 03;
       jQuery.getJSON(href, function(res) {
         stargazers_count = res.stargazers_count;
+        forks_count = res.forks_count;
         if (stargazers_count>-1) {
           $(obj).append($('<div class="card_bottom_section"><span><i class="fas fa-star"></i>&nbsp;'+stargazers_count+'</span><span><i class="fas fa-code-branch"></i>&nbsp;'+forks_count+'</span></div>'));
         };
