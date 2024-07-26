@@ -32,7 +32,7 @@
 
 - name: <a href="https://www.inesctec.pt/pt/pessoas/claudia-vanessa-brito">Cláudia Brito</a>
   photo: claudia.jpg
-  info: PhD student
+  info: Assistant Researcher
   git: https://github.com/claudiavmbrito
   ldin: www.linkedin.com/in/claudiavmbrito
   email: claudia.v.brito@inesctec.pt
@@ -64,7 +64,7 @@
 
 - name: Pedro Peixoto
   photo: pedro.jpg
-  info: MSc Student
+  info: PhD Student
   email: jose.p.peixoto@inesctec.pt
   git: https://github.com/vaavaav
   ldin: 
@@ -155,14 +155,6 @@
   info: MSc Student
   email: pg52672@alunos.uminho.pt
   git: https://github.com/Lucenix
-  ldin: 
-  number_educ: 0
-
-- name: Diogo Costa
-  photo: diogoc.jpg
-  info: BSc Student
-  email:  diogo.a.ribeiro@inesctec.pt
-  git: 
   ldin: 
   number_educ: 0
 

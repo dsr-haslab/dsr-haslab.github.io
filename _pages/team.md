@@ -82,6 +82,10 @@ HASLab members involved in distributed storage research:
 
 ## Alumni
 
+- Diogo Costa, Research on SPDK and I/O Profiling, 2024. 
+
+- Cláudia Brito, PhD Thesis - Towards a Privacy-Preserving Distributed Machine Learning Framework, 2024.
+
 - Tânia Esteves, PhD Thesis - Flexible Tracing and Analysis of Applications’ I/O Behavior, 2024.
 
 - Rúben Adão, MSc Thesis - Co-designing Log-Structured Merge Key-Value Stores with a Non-Volatile Storage Hierarchy, 2024.
