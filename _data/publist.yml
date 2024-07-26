@@ -1,13 +1,14 @@
 - year: 2024
   list:
-     - title: "When Amnesia Strikes: Understanding and Reproducing Data Loss Bugs with Fault Injection" 
+    - title: "When Amnesia Strikes: Understanding and Reproducing Data Loss Bugs with Fault Injection" 
       authors: Ramos M, Azevedo J, Kingsbury K, Pereira J, Esteves T, Macedo R, Paulo J
       where: International Conference on Very Large Data Bases (VLDB)
       #link:
         #url: https://arxiv.org/abs/1712.08620
         #display:  arxiv:1712.08620 (2017)
       highlight: 3
-      
+      #news2:
+
 - year: 2023
   list:
     - title: "Toward a practical and timely diagnosis of applications’ I/O behavior" 
