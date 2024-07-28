@@ -1,74 +1,74 @@
 ---
-# title: "DSR @ HASLab - Home"
-# layout: home
+title: "Distributed Storage Research"
+layout: splash
 permalink: /
-classes: wide
-# excerpt: "Distributed Storage Research @ HASLab"
-sitemap: false
-author_profile: false
+date: 2016-03-23T11:48:41-04:00
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+excerpt: "Great power requires great storage!"
+intro:
+  # - excerpt: 'Distributed storage research at HASLab is focus on distributed storage systems, vital for fields like cloud computing, high-performance computing, internet-of-things, databases, and artificial inteligence. Our research aims to create efficient, scalable, resilient, and secure solutions to handle the exponential growth of digital data and diverse application needs.'
+  - excerpt: 'Distributed Storage Research (DSR) group leverages its knowledge of storage, operating, and distributed systems to empower cloud computing, high-performance computing, and AI ecosystems. Our research aims to create efficient, scalable, resilient, and secure storage solutions to handle the rapid growth of digital information and the diverse requirements of various applications and infrastructures.'
+feature_row:
+  - image_path: assets/images/home/research.png
+    alt: "placeholder research topics"
+    title: "Research Topics"
+    url: "/research/"
+    excerpt: "DRS research is directed towards building efficient, reliable, and secure storage systems."
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
+  - image_path: /assets/images/home/projects.png
+    # image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
+    alt: "placeholder projects"
+    title: "Projects"
+    excerpt: "DRS is involved in several research projects aimed at delivering novel storage solutions."
+    url: "/projects/"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
+  - image_path: /assets/images/home/publications.png
+    alt: "placeholder publications"
+    title: "Publications"
+    url: "/publications/"
+    excerpt: "Explore DRS groundbreaking publications in distributed storage research."
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
 ---
 
+{% include feature_row id="intro" type="center" %}
 
-Distributed storage research at [HASLab](https://www.inesctec.pt/en/centres/haslab) is motivated by the observation that storage systems are a cornerstone component for a wide range of research and industrial areas such as, cloud computing, high-performance computing, internet-of-things, databases, and artificial inteligence. Moreover, our research is driven by the need of such systems to provide efficient, scalable, resilient and secure solutions that can adapt to the exponential increase of digital information and to the different needs of very heterogeneous applications and infrastructures.
+{% include feature_row %}
 
-<!--
 
-<div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="5000" data-pause="hover" >
+<h3>About us</h3>
 
-    <ol class="carousel-indicators">
-        <li data-target="#carousel" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel" data-slide-to="1"></li>
-        <li data-target="#carousel" data-slide-to="2"></li>
-        <li data-target="#carousel" data-slide-to="3"></li>
-        <li data-target="#carousel" data-slide-to="4"></li>
-    </ol>
+Our team is composed of researchers from the High-Assurance Software Laboratory (HASLab), mainly from the Distributed Systems field. HASLab is one of the integrated R&D centres of [INESC TEC](https://www.inesctec.pt/en), a leading national associate laboratory, and a teaching and research subunit of the [University of Minho](https://www.uminho.pt/EN), where it is headquartered.
 
-    <div class="carousel-inner" markdown="0">
+<a href="/people/" class="btn btn--inverse">Meet the team</a>
 
-        <div class="item active">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/" alt="Slide 1" />
-        </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/" alt="Slide 2" />
-        </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/" alt="Slide 3" />
-        </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/" alt="Slide 4" />
-        </div>
-        <div class="item">
-            <img src="{{ site.url }}{{ site.baseurl }}/images/" alt="Slide 5" />
-        </div>
-    </div>
-  <a class="left carousel-control" href="#carousel" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#carousel" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
--->
 
-To this end, our research is focused on three main areas: **Software-Defined Storage**, **Storage Benchmarking and Diagnosis**, **Storage Optimization**. In detail, with these three areas we intend to provide a new generation of programmable distributed storage systems that can adapt to heterogeneous storage workloads and deployment infrastructures, proper benchmarking tools for evaluating such systems, and novel storage functionalities and optimizations that can further improve the performance, energy consumption, dependability, and security of current solutions (see [Research](research)).
+<hr>
 
-Our team is composed of researchers from the [High-Assurance Software Laboratory (HASLab)](https://www.inesctec.pt/en/centres/haslab), mainly from the Distributed Systems field. HASLab is one of the integrated R&D centres of [INESC TEC](https://www.inesctec.pt), a leading national associate laboratory, and a teaching and research subunit of the [University of Minho](http://www.uminho.pt), where it is headquartered.
+<h3>Latest news</h3>
 
-Research at HASLab is anchored on a rigorous approach to three areas of Computer Science: Software Engineering, Distributed Systems and Cryptography and Information Security. The laboratory's contributions to these areas range from fundamental research on formal methods and algorithms to applied research on tools and middleware that address real-world demands stemming from long-term collaborations with industry.
+{% for article in site.data.news limit:4 %}
+
+  <time datetime="{{ article.date }}" class="catalogue-time">{{ article.date | date: "%B %d, %Y" }}</time>
+  <h4 class="catalogue-title">{{ article.title }}</h4>
+  <div class="catalogue-line"></div>
+  <p>{{article.headline}}</p>
+{% endfor %}
+
+
+<!-- <hr> -->
+
+<!-- Research at HASLab is anchored on a rigorous approach to three areas of Computer Science: Software Engineering, Distributed Systems and Cryptography and Information Security. The laboratory's contributions to these areas range from fundamental research on formal methods and algorithms to applied research on tools and middleware that address real-world demands stemming from long-term collaborations with industry. -->
 
 <!--**We are looking for PhD students, Postdocs, and Master students to join the team** [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies) **!** -->
 
 <!--We are grateful for funding from-->
-<!--
-<figure class="fourth">
+
+<!-- <figure class="fourth">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/inesctec_logo.jpg" style="width: 230px">
   <img src="{{ site.url }}{{ site.baseurl }}/images/logopic/uminho_logo.png" style="width: 180px">
 </figure> -->
-
-
-
-
-
-

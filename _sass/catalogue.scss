@@ -1,0 +1,76 @@
+// Colors
+$default-color: #555 !default;
+$default-shade: #353535 !default;
+$default-tint: #aaa !default;
+$grey-1: #979797 !default;
+$grey-2: #e5e5e5 !default;
+$grey-3: #f9f9f9 !default;
+$white: #fff !default;
+$blue: #4a9ae1 !default;
+$shadow-color: rgba(0, 0, 0, .2) !default;
+$code-color: #bf616a !default;
+
+// Fonts
+$serif-primary: 'Libre Baskerville', 'Times New Roman', Times, serif !default;
+$serif-secondary: Palatino, 'Palatino LT STD', 'Palatino Linotype', 'Book Antiqua', 'Georgia', serif !default;
+$sans-serif: 'Helvetica Neue', 'Segoe UI', Helvetica, Arial, sans-serif !default;
+$monospaced: Menlo, Monaco, monospace !default;
+
+@mixin box-sizing($type: border-box) {
+  -webkit-box-sizing: $type;
+     -moz-box-sizing: $type;
+          box-sizing: $type;
+}
+
+@mixin transition($args...) {
+  -webkit-transition: $args;
+     -moz-transition: $args;
+          transition: $args;
+}
+
+.catalogue {
+  &-item {
+    border-bottom: 1px solid $grey-2;
+    color: $default-color;
+    display: block;
+    padding: 2rem 0;
+
+    &:hover .catalogue-line,
+    &:focus .catalogue-line {
+      width: 5rem;
+    }
+
+    &:last-child {
+      border: 0;
+    }
+  }
+
+  &-pinned {
+    color: $default-tint;
+    font-family: $serif-secondary;
+    letter-spacing: .5px;
+  }
+
+  &-time {
+    color: $default-tint;
+    font-family: $serif-secondary;
+    letter-spacing: .5px;
+    font-size: 0.8rem;
+  }
+
+  &-title {
+    color: $default-shade;
+    display: block;
+    font-family: $sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: .5rem 0;
+  }
+
+  &-line {
+    @include transition(all .3s ease-out);
+    border-top: .2rem solid $default-shade;
+    display: block;
+    width: 2rem;
+  }
+}

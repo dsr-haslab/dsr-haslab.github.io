@@ -8,16 +8,6 @@
   number_educ: 0
   inesctec_webpage: https://www.inesctec.pt/en/people/joao-tiago-paulo
 
-- name: José Pereira
-  id: jose.o.pereira
-  photo: jop.jpg
-  info: Associate Professor
-  email: jose.o.pereira@inesctec.pt
-  git: https://github.com/jopereira
-  ldin:
-  number_educ: 0
-  inesctec_webpage: https://www.inesctec.pt/en/people/jose-orlando-pereira
-
 - name: Ricardo Macedo
   id: ricardo.g.macedo
   photo: rgmacedo.jpg
@@ -41,12 +31,22 @@
 - name: Cláudia Brito
   id: claudia.v.brito
   photo: claudia.jpg
-  info: PhD student
+  info: Assistant Researcher
   git: https://github.com/claudiavmbrito
   ldin: www.linkedin.com/in/claudiavmbrito
   email: claudia.v.brito@inesctec.pt
   number_educ: 1
   inesctec_webpage: https://www.inesctec.pt/pt/pessoas/claudia-vanessa-brito
+
+- name: José Pereira
+  id: jose.o.pereira
+  photo: jop.jpg
+  info: Associate Professor
+  email: jose.o.pereira@inesctec.pt
+  git: https://github.com/jopereira
+  ldin:
+  number_educ: 0
+  inesctec_webpage: https://www.inesctec.pt/en/people/jose-orlando-pereira
 
 - name: Mariana Miranda
   id: mariana.m.miranda
@@ -78,11 +78,11 @@
 - name: Pedro Peixoto
   id: jose.p.peixoto
   photo: pedro.jpg
-  info: MSc Student
+  info: PhD Student
   email: jose.p.peixoto@inesctec.pt
   git: https://github.com/vaavaav
   ldin:
-  number_educ: 2
+  number_educ: 1
 
 - name: Bruno Pereira
   id: bruno.f.pereira
@@ -93,7 +93,7 @@
   ldin:  https://www.linkedin.com/in/bruno-pereira-80a942227/
   number_educ: 2
 
-- name: Rui Oliveira
+- name: Rui Pedro Oliveira
   id: rui.v.oliveira
   photo: rui.jpg
   info: MSc Student
@@ -160,45 +160,45 @@
   id: carlos.machado
   photo: carlosm.jpg
   info: MSc Student
-  email:
-  git:
-  ldin:
+  email: pg52675@alunos.uminho.pt
+  git: https://github.com/hiddenduck
+  ldin: https://www.linkedin.com/in/carlos-eduardo-silva-machado/
   number_educ: 2
 
 - name: Gonçalo Sousa
   id: goncalo.sousa
   photo: goncalos.jpg
   info: MSc Student
-  email:
-  git:
-  ldin:
+  email: pg52682@alunos.uminho.pt
+  git: https://github.com/mirelois
+  ldin: https://dsr-haslab.github.io/people/www.linkedin.com/in/gonçalo-sousa-3bb683270
   number_educ: 2
 
 - name: André Ferreira
   id: andre.ferreira
   photo: alucena.png
   info: MSc Student
-  email:
-  git:
+  email: pg52672@alunos.uminho.pt
+  git: https://github.com/Lucenix
   ldin:
   number_educ: 2
 
-- name: Diogo Costa
-  id: diogo.a.ribeiro
-  photo: diogoc.jpg
-  info: BSc Student
-  email:  diogo.a.ribeiro@inesctec.pt
-  git:
-  ldin:
-  number_educ: 3
+# - name: Diogo Costa
+#   id: diogo.a.ribeiro
+#   photo: diogoc.jpg
+#   info: BSc Student
+#   email:  diogo.a.ribeiro@inesctec.pt
+#   git:
+#   ldin:
+#   number_educ: 3
 
 - name: Bruno Gião
   id: bruno.giao
   photo: brunog.jpg
   info: BSc Student
-  email:
-  git:
-  ldin:
+  email: bruno.d.giao@inesctec.pt
+  git: https://github.com/greybrunix
+  ldin: https://www.linkedin.com/in/bruno-giao/
   number_educ: 3
 
 
