@@ -3,7 +3,7 @@
   - title: "When Amnesia Strikes: Understanding and Reproducing Data Loss Bugs with Fault Injection"
     authors: Ramos M, Azevedo J, Kingsbury K, Pereira J, Esteves T, Macedo R, & Paulo J
     where: PVLDB
-    domain: sbd
+    domain: bao
     highlight: 1
     link:
       url:
@@ -15,7 +15,7 @@
   - title: Toward a practical and timely diagnosis of applications' I/O behavior
     authors: Esteves T, Macedo R, Oliveira R & Paulo J
     where: IEEE Access
-    domain: sbd
+    domain: bao
     highlight: 1
     link:
       url: https://doi.org/10.1109/ACCESS.2023.3322104
@@ -25,7 +25,7 @@
   - title: "CRIBA: A Tool for Comprehensive Analysis of Cryptographic Ransomware's I/O Behavior"
     authors: Esteves T, Pereira B, P. Oliveira R, Marco J & Paulo J
     where: IEEE International Symposium on Reliable Distributed Systems (SRDS)
-    domain: sbd
+    domain: bao
     highlight: 0
     link:
       url: https://doi.org/10.1109/SRDS60354.2023.00015
@@ -35,7 +35,7 @@
   - title: Diagnosing applications' I/O behavior through system call observability
     authors: Esteves T, Macedo R, Oliveira R & Paulo J
     where: Workshop on Data-Centric Dependability and Security (DCDS), colocated with DSN
-    domain: sbd
+    domain: bao
     highlight: 0
     link:
       url: https://doi.org/10.1109/DSN-W58399.2023.00022
@@ -45,7 +45,7 @@
   - title: Taming Metadata-intensive HPC Jobs Through Dynamic, Application-agnostic QoS Control
     authors: Macedo R, Miranda M, Tanimura Y, Haga J, Ruhela A, Harrell S, Evans T, Pereira J, Paulo J
     where: IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing (CCGrid)
-    domain: ssmdc
+    domain: sos
     link:
       url: https://doi.org/10.1109/CCGrid57682.2023.00015
       pdf: /assets/files/2023/padll-ccgrid23-ricardomacedo.pdf
@@ -58,7 +58,7 @@
   - title: Protecting Metadata Servers From Harm Through Application-level I/O Control
     authors: Macedo R, Miranda M, Tanimura Y, Haga J, Ruhela A, Harrell S, Evans T, Paulo J
     where: Workshop on Re-envisioning Extreme-Scale I/O for Emerging Hybrid HPC Workloads (REX-IO), colocated with Cluster
-    domain: ssmdc
+    domain: sos
     link:
       url: https://doi.org/10.1109/CLUSTER51413.2022.00075
       pdf: /assets/files/2022/padll-cluster22-ricardomacedo.pdf
@@ -67,16 +67,16 @@
   - title: Accelerating Deep Learning Training Through Transparent Storage Tiering
     authors: Dantas M, Leitão D, Cui P, Macedo R, Liu X, Xu W, Paulo J
     where:  IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing (CCGrid)
-    domain: sai
+    domain: ais
     link:
       url: https://doi.org/10.1109/CCGrid54584.2022.00011
       pdf: /assets/files/2022/monarch-ccgrid22-marcodantas.pdf
       git: https://github.com/dsrhaslab/monarch
-    highlight: 0
+    highlight: 1
   - title: "PAIO: General, Portable I/O Optimizations With Minor Application Modifications"
     authors: Macedo R, Tanimura Y, Haga J, Chidambaram V, Pereira J, Paulo J.
     where:  USENIX Conference on File and Storage Technologies (FAST)
-    domain: ssmdc
+    domain: sos
     link:
       url: https://www.usenix.org/conference/fast22/presentation/macedo
       pdf: /assets/files/2022/paio-fast22-ricardomacedo.pdf
@@ -88,7 +88,7 @@
   - title: "CaT: Content-aware Tracing and Analysis for Distributed Systems"
     authors: Esteves T, Neves F, Oliveira R & Paulo J
     where: ACM/IFIP Middleware conference (Middleware)
-    domain: sbd
+    domain: bao
     highlight: 1
     link:
       url: https://doi.org/10.1145/3464298.3493396
@@ -106,25 +106,25 @@
   - title: The Case for Storage Optimization Decoupling in Deep Learning Frameworks
     authors: Macedo R, Correia C, Dantas M, Brito C, Xu W, Tanimura Y, Haga J, Paulo J
     where: Workshop on Re-envisioning Extreme-Scale I/O for Emerging Hybrid HPC Workloads (REX-IO), colocated with Cluster
-    domain: sai
+    domain: ais
     link:
       url: https://doi.org/10.1109/Cluster48925.2021.00096
       pdf: /assets/files/2021/prisma-cluster21-ricardomacedo.pdf
       git: https://github.com/dsrhaslab/prisma
-    highlight: 0
+    highlight: 1
   - title: "Monarch: Hierarchical Storage Management for Deep Learning Frameworks"
     authors: Dantas M, Leitão D, Correia C, Macedo R, Xu W, Paulo J
     where: Workshop on Re-envisioning Extreme-Scale I/O for Emerging Hybrid HPC Workloads (REX-IO), colocated with Cluster
-    domain: sai
+    domain: ais
     link:
       url: https://doi.org/10.1109/Cluster48925.2021.00097
       pdf: /assets/files/2021/monarch-rexio21-marcodantas.pdf
       git: https://github.com/dsrhaslab/monarch
-    highlight: 0
+    highlight: 1
   - title: "PAIO: A Software-Defined Storage Data Plane Framework"
     authors: Macedo R, Tanimura Y, Haga J, Chidambaram V, Pereira J, Paulo J
     where: ArXiv – Computing Research Repository (CoRR)
-    domain: ssmdc
+    domain: sos
     link:
       url: https://doi.org/10.48550/arXiv.2106.03617
       pdf: /assets/files/2021/paio-arxiv21-ricardomacedo.pdf
@@ -133,7 +133,7 @@
   - title: Realistic Assessment of Faults in Storage Systems
     authors: Borges C, Paulo J.
     where: Workshop on High-Performance and Reliable Big Data (HPBD), colocated with SRDS
-    domain: sbd
+    domain: bao
     link:
       url:
       pdf: /assets/files/2021/achillesbench-hpbd21-cesarborges.pdf
@@ -172,7 +172,7 @@
   - title: A Survey and Classification of Software-Defined Storage Systems
     authors: Macedo R, Paulo J, Pereira J, Bessani, A
     where: ACM Computing Surveys
-    domain: ssmdc
+    domain: sos
     link:
       url: https://doi.org/10.1145/3385896
       pdf: /assets/files/2020/sds-survey-csur20-ricardomacedo.pdf
@@ -184,7 +184,7 @@
   - title: A Case for Dynamically Programmable Storage Background Tasks
     authors: Macedo R, Faria A, Paulo J, Pereira J
     where: Workshop on Distributed and Reliable Storage Systems (DRSS), colocated with SRDS
-    domain: ssmdc
+    domain: sos
     link:
       url: https://doi.org/10.1109/SRDSW49218.2019.00009
       pdf: /assets/files/2019/cdpsbt-drss19-ricardomacedo.pdf
@@ -270,7 +270,7 @@
   - title: Towards an Accurate Evaluation of Deduplicated Storage Systems
     authors: Paulo J, Reis P, Pereira J, Sousa A
     where: International Journal of Computer Systems Science and Engineering
-    domain: sbd
+    domain: bao
     link:
       url: https://repositorio.inesctec.pt/items/81c2c2e1-5ba2-4721-a581-8733137552d7
       pdf: /assets/files/2013/dedisbench-ijcsse13-joaopaulo.pdf
@@ -282,7 +282,7 @@
   - title: "DEDISbench: A Benchmark for Deduplicated Storage Systems"
     authors: Paulo J, Reis P, Pereira J, Sousa A
     where: International Symposium on Secure Virtual Infrastructures (DOA-SVI)
-    domain: sbd
+    domain: bao
     link:
       url: https://link.springer.com/chapter/10.1007/978-3-642-33615-7_9
       pdf: /assets/files/2012/dedisbench-doa-svi12-joaopaulo.pdf

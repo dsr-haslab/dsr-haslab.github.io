@@ -1,9 +1,9 @@
 ---
 layout: publication
 title: "Publications"
-excerpt: "Storage and AI"
-domain: sai
-permalink: /publications/sai/
+excerpt: "Storage systems for modern data centers"
+domain: sos
+permalink: /publications/sos/
 sitemap: false
 author_profile: false
 classes: wide

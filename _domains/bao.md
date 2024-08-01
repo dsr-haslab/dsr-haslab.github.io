@@ -1,9 +1,9 @@
 ---
 layout: domain
 title: "Research"
-excerpt: "Storage Systems for Modern Data Centers"
-domain: ssmdc
-permalink: /research/ssmdc
+excerpt: "Benchmarking and Observability"
+domain: bao
+permalink: /research/bao
 classes: wide
 sitemap: false
 author_profile: false

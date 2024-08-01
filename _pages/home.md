@@ -15,14 +15,14 @@ feature_row:
     alt: "placeholder research topics"
     title: "Research Topics"
     url: "/research/"
-    excerpt: "DRS research is directed towards building efficient, reliable, and secure storage systems."
+    excerpt: "Our research is directed towards building efficient, reliable, and secure storage systems."
     btn_label: "Read More"
     btn_class: "btn--inverse"
   - image_path: /assets/images/home/projects.png
     # image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
     alt: "placeholder projects"
     title: "Projects"
-    excerpt: "DRS is involved in several research projects aimed at delivering novel storage solutions."
+    excerpt: "DSR is involved in several research projects aimed at delivering novel storage solutions."
     url: "/projects/"
     btn_label: "Read More"
     btn_class: "btn--inverse"
@@ -30,7 +30,7 @@ feature_row:
     alt: "placeholder publications"
     title: "Publications"
     url: "/publications/"
-    excerpt: "Explore DRS groundbreaking publications in distributed storage research."
+    excerpt: "Explore DSR groundbreaking publications in distributed storage research."
     btn_label: "Read More"
     btn_class: "btn--inverse"
 ---
@@ -42,7 +42,7 @@ feature_row:
 
 <h3>About us</h3>
 
-Our team is composed of researchers from the High-Assurance Software Laboratory (HASLab), mainly from the Distributed Systems field. HASLab is one of the integrated R&D centres of [INESC TEC](https://www.inesctec.pt/en), a leading national associate laboratory, and a teaching and research subunit of the [University of Minho](https://www.uminho.pt/EN), where it is headquartered.
+Our team is composed of researchers from the High-Assurance Software Laboratory (HASLab), mainly from the Distributed Systems field. HASLab is one of the integrated R&D centers of [INESC TEC](https://www.inesctec.pt/en), a leading national associate laboratory, and a teaching and research subunit of the [University of Minho](https://www.uminho.pt/EN), where it is headquartered
 
 <a href="/people/" class="btn btn--inverse">Meet the team</a>
 

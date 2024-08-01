@@ -2,8 +2,8 @@
 layout: publication
 title: "Publications"
 excerpt: "Storage Benchmarking and Diagnosis"
-domain: sbd
-permalink: /publications/sbd/
+domain: bao
+permalink: /publications/bao/
 sitemap: false
 author_profile: false
 classes: wide

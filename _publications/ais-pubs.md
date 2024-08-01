@@ -1,9 +1,9 @@
 ---
 layout: publication
 title: "Publications"
-excerpt: "Storage systems for modern data centers"
-domain: ssmdc
-permalink: /publications/ssmdc/
+excerpt: "Storage and AI"
+domain: ais
+permalink: /publications/ais/
 sitemap: false
 author_profile: false
 classes: wide

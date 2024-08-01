@@ -1,9 +1,9 @@
 ---
 layout: domain
 title: "Research"
-excerpt: "Storage Benchmarking and Diagnosis"
-domain: sbd
-permalink: /research/sbd
+excerpt: "AI and Systems"
+domain: ais
+permalink: /research/ais
 classes: wide
 sitemap: false
 author_profile: false

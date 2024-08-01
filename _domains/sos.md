@@ -1,9 +1,9 @@
 ---
 layout: domain
 title: "Research"
-excerpt: "Storage and AI"
-domain: sai
-permalink: /research/sai
+excerpt: "Storage and Operating Systems for Modern Data Centers"
+domain: sos
+permalink: /research/sos
 classes: wide
 sitemap: false
 author_profile: false

@@ -12,39 +12,39 @@
       description: bliblibli
   contact: joao.t.paulo
 
-- name: Storage Systems for Modern Data Centers
-  domain: ssmdc
-  link: /research/ssmdc
-  brief_description: It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+- name: Storage and Operating Systems for Modern Data Centers
+  domain: sos
+  link: /research/sos
+  brief_description: The emergence of novel hardware devices, the continuous computing power demand, and the urgent need for designing sustainable infrastructures are reshaping the way modern data centers are built and managed. DSR is tackling these challenges by designing a new generation of storage and operating systems building blocks fitted for the performance, reliability, and energy consumption of modern infrastructures.
   summary: blebleble
   goals:
-    - name: Goal 1
+    - name: Redesign storage building blocks for new hardware devices
       description: blablabla
-    - name: Goal 2
+    - name: Maximize performance and resource utilization
       description: blebleble
-    - name: Goal 3
+    - name: Improve energy efficiency and sustainability
       description: bliblibli
   contact: ricardo.g.macedo
 
-- name: Storage Benchmarking and Diagnosis
-  domain: sbd
-  link: /research/sbd
-  brief_description: Researching efficient and reliable storage solutions involves evaluating the performance, resilience, and security of these systems. DSR is committed to designing and developing advanced benchmarking and diagnosis tools to accurately assess storage systems and data-centric applications, providing valuable insights for continuous improvement.
-  summary: As the complexity of modern storage solutions and data-centric applications grows, ensuring their efficiency, resiliency, and security becomes increasingly challenging. <br><br>Traditional benchmarking and diagnosis tools often fall short of thoroughly assessing the intricate performance aspects of these advanced systems. This gap makes it difficult to identify weaknesses, optimize performance, and guarantee data integrity and security in these increasingly complex environments.<br><br>Our research in the domain of Storage Benchmarking and Diagnosis aims to address the aforementioned challenges by developing robust tools and methodologies specifically tailored for modern storage solutions and data-centric applications.
+- name: Benchmarking and Observability
+  domain: bao
+  link: /research/bao
+  brief_description: Researching efficient and reliable storage solutions involves evaluating the performance, resilience, and security of these systems. DSR is committed to designing and developing advanced benchmarking and observability tools to accurately assess storage systems and data-centric applications, providing valuable insights for continuous improvement.
+  summary: As the complexity of modern storage solutions and data-centric applications grows, ensuring their efficiency, resiliency, and security becomes increasingly challenging. <br><br>Traditional benchmarking and observability tools often fall short of thoroughly assessing the intricate performance aspects of these advanced systems. This gap makes it difficult to identify weaknesses, optimize performance, and guarantee data integrity and security in these increasingly complex environments.<br><br>Our research in the domain of Benchmarking and Observability aims to address the aforementioned challenges by developing robust tools and methodologies specifically tailored for modern storage solutions and data-centric applications.
   goals:
     - name: Benchmarking
       description: We design benchmarking tools that can accurately evaluate storage systems by providing features such as realistic content generation, storage access patterns, data integrity validation, and fault injection. Our goal is to thoroughly assess storage system performance under various conditions, ensuring they meet the demands of data-centric applications.
     - name: Fault Injection
       description: We develop advanced fault-injection tools to simulate and reproduce various failure scenarios within storage systems. These tools help identify potential vulnerabilities and assess the resiliency of storage solutions. By understanding how systems behave under fault conditions, we can devise strategies to enhance their robustness and reliability.
-    - name: Monitoring and Diagnosis
-      description: We develop scalable and non-intrusive monitoring and diagnosis solutions tailored to complex data-centric applications and systems. These tools offer in-depth insights into system behavior, helping to understand applications' storage access patterns and diagnose issues that might compromise performance, resiliency, or security.
+    - name: Observability and I/O diagnosis
+      description: We develop scalable and non-intrusive bservability and diagnosis solutions tailored to complex data-centric applications and systems. These tools offer in-depth insights into system behavior, helping to understand applications' storage access patterns and diagnose issues that might compromise performance, resiliency, or security.
   contact: tania.c.araujo
 
-- name: Storage and AI
-  domain: sai
-  link: /research/sai
-  brief_description: There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.
-  summary: blebleble
+- name: AI and Systems
+  domain: ais
+  link: /research/ais
+  brief_description: Optimizing AI for systems and systems for AI workloads has become one of the most enticing routes for research as models and data grow and storage configurations may be suboptimal under volatile workloads.  With this, AIS's goal is threefold. First, it aims to design novel storage optimizations for AI workloads. Second, it seeks to find optimal storage configurations while resorting to AI (i.e., by fine-tuning typical storage mechanisms such as compression, data deduplication, or security degrees). Third, it aims to optimize LLMs in heterogeneous hierarchies.
+  summary: The challenge of efficiently managing the rapid growth of AI models and data, alongside volatile workloads, emphasizes the need for advanced storage solutions. Addressing this, our research focuses on three main areas. First, we aim to design novel storage optimizations tailored for AI workloads, improving the handling of large and complex datasets. Second, we strive to identify optimal storage configurations by leveraging AI techniques, enhancing storage efficiency and security. Third, we focus on optimizing large language models (LLMs) within heterogeneous hierarchies to ensure efficient operation across complex and modern computing environments. These research lines are crucial for advancing AI system capabilities amidst increasing demands and complexity.
   goals:
     - name: Goal 1
       description: blablabla
