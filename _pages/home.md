@@ -33,6 +33,12 @@ feature_row:
     excerpt: "Explore DSR groundbreaking publications in distributed storage research."
     btn_label: "Read More"
     btn_class: "btn--inverse"
+carousels:
+  - images:
+    - image: /assets/images/visits/2024_rahma_braga_romana.jpeg
+      caption: "Visiting researcher Rahma Nouaji in Braga Romana"
+    - image: /assets/images/visits/2024_rahma_last_day.jpeg
+      caption: "Visiting researcher Rahma Nouaji on her last day in our lab"
 ---
 
 {% include feature_row id="intro" type="center" %}
@@ -58,6 +64,17 @@ Our team is composed of researchers from the High-Assurance Software Laboratory 
   <div class="catalogue-line"></div>
   <p>{{article.headline}}</p>
 {% endfor %}
+
+<hr>
+<h3>Visiting Researchers</h3>
+
+{% include carousel.html height="50" unit="%" duration="7" number="1" %}
+
+<!--
+https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg
+https://mdbootstrap.com/img/Photos/Slides/img%20(68).jpg
+https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg
+-->
 
 
 <!-- <hr> -->
