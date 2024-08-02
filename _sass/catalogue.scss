@@ -55,16 +55,16 @@ $monospaced: Menlo, Monaco, monospace !default;
     color: $default-tint;
     font-family: $serif-secondary;
     letter-spacing: .5px;
-    font-size: 0.8rem;
+    font-size: 0.65rem;
   }
 
   &-title {
     color: $default-shade;
     display: block;
     font-family: $sans-serif;
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 700;
-    margin: .5rem 0;
+    margin: .2rem 0;
   }
 
   &-line {
