@@ -50,12 +50,12 @@
     authors: Macedo R, Miranda M, Tanimura Y, Haga J, Ruhela A, Harrell S, Evans T, Pereira J, Paulo J
     where: IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing (CCGrid)
     domains:
-      - sos
+      - edss
     link:
       url: https://doi.org/10.1109/CCGrid57682.2023.00015
       pdf: /assets/files/2023/padll-ccgrid23-ricardomacedo.pdf
       git: https://github.com/dsrhaslab/padll
-    highlight: 0
+    highlight: 1
 
 
 - year: 2022
@@ -64,7 +64,7 @@
     authors: Macedo R, Miranda M, Tanimura Y, Haga J, Ruhela A, Harrell S, Evans T, Paulo J
     where: Workshop on Re-envisioning Extreme-Scale I/O for Emerging Hybrid HPC Workloads (REX-IO), colocated with Cluster
     domains:
-      - sos
+      - edss
     link:
       url: https://doi.org/10.1109/CLUSTER51413.2022.00075
       pdf: /assets/files/2022/padll-cluster22-ricardomacedo.pdf
@@ -84,12 +84,12 @@
     authors: Macedo R, Tanimura Y, Haga J, Chidambaram V, Pereira J, Paulo J.
     where:  USENIX Conference on File and Storage Technologies (FAST)
     domains:
-      - sos
+      - edss
     link:
       url: https://www.usenix.org/conference/fast22/presentation/macedo
       pdf: /assets/files/2022/paio-fast22-ricardomacedo.pdf
       git: https://github.com/dsrhaslab/paio
-    highlight: 0
+    highlight: 1
 
 - year: 2021
   list:
@@ -137,7 +137,7 @@
     authors: Macedo R, Tanimura Y, Haga J, Chidambaram V, Pereira J, Paulo J
     where: ArXiv – Computing Research Repository (CoRR)
     domains:
-      - sos
+      - edss
     link:
       url: https://doi.org/10.48550/arXiv.2106.03617
       pdf: /assets/files/2021/paio-arxiv21-ricardomacedo.pdf
@@ -191,7 +191,7 @@
     authors: Macedo R, Paulo J, Pereira J, Bessani, A
     where: ACM Computing Surveys
     domains:
-      - sos
+      - edss
     link:
       url: https://doi.org/10.1145/3385896
       pdf: /assets/files/2020/sds-survey-csur20-ricardomacedo.pdf
@@ -204,7 +204,7 @@
     authors: Macedo R, Faria A, Paulo J, Pereira J
     where: Workshop on Distributed and Reliable Storage Systems (DRSS), colocated with SRDS
     domains:
-      - sos
+      - edss
     link:
       url: https://doi.org/10.1109/SRDSW49218.2019.00009
       pdf: /assets/files/2019/cdpsbt-drss19-ricardomacedo.pdf
@@ -242,7 +242,7 @@
       url: https://doi.org/10.1145/3078468.3078480
       pdf: /assets/files/2017/safefs-systor17-rogeriopontes.pdf
       git: https://github.com/safecloud-project/safefs
-    highlight: 0
+    highlight: 1
 
 
 - year: 2016
