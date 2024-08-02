@@ -51,13 +51,16 @@ Research at HASLab is anchored on a rigorous approach to three areas of Computer
 
 <h3>Latest news</h3>
 
-{% for article in site.data.news limit:4 %}
+{% for article in site.data.news limit:3 %}
 
   <time datetime="{{ article.date }}" class="catalogue-time">{{ article.date | date: "%B %d, %Y" }}</time>
   <h3 class="catalogue-title">{{ article.title }}</h3>
   <div class="catalogue-line"></div>
   <div class="catalogue-headline">{{article.headline}}</div>
 {% endfor %}
+
+<br>
+<a href="/news/" class="btn btn--inverse">See all news</a>
 
 <hr>
 <h3>Visiting Researchers</h3>

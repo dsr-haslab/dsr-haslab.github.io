@@ -43,7 +43,7 @@
 - date: 10 October 2020
   title: "Project kickoff"
   headline: "The PAStor project started on October 1st and will research new solutions to speedup storage performance for AI-oriented HPC services. We are very happy to be part of this collaboration between INESC TEC, TACC, MACC and Hood College."
-- date: 14 May 2020"
+- date: 14 May 2020
   title: "Accepted paper"
   headline: "The paper entitled GenoDedup: Similarity-Based Deduplication and Delta-Encoding for Genome Sequencing Data, resulting from a collaboration with Vinicius Cogo and Alysson Bessani from LASIGE, was accepted in IEEE Transactions on Computers."
 - date: 20 April 2020
