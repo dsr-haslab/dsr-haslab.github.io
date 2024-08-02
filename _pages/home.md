@@ -56,7 +56,7 @@ Research at HASLab is anchored on a rigorous approach to three areas of Computer
   <time datetime="{{ article.date }}" class="catalogue-time">{{ article.date | date: "%B %d, %Y" }}</time>
   <h3 class="catalogue-title">{{ article.title }}</h3>
   <div class="catalogue-line"></div>
-  <p><small>{{article.headline}}</small></p>
+  <div class="catalogue-headline">{{article.headline}}</div>
 {% endfor %}
 
 <hr>
