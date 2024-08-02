@@ -13,7 +13,7 @@ layout: default
 
     {% for publi in site.data.publist %}
     {% if page.domain %}
-    {% assign my_array = publi.list | where:"domain", page.domain %}
+    {% assign my_array = publi.list | where:"domains", page.domain %}
     {% else %}
     {% assign my_array = publi.list %}
     {% endif %}

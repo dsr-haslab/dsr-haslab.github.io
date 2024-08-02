@@ -18,19 +18,19 @@ feature_row:
     excerpt: "Our research is directed towards building efficient, reliable, and secure storage systems."
     btn_label: "Read More"
     btn_class: "btn--inverse"
+  - image_path: /assets/images/home/publications.png
+    alt: "placeholder publications"
+    title: "Publications"
+    url: "/publications/"
+    excerpt: "Explore DSR groundbreaking publications in distributed storage research."
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
   - image_path: /assets/images/home/projects.png
     # image_caption: "Image courtesy of [Unsplash](https://unsplash.com/)"
     alt: "placeholder projects"
     title: "Projects"
     excerpt: "DSR is involved in several research projects aimed at delivering novel storage solutions."
     url: "/projects/"
-    btn_label: "Read More"
-    btn_class: "btn--inverse"
-  - image_path: /assets/images/home/publications.png
-    alt: "placeholder publications"
-    title: "Publications"
-    url: "/publications/"
-    excerpt: "Explore DSR groundbreaking publications in distributed storage research."
     btn_label: "Read More"
     btn_class: "btn--inverse"
 carousels:

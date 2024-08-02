@@ -20,7 +20,7 @@ header:
 
 Our research is currently divided in four main domains:
 
-{% assign number_printed = 0 %}
+<!-- {% assign number_printed = 0 %}
 {% for domain in site.data.domains %}
 {% assign even_odd = number_printed | modulo: 2 %}
 {% if even_odd == 0 %}
@@ -30,6 +30,32 @@ Our research is currently divided in four main domains:
     <a href="{{ domain.link }}">
       <div class="card-block">
         <h4 class="card-title">{{ domain.name }}</h4>
+        <p class="card-text">{{ domain.brief_description }}</p>
+      </div>
+    </a>
+    <p class="card_text_see">See more</p>
+  </div>
+{% assign number_printed = number_printed | plus: 1 %}
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 0 %}
+</div>
+{% endif %}
+{% endfor %} -->
+
+
+
+{% assign number_printed = 0 %}
+{% for domain in site.domains %}
+
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 0 %}
+<div class="card-group">
+{% endif %}
+  <div class="card">
+    <a href="{{ domain.permalink }}">
+      <div class="card-block">
+        <h4 class="card-title">{{ domain.excerpt }}</h4>
         <p class="card-text">{{ domain.brief_description }}</p>
       </div>
     </a>
