@@ -70,3 +70,14 @@ feature_row:
 <h1>VISITING RESEARCHERS</h1>
 
 {% include carousel.html height="50" unit="%" duration="7" number="1" %}
+
+<br>
+<hr>
+<br>
+<h1>COLLABORATIONS</h1>
+
+<div class="collab-grid">
+  {% for collab in site.data.collaborations %}
+    <div><img src="{{ collab.logo }}" alt="{{ collab.name }}"></div>
+  {% endfor %}
+</div>

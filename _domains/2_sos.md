@@ -4,7 +4,7 @@ title: "Research"
 excerpt: "Storage and Operating Systems for Modern Data Centers"
 domain_acr: sos
 permalink: /research/sos
-brief_description: The emergence of novel hardware devices, the continuous computing power demand, and the urgent need for designing sustainable infrastructures are reshaping the way modern data centers are built and managed. DSR is tackling these challenges by designing a new generation of storage and operating systems building blocks fitted for the performance, reliability, and energy consumption of modern infrastructures.
+brief_description: The emergence of novel hardware and the pressing need to decrease the carbon footprint of computing infrastructures are reshaping how data centers are built and managed. DSR is designing a new generation of storage and OS building blocks fitted for the performance, reliability, and energy consumption of modern infrastructures.
 summary: blebleble
 goals:
   - name: Redesign storage building blocks for new hardware devices
