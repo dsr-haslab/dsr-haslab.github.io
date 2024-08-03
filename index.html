@@ -1,0 +1,72 @@
+---
+title: "Distributed Storage Research"
+layout: splash
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+excerpt: "Great power requires great storage!"
+intro:
+  - excerpt: 'Distributed Storage Research (DSR) team leverages its knowledge of storage, operating, and distributed systems to empower cloud computing, high-performance computing, and AI ecosystems. Our research aims to create efficient, scalable, resilient, and secure storage solutions to handle the rapid growth of digital information and the diverse requirements of various applications and infrastructures.<br><br><a href="/about/" class="btn btn--inverse" >About us</a>'
+feature_row:
+  - image_path: assets/images/home/research.png
+    alt: "placeholder research topics"
+    title: "Research Topics"
+    url: "/research/"
+    excerpt: "Our research is directed towards building efficient, reliable, and secure storage systems."
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
+  - image_path: /assets/images/home/publications.png
+    alt: "placeholder publications"
+    title: "Publications"
+    url: "/publications/"
+    excerpt: "Explore DSR groundbreaking publications in distributed storage research."
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
+  - image_path: /assets/images/home/projects.png
+    alt: "placeholder projects"
+    title: "Projects"
+    excerpt: "DSR is involved in several research projects aimed at delivering novel storage solutions."
+    url: "/projects/"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
+---
+
+{% include feature_row id="intro" type="center" %}
+
+{% include feature_row %}
+
+<h1>LATEST NEWS</h1>
+
+
+<div id="news">
+{% if paginator %}
+  {% assign posts = paginator.posts %}
+{% else %}
+  {% assign posts = site.posts %}
+{% endif %}
+
+{% assign entries_layout = page.entries_layout | default: 'list' %}
+<div class="entries-{{ entries_layout }}">
+  {% for post in posts %}
+    <time datetime="{{ article.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
+    <h3 class="catalogue-title">{{ post.title }}</h3>
+    <div class="catalogue-line"></div>
+    <div class="catalogue-headline">{{post.headline}}</div>
+  {% endfor %}
+
+<!-- Pagination links -->
+
+<div class="pag_container">
+  <div class="center">
+    {% include paginator.html %}
+  </div>
+</div>
+
+</div>
+
+<br>
+<hr>
+<br>
+<h1>VISITING RESEARCHERS</h1>
+
+{% include carousel.html height="50" unit="%" duration="7" number="1" %}
