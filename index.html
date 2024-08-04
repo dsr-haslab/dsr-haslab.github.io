@@ -39,29 +39,28 @@ feature_row:
 
 
 <div id="news">
-{% if paginator %}
-  {% assign posts = paginator.posts %}
-{% else %}
-  {% assign posts = site.posts %}
-{% endif %}
+  {% if paginator %}
+    {% assign posts = paginator.posts %}
+  {% else %}
+    {% assign posts = site.posts %}
+  {% endif %}
 
-{% assign entries_layout = page.entries_layout | default: 'list' %}
-<div class="entries-{{ entries_layout }}">
-  {% for post in posts %}
-    <time datetime="{{ article.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
-    <h3 class="catalogue-title">{{ post.title }}</h3>
-    <div class="catalogue-line"></div>
-    <div class="catalogue-headline">{{post.headline}}</div>
-  {% endfor %}
+  {% assign entries_layout = page.entries_layout | default: 'list' %}
+  <div class="entries-{{ entries_layout }}">
+    {% for post in posts %}
+      <time datetime="{{ article.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
+      <h3 class="catalogue-title">{{ post.title }}</h3>
+      <div class="catalogue-line"></div>
+      <div class="catalogue-headline">{{post.headline}}</div>
+    {% endfor %}
 
-<!-- Pagination links -->
+  <!-- Pagination links -->
 
-<div class="pag_container">
-  <div class="center">
-    {% include paginator.html %}
+  <div class="pag_container">
+    <div class="center">
+      {% include paginator.html %}
+    </div>
   </div>
-</div>
-
 </div>
 
 <br>
