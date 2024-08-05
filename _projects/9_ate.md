@@ -8,9 +8,6 @@ type: PRR
 img:
 status: Active
 website: https://www.inesctec.pt/pt/projetos/ate#
-duration:
-  start:
-  end:
 description:
 partners:
 external_collaborations:
