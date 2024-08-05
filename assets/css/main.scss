@@ -1,0 +1,21 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+@import url("https://fonts.googleapis.com/css?family=Questrial");
+
+@import "tools"; // custom styles
+@import "domains"; // custom styles
+@import "team"; // custom styles
+@import "project"; // custom styles
+@import "catalogue"; // custom styles
+@import "carousel"; // custom styles
+@import "collabs"; // custom styles

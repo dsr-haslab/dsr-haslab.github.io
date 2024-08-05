@@ -1,20 +1,18 @@
 ---
-title: "DSR @ HASLab - Publications"
-layout: gridlay
-excerpt: "DSR @ HASLab -- Publications."
-sitemap: false
+title: "Publications"
+layout: publication
 permalink: /publications/
+classes: wide
+sitemap: false
+author_profile: false
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
 ---
 
 
-# Publications
-
-{% for publi in site.data.publist %}
-   <h3>{{ publi.year}}</h3>
-   <ul>
-   {% for pub in publi.list %}
-   	<li><strong>{{ pub.title }}</strong>. {{ pub.authors }}. {{ pub.where }}.</li>
-   {% endfor %}
-	</ul>
-{% endfor %}
-
+<script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"
+    ></script>

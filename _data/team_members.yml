@@ -1,177 +1,213 @@
-- name: <a href="https://www.inesctec.pt/en/people/joao-tiago-paulo">João Paulo</a>
+- name: João Paulo
+  id: joao.t.paulo
   photo: jtpaulo.jpg
-  info: Assistant professor (coordinator)
+  info: Assistant Professor<br>(Coordinator)
   email: jtpaulo@inesctec.pt
   git: https://github.com/jtpaulo/
   ldin:
   number_educ: 0
+  inesctec_webpage: https://www.inesctec.pt/en/people/joao-tiago-paulo
 
-- name: <a href="https://www.inesctec.pt/en/people/jose-orlando-pereira">José Pereira</a>
-  photo: jop.jpg
-  info: Associate professor
-  email: jose.o.pereira@inesctec.pt
-  git: https://github.com/jopereira
-  ldin:
-  number_educ: 0
-
-- name: <a href="https://www.inesctec.pt/en/people/ricardo-goncalves-macedo">Ricardo Macedo</a>
+- name: Ricardo Macedo
+  id: ricardo.g.macedo
   photo: rgmacedo.jpg
   info: Assistant Researcher
   email: ricardo.g.macedo@inesctec.pt
   git: https://github.com/ricardomacedo13
   ldin:
   number_educ: 0
+  inesctec_webpage: https://www.inesctec.pt/en/people/ricardo-goncalves-macedo
 
-- name: <a href="https://www.inesctec.pt/en/people/tania-conceicao-araujo">Tânia Esteves</a>
+- name: Tânia Esteves
+  id: tania.c.araujo
   photo: tania.jpg
   info: Assistant Researcher
   email: tania.c.araujo@inesctec.pt
   git: https://github.com/taniaesteves
   ldin: https://linkedin.com/in/tania-esteves
   number_educ: 0
+  inesctec_webpage: https://www.inesctec.pt/en/people/tania-conceicao-araujo
 
-- name: <a href="https://www.inesctec.pt/pt/pessoas/claudia-vanessa-brito">Cláudia Brito</a>
+- name: Cláudia Brito
+  id: claudia.v.brito
   photo: claudia.jpg
   info: Assistant Researcher
   git: https://github.com/claudiavmbrito
   ldin: www.linkedin.com/in/claudiavmbrito
   email: claudia.v.brito@inesctec.pt
+  number_educ: 1
+  inesctec_webpage: https://www.inesctec.pt/pt/pessoas/claudia-vanessa-brito
+
+- name: José Pereira
+  id: jose.o.pereira
+  photo: jop.jpg
+  info: Associate Professor
+  email: jose.o.pereira@inesctec.pt
+  git: https://github.com/jopereira
+  ldin:
   number_educ: 0
+  inesctec_webpage: https://www.inesctec.pt/en/people/jose-orlando-pereira
 
 - name: Mariana Miranda
+  id: mariana.m.miranda
   photo: mariana.jpg
   info: PhD Student
   email: mariana.m.miranda@inesctec.pt
   git:
   ldin: https://www.linkedin.com/in/mariana-miranda-89a56a173/
-  number_educ: 0
+  number_educ: 1
 
 - name: Rúben Adão
+  id: ruben.d.adao
   photo: ruben.jpg
   info: PhD Student
   email: ruben.d.adao@inesctec.pt
   git: https://github.com/rubenadao
-  ldin: 
-  number_educ: 0
+  ldin:
+  number_educ: 1
 
 - name: Maria Ramos
+  id: maria.j.ramos
   photo: maria.jpg
   info: PhD Student
   email: maria.j.ramos@inesctec.pt
   git:  https://github.com/mj-ramos
   ldin: https://www.linkedin.com/in/maria-ramos-33a7a7212/
-  number_educ: 0
+  number_educ: 1
 
 - name: Pedro Peixoto
+  id: jose.p.peixoto
   photo: pedro.jpg
   info: PhD Student
   email: jose.p.peixoto@inesctec.pt
   git: https://github.com/vaavaav
-  ldin: 
-  number_educ: 0
+  ldin:
+  number_educ: 1
 
 - name: Bruno Pereira
+  id: bruno.f.pereira
   photo: bruno.jpg
   info: MSc Student
   email: bruno.f.pereira@inesctec.pt
   git:  https://github.com/obrunofilipe
   ldin:  https://www.linkedin.com/in/bruno-pereira-80a942227/
-  number_educ: 0
+  number_educ: 2
 
-- name: Rui Oliveira
+- name: Rui Pedro Oliveira
+  id: rui.v.oliveira
   photo: rui.jpg
   info: MSc Student
   email: rui.v.oliveira@inesctec.pt
   git:  https://github.com/ruioliveira02
   ldin: https://www.linkedin.com/in/rui-oliveira-031328258/
-  number_educ: 0
+  number_educ: 2
 
 - name: Sara Pereira
+  id: sara.l.pereira
   photo: sara.jpg
   info: MSc Student
   email: sara.l.pereira@inesctec.pt
   git: https://github.com/Saralp20
   ldin: https://www.linkedin.com/in/sara-lpereira
-  number_educ: 0
+  number_educ: 2
 
 - name: Mariana Amorim
+  id: mariana.a.amorim
   photo: marianaa.jpg
   info: MSc Student
   email: mariana.a.amorim@inesctec.pt
   git: https://github.com/MarianaCAA
-  ldin: 
-  number_educ: 0
+  ldin:
+  number_educ: 2
 
 - name: José Fernandes
+  id: jose.p.fernandes
   photo: jose.jpg
   info: MSc Student
   email: jose.p.fernandes@inesctec.pt
   git: https://github.com/jpdiasfernandes
   ldin: https://www.linkedin.com/in/josé-pedro-fernandes-4ba14b20b/
-  number_educ: 0
+  number_educ: 2
 
 - name: Diana Rodrigues
+  id: diana.a.rodrigues
   photo: diana.jpg
   info: MSc Student
   email: diana.a.rodrigues@inesctec.pt
   git: https://github.com/dianarodrigues2
   ldin: https://www.linkedin.com/in/dianarodrigues28
-  number_educ: 0
+  number_educ: 2
 
 - name: Guilherme Fernandes
+  id: guilherme.l.fernandes
   photo: guilherme.jpg
   info: MSc Student
   email: guilherme.l.fernandes@inesctec.pt
   git: https://github.com/zer0-5
   ldin: https://www.linkedin.com/in/guilherme-fernandes-bb4863242
-  number_educ: 0
+  number_educ: 2
 
 - name: Francisco Neves
+  id: francisco.a.neves
   photo: francisco.jpg
   info: MSc Student
   email: francisco.a.neves@inesctec.pt
   git: https://github.com/franl08
   ldin: https://www.linkedin.com/in/franl08
-  number_educ: 0
+  number_educ: 2
 
 - name: Carlos Machado
+  id: carlos.machado
   photo: carlosm.jpg
   info: MSc Student
   email: pg52675@alunos.uminho.pt
   git: https://github.com/hiddenduck
   ldin: https://www.linkedin.com/in/carlos-eduardo-silva-machado/
-  number_educ: 0
+  number_educ: 2
 
 - name: Gonçalo Sousa
+  id: goncalo.sousa
   photo: goncalos.jpg
   info: MSc Student
   email: pg52682@alunos.uminho.pt
   git: https://github.com/mirelois
-  ldin: www.linkedin.com/in/gonçalo-sousa-3bb683270
-  number_educ: 0
+  ldin: https://dsr-haslab.github.io/people/www.linkedin.com/in/gonçalo-sousa-3bb683270
+  number_educ: 2
 
 - name: André Ferreira
-  photo: alucena.jpg
+  id: andre.ferreira
+  photo: alucena.png
   info: MSc Student
   email: pg52672@alunos.uminho.pt
   git: https://github.com/Lucenix
-  ldin: 
-  number_educ: 0
+  ldin:
+  number_educ: 2
+
+# - name: Diogo Costa
+#   id: diogo.a.ribeiro
+#   photo: diogoc.jpg
+#   info: BSc Student
+#   email:  diogo.a.ribeiro@inesctec.pt
+#   git:
+#   ldin:
+#   number_educ: 3
 
 - name: Bruno Gião
+  id: bruno.giao
   photo: brunog.jpg
   info: BSc Student
   email: bruno.d.giao@inesctec.pt
   git: https://github.com/greybrunix
   ldin: https://www.linkedin.com/in/bruno-giao/
-  number_educ: 0
+  number_educ: 3
 
 
-- name: <a href="https://www.inesctec.pt/pt/pessoas/paula-cristina-rodrigues">Paula Rodrigues</a>
+- name: Paula Rodrigues
+  id: paula.c.rodrigues
   photo: paula.jpg
-  info: Communication and Dissemination
+  info: Communication
   email: paula.c.rodrigues@inesctec.pt
-  git: 
-  ldin: 
-  number_educ: 0 
-
+  git:
+  ldin:
+  number_educ: 4
+  inesctec_website: https://www.inesctec.pt/pt/pessoas/paula-cristina-rodrigues

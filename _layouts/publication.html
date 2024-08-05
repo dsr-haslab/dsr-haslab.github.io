@@ -1,0 +1,37 @@
+---
+layout: default
+---
+
+<div id="main" role="main">
+  {% include sidebar.html %}
+  <div class="publication">
+    {% unless page.header.overlay_color or page.header.overlay_image %}
+    <h1 id="page-title" class="page__title">{{ page.title }}</h1>
+    {% endunless %}
+
+    <!-- # Publications -->
+
+    {% if page.domain %}
+    {% assign my_array = site.data.publist | where_exp:"item", "item.domains contains page.domain" %}
+    {% else %}
+    {% assign my_array = site.data.publist %}
+    {% endif %}
+    {% assign my_array = my_array | group_by: "year" %}
+
+    {% for plist in my_array %}
+      <h3>{{ plist.name }}</h3>
+      <hr>
+      <ul>
+        {% for pub in plist.items %}
+            <li><strong>{{ pub.title }}</strong><br>{{ pub.authors }}.<br>{{ pub.where }}, {{ pub.year }}.<div class="social-links" display="inline-block">
+            {% if pub.link.url %}<a href={{ pub.link.url }}><i class="fas fa-fw fa-link zoom"></i></a>{% endif %}
+            {% if pub.link.pdf %}<a href={{ pub.link.pdf }}><i class="fas fa-fw fa-file-pdf zoom"></i></a>{% endif %}
+            {% if pub.link.git %}<a href={{ pub.link.git }}><i class="fas fa-fw fa-code zoom"></i></a>{% endif %}
+        </div><br></li>
+        {% endfor %}
+      </ul>
+    {% endfor %}
+
+    {{ content }}
+  </div>
+</div>
