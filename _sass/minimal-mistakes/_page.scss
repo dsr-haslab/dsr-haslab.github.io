@@ -87,7 +87,7 @@ body {
 
 .page__lead {
   font-family: $global-font-family;
-  font-size: $type-size-4;
+  font-size: $type-size-3;
 }
 
 .page__content {
@@ -192,6 +192,8 @@ body {
     position: relative;
     margin-bottom: 2em;
     padding: 3em 0;
+    padding-bottom: 2em;
+    padding-top: 2em;
     @include clearfix;
     background-size: cover;
     background-repeat: no-repeat;
@@ -224,10 +226,13 @@ body {
 
     .page__lead {
       max-width: $medium;
+      margin-bottom: 0;
+      margin-top: 0;
     }
 
     .page__title {
       font-size: $type-size-2;
+      margin-bottom: 0;
 
       @include breakpoint($small) {
         font-size: $type-size-1;

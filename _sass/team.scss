@@ -1,0 +1,68 @@
+
+// @import "mt-style.min";
+.caption .social-links a{
+    color: black;
+    margin-right: 15px;
+    font-size: 21px;
+    transition: .6s;
+  }
+
+.social-links a{
+color: black;
+}
+.social-links a:hover{
+color: blue;
+}
+
+/*person icons */
+.icons .cont p {
+    margin-bottom: 10px;
+}
+.icons .cont .int {
+    margin: 0 auto;
+    max-width: 400px;
+}
+.icons .cont .int p {
+    font-size: 16px;
+}
+.icons .cont .btn:before {
+    background: none;
+    border: 1px solid #00bed6;
+    color: #00bed6;
+}
+.icons.team .img {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    display: block;
+    height: 185px;
+    margin: 0 auto 30px;
+    margin-bottom: -30px;
+    width: 185px;
+}
+.icons.team .item p {
+    color: #9a9a9a;
+}
+
+.icons.facts .num {
+    font-size: 60px;
+    font-weight: 400;
+}
+.bgi {
+    background-position: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+}
+
+/* Meet the team*/
+.rel {
+    position: relative;
+}
+.pb80 {
+    padding-bottom: 80px;
+}
+.h3, h3 {
+    font-size: 40px;
+}

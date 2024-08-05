@@ -1,0 +1,26 @@
+- name: AIST
+  logo: /assets/images/logopic/aist.png
+- name: TACC
+  logo: /assets/images/logopic/tacc.png
+- name: MACC
+  logo: /assets/images/logopic/macc.png
+- name: FIU
+  logo: /assets/images/logopic/fiu.svg.png
+- name: University of Texas
+  logo: /assets/images/logopic/texas.png
+- name: McGill University
+  logo: /assets/images/logopic/mcgill.png
+- name: University of Lisbon
+  logo: /assets/images/logopic/ul.png
+- name: Jepsen
+  logo: /assets/images/logopic/jepsen.jpg
+- name: IBM
+  logo: /assets/images/logopic/ibm.png
+- name: University of Neuchâtel
+  logo: /assets/images/logopic/unine.png
+- name: Wavecom
+  logo: /assets/images/logopic/wavecom.png
+- name: Técnico Lisboa
+  logo: /assets/images/logopic/tecnicolisboa.png
+- name: LIP
+  logo: /assets/images/logopic/lip.png
