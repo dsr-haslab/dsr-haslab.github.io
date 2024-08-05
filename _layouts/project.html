@@ -2,20 +2,76 @@
 layout: default
 ---
 
-<article class="post">
+<div id="main" role="main">
+  {% include sidebar.html %}
 
-  <header class="post-header">
-    <h1 class="post-title">{% if page.redirect %}
-        <a href="{{page.redirect}}">{{ page.title }}</a>
-    {% else %}
-    {{ page.title }}
-  {% endif %}
-</h1>
-  </header>
-  <div class="post-content">
-    <p><b>{{ page.type }}</b></p>
-    <p>{{ page.description }}</p>
-    {{ content }}
+  <div class="domain">
+    {% unless page.header.overlay_color or page.header.overlay_image %}
+    <h1 id="page-title" class="page__title">{{ page.title }}</h1>
+    {% endunless %}
+
+    <div id="container">
+      {% if page.img %}
+      <div id="img-container"><img src="{{ page.img }}" style='height: 100%; width: 100%; object-fit: contain'></div>
+      {% endif %}
+      <div class="text-container">
+        {% if page.name %}<strong>Title: </strong>{{ page.name }}<br>{% endif %}
+        {% if page.type %}<strong>Type: </strong>{{ page.type }}<br>{% endif %}
+        {% if page.status %}<strong>Status: </strong>{{ page.status }}{% endif %} {% if page.duration %}&emsp;<strong>Start: </strong> {{ page.duration.start }}&emsp;<strong>End: </strong> {{ page.duration.end }}{% endif %}<br>
+        {% if page.website %} <strong>Website: </strong><a href="{{ page.website }}">{{ page.website }}</a><br>{% endif %}
+      </div>
+    </div>
+
+
+    {% assign checkcontent = page.content | strip_newlines %}
+    {% if checkcontent != ""  %}
+        <h2>Description</h2>
+        <hr>
+        {{ content }}
+    {% endif %}
+
+
+
+    {% if page.partners %}
+    <h2>Partners</h2>
+    <hr>
+
+    <ul>
+    {% for partner in page.partners %}
+        <li><a href={{ partner.website }}>{{ partner.name }}</a>{% if partner.country %} ({{ partner.country }}){% endif %}{% if partner.role %} - {{ partner.role }}{% endif %}</li>
+        {% if partner.members %}
+            <ul>
+            {% for member in partner.members %}
+                <li>{{ member}}</li>
+            {% endfor %}
+            </ul>
+        {% endif %}
+    {% endfor %}
+    </ul>
+
+    {% endif %}
+
+    {% if page.external_collaborations %}
+    <h2>External Collaborations</h2>
+    <hr>
+
+    <ul>
+    {% for collaboration in page.external_collaborations %}
+    <li><a href={{ collaboration.website }}>{{ collaboration.name }}</a>{% if collaboration.country %} ({{ collaboration.country }}){% endif %}</li>
+    {% endfor %}
+    </ul>
+
+    {% endif %}
+
+
+    {% if page.funding %}
+
+    <h2>Financing</h2>
+    <hr>
+
+    <p>{{ page.financing }}</p>
+
+    {% endif %}
+
   </div>
-
-</article>
+</div>

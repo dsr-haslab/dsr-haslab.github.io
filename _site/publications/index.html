@@ -1,154 +1,485 @@
-<!DOCTYPE html>
-<html>
-
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
   <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>DSR @ HASLab - Publications</title>
-  <meta name="description" content="DSR @ HASLab -- Publications.">
-  <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="/publications/">
-<link rel="shortcut icon" type ="image/x-icon" href="/images/favicon.ico">
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>Publications - DSR @ HASLab</title>
+<meta name="description" content="Distributed Storage Research done at the High-Assurance Software Laboratory (HASLab)">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DSR @ HASLab">
+<meta property="og:title" content="Publications">
+<meta property="og:url" content="http://localhost:4000/publications/">
+
+
+  <meta property="og:description" content="Distributed Storage Research done at the High-Assurance Software Laboratory (HASLab)">
 
 
 
-</head>
 
 
-  <body>
 
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-  <div class="container-fluid">
-	<div class="navbar-header">
-	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
-		<span class="sr-only">Toggle navigation</span>
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-		<span class="icon-bar"></span>
-	  </button>
-	
-    <a class="navbar-brand" href="/">Distributed Storage Research @ HASLab </a>
-	</div>
-	<div class="collapse navbar-collapse" id="navbar-collapse-1">
-	  <ul class="nav navbar-nav navbar-right">
-		<li><a href="/">Home</a></li>
-		<li><a href="/research">Research</a></li>
-		<li><a href="/projects">Projects</a></li>
-		<li><a href="/publications">Publications</a></li>
-		<li><a href="/tools">Tools</a></li>
-		<li><a href="/people">People</a></li>
-	  </ul>
-	</div>
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="http://localhost:4000/publications/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "DSR",
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--publication wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          DSR @ HASLab
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/research">Research</a>
+            </li><li class="masthead__menu-item">
+              <a href="/publications">Publications</a>
+            </li><li class="masthead__menu-item">
+              <a href="/projects">Projects</a>
+            </li><li class="masthead__menu-item">
+              <a href="/tools">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="/people">People</a>
+            </li></ul>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
   </div>
 </div>
 
 
-    <div class="container-fluid">
-      <div class="row">
-        <div id="gridid" class="col-sm-12">
-  <h1 id="publications">Publications</h1>
 
-<h3>2021</h3>
-<ul>
-   
-   	<li><strong>BDUS: Implementing Block Devices in User Space</strong>. Faria A, Macedo R, Pereira J, Paulo J.. ACM International Systems and Storage Conference (SYSTOR).</li>
-   
-   	<li><strong>S2Dedup: SGX-enabled Secure Deduplication</strong>. Miranda M, Esteves T, Portela B, Paulo J. ACM International Systems and Storage Conference (SYSTOR).</li>
-   
-	</ul>
-
-<h3>2020</h3>
-<ul>
-   
-   	<li><strong>A Survey and Classification of Software-Defined Storage Systems</strong>. Macedo R, Paulo J, Pereira J, Bessani, A. ACM Computing Surveys.</li>
-   
-   	<li><strong>GenoDedup: Similarity-Based Deduplication and Delta-Encoding for Genome Sequencing Data</strong>. Cogo V, Paulo J, Bessani, A. IEEE Transactions on Computers.</li>
-   
-	</ul>
-
-<h3>2019</h3>
-<ul>
-   
-   	<li><strong>A Case for Dynamically Programmable Storage Background Tasks</strong>. Macedo R, Faria A, Paulo J, Pereira J. Workshop on Distributed and Reliable Storage Systems (DRSS), colocated with SRDS.</li>
-   
-   	<li><strong>TrustFS: An SGX-Enabled Stackable File System Framework</strong>. Esteves T, Macedo R, Faria A, Portela B, Paulo J, Pereira J, Harnik D. Workshop on Distributed and Reliable Storage Systems (DRSS), colocated with SRDS.</li>
-   
-	</ul>
-
-<h3>2017</h3>
-<ul>
-   
-   	<li><strong>DDFlasks: Deduplicated Very Large Scale Data Store</strong>. Maia F, Paulo J, Coelho F, Neves F, Pereira J, Oliveira R. Distributed Applications and Interoperable Systems (DAIS).</li>
-   
-   	<li><strong>SafeFS: a modular architecture for secure user-space file systems: one FUSE to rule them all</strong>. Pontes R, Burihabwa D, Maia F, Paulo J, Schiavoni V, Felber P, Mercier H, Oliveira R. ACM International Systems and Storage Conference (SYSTOR) (best student paper award).</li>
-   
-	</ul>
-
-<h3>2016</h3>
-<ul>
-   
-   	<li><strong>Efficient Deduplication in a Distributed Primary Storage Infrastructure</strong>. Paulo J, Pereira J. ACM Transactions on Storage (TOS).</li>
-   
-   	<li><strong>On the Cost of Safe Storage for Public Clouds: an Experimental Evaluation</strong>. Burihabwa D, Pontes R, Felber P, Maia F, Mercier H, Oliveira R, Paulo J, Schiavoni V. IEEE International Symposium on Reliable Distributed Systems (SRDS).</li>
-   
-	</ul>
-
-<h3>2014</h3>
-<ul>
-   
-   	<li><strong>A Survey and Classification of Storage Deduplication Systems</strong>. Paulo J, Pereira J. ACM Computing Surveys (CSUR).</li>
-   
-   	<li><strong>Distributed Exact Deduplication for Primary Storage Infrastructures</strong>. Paulo J, Pereira J. Distributed Applications and Interoperable Systems (DAIS).</li>
-   
-	</ul>
-
-<h3>2013</h3>
-<ul>
-   
-   	<li><strong>Towards an Accurate Evaluation of Deduplicated Storage Systems</strong>. Paulo J, Reis P, Pereira J, Sousa A. International Journal of Computer Systems Science and Engineering.</li>
-   
-	</ul>
-
-<h3>2012</h3>
-<ul>
-   
-   	<li><strong>DEDISbench: A Benchmark for Deduplicated Storage Systems</strong>. Paulo J, Reis P, Pereira J, Sousa A. International Symposium on Secure Virtual Infrastructures (DOA-SVI).</li>
-   
-	</ul>
+  
+  
 
 
+
+
+
+
+
+<div class="page__hero--overlay"
+  style="background-color: #000; background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('');"
+>
+  
+    <div class="wrapper">
+      <h1 id="page-title" class="page__title" itemprop="headline">
+        
+          Publications
+
+        
+      </h1>
+      
+        <p class="page__lead"><br></p>
+      
+      
+
+
+      
+      
+    </div>
+  
+  
 </div>
 
-      </div>
+  
+
+  
+  
+  
+
+    <div class="initial-content">
+      <div id="main" role="main">
+  
+
+  <div class="publication">
+    
+
+    <!-- # Publications -->
+
+    
+    
+
+    
+      <h3>2024</h3>
+      <hr>
+      <ul>
+        
+            <li><strong>When Amnesia Strikes: Understanding and Reproducing Data Loss Bugs with Fault Injection</strong><br>Ramos M, Azevedo J, Kingsbury K, Pereira J, Esteves T, Macedo R, & Paulo J.<br>PVLDB, 2024.<div class="social-links" display="inline-block">
+            
+            <a href=/assets/files/2024/lazyfs-vldb24-mariaramos.pdf><i class="fas fa-fw fa-file-pdf zoom"></i></a>
+            <a href=https://github.com/dsrhaslab/lazyfs><i class="fas fa-fw fa-code zoom"></i></a>
+        </div><br></li>
+        
+      </ul>
+    
+      <h3>2023</h3>
+      <hr>
+      <ul>
+        
+            <li><strong>Toward a practical and timely diagnosis of applications' I/O behavior</strong><br>Esteves T, Macedo R, Oliveira R & Paulo J.<br>IEEE Access, 2023.<div class="social-links" display="inline-block">
+            <a href=https://doi.org/10.1109/ACCESS.2023.3322104><i class="fas fa-fw fa-link zoom"></i></a>
+            <a href=/assets/files/2023/dio-access23-taniaesteves.pdf><i class="fas fa-fw fa-file-pdf zoom"></i></a>
+            <a href=https://github.com/dsrhaslab/dio><i class="fas fa-fw fa-code zoom"></i></a>
+        </div><br></li>
+        
+            <li><strong>CRIBA: A Tool for Comprehensive Analysis of Cryptographic Ransomware's I/O Behavior</strong><br>Esteves T, Pereira B, P. Oliveira R, Marco J & Paulo J.<br>IEEE International Symposium on Reliable Distributed Systems (SRDS), 2023.<div class="social-links" display="inline-block">
+            <a href=https://doi.org/10.1109/SRDS60354.2023.00015><i class="fas fa-fw fa-link zoom"></i></a>
+            <a href=/assets/files/2023/criba-srds23-taniaesteves.pdf><i class="fas fa-fw fa-file-pdf zoom"></i></a>
+            <a href=https://github.com/dsrhaslab/criba><i class="fas fa-fw fa-code zoom"></i></a>
+        </div><br></li>
+        
+            <li><strong>Diagnosing applications' I/O behavior through system call observability</strong><br>Esteves T, Macedo R, Oliveira R & Paulo J.<br>Workshop on Data-Centric Dependability and Security (DCDS), colocated with DSN, 2023.<div class="social-links" display="inline-block">
+            <a href=https://doi.org/10.1109/DSN-W58399.2023.00022><i class="fas fa-fw fa-link zoom"></i></a>
+            <a href=/assets/files/2023/dio-dcds23-taniaesteves.pdf><i class="fas fa-fw fa-file-pdf zoom"></i></a>
+            <a href=https://github.com/dsrhaslab/dio><i class="fas fa-fw fa-code zoom"></i></a>
+        </div><br></li>
+        
+            <li><strong>Taming Metadata-intensive HPC Jobs Through Dynamic, Application-agnostic QoS Control</strong><br>Macedo R, Miranda M, Tanimura Y, Haga J, Ruhela A, Harrell S, Evans T, Pereira J, Paulo J.<br>IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing (CCGrid), 2023.<div class="social-links" display="inline-block">
+            <a href=https://doi.org/10.1109/CCGrid57682.2023.00015><i class="fas fa-fw fa-link zoom"></i></a>
+            <a href=/assets/files/2023/padll-ccgrid23-ricardomacedo.pdf><i class="fas fa-fw fa-file-pdf zoom"></i></a>
+            <a href=https://github.com/dsrhaslab/padll><i class="fas fa-fw fa-code zoom"></i></a>
+        </div><br></li>
+        
+      </ul>
+    
+      <h3>2022</h3>
+      <hr>
+      <ul>
+        
+            <li><strong>Protecting Metadata Servers From Harm Through Application-level I/O Control</strong><br>Macedo R, Miranda M, Tanimura Y, Haga J, Ruhela A, Harrell S, Evans T, Paulo J.<br>Workshop on Re-envisioning Extreme-Scale I/O for Emerging Hybrid HPC Workloads (REX-IO), colocated with Cluster, 2022.<div class="social-links" display="inline-block">
+            <a href=https://doi.org/10.1109/CLUSTER51413.2022.00075><i class="fas fa-fw fa-link zoom"></i></a>
+            <a href=/assets/files/2022/padll-cluster22-ricardomacedo.pdf><i class="fas fa-fw fa-file-pdf zoom"></i></a>
+            <a href=https://github.com/dsrhaslab/padll><i class="fas fa-fw fa-code zoom"></i></a>
+        </div><br></li>
+        
+            <li><strong>Accelerating Deep Learning Training Through Transparent Storage Tiering</strong><br>Dantas M, Leitão D, Cui P, Macedo R, Liu X, Xu W, Paulo J.<br>IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing (CCGrid), 2022.<div class="social-links" display="inline-block">
+            <a href=https://doi.org/10.1109/CCGrid54584.2022.00011><i class="fas fa-fw fa-link zoom"></i></a>
+            <a href=/assets/files/2022/monarch-ccgrid22-marcodantas.pdf><i class="fas fa-fw fa-file-pdf zoom"></i></a>
+            <a href=https://github.com/dsrhaslab/monarch><i class="fas fa-fw fa-code zoom"></i></a>
+        </div><br></li>
+        
+            <li><strong>PAIO: General, Portable I/O Optimizations With Minor Application Modifications</strong><br>Macedo R, Tanimura Y, Haga J, Chidambaram V, Pereira J, Paulo J..<br>USENIX Conference on File and Storage Technologies (FAST), 2022.<div class="social-links" display="inline-block">
+            <a href=https://www.usenix.org/conference/fast22/presentation/macedo><i class="fas fa-fw fa-link zoom"></i></a>
+            <a href=/assets/files/2022/paio-fast22-ricardomacedo.pdf><i class="fas fa-fw fa-file-pdf zoom"></i></a>
+            <a href=https://github.com/dsrhaslab/paio><i class="fas fa-fw fa-code zoom"></i></a>
+        </div><br></li>
+        
+      </ul>
+    
+      <h3>2021</h3>
+      <hr>
+      <ul>
+        
+            <li><strong>CaT: Content-aware Tracing and Analysis for Distributed Systems</strong><br>Esteves T, Neves F, Oliveira R & Paulo J.<br>ACM/IFIP Middleware conference (Middleware), 2021.<div class="social-links" display="inline-block">
+            <a href=https://doi.org/10.1145/3464298.3493396><i class="fas fa-fw fa-link zoom"></i></a>
+            <a href=/assets/files/2021/cat-middleware21-taniaesteves.pdf><i class="fas fa-fw fa-file-pdf zoom"></i></a>
+            <a href=https://github.com/dsrhaslab/cat><i class="fas fa-fw fa-code zoom"></i></a>
+        </div><br></li>
+        
+            <li><strong>Pods-as-Volumes: Effortlessly Integrating Storage Systems and Middleware into Kubernetes</strong><br>Faria A, Macedo R, Paulo J.<br>Workshop on Container Technologies and Container Clouds (WoC'21), colocated with Middleware, 2021.<div class="social-links" display="inline-block">
+            <a href=https://doi.org/10.1145/3493649.3493653><i class="fas fa-fw fa-link zoom"></i></a>
+            <a href=/assets/files/2021/pav-woc21-albertofaria.pdf><i class="fas fa-fw fa-file-pdf zoom"></i></a>
+            <a href=https://github.com/albertofaria/pav><i class="fas fa-fw fa-code zoom"></i></a>
+        </div><br></li>
+        
+            <li><strong>The Case for Storage Optimization Decoupling in Deep Learning Frameworks</strong><br>Macedo R, Correia C, Dantas M, Brito C, Xu W, Tanimura Y, Haga J, Paulo J.<br>Workshop on Re-envisioning Extreme-Scale I/O for Emerging Hybrid HPC Workloads (REX-IO), colocated with Cluster, 2021.<div class="social-links" display="inline-block">
+            <a href=https://doi.org/10.1109/Cluster48925.2021.00096><i class="fas fa-fw fa-link zoom"></i></a>
+            <a href=/assets/files/2021/prisma-cluster21-ricardomacedo.pdf><i class="fas fa-fw fa-file-pdf zoom"></i></a>
+            <a href=https://github.com/dsrhaslab/prisma><i class="fas fa-fw fa-code zoom"></i></a>
+        </div><br></li>
+        
+            <li><strong>Monarch: Hierarchical Storage Management for Deep Learning Frameworks</strong><br>Dantas M, Leitão D, Correia C, Macedo R, Xu W, Paulo J.<br>Workshop on Re-envisioning Extreme-Scale I/O for Emerging Hybrid HPC Workloads (REX-IO), colocated with Cluster, 2021.<div class="social-links" display="inline-block">
+            <a href=https://doi.org/10.1109/Cluster48925.2021.00097><i class="fas fa-fw fa-link zoom"></i></a>
+            <a href=/assets/files/2021/monarch-rexio21-marcodantas.pdf><i class="fas fa-fw fa-file-pdf zoom"></i></a>
+            <a href=https://github.com/dsrhaslab/monarch><i class="fas fa-fw fa-code zoom"></i></a>
+        </div><br></li>
+        
+            <li><strong>PAIO: A Software-Defined Storage Data Plane Framework</strong><br>Macedo R, Tanimura Y, Haga J, Chidambaram V, Pereira J, Paulo J.<br>ArXiv - Computing Research Repository (CoRR), 2021.<div class="social-links" display="inline-block">
+            <a href=https://doi.org/10.48550/arXiv.2106.03617><i class="fas fa-fw fa-link zoom"></i></a>
+            <a href=/assets/files/2021/paio-arxiv21-ricardomacedo.pdf><i class="fas fa-fw fa-file-pdf zoom"></i></a>
+            <a href=https://github.com/dsrhaslab/paio><i class="fas fa-fw fa-code zoom"></i></a>
+        </div><br></li>
+        
+            <li><strong>Realistic Assessment of Faults in Storage Systems</strong><br>Borges C, Paulo J..<br>Workshop on High-Performance and Reliable Big Data (HPBD), colocated with SRDS, 2021.<div class="social-links" display="inline-block">
+            
+            <a href=/assets/files/2021/achillesbench-hpbd21-cesarborges.pdf><i class="fas fa-fw fa-file-pdf zoom"></i></a>
+            <a href=https://github.com/CesarAugustoBorges/AchillesBench><i class="fas fa-fw fa-code zoom"></i></a>
+        </div><br></li>
+        
+            <li><strong>BDUS: Implementing Block Devices in User Space</strong><br>Faria A, Macedo R, Pereira J, Paulo J..<br>ACM International Systems and Storage Conference (SYSTOR), 2021.<div class="social-links" display="inline-block">
+            <a href=https://doi.org/10.1145/3456727.3463768><i class="fas fa-fw fa-link zoom"></i></a>
+            <a href=/assets/files/2021/bdus-systor21-albertofaria.pdf><i class="fas fa-fw fa-file-pdf zoom"></i></a>
+            <a href=https://github.com/albertofaria/bdus><i class="fas fa-fw fa-code zoom"></i></a>
+        </div><br></li>
+        
+            <li><strong>S2Dedup: SGX-enabled Secure Deduplication</strong><br>Miranda M, Esteves T, Portela B, Paulo J.<br>ACM International Systems and Storage Conference (SYSTOR), 2021.<div class="social-links" display="inline-block">
+            <a href=https://doi.org/10.1145/3456727.3463773><i class="fas fa-fw fa-link zoom"></i></a>
+            <a href=/assets/files/2021/s2dedup-systor21-marianamiranda.pdf><i class="fas fa-fw fa-file-pdf zoom"></i></a>
+            <a href=https://github.com/mmm97/S2Dedup><i class="fas fa-fw fa-code zoom"></i></a>
+        </div><br></li>
+        
+            <li><strong>GenoDedup: Similarity-Based Deduplication and Delta-Encoding for Genome Sequencing Data</strong><br>Cogo V, Paulo J, Bessani, A.<br>IEEE Transactions on Computers, 2021.<div class="social-links" display="inline-block">
+            <a href=https://doi.org/10.1109/TC.2020.2994774><i class="fas fa-fw fa-link zoom"></i></a>
+            <a href=/assets/files/2021/genodedup-toc21-viniciuscogo.pdf><i class="fas fa-fw fa-file-pdf zoom"></i></a>
+            
+        </div><br></li>
+        
+      </ul>
+    
+      <h3>2020</h3>
+      <hr>
+      <ul>
+        
+            <li><strong>A Survey and Classification of Software-Defined Storage Systems</strong><br>Macedo R, Paulo J, Pereira J, Bessani, A.<br>ACM Computing Surveys, 2020.<div class="social-links" display="inline-block">
+            <a href=https://doi.org/10.1145/3385896><i class="fas fa-fw fa-link zoom"></i></a>
+            <a href=/assets/files/2020/sds-survey-csur20-ricardomacedo.pdf><i class="fas fa-fw fa-file-pdf zoom"></i></a>
+            
+        </div><br></li>
+        
+      </ul>
+    
+      <h3>2019</h3>
+      <hr>
+      <ul>
+        
+            <li><strong>A Case for Dynamically Programmable Storage Background Tasks</strong><br>Macedo R, Faria A, Paulo J, Pereira J.<br>Workshop on Distributed and Reliable Storage Systems (DRSS), colocated with SRDS, 2019.<div class="social-links" display="inline-block">
+            <a href=https://doi.org/10.1109/SRDSW49218.2019.00009><i class="fas fa-fw fa-link zoom"></i></a>
+            <a href=/assets/files/2019/cdpsbt-drss19-ricardomacedo.pdf><i class="fas fa-fw fa-file-pdf zoom"></i></a>
+            
+        </div><br></li>
+        
+            <li><strong>TrustFS: An SGX-Enabled Stackable File System Framework</strong><br>Esteves T, Macedo R, Faria A, Portela B, Paulo J, Pereira J, Harnik D.<br>Workshop on Distributed and Reliable Storage Systems (DRSS), colocated with SRDS, 2019.<div class="social-links" display="inline-block">
+            <a href=https://doi.org/10.1109/SRDSW49218.2019.00012><i class="fas fa-fw fa-link zoom"></i></a>
+            <a href=/assets/files/2019/trustfs-drss19-taniaesteves.pdf><i class="fas fa-fw fa-file-pdf zoom"></i></a>
+            <a href=https://github.com/taniaesteves/TrustFS><i class="fas fa-fw fa-code zoom"></i></a>
+        </div><br></li>
+        
+      </ul>
+    
+      <h3>2017</h3>
+      <hr>
+      <ul>
+        
+            <li><strong>DDFlasks: Deduplicated Very Large Scale Data Store</strong><br>Maia F, Paulo J, Coelho F, Neves F, Pereira J, Oliveira R.<br>Distributed Applications and Interoperable Systems (DAIS), 2017.<div class="social-links" display="inline-block">
+            <a href=https://link.springer.com/chapter/10.1007/978-3-319-59665-5_4><i class="fas fa-fw fa-link zoom"></i></a>
+            <a href=/assets/files/2017/ddflasks-dais17-franciscomaia.pdf><i class="fas fa-fw fa-file-pdf zoom"></i></a>
+            
+        </div><br></li>
+        
+            <li><strong>SafeFS: a modular architecture for secure user-space file systems: one FUSE to rule them all</strong><br>Pontes R, Burihabwa D, Maia F, Paulo J, Schiavoni V, Felber P, Mercier H, Oliveira R.<br>ACM International Systems and Storage Conference (SYSTOR) (best student paper award), 2017.<div class="social-links" display="inline-block">
+            <a href=https://doi.org/10.1145/3078468.3078480><i class="fas fa-fw fa-link zoom"></i></a>
+            <a href=/assets/files/2017/safefs-systor17-rogeriopontes.pdf><i class="fas fa-fw fa-file-pdf zoom"></i></a>
+            <a href=https://github.com/safecloud-project/safefs><i class="fas fa-fw fa-code zoom"></i></a>
+        </div><br></li>
+        
+      </ul>
+    
+      <h3>2016</h3>
+      <hr>
+      <ul>
+        
+            <li><strong>Efficient Deduplication in a Distributed Primary Storage Infrastructure</strong><br>Paulo J, Pereira J.<br>ACM Transactions on Storage (TOS), 2016.<div class="social-links" display="inline-block">
+            <a href=https://doi.org/10.1145/2876509><i class="fas fa-fw fa-link zoom"></i></a>
+            <a href=/assets/files/2016/dedis-tos16-joaopaulo.pdf><i class="fas fa-fw fa-file-pdf zoom"></i></a>
+            <a href=https://launchpad.net/holeycow/dedis-deduplication-system><i class="fas fa-fw fa-code zoom"></i></a>
+        </div><br></li>
+        
+            <li><strong>On the Cost of Safe Storage for Public Clouds: an Experimental Evaluation</strong><br>Burihabwa D, Pontes R, Felber P, Maia F, Mercier H, Oliveira R, Paulo J, Schiavoni V.<br>IEEE International Symposium on Reliable Distributed Systems (SRDS), 2016.<div class="social-links" display="inline-block">
+            <a href=https://doi.org/10.1109/SRDS.2016.028><i class="fas fa-fw fa-link zoom"></i></a>
+            <a href=/assets/files/2016/csspcee-srds16-dorianburihabwa.pdf><i class="fas fa-fw fa-file-pdf zoom"></i></a>
+            
+        </div><br></li>
+        
+      </ul>
+    
+      <h3>2014</h3>
+      <hr>
+      <ul>
+        
+            <li><strong>A Survey and Classification of Storage Deduplication Systems</strong><br>Paulo J, Pereira J.<br>ACM Computing Surveys (CSUR), 2014.<div class="social-links" display="inline-block">
+            <a href=https://doi.org/10.1145/2611778><i class="fas fa-fw fa-link zoom"></i></a>
+            <a href=/assets/files/2014/dedup-survey-csur14-joaopaulo.pdf><i class="fas fa-fw fa-file-pdf zoom"></i></a>
+            
+        </div><br></li>
+        
+            <li><strong>Distributed Exact Deduplication for Primary Storage Infrastructures</strong><br>Paulo J, Pereira J.<br>Distributed Applications and Interoperable Systems (DAIS), 2014.<div class="social-links" display="inline-block">
+            <a href=https://link.springer.com/chapter/10.1007/978-3-662-43352-2_5><i class="fas fa-fw fa-link zoom"></i></a>
+            <a href=/assets/files/2014/dedis-dais14-joaopaulo.pdf><i class="fas fa-fw fa-file-pdf zoom"></i></a>
+            <a href=https://launchpad.net/holeycow/dedis-deduplication-system><i class="fas fa-fw fa-code zoom"></i></a>
+        </div><br></li>
+        
+      </ul>
+    
+      <h3>2013</h3>
+      <hr>
+      <ul>
+        
+            <li><strong>Towards an Accurate Evaluation of Deduplicated Storage Systems</strong><br>Paulo J, Reis P, Pereira J, Sousa A.<br>International Journal of Computer Systems Science and Engineering, 2013.<div class="social-links" display="inline-block">
+            <a href=https://repositorio.inesctec.pt/items/81c2c2e1-5ba2-4721-a581-8733137552d7><i class="fas fa-fw fa-link zoom"></i></a>
+            <a href=/assets/files/2013/dedisbench-ijcsse13-joaopaulo.pdf><i class="fas fa-fw fa-file-pdf zoom"></i></a>
+            <a href=https://github.com/jtpaulo/dedisbench><i class="fas fa-fw fa-code zoom"></i></a>
+        </div><br></li>
+        
+      </ul>
+    
+      <h3>2012</h3>
+      <hr>
+      <ul>
+        
+            <li><strong>DEDISbench: A Benchmark for Deduplicated Storage Systems</strong><br>Paulo J, Reis P, Pereira J, Sousa A.<br>International Symposium on Secure Virtual Infrastructures (DOA-SVI), 2012.<div class="social-links" display="inline-block">
+            <a href=https://link.springer.com/chapter/10.1007/978-3-642-33615-7_9><i class="fas fa-fw fa-link zoom"></i></a>
+            <a href=/assets/files/2012/dedisbench-doa-svi12-joaopaulo.pdf><i class="fas fa-fw fa-file-pdf zoom"></i></a>
+            <a href=https://github.com/jtpaulo/dedisbench><i class="fas fa-fw fa-code zoom"></i></a>
+        </div><br></li>
+        
+      </ul>
+    
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+
+  </div>
+</div>
     </div>
 
-    <div id="footer" class="panel">
-  <div class="panel-footer">
-	<div class="container-fluid">
-	  <div class="row">
-		<div class="col-sm-8">
-              <p>We are part of the <a href="https://www.inesctec.pt/en/centres/haslab">High-Assurance Software Laboratory</a>, one of the integrated R&D centres of <a href="https://www.inesctec.pt">INESC TEC</a> and a subunit of <a href="https://www.uminho.pt">University of Minho</a>.</p>
-            <p>&copy 2018 HASLab. Site made with <a href="https://jekyllrb.com">Jekyll</a> and based on the template provided by <a href="http://www.allanlab.org">Allan Lab</a></p>
-            Google Analytics is used to improve the website. The privacy terms are available at <a href="http://www.google.com/policies/privacy/partners/">www.google.com/policies/privacy/partners/</a>.
-		</div>
-		<div class="col-sm-4">
-		  Address:<br />
-		  Departamento de Informática<br />
-		  Universidade do Minho, <br />
-		  Campus de Gualtar<br />
-          4710-057 Braga, Portugal<br />
-		</div>
-	  </div>
-	  <br>
-	</div>
-  </div>
-</div>
+    
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="/js/bootstrap.min.js"></script>
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        
+<div style="width: 100%; overflow: hidden;">
+  <div style="width: 65%; float: left;">
+    <div class="page__footer-follow">
+      <ul class="social-icons">
+        
+          <li><strong>Follow:</strong></li>
+        
+
+        
+          
+            
+              <li><a href="https://github.com/dsrhaslab" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+            
+          
+        
+
+        
+      </ul>
+
+    </div>
+
+    <div class="page__footer-copyright">&copy; 2024 DSR. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+  </div>
+
+  <div class="widget right" style="margin-left: 78%;">
+    <a class="logo-link"><img class="logo-footer" src="/assets/images/logopic/inesctec_logo.png" alt="logo" style="width: 60%"></a>
+    <a class="logo-link"><img class="logo-footer" src="/assets/images/logopic/uminho_logo.png" alt="logo" style="width: 30%"></a>
+  </div>
+
+</div>
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+
+
+
+
 
 
   </body>
-
 </html>
