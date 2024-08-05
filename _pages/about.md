@@ -16,7 +16,7 @@ Distributed Storage research (DSR) is a team of researchers from the HASLab rese
 We leverage our knowledge of storage, operating, and distributed systems to build efficient, scalable, resilient, and secure storage solutions capable of handling the demands of modern applications and infrastructures.
 
 <p style="text-align:center">
-<a href="/people/" class="btn btn--inverse" >Meet the team</a>
+<a href="/people" class="btn btn--inverse" >Meet the team</a>
 </p>
 
 <h2>HASLab CENTER</h2>
