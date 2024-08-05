@@ -35,10 +35,10 @@ layout: default
     <h2>SELECTED PUBLICATIONS</h2>
     <hr>
     <ul>
-      {% assign pubs = site.data.publist | where_exp: "item", "item.domains contains page.domain_acr" %}
+      {% assign pub_list = site.data.publist | where_exp: "item", "item.domains contains page.domain_acr" %}
       <p>highlighted_pubs: {{page.highlighted_pubs}}</p>
       {% for hp in page.highlighted_pubs %}
-        {% assign pub = pubs | find:"key", hp %}
+        {% assign pub = pub_list | where:"key", hp | first %}
         {% if pub != nil %}
         <p>Pub: {{pub}}</p>
           <li><strong>{{ pub.title }}</strong>.<br>{{ pub.authors }}.<br>{{ pub.where }}, {{ pub.year }}.<div class="social-links" display="inline-block">
