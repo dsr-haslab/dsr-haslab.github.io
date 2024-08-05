@@ -31,7 +31,7 @@ Our research is currently divided in four main domains:
   <div class="card">
     <a href="{{ domain.permalink }}">
       <div class="card-block">
-        <h4 class="card-title">{{ domain.excerpt }}</h4>
+        <h4 class="card-title">{{ domain.subtitle }}</h4>
         <p class="card-text">{{ domain.brief_description }}</p>
       </div>
     </a>

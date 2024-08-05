@@ -1,7 +1,8 @@
 ---
 layout: domain
 title: "Research"
-excerpt: "Storage and OSs for Modern Data Centers"
+excerpt: "Storage and Operating Systems for Modern Data Centers"
+subtitle: "Storage and OSs for Modern Data Centers"
 domain_acr: sos
 permalink: /research/sos
 brief_description: The emergence of novel hardware and the pressing need to decrease the carbon footprint of computing infrastructures are reshaping how data centers are built and managed. DSR is designing a new generation of storage and OS building blocks fitted for the performance, reliability, and energy consumption of modern infrastructures.

@@ -2,6 +2,7 @@
 layout: domain
 title: "Research"
 excerpt: "AI and Systems"
+subtitle: "AI and Systems"
 domain_acr: ais
 permalink: /research/ais
 brief_description: Optimizing AI for systems and systems for AI workloads has become one of the most enticing routes for research as models and data grow and storage configurations may be suboptimal.  DSR focuses on optimizing and improving systems for AI workloads while finding optimal configurations under volatile workloads.

@@ -2,6 +2,7 @@
 layout: domain
 title: "Research"
 excerpt: "Benchmarking and Observability"
+subtitle: "Benchmarking and Observability"
 domain_acr: bao
 permalink: /research/bao
 brief_description: Researching efficient and reliable storage solutions involves evaluating the performance, resilience, and security of these systems. DSR is committed to designing and developing advanced benchmarking and observability tools to accurately assess storage systems and data-centric applications, providing valuable insights for their improvement.

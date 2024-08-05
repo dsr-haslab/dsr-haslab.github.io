@@ -2,6 +2,7 @@
 layout: domain
 title: "Research"
 excerpt: Efficient, Dependable, and Secure Storage
+subtitle: "Efficient, Dependable, and Secure Storage"
 domain_acr: edss
 permalink: /research/edss
 brief_description: Storage systems are critical for the efficiency of data-centric applications (e.g., AI, analytics, databases) and large-scale services (e.g., Cloud, HPC). DSR designs new storage solutions and optimizations that meet the performance, scale, dependability, and security demands of traditional and emerging data-centric workloads.
