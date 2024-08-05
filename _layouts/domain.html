@@ -12,13 +12,13 @@ layout: default
 
     {{ content }}
 
-    {% assign my_domain = site.data.domains | find:"domain", page.domain %}
+    <!-- {% assign my_domain = site.domains | find:"domain_acr", page.domain %} -->
 
     <h2>SUMMARY</h2>
 
     <hr>
 
-    <p>{{ my_domain.summary }}</p>
+    <p>{{ page.summary }}</p>
 
     <h2>OBJECTIVES</h2>
 
@@ -27,7 +27,7 @@ layout: default
     <p>Within this domain, our current areas of interest include:</p>
 
     <ul>
-    {% for obj in my_domain.goals %}
+    {% for obj in page.goals %}
         <li><strong>{{ obj.name }}</strong>: {{obj.description}}</li>
     {% endfor %}
     </ul>
@@ -35,25 +35,25 @@ layout: default
     <h2>SELECTED PUBLICATIONS</h2>
     <hr>
     <ul>
-    {% for publi in site.data.publist %}
-        {% for pub in publi.list %}
-          {% if pub.domain == page.domain and pub.highlight == 1 %}
-            <li><strong>{{ pub.title }}</strong>.<br>{{ pub.authors }}.<br>{{ pub.where }}, {{ publi.year }}.<div class="social-links" display="inline-block">
-              {% if pub.link.url %}<a href={{ pub.link.url }}><i class="fas fa-fw fa-link zoom"></i></a>{% endif %}
-              {% if pub.link.pdf %}<a href={{ pub.link.pdf }}><i class="fas fa-fw fa-file-pdf zoom"></i></a>{% endif %}
-              {% if pub.link.git %}<a href={{ pub.link.git }}><i class="fas fa-fw fa-code zoom"></i></a>{% endif %}
-        </div><br></li>
-          {% endif %}
-        {% endfor %}
-    {% endfor %}
+      {% assign pubs = site.data.publist | where_exp: "item", "item.domains contains page.domain_acr" %}
+      {% for hp in page.highlighted_pubs %}
+        {% assign pub = pubs | find:"key", hp %}
+        {% if pub != nil %}
+          <li><strong>{{ pub.title }}</strong>.<br>{{ pub.authors }}.<br>{{ pub.where }}, {{ pub.year }}.<div class="social-links" display="inline-block">
+            {% if pub.link.url %}<a href={{ pub.link.url }}><i class="fas fa-fw fa-link zoom"></i></a>{% endif %}
+            {% if pub.link.pdf %}<a href={{ pub.link.pdf }}><i class="fas fa-fw fa-file-pdf zoom"></i></a>{% endif %}
+            {% if pub.link.git %}<a href={{ pub.link.git }}><i class="fas fa-fw fa-code zoom"></i></a>{% endif %}
+          </div><br></li>
+        {% endif %}
+      {% endfor %}
     </ul>
-    Check the full list of publications <a href="/publications/{{page.domain}}">here</a>.
+    Check the full list of publications <a href="/publications/{{page.domain_acr}}">here</a>.
 
     <h2>RESPONSIBLE FOR THE DOMAIN</h2>
 
     <hr>
 
-    {% assign member = site.data.team_members | where:"id", my_domain.contact  | first %}
+    {% assign member = site.data.team_members | where:"id", page.contact  | first %}
 
     <div class="container-fluid rel icons team pt50 pb0">
         <div class="col-sm-12 text-center contIt rel shSec it5">

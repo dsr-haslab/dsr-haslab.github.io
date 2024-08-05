@@ -50,9 +50,15 @@
      Post pagination navigation links
      ========================================================================== */
 
+.pag_container {
+  display: flex;
+  justify-content: center;
+}
+
 .pagination {
   @include clearfix();
   float: left;
+  align-items: center;
   margin-top: 1em;
   padding-top: 1em;
   width: 100%;
