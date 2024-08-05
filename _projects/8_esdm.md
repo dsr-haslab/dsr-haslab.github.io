@@ -1,8 +1,50 @@
 ---
 layout: project
 title: Project
-excerpt: ESDMHCC
-permalink: /projects/ESDMHCC
+excerpt: ESDM
+permalink: /projects/ESDM
+name: Efficient and Secure Data Management for HPC and Cloud Computing
+type: CENTRA project
+img: /assets/images/prjpic/esdm.jpg
+status: Active
+website: http://www.globalcentra.org/projects/#prv
+duration:
+  start: 2021-01-01
+  end: 2023-12-31
+description:
+partners:
+  - name: INESC TEC
+    country: Portugal
+    website: https://www.inesctec.pt/
+    # members:
+    #   - João Paulo
+    #   - Ricardo Macedo
+    #   - Tânia Esteves
+    #   - Cláudia Brito
+    #   - Cláudia Correia
+  - name: AIST
+    country: Japan
+    website: https://www.aist.go.jp/
+    # members:
+    #   - Yusuke Tanimura
+    #   - Jason Haga
+  - name: KISTI
+    country: South Korea
+    website: https://www.kisti.re.kr/
+    # members:
+    #   - Woojin Seok
+external_collaborations:
+  - name: UT Austin
+    country: USA
+    website: https://www.utexas.edu/
+    # members:
+    #   - Vijay Chidambaram
+  - name: TACC
+    country: USA
+    website: https://www.tacc.utexas.edu/
+    # members:
+    #   - Weijia Xu
+financing:
 classes: wide
 sitemap: false
 author_profile: false

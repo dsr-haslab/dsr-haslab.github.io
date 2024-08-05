@@ -3,6 +3,16 @@ layout: project
 title: Project
 excerpt: ReD
 permalink: /projects/ReD
+name: Resilient databases
+type: National FCT
+img: /assets/images/prjpic/red.png
+status: Finished
+website: http://red.lsd.di.uminho.pt/
+visible: false
+duration:
+partners:
+external_collaborations:
+financing:
 classes: wide
 sitemap: false
 author_profile: false

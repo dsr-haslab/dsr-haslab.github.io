@@ -15,9 +15,9 @@ header:
       crossorigin="anonymous"
     ></script>
 
-{% assign projects_highlighted = site.data.projects | where_exp: "item", "item.status == 'Active'" %}
+{% assign projects_highlighted = site.projects | where_exp: "item", "item.status == 'Active'" | reverse %}
 
-{% assign other_projects = site.data.projects | where_exp: "item", "item.status == 'Finished'" %}
+{% assign other_projects = site.projects | where_exp: "item", "item.status == 'Finished'" | reverse %}
 
 {% assign sorted_projects = projects_highlighted | concat: other_projects %}
 
@@ -25,26 +25,28 @@ header:
 
 {% assign number_printed = 0 %}
 {% for project in sorted_projects %}
-{% assign even_odd = number_printed | modulo: 4 %}
-{% if even_odd == 0 %}
-<div class="card-group">
-{% endif %}
-  <div class="card">
-    <a href="/projects/{{project.alias}}">
-      <div class="card-block">
-        <h4 class="card-title">{{ project.alias }}</h4>
-        <p class="card-tool-text">{{ project.name }}</p>
-      </div>
-    </a>
-      <div class="card_bottom_section">
-        <span><i class="fas fa-info"></i>&nbsp; {{project.status}}</span>
-      </div>
-  </div>
-{% assign number_printed = number_printed | plus: 1 %}
-{% assign even_odd = number_printed | modulo: 4 %}
-{% if even_odd == 0 %}
-</div>
-{% endif %}
+  {% assign even_odd = number_printed | modulo: 4 %}
+  {% if project.visible != false %}
+    {% if even_odd == 0 %}
+    <div class="card-group">
+    {% endif %}
+    <div class="card">
+      <a href="{{project.permalink}}">
+        <div class="card-block">
+          <h4 class="card-title">{{ project.excerpt }}</h4>
+          <p class="card-tool-text">{{ project.name }}</p>
+        </div>
+      </a>
+        <div class="card_bottom_section">
+          <span><i class="fas fa-info"></i>&nbsp; {{project.status}}</span>
+        </div>
+    </div>
+    {% assign number_printed = number_printed | plus: 1 %}
+    {% assign even_odd = number_printed | modulo: 4 %}
+    {% if even_odd == 0 %}
+    </div>
+    {% endif %}
+  {% endif %}
 {% endfor %}
 
 

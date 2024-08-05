@@ -3,6 +3,17 @@ layout: project
 title: Project
 excerpt: SafeCloud
 permalink: /projects/SafeCloud
+name: Secure and Resilient Cloud Architecture
+type: EU H2020
+img: /assets/images/prjpic/safecloud.png
+status: Finished
+website:
+duration:
+  start: 2015-09-01
+  end: 2018-08-31
+partners:
+external_collaborations:
+financing:
 classes: wide
 sitemap: false
 author_profile: false

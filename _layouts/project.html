@@ -10,17 +10,15 @@ layout: default
     <h1 id="page-title" class="page__title">{{ page.title }}</h1>
     {% endunless %}
 
-    {% assign my_project = site.data.projects | find:"alias", page.excerpt %}
-
     <div id="container">
-      {% if my_project.img %}
-      <div id="img-container"><img src="/assets/images/prjpic/{{ my_project.img }}" style='height: 100%; width: 100%; object-fit: contain'></div>
+      {% if page.img %}
+      <div id="img-container"><img src="{{ page.img }}" style='height: 100%; width: 100%; object-fit: contain'></div>
       {% endif %}
       <div class="text-container">
-        {% if my_project.name %}<strong>Title: </strong>{{ my_project.name }}<br>{% endif %}
-        {% if my_project.type %}<strong>Type: </strong>{{ my_project.type }}<br>{% endif %}
-        {% if my_project.status %}<strong>Status: </strong>{{ my_project.status }}{% endif %} {% if my_project.duration %}&emsp;<strong>Start: </strong> {{ my_project.duration.start }}&emsp;<strong>End: </strong> {{ my_project.duration.end }}{% endif %}<br>
-        {% if my_project.website %} <strong>Website: </strong><a href="{{ my_project.website }}">{{ my_project.website }}</a><br>{% endif %}
+        {% if page.name %}<strong>Title: </strong>{{ page.name }}<br>{% endif %}
+        {% if page.type %}<strong>Type: </strong>{{ page.type }}<br>{% endif %}
+        {% if page.status %}<strong>Status: </strong>{{ page.status }}{% endif %} {% if page.duration %}&emsp;<strong>Start: </strong> {{ page.duration.start }}&emsp;<strong>End: </strong> {{ page.duration.end }}{% endif %}<br>
+        {% if page.website %} <strong>Website: </strong><a href="{{ page.website }}">{{ page.website }}</a><br>{% endif %}
       </div>
     </div>
 
@@ -34,12 +32,12 @@ layout: default
 
 
 
-    {% if my_project.partners %}
+    {% if page.partners %}
     <h2>Partners</h2>
     <hr>
 
     <ul>
-    {% for partner in my_project.partners %}
+    {% for partner in page.partners %}
         <li><a href={{ partner.website }}>{{ partner.name }}</a>{% if partner.country %} ({{ partner.country }}){% endif %}{% if partner.role %} - {{ partner.role }}{% endif %}</li>
         {% if partner.members %}
             <ul>
@@ -53,12 +51,12 @@ layout: default
 
     {% endif %}
 
-    {% if my_project.external_collaborations %}
+    {% if page.external_collaborations %}
     <h2>External Collaborations</h2>
     <hr>
 
     <ul>
-    {% for collaboration in my_project.external_collaborations %}
+    {% for collaboration in page.external_collaborations %}
     <li><a href={{ collaboration.website }}>{{ collaboration.name }}</a>{% if collaboration.country %} ({{ collaboration.country }}){% endif %}</li>
     {% endfor %}
     </ul>
@@ -66,12 +64,12 @@ layout: default
     {% endif %}
 
 
-    {% if my_project.funding %}
+    {% if page.funding %}
 
     <h2>Financing</h2>
     <hr>
 
-    <p>{{ my_project.financing }}</p>
+    <p>{{ page.financing }}</p>
 
     {% endif %}
 
