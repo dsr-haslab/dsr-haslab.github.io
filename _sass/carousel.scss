@@ -1,7 +1,7 @@
 // Carousel variables
 
-$carousel-caption-width:            70% !default;
-$carousel-caption-color:            $white !default;
+$carousel-caption-width:            100% !default;
+$carousel-caption-color:            white !default;
 
 // Captions
 //
@@ -19,6 +19,8 @@ $carousel-caption-color:            $white !default;
     text-align: center;
 
     p {
-        background-color:  rgba(0, 0, 0, 0.5);
+        // background-color:  rgba(0, 0, 0, 0.5);
+        background-color: rgba(0, 0, 0, 0.5);
+        color: $carousel-caption-color;
     }
 }

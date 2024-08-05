@@ -163,6 +163,7 @@
   key: macedo2021paio
   domains:
     - edss
+    - sos
   link:
     url: https://doi.org/10.48550/arXiv.2106.03617
     pdf: /assets/files/2021/paio-arxiv21-ricardomacedo.pdf

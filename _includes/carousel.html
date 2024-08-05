@@ -29,7 +29,7 @@
             {% for item in site.data.carousels[number].images %}
             <li class="carousel__slide" style="background-image: url('{{ item.image }}');">
               <div class="carousel-caption d-none d-md-block">
-                <p style="color: white;">{{ item.caption }}</p>
+                <p>{{ item.caption }}</p>
               </div>
             </li>
             {% endfor %}
