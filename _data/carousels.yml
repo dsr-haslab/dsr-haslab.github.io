@@ -1,4 +1,7 @@
 - images:
+  - image: /assets/images/photos/2024_lazyfs_presentation_vldb.jpg
+    caption: Maria Ramos presenting the LazyFS system at VLDB (2024)
+    date: 2024-08-27
   - image: /assets/images/photos/2024_rahma_last_day.jpeg
     caption: Visiting researcher Rahma Nouaji on her last day in our lab (2024)
     date: 2024-07-17
