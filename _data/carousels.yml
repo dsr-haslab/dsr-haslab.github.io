@@ -1,36 +1,43 @@
 - images:
-  - image: /assets/images/photos/2024_lazyfs_presentation_vldb.jpg
+  - image: /assets/images/photos/20240905_jason_tanimura-san_last_day.jpg
+    caption: Jason Haga and Tanimura-san visiting in our lab (2024)
+    date: 2024-09-05
+  - image: /assets/images/photos/20240905_jason_haga_presentation.jpg
+    caption: Jason Haga presenting AIST at our lab (2024)
+    date: 2024-09-05
+  - image: /assets/images/photos/20240827_lazyfs_presentation_vldb.jpg
     caption: Maria Ramos presenting the LazyFS system at VLDB (2024)
     date: 2024-08-27
-  - image: /assets/images/photos/2024_rahma_last_day.jpeg
+  - image: /assets/images/photos/20240717_rahma_last_day.jpeg
     caption: Visiting researcher Rahma Nouaji on her last day in our lab (2024)
     date: 2024-07-17
-  - image: /assets/images/photos/2024_phd_defense_cb.JPG
+  - image: /assets/images/photos/20240703_phd_defense_cb.JPG
     caption: PhD defense of Cláudia Brito (2024)
     date: 2024-07-03
-  - image: /assets/images/photos/2024_rahma_braga_romana.jpeg
+  - image: /assets/images/photos/20240523_rahma_braga_romana.jpeg
     caption: Visiting researcher Rahma Nouaji in Braga Romana (2024)
     date: 2024-05-23
-  - image: /assets/images/photos/2024_phd_defense_te.JPG
+  - image: /assets/images/photos/20240408_phd_defense_te.JPG
     caption: PhD defense of Tânia Esteves (2024)
     date: 2024-04-08
-  - image: /assets/images/photos/2024_esdm_presentation.jpg
+  - image: /assets/images/photos/20240208_esdm_presentation.jpg
     caption: Jason Haga presenting the ESDM project at CENTRA (2024)
-  - image: /assets/images/photos/2023_criba_presentation_srds.jpg
+    date: 2024-02-08
+  - image: /assets/images/photos/20230927_criba_presentation_srds.jpg
     caption: Tânia Esteves presenting the CRIBA system at SRDS (2023)
     date: 2023-09-27
-  - image: /assets/images/photos/2023_dio_presentation_dcds.jpg
+  - image: /assets/images/photos/20230627_dio_presentation_dcds.jpg
     caption: Tânia Esteves presenting the DIO system at DCDS (2023)
     date: 2023-06-27
-  - image: /assets/images/photos/2023_phd_defense_rm.png
+  - image: /assets/images/photos/20230120_phd_defense_rm.png
     caption: PhD defense of Ricardo Macedo (2023)
     date: 2023-01-20
-  - image: /assets/images/photos/2022_oana_balmau_presentation.JPG
+  - image: /assets/images/photos/20220526_oana_balmau_presentation.JPG
     caption: Oana Balmau presenting her work at our lab (2022)
     date: 2022-05-26
-  - image: /assets/images/photos/2022_monarch_presentation_ccgrid.jpg
+  - image: /assets/images/photos/20220517_monarch_presentation_ccgrid.jpg
     caption: João Paulo presenting the Monarch system at CCGRID (2022)
-    date: 2023-05-17
-  - image: /assets/images/photos/2022_paio_presentation_fast.jpg
+    date: 2022-05-17
+  - image: /assets/images/photos/20220224_paio_presentation_fast.jpg
     caption: Ricardo Macedo presenting the PAIO system at FAST (2022)
     date: 2022-02-24
