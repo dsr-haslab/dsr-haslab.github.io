@@ -1,5 +1,5 @@
 - title: "When Amnesia Strikes: Understanding and Reproducing Data Loss Bugs with Fault Injection"
-  authors: Ramos M, Azevedo J, Kingsbury K, Pereira J, Esteves T, Macedo R, & Paulo J
+  authors: Ramos M, Azevedo J, Kingsbury K, Pereira J, Esteves T, Macedo R & Paulo J
   where: PVLDB
   year: 2024
   key: ramos2024amnesia
@@ -9,6 +9,7 @@
   link:
     url: https://doi.org/10.14778/3681954.3681980
     pdf: /assets/files/2024/lazyfs-vldb24-mariaramos.pdf
+    slides:
     git: https://github.com/dsrhaslab/lazyfs
 
 - title: Toward a practical and timely diagnosis of applications' I/O behavior
@@ -35,6 +36,7 @@
   link:
     url: https://doi.org/10.1109/SRDS60354.2023.00015
     pdf: /assets/files/2023/criba-srds23-taniaesteves.pdf
+    slides: /assets/files/2023/criba-srds23-taniaesteves-presentation.pdf
     git: https://github.com/dsrhaslab/criba
 
 - title: Diagnosing applications' I/O behavior through system call observability
@@ -48,6 +50,7 @@
   link:
     url: https://doi.org/10.1109/DSN-W58399.2023.00022
     pdf: /assets/files/2023/dio-dcds23-taniaesteves.pdf
+    slides: /assets/files/2023/dio-dcds23-taniaesteves-presentation.pdf
     git: https://github.com/dsrhaslab/dio
 
 - title: Taming Metadata-intensive HPC Jobs Through Dynamic, Application-agnostic QoS Control
@@ -60,6 +63,7 @@
   link:
     url: https://doi.org/10.1109/CCGrid57682.2023.00015
     pdf: /assets/files/2023/padll-ccgrid23-ricardomacedo.pdf
+    slides: /assets/files/2023/padll-ccgrid23-ricardomacedo-presentation.pdf
     git: https://github.com/dsrhaslab/padll
   highlight: 1
 
@@ -74,6 +78,7 @@
   link:
     url: https://doi.org/10.1109/CLUSTER51413.2022.00075
     pdf: /assets/files/2022/padll-cluster22-ricardomacedo.pdf
+    slides: /assets/files/2022/padll-cluster22-ricardomacedo-presentation.pdf
     git: https://github.com/dsrhaslab/padll
   highlight: 0
 
@@ -87,6 +92,7 @@
   link:
     url: https://doi.org/10.1109/CCGrid54584.2022.00011
     pdf: /assets/files/2022/monarch-ccgrid22-marcodantas.pdf
+    slides: /assets/files/2022/monarch-ccgrid22-marcodantas-presentation.pdf
     git: https://github.com/dsrhaslab/monarch
   highlight: 1
 
@@ -101,6 +107,7 @@
   link:
     url: https://www.usenix.org/conference/fast22/presentation/macedo
     pdf: /assets/files/2022/paio-fast22-ricardomacedo.pdf
+    slides: /assets/files/2022/paio-fast22-ricardomacedo-presentation.pdf
     git: https://github.com/dsrhaslab/paio
   highlight: 1
 
@@ -116,6 +123,7 @@
     url: https://doi.org/10.1145/3464298.3493396
     pdf: /assets/files/2021/cat-middleware21-taniaesteves.pdf
     git: https://github.com/dsrhaslab/cat
+    slides: /assets/files/2021/cat-middleware21-taniaesteves-presentation.pdf
 
 - title: "Pods-as-Volumes: Effortlessly Integrating Storage Systems and Middleware into Kubernetes"
   authors: Faria A, Macedo R, Paulo J
@@ -140,6 +148,7 @@
   link:
     url: https://doi.org/10.1109/Cluster48925.2021.00096
     pdf: /assets/files/2021/prisma-cluster21-ricardomacedo.pdf
+    slides: /assets/files/2021/prisma-cluster21-ricardomacedo-presentation.pdf
     git: https://github.com/dsrhaslab/prisma
   highlight: 1
 
@@ -153,6 +162,7 @@
   link:
     url: https://doi.org/10.1109/Cluster48925.2021.00097
     pdf: /assets/files/2021/monarch-rexio21-marcodantas.pdf
+    slides: /assets/files/2021/monarch-rexio21-marcodantas-presentation.pdf
     git: https://github.com/dsrhaslab/monarch
   highlight: 1
 
@@ -193,6 +203,7 @@
   link:
     url: https://doi.org/10.1145/3456727.3463768
     pdf: /assets/files/2021/bdus-systor21-albertofaria.pdf
+    slides: /assets/files/2021/bdus-systor21-albertofaria-presentation.pdf
     git: https://github.com/albertofaria/bdus
   highlight: 0
 
@@ -207,6 +218,7 @@
   link:
     url: https://doi.org/10.1145/3456727.3463773
     pdf: /assets/files/2021/s2dedup-systor21-marianamiranda.pdf
+    slides: /assets/files/2021/s2dedup-systor21-marianamiranda-presentation.pdf
     git: https://github.com/mmm97/S2Dedup
   highlight: 0
 
@@ -246,6 +258,7 @@
   link:
     url: https://doi.org/10.1109/SRDSW49218.2019.00009
     pdf: /assets/files/2019/cdpsbt-drss19-ricardomacedo.pdf
+    slides: /assets/files/2019/cdpsbt-drss19-ricardomacedo-presentation.pdf
     git:
   highlight: 0
 
@@ -260,6 +273,7 @@
     url: https://doi.org/10.1109/SRDSW49218.2019.00012
     pdf: /assets/files/2019/trustfs-drss19-taniaesteves.pdf
     git: https://github.com/taniaesteves/TrustFS
+    slides: /assets/files/2019/trustfs-drss19-taniaesteves-presentation.pdf
   highlight: 0
 
 - title: "DDFlasks: Deduplicated Very Large Scale Data Store"

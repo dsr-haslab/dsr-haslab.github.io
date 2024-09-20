@@ -43,6 +43,7 @@ layout: default
             {% if pub.link.url %}<a href={{ pub.link.url }}><i class="fas fa-fw fa-link zoom"></i></a>{% endif %}
             {% if pub.link.pdf %}<a href={{ pub.link.pdf }}><i class="fas fa-fw fa-file-pdf zoom"></i></a>{% endif %}
             {% if pub.link.git %}<a href={{ pub.link.git }}><i class="fas fa-fw fa-code zoom"></i></a>{% endif %}
+            {% if pub.link.slides %}<a href={{ pub.link.slides }}><i class="far fa-fw fa-tv zoom"></i></a>{% endif %}
           </div><br></li>
         {% endif %}
       {% endfor %}
