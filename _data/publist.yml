@@ -7,7 +7,7 @@
     - bao
   highlight: 1
   link:
-    url:
+    url: https://doi.org/10.14778/3681954.3681980
     pdf: /assets/files/2024/lazyfs-vldb24-mariaramos.pdf
     git: https://github.com/dsrhaslab/lazyfs
 
