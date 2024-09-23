@@ -9,7 +9,7 @@
   link:
     url: https://doi.org/10.14778/3681954.3681980
     pdf: /assets/files/2024/lazyfs-vldb24-mariaramos.pdf
-    slides:
+    slides: /assets/files/2024/lazyfs-vldb24-mariaramos-presentation.pdf
     git: https://github.com/dsrhaslab/lazyfs
 
 - title: Toward a practical and timely diagnosis of applications' I/O behavior
