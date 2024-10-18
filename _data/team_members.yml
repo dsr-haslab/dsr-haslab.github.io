@@ -171,7 +171,7 @@
   info: MSc Student
   email: pg52682@alunos.uminho.pt
   git: https://github.com/mirelois
-  ldin: https://dsr-haslab.github.io/people/www.linkedin.com/in/gonçalo-sousa-3bb683270
+  ldin: www.linkedin.com/in/gonçalo-sousa-3bb683270
   number_educ: 2
 
 - name: André Ferreira
@@ -200,6 +200,23 @@
   git: https://github.com/greybrunix
   ldin: https://www.linkedin.com/in/bruno-giao/
   number_educ: 3
+
+- name: Ana Rita Vaz
+  id: ana.r.vaz
+  photo: anaritav.jpg
+  info: MSc Student
+  email: pg53642@alunos.uminho.pt
+  git: https://github.com/ritavaz02
+  ldin: https://www.linkedin.com/in/rita-vaz-2b106b257
+  number_educ: 2
+
+- name: Daniel Pereira
+  id: daniel.pereira
+  photo: danielp.jpeg
+  info: MSc Student
+  email: mail@danielpereira.xyz
+  ldin: https://www.linkedin.com/in/daniel-pereira45/
+  number_educ: 2
 
 
 - name: Paula Rodrigues
