@@ -1,3 +1,16 @@
+- title: Can Current SDS Controllers Scale To Modern HPC Infrastructures?
+  authors:  Miranda M, Tanimura Y, Haga J, Ruhela A, Harrell S, Cazes J, Macedo R, Pereira J, Paulo J
+  where: Workshop of Intel Extreme Performance Users Group (IXPUG), colocated with SC
+  year: 2024
+  key: miranda2024can
+  domains:
+    - edss
+  link:
+    url:
+    pdf:
+    slides:
+    git:
+
 - title: "When Amnesia Strikes: Understanding and Reproducing Data Loss Bugs with Fault Injection"
   authors: Ramos M, Azevedo J, Kingsbury K, Pereira J, Esteves T, Macedo R & Paulo J
   where: PVLDB

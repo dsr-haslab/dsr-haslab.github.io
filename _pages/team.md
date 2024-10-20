@@ -62,6 +62,8 @@ If you are interested in working with us, please send me an [email](mailto:jtpau
 
 ## Alumni
 
+- Sara Pereira (MSc Thesis) - _Towards Fine-grained, Holistic Energy Control in Large-Scale Computing Infrastructures_, 2024.
+
 - Diogo Costa -  _Research on SPDK and I/O Profiling_, 2024.
 
 - Cláudia Brito (PhD Thesis) - _Towards a Privacy-Preserving Distributed Machine Learning Framework_, 2024.

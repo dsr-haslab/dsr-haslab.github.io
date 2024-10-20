@@ -102,14 +102,14 @@
   ldin: https://www.linkedin.com/in/rui-oliveira-031328258/
   number_educ: 2
 
-- name: Sara Pereira
-  id: sara.l.pereira
-  photo: sara.jpg
-  info: MSc Student
-  email: sara.l.pereira@inesctec.pt
-  git: https://github.com/Saralp20
-  ldin: https://www.linkedin.com/in/sara-lpereira
-  number_educ: 2
+# - name: Sara Pereira
+#   id: sara.l.pereira
+#   photo: sara.jpg
+#   info: MSc Student
+#   email: sara.l.pereira@inesctec.pt
+#   git: https://github.com/Saralp20
+#   ldin: https://www.linkedin.com/in/sara-lpereira
+#   number_educ: 2
 
 - name: Mariana Amorim
   id: mariana.a.amorim
@@ -195,7 +195,7 @@
 - name: Bruno Gião
   id: bruno.giao
   photo: brunog.jpg
-  info: BSc Student
+  info: MSc Student
   email: bruno.d.giao@inesctec.pt
   git: https://github.com/greybrunix
   ldin: https://www.linkedin.com/in/bruno-giao/
@@ -218,6 +218,14 @@
   ldin: https://www.linkedin.com/in/daniel-pereira45/
   number_educ: 2
 
+- name: Edgar Araújo
+  id: edgar.araujo
+  photo: edgara.jpg
+  info: BSc Student
+  email: edgararaj@gmail.com
+  git: https://github.com/edgararaj
+  ldin: https://www.linkedin.com/in/edgararaj/
+  number_educ: 2
 
 - name: Paula Rodrigues
   id: paula.c.rodrigues
