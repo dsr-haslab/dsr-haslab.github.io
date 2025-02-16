@@ -10,7 +10,6 @@ status: Active
 website: http://www.globalcentra.org/projects/#prv
 duration:
   start: 2021-01-01
-  end: 2023-12-31
 description:
 partners:
   - name: INESC TEC

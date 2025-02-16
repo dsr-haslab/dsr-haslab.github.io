@@ -17,7 +17,7 @@ layout: default
       <div class="text-container">
         {% if page.name %}<strong>Title: </strong>{{ page.name }}<br>{% endif %}
         {% if page.type %}<strong>Type: </strong>{{ page.type }}<br>{% endif %}
-        {% if page.status %}<strong>Status: </strong>{{ page.status }}{% endif %} {% if page.duration %}&emsp;<strong>Start: </strong> {{ page.duration.start }}&emsp;<strong>End: </strong> {{ page.duration.end }}{% endif %}<br>
+        {% if page.status %}<strong>Status: </strong>{{ page.status }}{% endif %} {% if page.duration %}&emsp;<strong>Start: </strong> {{ page.duration.start }}&emsp;{% if page.duration.end %}<strong>End: </strong> {{ page.duration.end }}{% endif %}{% endif %}<br>
         {% if page.website %} <strong>Website: </strong><a href="{{ page.website }}">{{ page.website }}</a><br>{% endif %}
       </div>
     </div>
