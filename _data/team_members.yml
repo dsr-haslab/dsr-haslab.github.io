@@ -87,20 +87,11 @@
 - name: Bruno Pereira
   id: bruno.f.pereira
   photo: bruno.jpg
-  info: MSc Student
+  info: PhD Student
   email: bruno.f.pereira@inesctec.pt
   git:  https://github.com/obrunofilipe
   ldin:  https://www.linkedin.com/in/bruno-pereira-80a942227/
-  number_educ: 2
-
-- name: Rui Pedro Oliveira
-  id: rui.v.oliveira
-  photo: rui.jpg
-  info: MSc Student
-  email: rui.v.oliveira@inesctec.pt
-  git:  https://github.com/ruioliveira02
-  ldin: https://www.linkedin.com/in/rui-oliveira-031328258/
-  number_educ: 2
+  number_educ: 1
 
 # - name: Sara Pereira
 #   id: sara.l.pereira
@@ -156,7 +147,16 @@
   ldin: https://www.linkedin.com/in/franl08
   number_educ: 2
 
-- name: Carlos Machado
+- name: Rui P. Oliveira
+  id: rui.v.oliveira
+  photo: rui.jpg
+  info: MSc Student
+  email: rui.v.oliveira@inesctec.pt
+  git:  https://github.com/ruioliveira02
+  ldin: https://www.linkedin.com/in/rui-oliveira-031328258/
+  number_educ: 2
+
+- name: Carlos E.S. Machado
   id: carlos.machado
   photo: carlosm.jpg
   info: MSc Student
@@ -192,14 +192,7 @@
 #   ldin:
 #   number_educ: 3
 
-- name: Bruno Gião
-  id: bruno.giao
-  photo: brunog.jpg
-  info: MSc Student
-  email: bruno.d.giao@inesctec.pt
-  git: https://github.com/greybrunix
-  ldin: https://www.linkedin.com/in/bruno-giao/
-  number_educ: 3
+
 
 - name: Ana Rita Vaz
   id: ana.r.vaz
@@ -210,6 +203,61 @@
   ldin: https://www.linkedin.com/in/rita-vaz-2b106b257
   number_educ: 2
 
+- name: Miguel Braga
+  id: miguel.braga
+  photo: default.png
+  info: MSc Student
+  email: pg54095@alunos.uminho.pt
+  git:
+  ldin:
+  number_educ: 2
+
+- name: Alexandre Fernandes
+  id: alexandre.fernandes
+  photo: default.png
+  info: MSc Student
+  email: pg53606@alunos.uminho.pt
+  git:
+  ldin:
+  number_educ: 2
+
+- name: Daniel Du
+  id: daniel.du
+  photo: default.png
+  info: MSc Student
+  email: pg53751@alunos.uminho.pt
+  git:
+  ldin:
+  number_educ: 2
+
+- name: Carlos E.L. Machado
+  id: miguel.braga
+  photo: default.png
+  info: MSc Student
+  email: pg53721@alunos.uminho.pt
+  git:
+  ldin:
+  number_educ: 2
+
+
+- name: Gonçalo Pinto
+  id: goncalo.pinto
+  photo: default.png
+  info: MSc Student
+  email:
+  git:
+  ldin:
+  number_educ: 2
+
+- name: Bruno Gião
+  id: bruno.giao
+  photo: brunog.jpg
+  info: MSc Student
+  email: bruno.d.giao@inesctec.pt
+  git: https://github.com/greybrunix
+  ldin: https://www.linkedin.com/in/bruno-giao/
+  number_educ: 3
+
 - name: Daniel Pereira
   id: daniel.pereira
   photo: danielp.jpeg
@@ -218,6 +266,24 @@
   ldin: https://www.linkedin.com/in/daniel-pereira45/
   number_educ: 2
 
+- name: Paula Marques
+  id: paula.marques
+  photo: paulam.jpg
+  info: MSc Student
+  email: janovskamarques@gmail.com
+  git: https://github.com/Pink-Goblin
+  ldin:
+  number_educ: 2
+
+- name: Rui Lopes
+  id: rui.lopes
+  photo: ruil.jpg
+  info: MSc Student
+  email: mail@ruilopesm.com
+  git: https://github.com/ruilopesm
+  ldin: https://www.linkedin.com/in/ruilopesm/
+  number_educ: 3
+
 - name: Edgar Araújo
   id: edgar.araujo
   photo: edgara.jpg
@@ -225,7 +291,16 @@
   email: edgararaj@gmail.com
   git: https://github.com/edgararaj
   ldin: https://www.linkedin.com/in/edgararaj/
-  number_educ: 2
+  number_educ: 3
+
+- name: Gustavo Santos
+  id: gustavo.santos
+  photo: default.png
+  info: BSc Student
+  email: gustavobragainformatica@gmail.com
+  git: https://github.com/GusBSa
+  ldin:
+  number_educ: 3
 
 - name: Paula Rodrigues
   id: paula.c.rodrigues
