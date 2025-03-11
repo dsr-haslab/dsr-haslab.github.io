@@ -15,11 +15,15 @@ header:
       crossorigin="anonymous"
     ></script>
 
-{% assign projects_highlighted = site.projects | where_exp: "item", "item.status == 'Active'" | reverse %}
+{% assign projects_highlighted = site.projects | where_exp: "item", "item.status == 'Active'" %}
 
-{% assign other_projects = site.projects | where_exp: "item", "item.status == 'Finished'" | reverse %}
+{% assign sorted_highlighted_items = projects_highlighted | sort: "duration.start" | reverse %}
 
-{% assign sorted_projects = projects_highlighted | concat: other_projects %}
+{% assign other_projects = site.projects | where_exp: "item", "item.status == 'Finished'" %}
+
+{% assign other_projects_sorter = other_projects | sort: "duration.start" | reverse %}
+
+{% assign sorted_projects = sorted_highlighted_items | concat: other_projects_sorter %}
 
 <div id="dsr_tools">
 

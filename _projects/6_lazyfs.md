@@ -9,6 +9,8 @@ img: /assets/images/prjpic/lazy.png
 status: Finished
 website:
 duration:
+  start: 2022-02-01
+  end: 2022-04-30
 partners:
   - name: INESC TEC
     country: Portugal

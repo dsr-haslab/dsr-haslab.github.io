@@ -9,6 +9,8 @@ img:
 status: Finished
 website:
 duration:
+  start: 2018
+  end: 2020
 partners:
   - name: INESC TEC
     country: Portugal
