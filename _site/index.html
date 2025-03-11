@@ -431,6 +431,16 @@
         
           <input class="carousel__activator" type="radio" name="carousel0" id="0"  />
         
+          <input class="carousel__activator" type="radio" name="carousel0" id="0"  />
+        
+          <input class="carousel__activator" type="radio" name="carousel0" id="0"  />
+        
+          <input class="carousel__activator" type="radio" name="carousel0" id="0"  />
+        
+          <input class="carousel__activator" type="radio" name="carousel0" id="0"  />
+        
+          <input class="carousel__activator" type="radio" name="carousel0" id="0"  />
+        
         
           
           
@@ -564,15 +574,90 @@
           
           <div class="carousel__controls">
               <label class="carousel__control carousel__control--backward" for="0n"></label>
+              <label class="carousel__control carousel__control--forward" for="0"></label>
+          </div>
+        
+          
+          
+          
+          
+          <div class="carousel__controls">
+              <label class="carousel__control carousel__control--backward" for="0"></label>
+              <label class="carousel__control carousel__control--forward" for="0"></label>
+          </div>
+        
+          
+          
+          
+          
+          <div class="carousel__controls">
+              <label class="carousel__control carousel__control--backward" for="0"></label>
+              <label class="carousel__control carousel__control--forward" for="0"></label>
+          </div>
+        
+          
+          
+          
+          
+          <div class="carousel__controls">
+              <label class="carousel__control carousel__control--backward" for="0"></label>
+              <label class="carousel__control carousel__control--forward" for="0"></label>
+          </div>
+        
+          
+          
+          
+          
+          <div class="carousel__controls">
+              <label class="carousel__control carousel__control--backward" for="0"></label>
+              <label class="carousel__control carousel__control--forward" for="0"></label>
+          </div>
+        
+          
+          
+          
+          
+          <div class="carousel__controls">
+              <label class="carousel__control carousel__control--backward" for="0"></label>
               <label class="carousel__control carousel__control--forward" for="0a"></label>
           </div>
         
         <div class="carousel__track">
           <ul>
             
+            <li class="carousel__slide" style="background-image: url('/assets/images/photos/20250225-talk-centra.jpeg'); background-size: contain; background-repeat: no-repeat; background-color: black">
+              <div class="carousel-caption d-none d-md-block">
+                <p>Ricardo Macedo given a talk on "Improving AI training energy efficiency<br>through Workload-Aware GPU Tuning" at CENTRA (2025)</p>
+              </div>
+            </li>
+            
+            <li class="carousel__slide" style="background-image: url('/assets/images/photos/20250224-esdm-presentation.jpg'); background-size: contain; background-repeat: no-repeat; background-color: black">
+              <div class="carousel-caption d-none d-md-block">
+                <p>Cláudia Brito presenting the ESDM project at CENTRA (2025)</p>
+              </div>
+            </li>
+            
+            <li class="carousel__slide" style="background-image: url('/assets/images/photos/20250224-pasm-presentation.jpg'); background-size: contain; background-repeat: no-repeat; background-color: black">
+              <div class="carousel-caption d-none d-md-block">
+                <p>Ricardo Macedo presenting the PASM project at CENTRA (2025)</p>
+              </div>
+            </li>
+            
+            <li class="carousel__slide" style="background-image: url('/assets/images/photos/20241128-te_jp_aist_japan.jpeg'); background-size: contain; background-repeat: no-repeat; background-color: black">
+              <div class="carousel-caption d-none d-md-block">
+                <p>Tânia Esteves and João Paulo visinting AIST in Japan (2024)</p>
+              </div>
+            </li>
+            
             <li class="carousel__slide" style="background-image: url('/assets/images/photos/20241118_mariana_miranda_presentation_sc_ixpug.jpg'); background-size: contain; background-repeat: no-repeat; background-color: black">
               <div class="carousel-caption d-none d-md-block">
                 <p>Mariana Miranda presenting her work at the SC24 IXPUG Workshop (2024)</p>
+              </div>
+            </li>
+            
+            <li class="carousel__slide" style="background-image: url('/assets/images/photos/20241025-cb_jpp_fiu_eua.jpeg'); background-size: contain; background-repeat: no-repeat; background-color: black">
+              <div class="carousel-caption d-none d-md-block">
+                <p>Cláudia Brito and José Pedro Peixoto visinting the FIU University in the EUA (2024)</p>
               </div>
             </li>
             
@@ -691,6 +776,16 @@
               <label class="carousel__indicator" for="0m"></label>
             
               <label class="carousel__indicator" for="0n"></label>
+            
+              <label class="carousel__indicator" for="0"></label>
+            
+              <label class="carousel__indicator" for="0"></label>
+            
+              <label class="carousel__indicator" for="0"></label>
+            
+              <label class="carousel__indicator" for="0"></label>
+            
+              <label class="carousel__indicator" for="0"></label>
             
               <label class="carousel__indicator" for="0"></label>
             
@@ -1058,6 +1153,121 @@
   opacity: 1;
 }
 
+.carousel__activator:nth-of-type(16):checked ~ .carousel__track {
+  -webkit-transform: translateX(-1500%);
+          transform: translateX(-1500%);
+}
+.carousel__activator:nth-of-type(16):checked ~ .carousel__slide:nth-of-type(16) {
+  transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s, -webkit-transform 0.5s;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+.carousel__activator:nth-of-type(16):checked ~ .carousel__controls:nth-of-type(16) {
+  display: block;
+  opacity: 1;
+}
+.carousel__activator:nth-of-type(16):checked ~ .carousel__indicators .carousel__indicator:nth-of-type(16) {
+  opacity: 1;
+}
+
+.carousel__activator:nth-of-type(17):checked ~ .carousel__track {
+  -webkit-transform: translateX(-1600%);
+          transform: translateX(-1600%);
+}
+.carousel__activator:nth-of-type(17):checked ~ .carousel__slide:nth-of-type(17) {
+  transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s, -webkit-transform 0.5s;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+.carousel__activator:nth-of-type(17):checked ~ .carousel__controls:nth-of-type(17) {
+  display: block;
+  opacity: 1;
+}
+.carousel__activator:nth-of-type(17):checked ~ .carousel__indicators .carousel__indicator:nth-of-type(17) {
+  opacity: 1;
+}
+
+.carousel__activator:nth-of-type(18):checked ~ .carousel__track {
+  -webkit-transform: translateX(-1700%);
+          transform: translateX(-1700%);
+}
+.carousel__activator:nth-of-type(18):checked ~ .carousel__slide:nth-of-type(18) {
+  transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s, -webkit-transform 0.5s;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+.carousel__activator:nth-of-type(18):checked ~ .carousel__controls:nth-of-type(18) {
+  display: block;
+  opacity: 1;
+}
+.carousel__activator:nth-of-type(18):checked ~ .carousel__indicators .carousel__indicator:nth-of-type(18) {
+  opacity: 1;
+}
+
+.carousel__activator:nth-of-type(19):checked ~ .carousel__track {
+  -webkit-transform: translateX(-1800%);
+          transform: translateX(-1800%);
+}
+.carousel__activator:nth-of-type(19):checked ~ .carousel__slide:nth-of-type(19) {
+  transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s, -webkit-transform 0.5s;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+.carousel__activator:nth-of-type(19):checked ~ .carousel__controls:nth-of-type(19) {
+  display: block;
+  opacity: 1;
+}
+.carousel__activator:nth-of-type(19):checked ~ .carousel__indicators .carousel__indicator:nth-of-type(19) {
+  opacity: 1;
+}
+
+.carousel__activator:nth-of-type(20):checked ~ .carousel__track {
+  -webkit-transform: translateX(-1900%);
+          transform: translateX(-1900%);
+}
+.carousel__activator:nth-of-type(20):checked ~ .carousel__slide:nth-of-type(20) {
+  transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s;
+  transition: opacity 0.5s, transform 0.5s, -webkit-transform 0.5s;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+}
+.carousel__activator:nth-of-type(20):checked ~ .carousel__controls:nth-of-type(20) {
+  display: block;
+  opacity: 1;
+}
+.carousel__activator:nth-of-type(20):checked ~ .carousel__indicators .carousel__indicator:nth-of-type(20) {
+  opacity: 1;
+}
+
 
 .carousel__control {
   height: 30px;
@@ -1202,6 +1412,31 @@
           transform: translateX(1400%);
 }
 
+.carousel__track .carousel__slide:nth-of-type(16) {
+  -webkit-transform: translateX(1500%);
+          transform: translateX(1500%);
+}
+
+.carousel__track .carousel__slide:nth-of-type(17) {
+  -webkit-transform: translateX(1600%);
+          transform: translateX(1600%);
+}
+
+.carousel__track .carousel__slide:nth-of-type(18) {
+  -webkit-transform: translateX(1700%);
+          transform: translateX(1700%);
+}
+
+.carousel__track .carousel__slide:nth-of-type(19) {
+  -webkit-transform: translateX(1800%);
+          transform: translateX(1800%);
+}
+
+.carousel__track .carousel__slide:nth-of-type(20) {
+  -webkit-transform: translateX(1900%);
+          transform: translateX(1900%);
+}
+
 
 .carousel--scale .carousel__slide {
   -webkit-transform: scale(0);
@@ -1309,6 +1544,36 @@
 
 .carousel__slide:nth-of-type(15),
 .carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(15) {
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel__slide:nth-of-type(16),
+.carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(16) {
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel__slide:nth-of-type(17),
+.carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(17) {
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel__slide:nth-of-type(18),
+.carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(18) {
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel__slide:nth-of-type(19),
+.carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(19) {
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel__slide:nth-of-type(20),
+.carousel--thumb .carousel__indicators .carousel__indicator:nth-of-type(20) {
   background-size: cover;
   background-position: center;
 }

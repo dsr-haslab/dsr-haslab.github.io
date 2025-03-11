@@ -1,10 +1,22 @@
 - images:
+  - image: /assets/images/photos/20250225-talk-centra.jpeg
+    caption: Ricardo Macedo given a talk on "Improving AI training energy efficiency<br>through Workload-Aware GPU Tuning" at CENTRA (2025)
+    date: 2025-02-24
+  - image: /assets/images/photos/20250224-esdm-presentation.jpg
+    caption: Cláudia Brito presenting the ESDM project at CENTRA (2025)
+    date: 2025-02-24
+  - image: /assets/images/photos/20250224-pasm-presentation.jpg
+    caption: Ricardo Macedo presenting the PASM project at CENTRA (2025)
+    date: 2025-02-24
+  - image: /assets/images/photos/20241128-te_jp_aist_japan.jpeg
+    caption: Tânia Esteves and João Paulo visinting AIST in Japan (2024)
+    date:
   - image: /assets/images/photos/20241118_mariana_miranda_presentation_sc_ixpug.jpg
     caption: Mariana Miranda presenting her work at the SC24 IXPUG Workshop (2024)
     date: 2024-11-18
-  # - image:
-  #   caption: Cláudia Brito and José Pedro Peixoto visinting the FIU University (2024)
-  #   date:
+  - image: /assets/images/photos/20241025-cb_jpp_fiu_eua.jpeg
+    caption: Cláudia Brito and José Pedro Peixoto visinting the FIU University in the EUA (2024)
+    date:
   - image: /assets/images/photos/20240905_jason_tanimura-san_last_day.jpg
     caption: Jason Haga and Tanimura-san visiting our lab (2024)
     date: 2024-09-05
