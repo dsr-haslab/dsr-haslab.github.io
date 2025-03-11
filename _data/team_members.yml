@@ -266,6 +266,15 @@
   ldin: https://www.linkedin.com/in/daniel-pereira45/
   number_educ: 2
 
+- name: Filipe Pereira
+  id: filipe.s.pereira
+  photo: filipep.jpg
+  info: MSc Student
+  email: filipe.simoes.pereira2817@gmail.com
+  git: https://github.com/Filipe2817
+  ldin: https://www.linkedin.com/in/filipe2817/
+  number_educ: 2
+
 - name: Paula Marques
   id: paula.marques
   photo: paulam.jpg
