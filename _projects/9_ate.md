@@ -8,6 +8,9 @@ type: PRR
 img:
 status: Active
 website: https://www.inesctec.pt/pt/projetos/ate#
+duration:
+  start: 2023-01-01
+  end: 2025-12-31
 description:
 partners:
 external_collaborations:
