@@ -9,7 +9,7 @@ img:
 status: Finished
 website:
 duration:
-  start: 2018
+  start: 2018-02-01
   end: 2020
 partners:
   - name: INESC TEC
