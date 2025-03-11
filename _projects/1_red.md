@@ -10,6 +10,8 @@ status: Finished
 website: http://red.lsd.di.uminho.pt/
 visible: false
 duration:
+  start: 2010
+  end: 2011
 partners:
 external_collaborations:
 financing:
