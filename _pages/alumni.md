@@ -22,66 +22,45 @@ header:
 This page highlights past team members who have completed theses or projects aligned with our research topics.
 
 ## PhD Theses
-
-- Cláudia Brito - _Towards a Privacy-Preserving Distributed Machine Learning Framework_, 2024.
-
-- Tânia Esteves - _Flexible Tracing and Analysis of Applications' I/O Behavior_, 2024.
-
-- Ricardo Macedo - _User-level Software-Defined Storage Data Planes_, 2023.
-
-- Rogério Pontes - _Trade-offs between privacy and efficiency on databases_, 2021.
-
 <hr>
+
+{% assign phd_theses = site.data.alumni | where_exp: "item", "item.type == 'phdthesis'" %}
+
+{% for pub in phd_theses %}
+<ul>
+    <li>{{ pub.author }} - <em>{{ pub.title }}</em>, {{ pub.year }}.<div class="social-links" display="inline-block">
+    {% if pub.link.url %}<a href={{ pub.link.url }}><i class="fas fa-fw fa-link zoom"></i></a>{% endif %}
+  </div></li>
+</ul>
+{% endfor %}
+
 
 ## MSc Theses
-
-- Bruno Pereira - _Towards Optimized Development and Testing of Ransomware Detection Solutions_, 2024.
-
-- Sara Pereira - _Towards Fine-grained, Holistic Energy Control in Large-Scale Computing Infrastructures_, 2024.
-
-- Rúben Adão - _Co-designing Log-Structured Merge Key-Value Stores with a Non-Volatile Storage Hierarchy_, 2024.
-
-- Maria Ramos - _Reproducible Fault Injection for Local Storage Systems_, 2024.
-
-- Maria Beatriz Moreira - _I/O Optimizations for Distributed Deep Learning Training_, 2024.
-
-- Pedro Rodrigues - _Analysis of I/O patterns for Data Management Systems_, 2023.
-
-- Alexandre Ferreira - _Fault-tolerant and Large-scale Storage for POSIX-compliant Applications_, 2023.
-
-- Alexandre Miranda - _Realistic Assesment of Failures in the SPDK Platform_, 2023.
-
-- João Azevedo - _Realistic Fault Assessment for Distributed Storage Systems_, 2022.
-
-- Marco Dantas - _Accelerating Deep Learning Training on High-Performance Computing with Storage Tiering_, 2022.
-
-- Diogo Leitão - _RSafeFS: Modular File System for Remote Storage_, 2021.
-
-- Carlos Pedrosa - _HIODS: Hybrid Inline and Offline Deduplication System_, 2021.
-
-- Cláudia Correia - _PRISMA: A Prefetching Storage Middleware for Accelerating Deep Learning Frameworks_, 2021.
-
-- Daniel Fernandes - _LSFS: Large-scale fault-tolerant file system_, 2021.
-
-- Mariana Miranda - _S2Dedup: SGX-enabled Secure Deduplication System_, 2020.
-
-- Alexandre Silva - _DEDISBench++: Realistic evaluation of storage systems supporting deduplication and compression_, 2020.
-
-- Tânia Esteves - _Configurable and Secure Storage Systems_, 2018.
-
 <hr>
 
+{% assign msc_theses = site.data.alumni | where_exp: "item", "item.type == 'mscthesis'" %}
+
+{% for pub in msc_theses %}
+<ul>
+    <li>{{ pub.author }} - <em>{{ pub.title }}</em>, {{ pub.year }}.<div class="social-links" display="inline-block">
+    {% if pub.link.url %}<a href={{ pub.link.url }}><i class="fas fa-fw fa-link zoom"></i></a>{% endif %}
+  </div></li>
+</ul>
+{% endfor %}
+
+
 ## Others
+<hr>
 
-- Diogo Costa -  _Research on SPDK and I/O Profiling_, 2024.
+{% assign others = site.data.alumni | where_exp: "item", "item.type == 'other'" %}
 
-- Diogo Leitão - _Research work on I/O optimizations for deep learning and persistent memory_, 2022.
-
-- Alberto Faria - _Research on userspace storage block devices_, 2022.
-
-- César Borges - _Research on fault-injection benchmarking_, 2022.
-
-- Diogo Ribeiro - _Research work on storage tiering_, 2021.
+{% for pub in others %}
+<ul>
+    <li>{{ pub.author }} - <em>{{ pub.title }}</em>, {{ pub.year }}.<div class="social-links" display="inline-block">
+    {% if pub.link.url %}<a href={{ pub.link.url }}><i class="fas fa-fw fa-link zoom"></i></a>{% endif %}
+  </div></li>
+</ul>
+{% endfor %}
 
 <script>
 

@@ -1,0 +1,182 @@
+- title: Towards Optimized Development and Testing of Ransomware Detection Solutions
+  author: Bruno Pereira
+  year: 2024
+  type: mscthesis
+  link:
+    url:
+
+- title: Towards Fine-grained, Holistic Energy Control in Large-Scale Computing Infrastructures
+  author: Sara Pereira
+  year: 2024
+  type: mscthesis
+  link:
+    url:
+
+- title: Towards a Privacy-Preserving Distributed Machine Learning Framework
+  author: Cláudia Brito
+  year: 2024
+  type: phdthesis
+  link:
+    url:
+
+- title: Flexible Tracing and Analysis of Applications' I/O Behavior
+  author: Tânia Esteves
+  year: 2024
+  type: phdthesis
+  link:
+    url:
+
+- title: Co-designing Log-Structured Merge Key-Value Stores with a Non-Volatile Storage Hierarchy
+  author: Rúben Adão
+  year: 2024
+  type: mscthesis
+  link:
+    url:
+
+- title: Reproducible Fault Injection for Local Storage Systems
+  author: Maria Ramos
+  year: 2024
+  type: mscthesis
+  link:
+    url:
+
+- title: I/O Optimizations for Distributed Deep Learning Training
+  author: Maria Beatriz Moreira
+  year: 2024
+  type: mscthesis
+  link:
+    url:
+
+- title: Analysis of I/O patterns for Data Management Systems
+  author: Pedro Rodrigues
+  year: 2023
+  type: mscthesis
+  link:
+    url:
+
+- title: Fault-tolerant and Large-scale Storage for POSIX-compliant Applications
+  author: Alexandre Ferreira
+  year: 2023
+  type: mscthesis
+  link:
+    url:
+
+- title: Realistic Assesment of Failures in the SPDK Platform
+  author: Alexandre Miranda
+  year: 2023
+  type: mscthesis
+  link:
+    url:
+
+- title: User-level Software-Defined Storage Data Planes
+  author: Ricardo Macedo
+  year: 2023
+  type: phdthesis
+  link:
+    url:
+
+- title: Realistic Fault Assessment for Distributed Storage Systems
+  author: João Azevedo
+  year: 2022
+  type: mscthesis
+  link:
+    url:
+
+- title: Accelerating Deep Learning Training on High-Performance Computing with Storage Tiering
+  author: Marco Dantas
+  year: 2022
+  type: mscthesis
+  link:
+    url:
+
+- title: "RSafeFS: Modular File System for Remote Storage"
+  author: Diogo Leitão
+  year: 2021
+  type: mscthesis
+  link:
+    url:
+
+- title: "HIODS: Hybrid Inline and Offline Deduplication System"
+  author: Carlos Pedrosa
+  year: 2021
+  type: mscthesis
+  link:
+    url:
+
+- title: "PRISMA: A Prefetching Storage Middleware for Accelerating Deep Learning Frameworks"
+  author: Cláudia Correia
+  year: 2021
+  type: mscthesis
+  link:
+    url:
+
+- title: "LSFS: Large-scale fault-tolerant file system"
+  author: Daniel Fernandes
+  year: 2021
+  type: mscthesis
+  link:
+    url:
+
+- title: Trade-offs between privacy and efficiency on databases
+  author: Rogério Pontes
+  year: 2021
+  type: phdthesis
+  link:
+    url:
+
+- title: "S2Dedup: SGX-enabled Secure Deduplication System"
+  author: Mariana Miranda
+  year: 2020
+  type: mscthesis
+  link:
+    url:
+
+- title: "DEDISBench++: Realistic evaluation of storage systems supporting deduplication and compression"
+  author: Alexandre Silva
+  year: 2020
+  type: mscthesis
+  link:
+    url:
+
+- title: Configurable and Secure Storage Systems
+  author: Tânia Esteves
+  year: 2018
+  type: mscthesis
+  link:
+    url:
+
+
+- title: Research on SPDK and I/O Profiling
+  author: Diogo Costa
+  year: 2024
+  type: other
+  link:
+    url:
+
+- title: Research work on I/O optimizations for deep learning and persistent memory
+  author: Diogo Leitão
+  year: 2022
+  type: other
+  link:
+    url:
+
+- title: Research on userspace storage block devices
+  author: Alberto Faria
+  year: 2022
+  type: other
+  link:
+    url:
+
+- title: Research on fault-injection benchmarking
+  author: César Borges
+  year: 2022
+  type: other
+  link:
+    url:
+
+- title: Research work on storage tiering
+  author: Diogo Ribeiro
+  year: 2021
+  type: other
+  link:
+    url:
