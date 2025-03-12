@@ -223,11 +223,11 @@
 
 - name: Daniel Du
   id: daniel.du
-  photo: default.png
+  photo: danieldu.png
   info: MSc Student
-  email: pg53751@alunos.uminho.pt
-  git:
-  ldin:
+  email: danieldu109@gmail.com
+  git: https://github.com/ddu72
+  ldin: https://www.linkedin.com/in/72danieldu
   number_educ: 2
 
 - name: Carlos E.L. Machado
