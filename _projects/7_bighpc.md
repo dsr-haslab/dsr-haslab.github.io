@@ -11,6 +11,7 @@ website: http://bighpc.inesctec.pt
 duration:
   start: 2020-03-31
   end: 2023-06-30
+responsible: João Paulo
 partners:
   - name: Wavecom
     country: Portugal

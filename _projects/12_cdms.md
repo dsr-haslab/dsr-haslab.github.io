@@ -11,6 +11,7 @@ website:
 duration:
   start: 2025-01-01
   end: 2026-12-31
+responsible: Ricardo Macedo
 partners:
   - name: Get Effy
     country: Portugal

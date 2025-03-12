@@ -19,6 +19,7 @@ layout: default
         {% if page.type %}<strong>Type: </strong>{{ page.type }}<br>{% endif %}
         {% if page.status %}<strong>Status: </strong>{{ page.status }}{% endif %} {% if page.duration %}&emsp;<strong>Start: </strong> {{ page.duration.start }}&emsp;{% if page.duration.end %}<strong>End: </strong> {{ page.duration.end }}{% endif %}{% endif %}<br>
         {% if page.website %} <strong>Website: </strong><a href="{{ page.website }}">{{ page.website }}</a><br>{% endif %}
+        {% if page.responsible %} <strong>Responsible: </strong>{{ page.responsible }}{% endif %}
       </div>
     </div>
 

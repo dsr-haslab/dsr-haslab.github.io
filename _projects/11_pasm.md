@@ -11,6 +11,7 @@ website: https://www.globalcentra.org/projects/#pasm
 duration:
   start: 2024-05-09
   end:
+responsible: Ricardo Macedo
 description:
 partners:
   - name: INESC TEC

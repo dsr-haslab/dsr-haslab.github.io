@@ -56,10 +56,11 @@ If you are interested in working with us, please send me an [email](mailto:jtpau
   {% endfor %}
 </div>
 
+Discover our past team members and their contributions <a href="/alumni">here</a>.
 
-<hr>
+<!-- <hr> -->
 
-
+<!--
 ## Alumni
 
 - Bruno Pereira (MSc Thesis) - _Towards Optimized Development and Testing of Ransomware Detection Solutions_, 2024.
@@ -113,7 +114,7 @@ If you are interested in working with us, please send me an [email](mailto:jtpau
 - Alexandre Silva (MSc Thesis) - _DEDISBench++: Realistic evaluation of storage systems supporting deduplication and compression_, 2020.
 
 - Tânia Esteves (MSc Thesis) - _Configurable and Secure Storage Systems_, 2018.
-
+ -->
 
 
 

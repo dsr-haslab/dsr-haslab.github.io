@@ -11,6 +11,7 @@ website:
 duration:
   start: 2024-02-01
   end: 2027-01-31
+responsible: João Paulo
 partners:
   - name: Invisible Lab
     country: Portugal

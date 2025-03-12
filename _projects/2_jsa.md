@@ -11,6 +11,7 @@ website:
 duration:
   start: 2018-02-01
   end: 2020
+responsible: João Paulo
 partners:
   - name: INESC TEC
     country: Portugal

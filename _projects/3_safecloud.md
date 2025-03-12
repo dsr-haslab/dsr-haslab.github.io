@@ -11,6 +11,7 @@ website:
 duration:
   start: 2015-09-01
   end: 2018-08-31
+responsible: João Paulo
 partners:
 external_collaborations:
 financing:
