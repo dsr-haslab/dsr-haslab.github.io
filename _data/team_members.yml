@@ -157,7 +157,7 @@
   number_educ: 2
 
 - name: Carlos E.S. Machado
-  id: carlos.machado
+  id: carlos.e.s.machado
   photo: carlosm.jpg
   info: MSc Student
   email: pg52675@alunos.uminho.pt
@@ -231,7 +231,7 @@
   number_educ: 2
 
 - name: Carlos E.L. Machado
-  id: miguel.braga
+  id: carlos.e.l.machado
   photo: default.png
   info: MSc Student
   email: pg53721@alunos.uminho.pt
@@ -242,11 +242,11 @@
 
 - name: Gonçalo Pinto
   id: goncalo.pinto
-  photo: default.png
+  photo: goncalop.jpg
   info: MSc Student
-  email:
-  git:
-  ldin:
+  email: goncalomiguelbp@gmail.com
+  git: https://github.com/goncalo-bp
+  ldin: https://www.linkedin.com/in/gonçalo-pinto-63989b268/
   number_educ: 2
 
 - name: Bruno Gião
