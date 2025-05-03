@@ -120,14 +120,14 @@
   ldin: https://www.linkedin.com/in/josé-pedro-fernandes-4ba14b20b/
   number_educ: 2
 
-- name: Diana Rodrigues
-  id: diana.a.rodrigues
-  photo: diana.jpg
-  info: MSc Student
-  email: diana.a.rodrigues@inesctec.pt
-  git: https://github.com/dianarodrigues2
-  ldin: https://www.linkedin.com/in/dianarodrigues28
-  number_educ: 2
+# - name: Diana Rodrigues
+#   id: diana.a.rodrigues
+#   photo: diana.jpg
+#   info: MSc Student
+#   email: diana.a.rodrigues@inesctec.pt
+#   git: https://github.com/dianarodrigues2
+#   ldin: https://www.linkedin.com/in/dianarodrigues28
+#   number_educ: 2
 
 - name: Guilherme Fernandes
   id: guilherme.l.fernandes
@@ -302,14 +302,14 @@
   ldin: https://www.linkedin.com/in/edgararaj/
   number_educ: 3
 
-- name: Gustavo Santos
-  id: gustavo.santos
-  photo: default.png
-  info: BSc Student
-  email: gustavobragainformatica@gmail.com
-  git: https://github.com/GusBSa
-  ldin:
-  number_educ: 3
+# - name: Gustavo Santos
+#   id: gustavo.santos
+#   photo: default.png
+#   info: BSc Student
+#   email: gustavobragainformatica@gmail.com
+#   git: https://github.com/GusBSa
+#   ldin:
+#   number_educ: 3
 
 - name: Paula Rodrigues
   id: paula.c.rodrigues
