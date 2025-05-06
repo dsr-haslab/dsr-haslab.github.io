@@ -39,7 +39,7 @@
     slides: /assets/files/2024/lazyfs-vldb24-mariaramos-presentation.pdf
     git: https://github.com/dsrhaslab/lazyfs
 
-- title: Privacy-Preserving Machine Learning on Apache Spark.
+- title: Privacy-Preserving Machine Learning on Apache Spark
   authors: Brito C, Portela B, Oliveira, R Ferreira P, & Paulo J
   where: IEEE Access
   year: 2023
@@ -116,7 +116,7 @@
     - ais
     - edss
   link:
-    URL: https://dl.acm.org/doi/abs/10.1145/3555776.3578591
+    url: https://dl.acm.org/doi/abs/10.1145/3555776.3578591
     pdf: /assets/files/2023/soteria-sac23-claudiabrito.pdf
     slides: /assets/files/2023/soteria-sac23-claudiabrito-presentation.pdf
     git: 
