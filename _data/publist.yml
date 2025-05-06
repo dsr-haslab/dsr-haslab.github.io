@@ -116,7 +116,7 @@
     - ais
     - edss
   link:
-    url:https://dl.acm.org/doi/abs/10.1145/3555776.3578591
+    URL: https://dl.acm.org/doi/abs/10.1145/3555776.3578591
     pdf: /assets/files/2023/soteria-sac23-claudiabrito.pdf
     slides: /assets/files/2023/soteria-sac23-claudiabrito-presentation.pdf
     git: 
