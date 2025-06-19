@@ -238,6 +238,7 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll/scholar
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -246,6 +247,7 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll/scholar
 
 
 # Archives
@@ -342,3 +344,7 @@ collections:
   publications:
     output: true
     permalink: /publications/:path/
+
+scholar:
+  style: assets/csl/myrefstyle.csl
+  bibliography_template: bib

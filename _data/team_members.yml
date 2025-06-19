@@ -111,14 +111,14 @@
 #   ldin:
 #   number_educ: 2
 
-- name: José Fernandes
-  id: jose.p.fernandes
-  photo: jose.jpg
-  info: MSc Student
-  email: jose.p.fernandes@inesctec.pt
-  git: https://github.com/jpdiasfernandes
-  ldin: https://www.linkedin.com/in/josé-pedro-fernandes-4ba14b20b/
-  number_educ: 2
+# - name: José Fernandes
+#   id: jose.p.fernandes
+#   photo: jose.jpg
+#   info: MSc Student
+#   email: jose.p.fernandes@inesctec.pt
+#   git: https://github.com/jpdiasfernandes
+#   ldin: https://www.linkedin.com/in/josé-pedro-fernandes-4ba14b20b/
+#   number_educ: 2
 
 # - name: Diana Rodrigues
 #   id: diana.a.rodrigues
@@ -284,14 +284,14 @@
   ldin:
   number_educ: 2
 
-- name: Rui Lopes
-  id: rui.lopes
-  photo: ruil.jpg
-  info: MSc Student
-  email: mail@ruilopesm.com
-  git: https://github.com/ruilopesm
-  ldin: https://www.linkedin.com/in/ruilopesm/
-  number_educ: 3
+# - name: Rui Lopes
+#   id: rui.lopes
+#   photo: ruil.jpg
+#   info: MSc Student
+#   email: mail@ruilopesm.com
+#   git: https://github.com/ruilopesm
+#   ldin: https://www.linkedin.com/in/ruilopesm/
+#   number_educ: 3
 
 - name: Edgar Araújo
   id: edgar.araujo
