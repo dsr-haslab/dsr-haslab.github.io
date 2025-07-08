@@ -1,7 +1,7 @@
 ---
 layout: publication
 title: "Publications"
-excerpt: "Storage systems for modern data centers"
+excerpt: "Storage and Operating Systems for Modern Data Centers"
 domain: sos
 permalink: /publications/sos/
 sitemap: false
