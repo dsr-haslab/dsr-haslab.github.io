@@ -223,11 +223,11 @@
 
 - name: Alexandre Fernandes
   id: alexandre.fernandes
-  photo: default.png
+  photo: alexandre-fernandes.jpg
   info: MSc Student
-  email: pg53606@alunos.uminho.pt
-  git:
-  ldin:
+  email: alexandre.r.fernandes@inesctec.pt
+  git: https://github.com/Shivverz
+  ldin: https://www.linkedin.com/in/alexandre-fernandes-2ba788237/
   number_educ: 2
 
 - name: Daniel Du
