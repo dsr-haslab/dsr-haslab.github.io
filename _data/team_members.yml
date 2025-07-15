@@ -84,6 +84,15 @@
   ldin:
   number_educ: 1
 
+- name: Rahma Nouaji
+  id: rahma.nouaji
+  photo: rahma.jpg
+  info: PhD Student
+  email: rahma.nouaji@mail.mcgill.ca
+  git: https://github.com/Rahm-no
+  ldin: https://www.linkedin.com/in/rahma-nouaji/
+  number_educ: 1
+
 - name: Bruno Pereira
   id: bruno.f.pereira
   photo: bruno.jpg
