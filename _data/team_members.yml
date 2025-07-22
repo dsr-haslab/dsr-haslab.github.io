@@ -293,14 +293,14 @@
   ldin:
   number_educ: 2
 
-# - name: Rui Lopes
-#   id: rui.lopes
-#   photo: ruil.jpg
-#   info: MSc Student
-#   email: mail@ruilopesm.com
-#   git: https://github.com/ruilopesm
-#   ldin: https://www.linkedin.com/in/ruilopesm/
-#   number_educ: 3
+- name: Rui Lopes
+  id: rui.lopes
+  photo: ruil.jpg
+  info: MSc Student
+  email: mail@ruilopesm.com
+  git: https://github.com/ruilopesm
+  ldin: https://www.linkedin.com/in/ruilopesm/
+  number_educ: 3
 
 - name: Edgar Araújo
   id: edgar.araujo
