@@ -302,6 +302,15 @@
   ldin: https://www.linkedin.com/in/ruilopesm/
   number_educ: 3
 
+- name: Diogo Marques
+  id: diogo.marques
+  photo: diogomarques.jpg
+  info: MSc Student
+  email: diogoacmarques2003@gmail.com
+  git: https://github.com/DigoqueDigo
+  ldin: https://www.linkedin.com/in/digoquedigo/
+  number_educ: 3
+
 - name: Edgar Araújo
   id: edgar.araujo
   photo: edgara.jpg
@@ -319,6 +328,34 @@
 #   git: https://github.com/GusBSa
 #   ldin:
 #   number_educ: 3
+
+
+- name: Diogo Ribeiro
+  id: diogo.ribeiro
+  photo: diogoribeiro.jpg
+  info: BSc Student
+  email: ribeiroeribeiro2005@gmail.com
+  git: https://github.com/DIOGO4810
+  ldin: https://linkedin.com/in/diogo-ribeiro-71742420b
+  number_educ: 3
+
+- name: Marco Ferreira
+  id: marco.ferreira
+  photo: marcoferreira.jpg
+  info: BSc Student
+  email: marco.rocha.f12@gmail.com
+  git:
+  ldin:
+  number_educ: 3
+
+- name: Nuno Rebelo
+  id: nuno.rebelo
+  photo: default.png
+  info: BSc Student
+  email: nunorebelo.005@gmail.com
+  git:
+  ldin:
+  number_educ: 3
 
 - name: Paula Rodrigues
   id: paula.c.rodrigues
