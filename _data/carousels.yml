@@ -1,4 +1,7 @@
 - images:
+  - image: /assets/images/photos/20250730_alexis_last_day.JPG
+    caption: Visiting researcher Alexis Gonzalez on his last day in our lab (2025)
+    date: 2025-07-30
   - image: /assets/images/photos/20250225-talk-centra.jpeg
     caption: Ricardo Macedo given a talk on "Improving AI training energy efficiency<br>through Workload-Aware GPU Tuning" at CENTRA (2025)
     date: 2025-02-24
