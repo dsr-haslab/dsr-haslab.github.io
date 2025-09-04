@@ -350,11 +350,11 @@
 
 - name: Nuno Rebelo
   id: nuno.rebelo
-  photo: default.png
+  photo: nunorebelo.jpg
   info: BSc Student
   email: nunorebelo.005@gmail.com
-  git:
-  ldin:
+  git: https://github.com/NunoRebelo05
+  ldin: https://www.linkedin.com/in/nuno-rebelo-4182b029a
   number_educ: 3
 
 - name: Paula Rodrigues
