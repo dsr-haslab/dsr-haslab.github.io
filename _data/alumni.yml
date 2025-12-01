@@ -1,3 +1,23 @@
+- title: Reducing energy consumption of AI training through phase-aware GPU frequency tuning
+  author: Miguel de Sousa Braga
+  year: 2025
+  type: mscthesis
+
+- title: Fine-Grained and Event-Aware Energy Monitoring for Large-Scale Computing Infrastructures
+  author: Alexandre Rodrigues Fernandes
+  year: 2025
+  type: mscthesis
+
+- title: Efficient Deduplication for the SPDK Framework
+  author: Rui Pedro Oliveira
+  year: 2025
+  type: mscthesis
+
+- title: "Bridging the Gap: A Comparison of the Design, Efficiency, and Fidelity of eBPF Libraries"
+  author: Carlos Eduardo Machado
+  year: 2025
+  type: mscthesis
+
 - title: Comprehensive study of the energy impact of LSM-based key-value stores
   author: José Fernandes
   year: 2025
