@@ -15,9 +15,9 @@ goals:
   - name: Improve energy efficiency and sustainability
     description: We research and design new sustainable and energy-efficient mechanisms for reducing the energy consumption and carbon footprint of large-scale infrastructures while maintaining the performance of deployed applications. We focus on developing energy-efficient solutions at all levels, from specific compute resources (e.g., CPU, GPU, memory) to the administration and maintenance of large-scale infrastructures (e.g., HPC supercomputers).
 highlighted_pubs:
+  - rnouaji2026minatoloader
+  - jpeixoto2026holpaca
   - adao2025keigo
-  - macedo2022paio
-  - miranda2021s2dedup
 contact: ricardo.g.macedo
 classes: wide
 sitemap: false
