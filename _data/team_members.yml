@@ -138,22 +138,31 @@
 #   ldin: https://www.linkedin.com/in/dianarodrigues28
 #   number_educ: 2
 
-- name: Guilherme Fernandes
-  id: guilherme.l.fernandes
-  photo: guilherme.jpg
-  info: MSc Student
-  email: guilherme.l.fernandes@inesctec.pt
-  git: https://github.com/zer0-5
-  ldin: https://www.linkedin.com/in/guilherme-fernandes-bb4863242
-  number_educ: 2
+# - name: Guilherme Fernandes
+#   id: guilherme.l.fernandes
+#   photo: guilherme.jpg
+#   info: MSc Student
+#   email: guilherme.l.fernandes@inesctec.pt
+#   git: https://github.com/zer0-5
+#   ldin: https://www.linkedin.com/in/guilherme-fernandes-bb4863242
+#   number_educ: 2
 
-- name: Francisco Neves
-  id: francisco.a.neves
-  photo: francisco.jpg
-  info: MSc Student
-  email: francisco.a.neves@inesctec.pt
-  git: https://github.com/franl08
-  ldin: https://www.linkedin.com/in/franl08
+# - name: Francisco Neves
+#   id: francisco.a.neves
+#   photo: francisco.jpg
+#   info: MSc Student
+#   email: francisco.a.neves@inesctec.pt
+#   git: https://github.com/franl08
+#   ldin: https://www.linkedin.com/in/franl08
+#   number_educ: 2
+
+- name: Fabio Souza
+  id: fabio.m.souza
+  photo: fabiomsouza.JPG
+  info: PhD Student
+  email: fabio.m.souza@inesctec.pt
+  git:
+  ldin: https://www.linkedin.com/in/fmdesouza/
   number_educ: 2
 
 - name: Rui P. Oliveira
@@ -203,13 +212,22 @@
 
 
 
-- name: Ana Rita Vaz
-  id: ana.r.vaz
-  photo: anaritav.jpg
+# - name: Ana Rita Vaz
+#   id: ana.r.vaz
+#   photo: anaritav.jpg
+#   info: MSc Student
+#   email: pg53642@alunos.uminho.pt
+#   git: https://github.com/ritavaz02
+#   ldin: https://www.linkedin.com/in/rita-vaz-2b106b257
+#   number_educ: 2
+
+- name: Alexandre Fernandes
+  id: alexandre.fernandes
+  photo: alexandre-fernandes.jpg
   info: MSc Student
-  email: pg53642@alunos.uminho.pt
-  git: https://github.com/ritavaz02
-  ldin: https://www.linkedin.com/in/rita-vaz-2b106b257
+  email: alexandre.r.fernandes@inesctec.pt
+  git: https://github.com/Shivverz
+  ldin: https://www.linkedin.com/in/alexandre-fernandes-2ba788237/
   number_educ: 2
 
 - name: Miguel Braga
@@ -221,23 +239,15 @@
   ldin:
   number_educ: 2
 
-- name: Alexandre Fernandes
-  id: alexandre.fernandes
-  photo: alexandre-fernandes.jpg
-  info: MSc Student
-  email: alexandre.r.fernandes@inesctec.pt
-  git: https://github.com/Shivverz
-  ldin: https://www.linkedin.com/in/alexandre-fernandes-2ba788237/
-  number_educ: 2
 
-- name: Daniel Du
-  id: daniel.du
-  photo: danieldu.png
-  info: MSc Student
-  email: danieldu109@gmail.com
-  git: https://github.com/ddu72
-  ldin: https://www.linkedin.com/in/72danieldu
-  number_educ: 2
+# - name: Daniel Du
+#   id: daniel.du
+#   photo: danieldu.png
+#   info: MSc Student
+#   email: danieldu109@gmail.com
+#   git: https://github.com/ddu72
+#   ldin: https://www.linkedin.com/in/72danieldu
+#   number_educ: 2
 
 - name: Carlos E.L. Machado
   id: carlos.e.l.machado
@@ -249,14 +259,14 @@
   number_educ: 2
 
 
-- name: Gonçalo Pinto
-  id: goncalo.pinto
-  photo: goncalop.jpg
-  info: MSc Student
-  email: goncalomiguelbp@gmail.com
-  git: https://github.com/goncalo-bp
-  ldin: https://www.linkedin.com/in/gonçalo-pinto-63989b268/
-  number_educ: 2
+# - name: Gonçalo Pinto
+#   id: goncalo.pinto
+#   photo: goncalop.jpg
+#   info: MSc Student
+#   email: goncalomiguelbp@gmail.com
+#   git: https://github.com/goncalo-bp
+#   ldin: https://www.linkedin.com/in/gonçalo-pinto-63989b268/
+#   number_educ: 2
 
 - name: Bruno Gião
   id: bruno.giao
@@ -309,6 +319,24 @@
   email: diogoacmarques2003@gmail.com
   git: https://github.com/DigoqueDigo
   ldin: https://www.linkedin.com/in/digoquedigo/
+  number_educ: 3
+
+- name: Henrique Fernandes
+  id: henrique.s.fernandes
+  photo: henriquesfernandes.jpg
+  info: Msc Student
+  email: henriquesardofernandes@gmail.com
+  git: https://github.com/HenriqueSFernandes
+  ldin: https://www.linkedin.com/in/-henriquesfernandes/
+  number_educ: 3
+
+- name: Carlos Pinto
+  id: carlos.s.pinto
+  photo: carlosspinto.jpeg
+  info: Msc Student
+  email: carlosfospinto@hotmail.com
+  git: https://github.com/CarlosSanchess
+  ldin: https://www.linkedin.com/in/carlos-sanches-b6b532333/
   number_educ: 3
 
 - name: Edgar Araújo

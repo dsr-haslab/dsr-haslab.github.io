@@ -1,0 +1,49 @@
+short-term:
+  - date: May 2022
+    affiliation: McGill University, Canada
+    talk: Reducing Space Amplification in Key-Value Stores
+    persons:
+      - name: Prof. Oana Balmau
+        website: https://sites.google.com/view/oanabalmau/home?authuser=0
+        photo: /assets/images/visiting/oana-balmau.jpg
+
+  - date: September 2024
+    persons:
+      - name: Dr. Jason Haga
+        website: https://scholar.google.com/citations?user=PqgUm04AAAAJ&hl=en
+      - name: Dr. Yusuke Tanimura
+    affiliation: AIST, Japan
+    talk: AIST and Internship Opportunities
+
+
+visiting-researchers:
+  - name: Rahma Nouaji
+    position: PhD Student
+    affiliation: McGill University, Canada
+    photo: /assets/images/visiting/rahma-nouaji.jpeg
+    website: https://scholar.google.com/citations?user=Hl0XSsYAAAAJ&hl=fr
+    visits:
+      - start: 2024-04-17
+        end: 2024-07-17
+        program: INESC TEC International Visiting Researcher Programme (IIVRP)
+
+  - name: Alexis Gonzalez
+    position: PhD Student
+    affiliation: Florida International University, USA
+    photo: /assets/images/visiting/alexis-gonzalez.jpg
+    website: https://caescir.cs.fiu.edu/staff-members/alexis-gonzalez/
+    visits:
+      - start: 2024-05-04
+        end: 2024-07-30
+        talk: Generalized, Fault-Tolerant Cache
+        program: INESC TEC International Visiting Researcher Programme (IIVRP)
+
+  - name: Hans P. Reiser
+    position: Professor
+    affiliation: Reykjavik University, Iceland
+    website: https://hreiser.github.io
+    photo: /assets/images/visiting/hans-reiser.jpg
+    visits:
+      - start: 2025-09-12
+        end: 2025-10-23
+        talk: Advanced Honeypots with Virtual Machine Introspection and AI

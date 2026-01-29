@@ -1,0 +1,131 @@
+.visitor-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 24px;
+}
+
+.visitor-card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 12px;
+  background: #fff;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.03);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  min-height: 200px;
+  font-size: 0.82rem; /* smaller text globally */
+}
+
+.v-header {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.v-photo {
+  width: 55px;     /* slightly bigger */
+  height: 55px;    /* slightly bigger */
+  border-radius: 6px;
+  object-fit: cover;
+  background: #eee;
+}
+
+.v-name {
+  font-weight: 600;
+  font-size: 0.9rem;  /* slightly smaller */
+  margin-bottom: 2px;
+}
+
+.website-icon {
+  margin-left: 6px;
+  vertical-align: middle;
+  stroke: #555;
+  transition: stroke 0.2s;
+}
+
+.website-icon:hover svg {
+  stroke: #000;
+}
+
+.v-pos {
+  font-size: 0.78rem;
+  color: #555;
+  margin-bottom: 2px;
+}
+
+.v-affil {
+  font-size: 0.78rem;
+  color: #666;
+}
+
+.visit-page {
+  border: 1px solid #eee;
+  padding: 8px;
+  border-radius: 6px;
+  background: #fafafa;
+  font-size: 0.78rem; /* smaller */
+}
+
+.visit-dates {
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.visit-talks ul {
+  padding-left: 16px;
+  margin: 4px 0;
+}
+
+.visit-dots {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 6px;
+}
+
+.dot {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: #ccc;
+  cursor: pointer;
+}
+
+.dot.active {
+  background: #333;
+}
+
+.short-visitors {
+  margin-bottom: 40px;
+}
+
+.short-visitors li {
+  margin-bottom: 18px;
+  line-height: 1.5;
+  /* border-left: 3px solid #ddd; */
+  padding-left: 12px;
+}
+
+.short-visitors .visit-talk {
+  color: #444;
+  font-size: 0.88rem;
+}
+
+.section-intro {
+  margin-top: -10px;
+  color: #555;
+  font-size: 0.9rem;
+}
+
+#visiting-researchers .visitor {
+  margin-bottom: 40px;
+}
+
+.visitor-photo {
+  width: 120px;
+  float: right;
+  margin-left: 20px;
+  border-radius: 8px;
+}
