@@ -1,7 +1,7 @@
 ---
 title: "Visiting Us"
 layout: base
-permalink: /visiting-researchers/
+permalink: /visiting/
 classes: wide
 sitemap: false
 author_profile: false
