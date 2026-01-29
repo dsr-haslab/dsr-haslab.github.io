@@ -1,8 +1,8 @@
 ---
 layout: project
 title: Project
-excerpt: RescueWare
-permalink: /projects/RescueWare
+excerpt: Rescueware
+permalink: /projects/Rescueware
 name: "Rescueware: Intelligent and Self-configurable Cybersecurity and Data Recovery for Ransomware Resilience"
 type: ANI PT2030
 # img: /assets/images/prjpic/rescueware.png
