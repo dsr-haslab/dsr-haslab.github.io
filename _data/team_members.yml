@@ -321,6 +321,15 @@
   ldin: https://www.linkedin.com/in/digoquedigo/
   number_educ: 3
 
+- name: Tiago Silva
+  id: tiago.silva
+  photo: tiagosilva.jpg
+  info: MSc Student
+  email: tiagopsilva4775@gmail.com
+  git: https://github.com/pinheiro2
+  ldin: https://www.linkedin.com/in/tiagosilva4775/
+  number_educ: 3
+
 - name: Henrique Fernandes
   id: henrique.s.fernandes
   photo: henriquesfernandes.jpg
