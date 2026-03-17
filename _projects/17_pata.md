@@ -9,8 +9,8 @@ type:
 status: Active
 website:
 duration:
-  start: 2025-07
-  end: 2026-07
+  start: 2025-09-16
+  end: 2026-12-31
 responsible: Ricardo Macedo
 # ref:
 partners:
