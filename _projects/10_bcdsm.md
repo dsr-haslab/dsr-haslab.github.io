@@ -19,6 +19,7 @@ partners:
   - name: INESC TEC
     country: Portugal
     website: https://www.inesctec.pt/
+ref: (NORTE2030-FEDER-00584600)
 external_collaborations:
 financing:
 classes: wide

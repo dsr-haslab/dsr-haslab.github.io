@@ -156,6 +156,15 @@
 #   ldin: https://www.linkedin.com/in/franl08
 #   number_educ: 2
 
+- name: Alícia Oliveira
+  id: alicia.oliveira
+  photo: aliciaoliveira.jpeg
+  info: PhD Student
+  email: alicia.oliveira@inesctec.pt
+  git:
+  ldin:
+  number_educ: 2
+
 - name: Fabio Souza
   id: fabio.m.souza
   photo: fabiomsouza.JPG
@@ -168,7 +177,7 @@
 - name: Rui P. Oliveira
   id: rui.v.oliveira
   photo: rui.jpg
-  info: MSc Student
+  info: PhD Student
   email: rui.v.oliveira@inesctec.pt
   git:  https://github.com/ruioliveira02
   ldin: https://www.linkedin.com/in/rui-oliveira-031328258/
@@ -177,19 +186,19 @@
 - name: Carlos E.S. Machado
   id: carlos.e.s.machado
   photo: carlosm.jpg
-  info: MSc Student
+  info: PhD Student
   email: pg52675@alunos.uminho.pt
   git: https://github.com/hiddenduck
   ldin: https://www.linkedin.com/in/carlos-eduardo-silva-machado/
   number_educ: 2
 
-- name: Gonçalo Sousa
-  id: goncalo.sousa
-  photo: goncalos.jpg
-  info: MSc Student
-  email: pg52682@alunos.uminho.pt
-  git: https://github.com/mirelois
-  ldin: www.linkedin.com/in/gonçalo-sousa-3bb683270
+- name: Alexandre Fernandes
+  id: alexandre.fernandes
+  photo: alexandre-fernandes.jpg
+  info: PhD Student
+  email: alexandre.r.fernandes@inesctec.pt
+  git: https://github.com/Shivverz
+  ldin: https://www.linkedin.com/in/alexandre-fernandes-2ba788237/
   number_educ: 2
 
 - name: André Ferreira
@@ -201,6 +210,16 @@
   ldin:
   number_educ: 2
 
+- name: Gonçalo Sousa
+  id: goncalo.sousa
+  photo: goncalos.jpg
+  info: MSc Student
+  email: pg52682@alunos.uminho.pt
+  git: https://github.com/mirelois
+  ldin: www.linkedin.com/in/gonçalo-sousa-3bb683270
+  number_educ: 2
+
+
 # - name: Diogo Costa
 #   id: diogo.a.ribeiro
 #   photo: diogoc.jpg
@@ -209,8 +228,6 @@
 #   git:
 #   ldin:
 #   number_educ: 3
-
-
 
 # - name: Ana Rita Vaz
 #   id: ana.r.vaz
@@ -221,24 +238,14 @@
 #   ldin: https://www.linkedin.com/in/rita-vaz-2b106b257
 #   number_educ: 2
 
-- name: Alexandre Fernandes
-  id: alexandre.fernandes
-  photo: alexandre-fernandes.jpg
-  info: MSc Student
-  email: alexandre.r.fernandes@inesctec.pt
-  git: https://github.com/Shivverz
-  ldin: https://www.linkedin.com/in/alexandre-fernandes-2ba788237/
-  number_educ: 2
-
-- name: Miguel Braga
-  id: miguel.braga
-  photo: default.png
-  info: MSc Student
-  email: pg54095@alunos.uminho.pt
-  git:
-  ldin:
-  number_educ: 2
-
+# - name: Miguel Braga
+#   id: miguel.braga
+#   photo: default.png
+#   info: MSc Student
+#   email: pg54095@alunos.uminho.pt
+#   git:
+#   ldin:
+#   number_educ: 2
 
 # - name: Daniel Du
 #   id: daniel.du
@@ -257,7 +264,6 @@
   git:
   ldin:
   number_educ: 2
-
 
 # - name: Gonçalo Pinto
 #   id: goncalo.pinto
@@ -321,6 +327,14 @@
   ldin: https://www.linkedin.com/in/digoquedigo/
   number_educ: 3
 
+- name: Júlio Pinto
+  id: julio.pinto
+  photo: default.png
+  info: MSc Student
+  email: julio.m.pinto@inesctec.pt
+  ldin:
+  number_educ: 2
+
 - name: Tiago Silva
   id: tiago.silva
   photo: tiagosilva.jpg
@@ -348,10 +362,28 @@
   ldin: https://www.linkedin.com/in/carlos-sanches-b6b532333/
   number_educ: 3
 
+- name: Nuno Matos
+  id: nuno.matos
+  photo: default.png
+  info: Msc Student
+  email: nuno.l.matos@inesctec.pt
+  git:
+  ldin:
+  number_educ: 3
+
+- name: Manuel Carvalho
+  id: manuel.carvalho
+  photo: default.png
+  info: Msc Student
+  email: manuel.j.carvalho@inesctec.pt
+  git:
+  ldin:
+  number_educ: 3
+
 - name: Edgar Araújo
   id: edgar.araujo
   photo: edgara.jpg
-  info: BSc Student
+  info: MSc Student
   email: edgararaj@gmail.com
   git: https://github.com/edgararaj
   ldin: https://www.linkedin.com/in/edgararaj/
@@ -392,6 +424,24 @@
   email: nunorebelo.005@gmail.com
   git: https://github.com/NunoRebelo05
   ldin: https://www.linkedin.com/in/nuno-rebelo-4182b029a
+  number_educ: 3
+
+- name: Afonso Martins
+  id:
+  photo: default.png
+  info: BSc Student
+  email: afonsopm2005@gmail.com
+  git:
+  ldin:
+  number_educ: 3
+
+- name: Nuno Fernandes
+  id:
+  photo: default.png
+  info: BSc Student
+  email: nmpf.2005@gmail.com
+  git:
+  ldin:
   number_educ: 3
 
 - name: Paula Rodrigues
