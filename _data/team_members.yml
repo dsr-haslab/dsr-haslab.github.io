@@ -66,14 +66,14 @@
   ldin:
   number_educ: 1
 
-- name: Maria Ramos
-  id: maria.j.ramos
-  photo: maria.jpg
-  info: PhD Student
-  email: maria.j.ramos@inesctec.pt
-  git:  https://github.com/mj-ramos
-  ldin: https://www.linkedin.com/in/maria-ramos-33a7a7212/
-  number_educ: 1
+# - name: Maria Ramos
+#   id: maria.j.ramos
+#   photo: maria.jpg
+#   info: PhD Student
+#   email: maria.j.ramos@inesctec.pt
+#   git:  https://github.com/mj-ramos
+#   ldin: https://www.linkedin.com/in/maria-ramos-33a7a7212/
+#   number_educ: 1
 
 - name: Pedro Peixoto
   id: jose.p.peixoto

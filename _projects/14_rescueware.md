@@ -5,12 +5,13 @@ excerpt: Rescueware
 permalink: /projects/Rescueware
 name: "Rescueware: Intelligent and Self-configurable Cybersecurity and Data Recovery for Ransomware Resilience"
 type: ANI PT2030
+reference: 21746 (NORTE2030-FEDER-02306900)
 # img: /assets/images/prjpic/rescueware.png
 status: Active
-website:
+website: https://rescueware.invisiblelab.dev
 duration:
-  start: 2026-01-01
-  end: 2028-12-31
+  start: 2026-01-02
+  end: 2029-01-01
 responsible: João Paulo
 partners:
   - name: Invisible Lab
@@ -22,7 +23,6 @@ partners:
   - name: ULSAM
     country: Portugal
     website: https://www.ulsam.min-saude.pt
-ref: (NORTE2030-FEDER-02306900)
 external_collaborations:
 financing:
 classes: wide

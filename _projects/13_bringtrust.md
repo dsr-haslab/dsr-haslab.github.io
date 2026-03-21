@@ -5,6 +5,7 @@ excerpt: BringTrust
 permalink: /projects/BringTrust
 name: "Strengthening CI/CD Pipeline Cybersecurity and Safeguarding the Intellectual Property"
 type: ANI PT2030
+reference: 18493 (COMPETE2030-FEDER-01489500)
 # img: /assets/images/prjpic/bringtrust.png
 status: Active
 website:
@@ -22,7 +23,6 @@ partners:
   - name: INESC TEC
     country: Portugal
     website: https://www.inesctec.pt/
-ref: 18493 (COMPETE2030-FEDER-01489500)
 external_collaborations:
 financing:
 classes: wide

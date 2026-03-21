@@ -5,6 +5,7 @@ excerpt: BCD.S+M
 permalink: /projects/BCDSM
 name: "Sistema Modular de Armazenamento e Gestão de Dados em Blockchain com IA"
 type: ANI PT2030
+reference: 14436 (NORTE2030-FEDER-00584600)
 img: /assets/images/prjpic/bcdsm.png
 status: Active
 website:
@@ -19,7 +20,6 @@ partners:
   - name: INESC TEC
     country: Portugal
     website: https://www.inesctec.pt/
-ref: (NORTE2030-FEDER-00584600)
 external_collaborations:
 financing:
 classes: wide

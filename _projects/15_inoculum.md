@@ -5,6 +5,7 @@ excerpt: INOCULUM
 permalink: /projects/inoculum
 name: "Boosting the Immunity of Storage Systems Against Ransomware"
 type: FCT IC&DT
+reference: 15032 (NORTE2030-FEDER-00868400)
 # img: /assets/images/prjpic/inoculum.png
 status: Active
 website:

@@ -6,6 +6,7 @@ permalink: /projects/BigHPC
 name: A Management Framework for Consolidated Big Data and HPC
 type: COMPETE 2020
 img: /assets/images/prjpic/bighpc.png
+reference: POCI–01–0247–FEDER–045924
 status: Finished
 website: http://bighpc.inesctec.pt
 duration:
