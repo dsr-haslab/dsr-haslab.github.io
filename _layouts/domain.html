@@ -45,7 +45,7 @@ layout: default
 
     <hr>
 
-    {% assign member = site.data.team_members | where:"id", page.contact  | first %}
+    {% assign member = site.data.team_members.team_members | where:"id", page.contact  | first %}
 
     <div class="container-fluid rel icons team pt50 pb0">
         <div class="col-sm-12 text-center contIt rel shSec it5">

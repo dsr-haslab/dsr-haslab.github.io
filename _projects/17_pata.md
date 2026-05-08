@@ -11,7 +11,7 @@ website:
 duration:
   start: 2025-09-16
   end: 2026-12-31
-responsible: Ricardo Macedo
+responsible: ricardo.g.macedo
 # ref:
 partners:
   - name: TACC

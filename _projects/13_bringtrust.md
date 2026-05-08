@@ -12,7 +12,9 @@ website:
 duration:
   start: 2025-07-01
   end: 2028-06-29
-responsible: Cláudia Brito and Tânia Esteves
+responsible:
+  - tania.c.esteves
+  - claudia.v.brito
 partners:
   - name: Scalabit
     country: Portugal

@@ -19,7 +19,7 @@ highlighted_pubs:
   - ramos2024amnesia
   - esteves2023toward
   - esteves2021cat
-contact: tania.c.araujo
+contact: tania.c.esteves
 classes: wide
 sitemap: false
 author_profile: false

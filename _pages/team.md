@@ -32,7 +32,7 @@ If you are interested in working with us, please send me an [email](mailto:jtpau
       </div>
 
 <div class="people" id="people_section">
-  {% for member in site.data.team_members %}
+  {% for member in site.data.team_members.team_members %}
   <div class="container-fluid rel icons team pt50 pb0">
           <div class="col-sm-12 text-center contIt rel shSec it5">
             <div class="item pb50">
@@ -57,86 +57,6 @@ If you are interested in working with us, please send me an [email](mailto:jtpau
 </div>
 
 Discover our past team members and their contributions <a href="/alumni">here</a>.
-
-<!-- <hr> -->
-
-<!--
-## Alumni
-
-- Bruno Pereira (MSc Thesis) - _Towards Optimized Development and Testing of Ransomware Detection Solutions_, 2024.
-
-- Sara Pereira (MSc Thesis) - _Towards Fine-grained, Holistic Energy Control in Large-Scale Computing Infrastructures_, 2024.
-
-- Diogo Costa -  _Research on SPDK and I/O Profiling_, 2024.
-
-- Cláudia Brito (PhD Thesis) - _Towards a Privacy-Preserving Distributed Machine Learning Framework_, 2024.
-
-- Tânia Esteves (PhD Thesis) - _Flexible Tracing and Analysis of Applications' I/O Behavior_, 2024.
-
-- Rúben Adão (MSc Thesis) - _Co-designing Log-Structured Merge Key-Value Stores with a Non-Volatile Storage Hierarchy_, 2024.
-
-- Maria Ramos (MSc Thesis) - _Reproducible Fault Injection for Local Storage Systems_, 2024.
-
-- Maria Beatriz Moreira (MSc Thesis) - _I/O Optimizations for Distributed Deep Learning Training_, 2024.
-
-- Ricardo Macedo (PhD Thesis) - _User-level Software-Defined Storage Data Planes_, 2023.
-
-- Pedro Rodrigues (MSc Thesis) - _Analysis of I/O patterns for Data Management Systems_, 2023.
-
-- Alexandre Ferreira (MSc Thesis) - _Fault-tolerant and Large-scale Storage for POSIX-compliant Applications_, 2023.
-
-- Alexandre Miranda (MSc Thesis) - _Realistic Assesment of Failures in the SPDK Platform_, 2023.
-
-- João Azevedo (MSc Thesis) - _Realistic Fault Assessment for Distributed Storage Systems_, 2022.
-
-- Marco Dantas (MSc Thesis) - _Accelerating Deep Learning Training on High-Performance Computing with Storage Tiering_, 2022.
-
-- Diogo Leitão - _Research work on I/O optimizations for deep learning and persistent memory_, 2022.
-
-- Alberto Faria - _Research on userspace storage block devices_, 2022.
-
-- César Borges - _Research on fault-injection benchmarking_, 2022.
-
-- Diogo Ribeiro - _Research work on storage tiering_, 2021.
-
-- Rogério Pontes (PhD Thesis) - _Trade-offs between privacy and efficiency on databases_, 2021.
-
-- Diogo Leitão (MSc Thesis) - _RSafeFS: Modular File System for Remote Storage_, 2021.
-
-- Carlos Pedrosa (MSc Thesis) - _HIODS: Hybrid Inline and Offline Deduplication System_, 2021.
-
-- Cláudia Correia (MSc Thesis) - _PRISMA: A Prefetching Storage Middleware for Accelerating Deep Learning Frameworks_, 2021.
-
-- Daniel Fernandes (MSc Thesis) - _LSFS: Large-scale fault-tolerant file system_, 2021.
-
-- Mariana Miranda (MSc Thesis) - _S2Dedup: SGX-enabled Secure Deduplication System_, 2020.
-
-- Alexandre Silva (MSc Thesis) - _DEDISBench++: Realistic evaluation of storage systems supporting deduplication and compression_, 2020.
-
-- Tânia Esteves (MSc Thesis) - _Configurable and Secure Storage Systems_, 2018.
- -->
-
-
-
-
-<!--
-## Previous Members
-<table align="center" style="width:100%">
-<tr><th>Visitors</th>
-    <th>Master Students</th>
-    <th>Bachelor Students</th>
-  </tr>
-  <tr>
-    <td></td>
-    <td></td>
-    <td>Pedro Reis, 2012/2013</td>
-  </tr>
-</table>
-
--->
-
-
-
 
 
 <script>

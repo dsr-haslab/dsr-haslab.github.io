@@ -11,7 +11,7 @@ website:
 duration:
   start: 2025-04-01
   end: 2026-06-30
-responsible: Ricardo Macedo
+responsible: ricardo.g.macedo
 # ref:
 partners:
   - name: NIAAR

@@ -11,7 +11,7 @@ website:
 duration:
   start: 2025-09-16
   end: 2026-12-31
-responsible: João Paulo
+responsible: joao.t.paulo
 # ref:
 partners:
   - name: TACC

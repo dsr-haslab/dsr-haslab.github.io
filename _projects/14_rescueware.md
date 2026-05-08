@@ -12,7 +12,7 @@ website: https://rescueware.invisiblelab.dev
 duration:
   start: 2026-01-02
   end: 2029-01-01
-responsible: João Paulo
+responsible: joao.t.paulo
 partners:
   - name: Invisible Lab
     country: Portugal

@@ -12,7 +12,7 @@ website:
 duration:
   start: 2026-05-15
   end: 2029-05-13
-responsible: João Paulo
+responsible: joao.t.paulo
 # ref:
 external_collaborations:
 financing:

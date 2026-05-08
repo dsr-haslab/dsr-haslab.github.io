@@ -1,235 +1,484 @@
-- title: Characterizing and Predicting the I/O Patterns of HPC Applications
-  author: Ana Rita Vaz
-  year: 2025
+- title: Efficient fault tolerant storage solutions for AI training in HPC
+  author: goncalo.sousa
+  year: 2026 # 2026.04.09
   type: mscthesis
+  thesis_url:
+  supervisors:
+    - joao.t.paulo
+    - claudia.v.brito
+  next_step:
+    type: academic
+    title: PhD Student
+    institution: University of Minho
+
+- title: Storage optimizations for distributed AI training in HPC
+  author: andre.l.ferreira
+  year: 2026 #  2026.03.30
+  type: mscthesis
+  thesis_url:
+  supervisors:
+    - joao.t.paulo
+    - claudia.v.brito
+  next_step:
+    type: academic
+    title: PhD Student
+    institution: University of Minho
+
+- title: Characterizing and Predicting the I/O Patterns of HPC Applications
+  author: ana.r.vaz
+  year: 2025 # 2025.12.18
+  type: mscthesis
+  thesis_url:
+  supervisors:
+    - joao.t.paulo
+    - tania.c.esteves
+
 
 - title: Reducing energy consumption of AI training through phase-aware GPU frequency tuning
-  author: Miguel de Sousa Braga
-  year: 2025
+  author: miguel.s.braga
+  year: 2025 # 2025.11.14
   type: mscthesis
+  thesis_url:
+  supervisors:
+    - ricardo.g.macedo
+    - claudia.v.brito
+  next_step:
+    type: industry
+    title: Software Engineer
+    institution: Nokia
 
 - title: Fine-Grained and Event-Aware Energy Monitoring for Large-Scale Computing Infrastructures
-  author: Alexandre Rodrigues Fernandes
-  year: 2025
+  author: alexandre.r.fernandes
+  year: 2025 # 2025.11.12
   type: mscthesis
+  thesis_url:
+  supervisors:
+    - ricardo.g.macedo
+    - claudia.v.brito
+  next_step:
+    type: industry
+    title: Assistant Researcher
+    institution: INESC TEC
 
 - title: Efficient Deduplication for the SPDK Framework
-  author: Rui Pedro Oliveira
-  year: 2025
+  author: rui.v.oliveira
+  year: 2025 # 2025.11.11
   type: mscthesis
+  thesis_url:
+  supervisors:
+    - joao.t.paulo
+  next_step:
+    type: academic
+    title: PhD Student
+    institution: University of Minho
 
 - title: "Bridging the Gap: A Comparison of the Design, Efficiency, and Fidelity of eBPF Libraries"
-  author: Carlos Eduardo Machado
-  year: 2025
+  author: carlos.e.s.machado
+  year: 2025 # 2025.11.11
   type: mscthesis
+  thesis_url:
+  supervisors:
+    - joao.t.paulo
+    - tania.c.esteves
+  next_step:
+    type: academic
+    title: PhD Student
+    institution: University of Minho
 
 - title: Comprehensive study of the energy impact of LSM-based key-value stores
-  author: José Fernandes
-  year: 2025
+  author: jose.p.fernandes
+  year: 2025 # 2025.05.26
   type: mscthesis
-  link:
-    url:
+  thesis_url:
+  supervisors:
+    - ricardo.g.macedo
+    - antonio.l.sousa
+    - claudia.v.brito
+  next_step:
+    type: industry
+    title: Software Engineer
+    institution: Critical TechWorks
 
 - title: Controlo energético de GPU em sistemas de Deep Learning
-  author: Diana Rodrigues
-  year: 2025
+  author: diana.a.rodrigues
+  year: 2025 # 2025.04.29
   type: mscthesis
-  link:
-    url:
+  thesis_url: https://hdl.handle.net/1822/100397
+  supervisors:
+    - ricardo.g.macedo
+    - antonio.l.sousa
+    - claudia.v.brito
+  next_step:
+    type: industry
+    title: Intern
+    institution: Blip
 
 - title: "SFreq: Controlador de consumo energético para sistemas de armazenamento baseados em SPDK"
-  author: Mariana Amorim
-  year: 2025
+  author: mariana.a.amorim
+  year: 2025 # 2025.03.27
   type: mscthesis
-  link:
-    url:
+  thesis_url: https://hdl.handle.net/1822/100417
+  supervisors:
+    - ricardo.g.macedo
+    - joao.t.paulo
+    - claudia.v.brito
+  next_step:
+    type: industry
+    title: Software Engineer
+    institution: Critical TechWorks
 
 - title: Towards Optimized Development and Testing of Ransomware Detection Solutions
-  author: Bruno Pereira
-  year: 2025
+  author: bruno.f.pereira
+  year: 2025 # 2025.02.03
   type: mscthesis
-  link:
-    url:
+  thesis_url: https://hdl.handle.net/1822/100395
+  supervisors:
+    - joao.t.paulo
+    - joao.m.silva
+    - tania.c.esteves
+  next_step:
+    type: academic
+    title: PhD Student
+    institution: University of Minho
 
 - title: Towards Fine-grained, Holistic Energy Control in Large-Scale Computing Infrastructures
-  author: Sara Pereira
-  year: 2024
+  author: sara.l.pereira
+  year: 2024 # 2024.07.15
   type: mscthesis
-  link:
-    url:
+  thesis_url: https://repositorio-aberto.up.pt/bitstream/10216/161057/2/682241.pdf
+  supervisors:
+    - carlos.m.baquero
+    - ricardo.g.macedo
+    - claudia.v.brito
+  next_step:
+    type: industry
+    title: Software Engineer
+    institution: Critical TechWorks
 
 - title: Towards a Privacy-Preserving Distributed Machine Learning Framework
-  author: Cláudia Brito
-  year: 2024
+  author: claudia.v.brito
+  year: 2024 # 2024.07.03
   type: phdthesis
-  link:
-    url:
+  thesis_url: https://hdl.handle.net/1822/92575
+  supervisors:
+    - joao.t.paulo
+    - pedro.g.ferreira
+  next_step:
+    type: industry
+    title: Assistant Researcher
+    institution: INESC TEC
+    institution_url: https://www.inesctec.pt
 
 - title: Flexible Tracing and Analysis of Applications' I/O Behavior
-  author: Tânia Esteves
-  year: 2024
+  author: tania.c.esteves
+  year: 2024 # 2024.04.08
   type: phdthesis
-  link:
-    url:
+  ldin: https://linkedin.com/in/tania-esteves
+  personal_webpage: https://taniaesteves.github.io/
+  thesis_url: https://repositorium.uminho.pt/entities/publication/4c950f1b-234f-45b0-8cf1-f02dac32751b
+  next_step:
+    type: industry
+    title: Assistant Researcher
+    institution: INESC TEC
+    institution_url: https://www.inesctec.pt
+  supervisors:
+    - joao.t.paulo
+    - rui.c.oliveira
 
 - title: Towards programmable and adaptable caches
-  author: José Pedro Peixoto
+  author: jose.p.peixoto
   year: 2024
   type: mscthesis
-  link:
-    url:
+  thesis_url: https://hdl.handle.net/1822/94073
+  supervisors:
+    - joao.t.paulo
+    - ricardo.g.macedo
+  next_step:
+    type: academic
+    title: PhD Student
+    institution: University of Minho
 
 - title: Co-designing Log-Structured Merge Key-Value Stores with a Non-Volatile Storage Hierarchy
-  author: Rúben Adão
+  author: ruben.d.adao
   year: 2024
   type: mscthesis
-  link:
-    url:
+  thesis_url: https://hdl.handle.net/1822/93043
+  supervisors:
+    - joao.t.paulo
+    - ricardo.g.macedo
+  next_step:
+    type: academic
+    title: PhD Student
+    institution: University of Minho
 
 - title: Reproducible Fault Injection in Local Storage Systems
-  author: Maria Ramos
+  author: maria.j.ramos
   year: 2024
   type: mscthesis
-  link:
-    url:
+  thesis_url: https://hdl.handle.net/1822/93048
+  supervisors:
+    - joao.t.paulo
+    - ricardo.g.macedo
+    - tania.c.esteves
+  next_step:
+    type: academic
+    title: PhD Student
+    institution: University of Minho
 
 - title: I/O Optimizations for Distributed Deep Learning Training
-  author: Maria Beatriz Moreira
+  author: maria.b.moreira
   year: 2024
   type: mscthesis
-  link:
-    url:
+  thesis_url: https://hdl.handle.net/1822/93042
+  supervisors:
+    - joao.t.paulo
+    - ricardo.g.macedo
+    - claudia.v.brito
+  next_step:
+    type: industry
+    title: Software Engineer
+    institution: Critical TechWorks
 
 - title: Analysis of I/O patterns for Data Management Systems
-  author: Pedro Rodrigues
+  author: pedro.m.rodrigues
   year: 2023
   type: mscthesis
-  link:
-    url:
+  thesis_url: https://hdl.handle.net/1822/92561
+  supervisors:
+    - joao.t.paulo
+    - ricardo.m.vilaca
+    - tania.c.esteves
+  next_step:
+    type: industry
+    title: Software Tester
+    institution: Dipcode
 
 - title: Fault-tolerant and Large-scale Storage for POSIX-compliant Applications
-  author: Alexandre Ferreira
+  author: alexandre.j.ferreira
   year: 2023
   type: mscthesis
-  link:
-    url:
+  thesis_url: https://hdl.handle.net/1822/91559
+  supervisors:
+    - joao.t.paulo
+    - francisco.a.maia
+  next_step:
+    type: industry
+    title: Site Reliability Engineer
+    institution: Promptly Health
 
-- title: Realistic Assesment of Failures in the SPDK Platform
-  author: Alexandre Miranda
+- title: Realistic Fault Assesment in SPDK-enabled Storage Stacks
+  author: alexandre.e.miranda
   year: 2023
   type: mscthesis
-  link:
-    url:
+  thesis_url: https://repositorium.uminho.pt/entities/publication/37193dce-c770-4580-b43a-590d481c32e8
+  supervisors:
+    - joao.t.paulo
+    - ricardo.g.macedo
+  next_step:
+    type: industry
+    title: Site Reliability Engineer
+    institution: Promptly Health
 
 - title: User-level Software-Defined Storage Data Planes
-  author: Ricardo Macedo
+  author: ricardo.g.macedo
   year: 2023
   type: phdthesis
-  link:
-    url:
+  thesis_url: https://repositorium.uminho.pt/entities/publication/678c4453-0de8-4ef3-8888-24ca2316921f
+  next_step:
+    type: industry
+    title: Assistant Researcher
+    institution: INESC TEC
+  supervisors:
+    - joao.t.paulo
+    - jose.o.pereira
 
 - title: "LazyFS: A file system for assessing applications data durability"
-  author: João Azevedo
+  author: joao.p.azevedo
   year: 2022
   type: mscthesis
-  link:
-    url:
+  supervisors:
+    - joao.t.paulo
+    - ricardo.g.macedo
+  thesis_url: https://hdl.handle.net/1822/84475
+  next_step:
+    type: industry
+    title: Site Reliability Engineer
+    institution: Promptly Health
 
 - title: Accelerating Deep Learning Training on High-Performance Computing with Storage Tiering
-  author: Marco Dantas
+  author: marco.f.dantas
   year: 2022
   type: mscthesis
-  link:
-    url:
+  thesis_url: https://hdl.handle.net/1822/87196
+  supervisors:
+    - joao.t.paulo
+    - rui.c.oliveira
+  next_step:
+    type: industry
+    title: AI Data Engineer
+    institution: Bosch Portugal
 
 - title: "RSafeFS: Modular File System for Remote Storage"
-  author: Diogo Leitão
+  author: diogo.l.leitao
   year: 2021
   type: mscthesis
-  link:
-    url:
+  thesis_url: https://hdl.handle.net/1822/81078
+  supervisors:
+    - joao.t.paulo
+    - jose.o.pereira
+  next_step:
+    type: academic
+    title: Researcher
+    institution: INESC TEC
 
 - title: "HIODS: Hybrid Inline and Offline Deduplication System"
-  author: Carlos Pedrosa
+  author: carlos.p.pedrosa
   year: 2021
   type: mscthesis
-  link:
-    url:
+  thesis_url: https://hdl.handle.net/1822/81083
+  supervisors:
+    - joao.t.paulo
+    - jose.o.pereira
+  next_step:
+    type: industry
+    title: Security Delivery Associate
+    institution: Accenture Portugal
+
 
 - title: "PRISMA: A Prefetching Storage Middleware for Accelerating Deep Learning Frameworks"
-  author: Cláudia Correia
+  author: claudia.s.correia
   year: 2021
   type: mscthesis
-  link:
-    url:
+  thesis_url: https://hdl.handle.net/1822/80302
+  supervisors:
+    - joao.t.paulo
+    - antonio.l.sousa
+  next_step:
+    type: industry
+    title: Software Engineer
+    institution: Elastic
 
 - title: "LSFS: Large-scale fault-tolerant file system"
-  author: Daniel Fernandes
+  author: daniel.s.fernandes
   year: 2021
   type: mscthesis
-  link:
-    url:
+  thesis_url: https://hdl.handle.net/1822/80732
+  supervisors:
+    - joao.t.paulo
+    - rui.c.oliveira
+  next_step:
+    type: industry
+    title: Software Engineer
+    institution: Digito Solutions
 
 - title: Trade-offs between privacy and efficiency on databases
-  author: Rogério Pontes
+  author: rogerio.a.pontes
   year: 2021
   type: phdthesis
-  link:
-    url:
+  thesis_url: https://repositorio-aberto.up.pt/bitstream/10216/133913/2/467900.pdf
+  supervisors:
+    - manuel.b.barbosa
+    - ricardo.m.vilaca
+  next_step:
+    type: industry
+    title: Security Engineering
+    institution: AutoScout24
 
 - title: "S2Dedup: SGX-enabled Secure Deduplication System"
-  author: Mariana Miranda
+  author: mariana.m.miranda
   year: 2020
   type: mscthesis
-  link:
-    url:
+  university: University of Minho
+  thesis_url: https://hdl.handle.net/1822/84129
+  supervisors:
+    - joao.t.paulo
+    - rui.c.oliveira
+  next_step:
+    type: academic
+    title: PhD Student
+    institution: University of Minho
 
-- title: "DEDISBench++: Realistic evaluation of storage systems supporting deduplication and compression"
-  author: Alexandre Silva
+- title: "DEDISBench++: Realistic evaluation of storage systems supporting deduplication and compression" # Avaliação Realista de Sistemas de Armazenamento
+  author: alexandre.l.silva
   year: 2020
   type: mscthesis
-  link:
-    url:
+  university: University of Minho
+  thesis_url:
+  next_step:
+    type: industry
+    title: Associate Application Developer
+    institution: Accenture Portugal
+  supervisors:
+    - joao.t.paulo
+    - jose.o.pereira
 
 - title: Configurable and Secure Storage Systems
-  author: Tânia Esteves
-  year: 2018
+  author: tania.c.esteves
+  year: 2018 # 2018-10-25
   type: mscthesis
-  link:
-    url:
+  university: University of Minho
+  thesis_url: https://hdl.handle.net/1822/64184
+  supervisors:
+    - joao.t.paulo
+    - jose.o.pereira
+  next_step:
+    type: academic
+    title: PhD Student
+    institution: University of Minho
+
 
 
 - title: Research on SPDK and I/O Profiling
-  author: Diogo Costa
+  author: diogo.costa
   year: 2024
   type: other
-  link:
-    url:
+  next_step:
+    type: industry
+    title: Software Engineer
+    institution: Xpand IT
+  supervisors:
+    - joao.t.paulo
+    - tania.c.esteves
 
 - title: Research work on I/O optimizations for deep learning and persistent memory
-  author: Diogo Leitão
+  author: diogo.l.leitao
   year: 2022
   type: other
-  link:
-    url:
+  next_step:
+    type: industry
+    title: Software Engineer
+    institution: Critical TechWorks
+  supervisors:
+    - joao.t.paulo
 
 - title: Research on userspace storage block devices
-  author: Alberto Faria
+  author: alberto.faria
   year: 2022
   type: other
-  link:
-    url:
+  next_step:
+    type: industry
+    title: Software Engineer
+    institution: Red Hat
+  supervisors:
+    - joao.t.paulo
+    - ricardo.g.macedo
 
 - title: Research on fault-injection benchmarking
-  author: César Borges
+  author: cesar.borges
   year: 2022
   type: other
-  link:
-    url:
+  supervisors:
+    - joao.t.paulo
+
 
 - title: Research work on storage tiering
-  author: Diogo Ribeiro
+  author: diogo.p.ribeiro
   year: 2021
   type: other
-  link:
-    url:
+  supervisors:
+    - joao.t.paulo
+    - ricardo.g.macedo
+  next_step:
+    type: academic
+    title: MSc Student
+    institution: University of Minho

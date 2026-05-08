@@ -11,7 +11,7 @@ website: https://www.effybusiness.com/cdms
 duration:
   start: 2025-01-01
   end: 2026-12-31
-responsible: Ricardo Macedo
+responsible: ricardo.g.macedo
 partners:
   - name: Get Effy
     country: Portugal

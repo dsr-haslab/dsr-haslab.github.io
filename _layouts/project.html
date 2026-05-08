@@ -20,7 +20,19 @@ layout: default
         {% if page.reference %}<strong>Reference: </strong>{{ page.reference }}<br>{% endif %}
         {% if page.status %}<strong>Status: </strong>{{ page.status }}{% endif %} {% if page.duration %}&emsp;<strong>Start: </strong> {{ page.duration.start }}&emsp;{% if page.duration.end %}<strong>End: </strong> {{ page.duration.end }}{% endif %}{% endif %}<br>
         {% if page.website %} <strong>Website: </strong><a href="{{ page.website }}">{{ page.website }}</a><br>{% endif %}
-        {% if page.responsible %} <strong>Responsible: </strong>{{ page.responsible }}{% endif %}
+        <!-- {% if page.responsible %} <strong>Responsible: </strong>{{ page.responsible }}{% endif %} -->
+        {% if page.responsible %}
+          <strong>Responsible: </strong>
+          {% for responsible_id in page.responsible %}
+            {% assign responsible_person = site.data.team_members.team_members | where: "id", responsible_id | first %}
+            {% if responsible_person and responsible_person.email %}
+              <a href="mailto:{{ responsible_person.email }}">{{ responsible_person.name }}</a>
+            {% else %}
+              {{ responsible_id }}
+            {% endif %}
+            {% unless forloop.last %} and {% endunless %}
+          {% endfor %}
+        {% endif %}
       </div>
     </div>
 

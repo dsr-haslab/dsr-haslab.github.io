@@ -8,7 +8,7 @@ type: PT-UTAustin Exploratory project
 img:
 status: Finished
 website: https://utaustinportugal.org/projects/act-pm-automating-crash-consistency-testing-for-persistent-memory/
-responsible: João Paulo
+responsible: joao.t.paulo
 duration:
   start: 2020-10-01
   end: 2021-09-30

@@ -10,7 +10,7 @@ status: Active
 website: http://www.globalcentra.org/projects/#prv
 duration:
   start: 2021-01-01
-responsible: João Paulo
+responsible: joao.t.paulo
 description:
 partners:
   - name: INESC TEC
