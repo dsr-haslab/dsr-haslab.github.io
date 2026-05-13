@@ -47,3 +47,15 @@ visiting-researchers:
       - start: 2025-09-12
         end: 2025-10-23
         talk: Advanced Honeypots with Virtual Machine Introspection and AI
+
+
+  - name: Edgar Martinez
+    position: Senior Researcher
+    affiliation: AIST, Japan
+    photo: /assets/images/visiting/edgar-martinez.jpg
+    website: https://www.linkedin.com/in/edgar-josafat-martinez-noriega-abb76378
+    visits:
+      - start: 2025-04-16
+        end: 2025-06-15
+        talk: "A GPU Journey: From Scientific Visualization to Large-Scale Deep Learning (to be held in May 2026)"
+        program: INESC TEC International Visiting Researcher Programme (IIVRP)
