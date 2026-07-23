@@ -1,4 +1,10 @@
 - images:
+  - image: /assets/images/photos/20260706_best_presentation_worma26.jpeg
+    caption: Our paper "It Works on My Machine" won the best presentation award at WoRMA 2026 (2026)
+    date: 2026-07-06
+  - image: /assets/images/photos/20260706_bruno_presentation.jpeg
+    caption: Bruno Pereira presenting our paper "It Works on My Machine" at WoRMA 2026 (2026)
+    date: 2026-07-06
   - image: /assets/images/photos/20260430_best_poster_eurosys26.jpeg
     caption: MinatoLoader won the best poster award at EuroSys 2026 (2026)
     date: 2026-04-30
@@ -11,6 +17,9 @@
   - image: /assets/images/photos/20250730_alexis_last_day.JPG
     caption: Visiting researcher Alexis Gonzalez on his last day in our lab (2025)
     date: 2025-07-30
+  - image: /assets/images/photos/20250908_carlos_machado_presentation.jpg
+    caption: Carlos Machado presenting our paper "No Two Snowflakes Are Alike" at eBPF'25 (2025)
+    date: 2026-07-06
   - image: /assets/images/photos/20250225-talk-centra.jpeg
     caption: Ricardo Macedo given a talk on "Improving AI training energy efficiency<br>through Workload-Aware GPU Tuning" at CENTRA (2025)
     date: 2025-02-24
