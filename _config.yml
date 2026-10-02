@@ -341,3 +341,6 @@ collections:
 scholar:
   style: assets/csl/myrefstyle.csl
   bibliography_template: bib
+  # Site-only .bib fields (prefix web_) are hidden from the BibTeX shown on the publications page.
+  # Add any new web_* field here too.
+  bibtex_skip_fields: [abstract, month_numeric, web_pubtype, web_domains, web_pdf, web_slides, web_git, web_award, web_keywords]

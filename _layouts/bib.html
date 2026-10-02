@@ -1,12 +1,20 @@
 ---
 ---
 
-<div class="pub">
+{% if entry.web_pubtype %}{% assign pubtype = entry.web_pubtype | downcase %}{% endif %}
+<div class="pub"{% if entry.web_pubtype %} data-pubtype="{{ pubtype }}"{% endif %}>
     <p>
-    {{ reference }}
-    {% if entry.url %}<a href="{{ entry.url }}"><i class="fas fa-fw fa-link zoom"></i></a>{% endif %}
-    {% if entry.pdf %}<a href="{{ entry.pdf }}"><i class="fas fa-fw fa-file-pdf zoom"></i></a>{% endif %}
-    {% if entry.slides %}<a href="{{ entry.slides }}"><i class="fas fa-fw fa-tv zoom"></i></a>{% endif %}
-    {% if entry.git %}<a href="{{ entry.git }}"><i class="fas fa-fw fa-code zoom"></i></a>{% endif %}
+    {% assign ref_html = reference %}
+    {% if entry.web_award %}{% capture award_html %} <span class="pub-award" title="This paper received the {{ entry.web_award }}"><i class="fas fa-trophy" aria-hidden="true"></i>{{ entry.web_award }}</span></b>{% endcapture %}{% assign ref_html = ref_html | replace_first: "</b>", award_html %}{% endif %}
+    {{ ref_html }}
+    {% if entry.url %}<a href="{{ entry.url }}" title="Link to paper" aria-label="Link to paper"><i class="fas fa-fw fa-link zoom" aria-hidden="true"></i></a>{% endif %}
+    {% if entry.web_pdf %}<a href="{{ entry.web_pdf }}" title="PDF" aria-label="PDF"><i class="fas fa-fw fa-file-pdf zoom" aria-hidden="true"></i></a>{% endif %}
+    {% if entry.web_slides %}<a href="{{ entry.web_slides }}" title="Presentation slides" aria-label="Presentation slides"><i class="fas fa-fw fa-tv zoom" aria-hidden="true"></i></a>{% endif %}
+    {% if entry.web_git %}<a href="{{ entry.web_git }}" title="Source code" aria-label="Source code"><i class="fas fa-fw fa-code zoom" aria-hidden="true"></i></a>{% endif %}
+    <button type="button" class="pub-bibtex-toggle" aria-expanded="false" title="BibTeX citation" aria-label="BibTeX citation"><i class="fas fa-fw fa-quote-left zoom pub-bibtex-icon" aria-hidden="true"></i></button>
 </p>
+<div class="pub-bibtex" hidden>
+  <button type="button" class="pub-bibtex-copy" title="Copy BibTeX to clipboard"><i class="far fa-copy" aria-hidden="true"></i> Copy</button>
+  <pre>{{ entry.bibtex | strip | escape }}</pre>
+</div>
 </div>

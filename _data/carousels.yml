@@ -1,9 +1,15 @@
 - images:
+  - image: /assets/images/photos/20260929_carlos_poster.jpg
+    caption: Carlos Machado presenting his poster at eBPF'26, co-located with SOSP 2026 (2026)
+    date: 2026-07-06
+  - image: /assets/images/photos/20260929_rui_presentation.jpg
+    caption: Rui P. Oliveira presenting his PhD work at SysDW'26, co-located with SOSP 2026 (2026)
+    date: 2026-09-29
   - image: /assets/images/photos/20260706_best_presentation_worma26.jpeg
     caption: Our paper "It Works on My Machine" won the best presentation award at WoRMA 2026 (2026)
     date: 2026-07-06
   - image: /assets/images/photos/20260706_bruno_presentation.jpeg
-    caption: Bruno Pereira presenting our paper "It Works on My Machine" at WoRMA 2026 (2026)
+    caption: Bruno Pereira presenting our paper "It Works on My Machine" at WoRMA 2026, co-located with EuroS&P (2026)
     date: 2026-07-06
   - image: /assets/images/photos/20260430_best_poster_eurosys26.jpeg
     caption: MinatoLoader won the best poster award at EuroSys 2026 (2026)

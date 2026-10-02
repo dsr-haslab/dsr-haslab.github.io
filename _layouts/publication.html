@@ -11,13 +11,156 @@ layout: default
 
     <!-- # Publications -->
 
+    <nav class="pub-toolbar" aria-label="Publication filters">
+      <div class="pub-filter" role="group" aria-label="Filter by type"></div>
+      <label class="pub-year-select">
+        <select aria-label="Filter by year"><option value="">All years</option></select>
+      </label>
+    </nav>
+
     {% if page.domain %}
-      {% bibliography --query @*[domains~={{page.domain}}] --group_by year --group_order descending %}
+      {% bibliography --query @*[web_domains~={{page.domain}}] --group_by year --group_order descending %}
     {% else %}
       {% bibliography --group_by year --group_order descending %}
     {% endif %}
 
+    <a href="#" class="pub-back-top" title="Back to top" aria-label="Back to top"><i class="fas fa-arrow-up" aria-hidden="true"></i></a>
 
     {{ content }}
   </div>
 </div>
+
+<script>
+(function () {
+  var root = document.querySelector('.publication');
+  if (!root) return;
+
+  var TYPES = [
+    ['conference', 'Conference'], ['journal', 'Journal'], ['workshop', 'Workshop'],
+    ['doctoral', 'Doctoral Workshop'], ['poster', 'Poster'], ['preprint', 'Preprint']
+  ];
+  var pubs = Array.prototype.slice.call(root.querySelectorAll('.pub'));
+  var years = Array.prototype.slice.call(root.querySelectorAll('h2.bibliography'));
+  var filterBox = root.querySelector('.pub-filter');
+
+  var yearSelect = root.querySelector('.pub-year-select select');
+  var state = { type: '', year: '' };
+
+  years.forEach(function (h) {
+    var y = h.textContent.trim();
+    h.dataset.year = y;
+    var o = document.createElement('option');
+    o.value = y;
+    o.textContent = y;
+    yearSelect.appendChild(o);
+  });
+
+  // Type filter chips (only for types present on this page)
+  var counts = {};
+  pubs.forEach(function (p) {
+    var t = p.dataset.pubtype;
+    if (t) counts[t] = (counts[t] || 0) + 1;
+  });
+
+  function chip(type, label) {
+    var b = document.createElement('button');
+    b.type = 'button';
+    b.className = 'pub-chip' + (type ? ' pub-chip--' + type : '');
+    b.dataset.type = type;
+    b.innerHTML = label + ' <span class="pub-chip__count"></span>';
+    filterBox.appendChild(b);
+  }
+  chip('', 'All');
+  TYPES.forEach(function (t) { if (counts[t[0]]) chip(t[0], t[1]); });
+
+  function inYear(p) {
+    return !state.year || p.closest('ol').previousElementSibling.dataset.year === state.year;
+  }
+
+  function apply() {
+    pubs.forEach(function (p) {
+      var li = p.closest('li') || p;
+      li.hidden = !inYear(p) || (!!state.type && p.dataset.pubtype !== state.type);
+    });
+    years.forEach(function (h) {
+      var list = h.nextElementSibling;
+      var visible = !!list.querySelector('li:not([hidden])');
+      h.hidden = !visible;
+      list.hidden = !visible;
+    });
+    // Chip counts reflect the selected year
+    filterBox.querySelectorAll('.pub-chip').forEach(function (c) {
+      var n = pubs.filter(function (p) {
+        return inYear(p) && (!c.dataset.type || p.dataset.pubtype === c.dataset.type);
+      }).length;
+      c.querySelector('.pub-chip__count').textContent = n;
+      c.disabled = !n && c.dataset.type !== state.type;
+      c.setAttribute('aria-pressed', c.dataset.type === state.type ? 'true' : 'false');
+    });
+  }
+
+  filterBox.addEventListener('click', function (e) {
+    var c = e.target.closest('.pub-chip');
+    if (c) { state.type = c.dataset.type; apply(); }
+  });
+
+  yearSelect.addEventListener('change', function () {
+    state.year = yearSelect.value;
+    apply();
+  });
+
+  apply();
+
+  // Back-to-top button: shown once the filters have scrolled out of view
+  var backTop = root.querySelector('.pub-back-top');
+  // Move to <body>: #main's animation creates a stacking context the footer would paint over
+  document.body.appendChild(backTop);
+  var toolbar = root.querySelector('.pub-toolbar');
+  function updateBackTop() {
+    var footer = document.getElementById('footer'); // rendered after this script
+    var pastFilters = toolbar.getBoundingClientRect().bottom < 0;
+    backTop.classList.toggle('is-visible', pastFilters);
+    // Invert colours while the button sits over the (dark) footer
+    var btn = backTop.getBoundingClientRect();
+    var overFooter = footer && footer.getBoundingClientRect().top < (btn.top + btn.bottom) / 2;
+    backTop.classList.toggle('is-over-footer', !!overFooter);
+  }
+  window.addEventListener('scroll', updateBackTop, { passive: true });
+  window.addEventListener('resize', updateBackTop);
+  updateBackTop();
+  backTop.addEventListener('click', function (e) {
+    e.preventDefault();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+
+  // BibTeX toggle + copy
+  root.addEventListener('click', function (e) {
+    var toggle = e.target.closest('.pub-bibtex-toggle');
+    if (toggle) {
+      var box = toggle.closest('.pub').querySelector('.pub-bibtex');
+      var open = box.hidden;
+      box.hidden = !open;
+      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+      return;
+    }
+    var copy = e.target.closest('.pub-bibtex-copy');
+    if (copy) {
+      var text = copy.parentNode.querySelector('pre').textContent;
+      var done = function () {
+        copy.innerHTML = '<i class="fas fa-check" aria-hidden="true"></i> Copied';
+        setTimeout(function () { copy.innerHTML = '<i class="far fa-copy" aria-hidden="true"></i> Copy'; }, 1500);
+      };
+      if (navigator.clipboard && window.isSecureContext) {
+        navigator.clipboard.writeText(text).then(done);
+      } else {
+        var ta = document.createElement('textarea');
+        ta.value = text;
+        document.body.appendChild(ta);
+        ta.select();
+        try { document.execCommand('copy'); done(); } catch (err) {}
+        document.body.removeChild(ta);
+      }
+    }
+  });
+})();
+</script>

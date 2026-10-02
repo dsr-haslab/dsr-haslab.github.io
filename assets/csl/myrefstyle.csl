@@ -467,17 +467,10 @@
       <group>
         <text macro="title" font-weight="bold"/>
         <text macro="author"/>
-        <group font-style="oblique" >
-          <group delimiter=". " suffix=".">
-            <text macro="container"/>
-          </group>
-          <text macro="legal-cites"/>
-          <!-- <text macro="locators"/> -->
-          <group delimiter=", " prefix=" ">
-            <!-- <text macro="event"/> -->
-            <text macro="publisher"/>
-            <text macro="issued"/>
-          </group>
+        <!-- Venue (booktitle / journal) and year only: no publisher, address or pages -->
+        <group font-style="oblique">
+          <text macro="container" suffix="."/>
+          <text macro="issued"/>
         </group>
       </group>
       <!-- <text macro="access" prefix=" "/> -->
