@@ -1,24 +1,34 @@
 .collab-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-    grid-gap: 1rem;
+    grid-gap: .75rem;
     > div {
       background: white;
-      padding: 1rem;
+      padding: .75rem 1rem;
       display: grid;
+      grid-template: minmax(0, 1fr) / minmax(0, 1fr);
       place-items: center;
-      &::before {
-        // for apsect ratio
-        content: "";
-        display: block;
-        padding-bottom: 100%;
-        grid-area: 1 / 1 / 2 / 2;
-      }
+      aspect-ratio: 2 / 1;
+      // Let the cell shrink below the logo's natural size
+      min-width: 0;
+      min-height: 0;
+      overflow: hidden;
       img {
         width: 100%;
-        // height: 100%;
-        // object-fit: contain;
-        grid-area: 1 / 1 / 2 / 2;
+        height: 100%;
+        min-width: 0;
+        min-height: 0;
+        object-fit: contain;
+      }
+    }
+
+    // On narrow screens auto-fill drops to 1-2 columns and the logos
+    // stretch to the full width, so keep a fixed number of small columns
+    @media (max-width: 600px) {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      grid-gap: .5rem;
+      > div {
+        padding: .4rem .5rem;
       }
     }
   }

@@ -1,0 +1,35 @@
+// Homepage (splash layout): intro, feature row and section headings
+
+.splash {
+  .feature__wrapper {
+    margin-bottom: 1.5em;
+  }
+
+  .feature__item,
+  .feature__item--center {
+    margin-bottom: 1.25em;
+  }
+
+  .archive__item-title {
+    margin-top: .5em;
+  }
+
+  // Match the news item text colour
+  .feature__item .archive__item-excerpt {
+    color: #555;
+
+    p {
+      margin-bottom: .75em;
+    }
+  }
+
+  .archive__item-body > p:last-child {
+    margin: 0;
+  }
+}
+
+// Section headings (Latest News, Collaborations): same size as the
+// feature row titles (h2 1.25em x .feature__item 1.125em)
+.home-section-title {
+  font-size: 1.40625em;
+}

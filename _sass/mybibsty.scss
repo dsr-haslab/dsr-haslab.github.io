@@ -23,15 +23,21 @@ ol.bibliography {
   padding-left: 0px;
 }
 
-/* Year separators: thin line, then a large, light year */
+/* Year separators: same style as the news page (.news-year) */
 h2.bibliography {
-  margin: 1.4em 0 0.2em;
-  padding-top: 0.35em;
-  border-top: 1px solid #e3e3e3;
-  font-size: 2em;
-  font-weight: 300;
-  line-height: 1.2;
-  color: #c8c8c8;
+  margin: 2.5rem 0 0;
+  padding-bottom: .25rem;
+  border-bottom: 2px solid #353535;
+  font-size: 1.4rem;
+
+  &:first-of-type {
+    margin-top: 1rem;
+  }
+}
+
+// Same gap as .news-list below the year
+h2.bibliography + ol.bibliography {
+  margin-top: 1rem;
 }
 
 .selpubs ol.bibliography {
@@ -139,7 +145,6 @@ h2.bibliography {
 .pub-chip--journal::before    { background-color: #2e7d4f; }
 .pub-chip--workshop::before   { background-color: #b8620a; }
 .pub-chip--poster::before     { background-color: #7b3fa0; }
-.pub-chip--doctoral::before   { background-color: #a13a5a; }
 .pub-chip--preprint::before   { background-color: #6b6b6b; }
 
 .pub-chip__count {

@@ -1,0 +1,37 @@
+{% comment %}
+  Renders a single news item from _data/news.yml. Usage: {% include news_item.html post=item %}
+  Optional fields: type (paper | award | defense | project | grant), link, image
+{% endcomment %}
+{% assign item = include.post %}
+{% case item.type %}
+  {% when 'paper' %}{% assign tag_label = 'Paper' %}{% assign tag_icon = 'fa-file-alt' %}{% assign link_label = 'Read the paper' %}
+  {% when 'award' %}{% assign tag_label = 'Award' %}{% assign tag_icon = 'fa-trophy' %}{% assign link_label = 'Read the paper' %}
+  {% when 'defense' %}{% assign tag_label = 'Defense' %}{% assign tag_icon = 'fa-graduation-cap' %}{% assign link_label = 'Learn more' %}
+  {% when 'project' %}{% assign tag_label = 'Project' %}{% assign tag_icon = 'fa-rocket' %}{% assign link_label = 'Project page' %}
+  {% when 'grant' %}{% assign tag_label = 'Grant' %}{% assign tag_icon = 'fa-medal' %}{% assign link_label = 'Learn more' %}
+  {% else %}{% assign tag_label = 'News' %}{% assign tag_icon = 'fa-bullhorn' %}{% assign link_label = 'Learn more' %}
+{% endcase %}
+{% if item.link == '/publications/' %}{% assign link_label = 'See publications' %}{% endif %}
+{% if item.link == '/projects/' %}{% assign link_label = 'See projects' %}{% endif %}
+
+<article class="news-item">
+  <time class="news-item__date" datetime="{{ item.date | date_to_xmlschema }}">
+    <span class="news-item__day">{{ item.date | date: "%d" }}</span>
+    <span class="news-item__month">{{ item.date | date: "%b %Y" }}</span>
+  </time>
+  <div class="news-item__body">
+    <span class="news-tag news-tag--{{ item.type | default: 'news' }}"><i class="fas {{ tag_icon }}" aria-hidden="true"></i> {{ tag_label }}</span>
+    <h3 class="news-item__title">{{ item.title }}</h3>
+    <p class="news-item__headline">{{ item.headline }}</p>
+    {% if item.link %}
+      {% if item.link contains '://' %}
+        <a class="news-item__link" href="{{ item.link }}" target="_blank" rel="noopener">{{ link_label }} <i class="fas fa-external-link-alt" aria-hidden="true"></i></a>
+      {% else %}
+        <a class="news-item__link" href="{{ item.link | relative_url }}">{{ link_label }} <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+      {% endif %}
+    {% endif %}
+  </div>
+  {% if item.image %}
+    <img class="news-item__image" src="{{ item.image | relative_url }}" alt="{{ item.title }}" loading="lazy">
+  {% endif %}
+</article>

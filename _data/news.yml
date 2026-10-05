@@ -1,0 +1,234 @@
+# News items shown on the homepage (latest 3) and on /news/.
+# Add new items at the top. Fields: date, title, type (paper | award | defense |
+# project | grant), headline (HTML allowed), and optionally link and image.
+
+- date: 2026-07-06
+  title: "Best Presentation Award at WoRMA 2026"
+  headline: "Our paper <em>\"It Works on My Machine: A Systematization of Knowledge on Reproducibility and Replicability in ML-Based Ransomware Detection\"</em> won the best presentation award at WoRMA 2026!"
+  type: award
+  link: "https://doi.org/10.1109/EuroSPW72509.2026.00032"
+  image: "/assets/images/photos/20260706_best_presentation_worma26.jpeg"
+
+- date: 2026-05-13
+  title: "Best Poster Award at EuroSys 2026"
+  headline: "Our poster (of the paper) <em>\"MinatoLoader: Accelerating Machine Learning Training Through Efficient Data Preprocessing\"</em> won the best poster award at EuroSys 2026!"
+  type: award
+  link: "https://doi.org/10.1145/3767295.3769376"
+  image: "/assets/images/photos/20260430_best_poster_eurosys26.jpeg"
+
+- date: 2026-05-04
+  title: "Paper Accepted at WoRMA'26"
+  headline: "Our paper <em>\"It Works on My Machine: A Systematization of Knowledge on Reproducibility and Replicability in ML-Based Ransomware Detection\"</em> was accepted at the WORMA'26 workshop, co-located with IEEE EuroS&P'26!"
+  type: paper
+  link: "https://doi.org/10.1109/EuroSPW72509.2026.00032"
+  image: "/assets/images/photos/20260706_bruno_presentation.jpeg"
+
+- date: 2026-04-09
+  title: "MSc Defense: Gonçalo Manuel Maia de Sousa"
+  headline: "Gonçalo Manuel Maia de Sousa has defended his MSc thesis entitled <em>\"Efficient fault tolerant storage solutions for AI training in HPC\"</em>. Congratulations!"
+  type: defense
+
+- date: 2026-03-30
+  title: "MSc Defense: André Lucena Ribas Ferreira"
+  headline: "André Lucena Ribas Ferreira has defended his MSc thesis entitled <em>\"Storage optimizations for distributed AI training in HPC\"</em>. Congratulations!"
+  type: defense
+
+- date: 2026-01-19
+  title: "Rescueware Project Kickoff"
+  headline: "The Rescueware project kicked off on January 19 via videoconference. The project aims to develop new protection and recovery solutions against ransomware attacks, specifically tailored to healthcare institutions such as ULSAM."
+  type: project
+  link: "/projects/Rescueware"
+
+- date: 2025-12-18
+  title: "MSc Defense: Ana Rita Vaz"
+  headline: "Ana Rita Vaz has defended her MSc thesis entitled <em>\"Characterizing and Predicting the I/O Patterns of HPC Applications\"</em>. Congratulations!"
+  type: defense
+
+- date: 2025-11-14
+  title: "MSc Defense: Miguel de Sousa Braga"
+  headline: "Miguel de Sousa Braga has defended his MSc thesis entitled <em>\"Reducing energy consumption of AI training through phase-aware GPU frequency tuning\"</em>. Congratulations!"
+  type: defense
+
+- date: 2025-11-12
+  title: "MSc Defense: Alexandre Rodrigues Fernandes"
+  headline: "Alexandre Rodrigues Fernandes has defended his MSc thesis entitled <em>\"Fine-Grained and Event-Aware Energy Monitoring for Large-Scale Computing Infrastructures\"</em>. Congratulations!"
+  type: defense
+
+- date: 2025-11-11
+  title: "MSc Defense: Rui Pedro Oliveira"
+  headline: "Rui Pedro Oliveira has defended his MSc thesis entitled <em>\"Efficient Deduplication for the SPDK Framework\"</em>. Congratulations!"
+  type: defense
+
+- date: 2025-11-11
+  title: "MSc Defense: Carlos Eduardo Machado"
+  headline: "Carlos Eduardo Machado has defended his MSc thesis entitled <em>\"Bridging the Gap: A Comparison of the Design, Efficiency, and Fidelity of eBPF Libraries\"</em>. Congratulations!"
+  type: defense
+
+- date: 2025-08-25
+  title: "Paper Accepted at eBPF'25"
+  headline: "The paper <em>\"No Two Snowflakes Are Alike: Studying eBPF Libraries' Performance, Fidelity and Resource Usage\"</em> was accepted at the eBPF'25 workshop, co-located with SIGCOMM'25!"
+  type: paper
+  link: "https://doi.org/10.1145/3748355.3748364"
+  image: "/assets/images/photos/20250908_carlos_machado_presentation.jpg"
+
+- date: 2025-07-08
+  title: "Keigo Accepted at VLDB'25"
+  headline: "The paper <em>\"Keigo: Co-designing Log-Structured Merge Key-Value Stores with a Non-Volatile, Concurrency-aware Storage Hierarchy\"</em> was accepted at the VLDB'25 conference!"
+  type: paper
+  link: "https://doi.org/10.14778/3746405.3746414"
+
+- date: 2025-05-26
+  title: "MSc Defense: José Fernandes"
+  headline: "José Fernandes has defended his MSc thesis entitled <em>\"Comprehensive study of the energy impact of LSM-based key-value stores\"</em>. Congratulations!"
+  type: defense
+
+- date: 2025-04-29
+  title: "MSc Defense: Diana Rodrigues"
+  headline: "Diana Rodrigues has defended her MSc thesis entitled <em>\"Controlo energético de GPU em sistemas de Deep Learning\"</em>. Congratulations!"
+  type: defense
+
+- date: 2025-03-27
+  title: "MSc Defense: Mariana Amorim"
+  headline: "Mariana Amorim has defended her MSc thesis entitled <em>\"SFreq: Controlador de consumo energético para sistemas de armazenamento baseados em SPDK\"</em>. Congratulations!"
+  type: defense
+
+- date: 2025-02-03
+  title: "MSc Defense: Bruno Pereira"
+  headline: "Bruno Pareira has defended his MSc thesis entitled <em>\"Towards Optimized Development and Testing of Ransomware Detection Solutions\"</em>. Congratulations!"
+  type: defense
+
+- date: 2024-10-20
+  title: "Paper Accepted at IXPUG'24"
+  headline: "The paper <em>\"Can Current SDS Controllers Scale To Modern HPC Infrastructures?\"</em> was accepted at the IXPUG'24 workshop, colocated with the SC conference!"
+  type: paper
+  link: "https://doi.org/10.1109/SCW63240.2024.00123"
+  image: "/assets/images/photos/20241118_mariana_miranda_presentation_sc_ixpug.jpg"
+
+- date: 2024-07-25
+  title: "LazyFS Paper Accepted at VLDB'24"
+  headline: "The paper <em>\"When Amnesia Strikes: Understanding and Reproducing Data Loss Bugs with Fault Injection\"</em> was accepted at the VLDB'24 conference!"
+  type: paper
+  link: "https://doi.org/10.14778/3681954.3681980"
+  image: "/assets/images/photos/20240827_lazyfs_presentation_vldb.jpg"
+
+- date: 2024-07-15
+  title: "MSc Defense: Sara Pereira"
+  headline: "Sara Pereira has defended her MSc thesis entitled <em>\"Towards Fine-grained, Holistic Energy Control in Large-Scale Computing Infrastructures\"</em>. Congratulations!"
+  type: defense
+
+- date: 2024-07-03
+  title: "PhD Defense: Cláudia Brito"
+  headline: "Cláudia Brito has defended her PhD thesis entitled <em>\"Towards a Privacy-Preserving Distributed Machine Learning Framework\"</em>. Congratulations!"
+  type: defense
+  image: "/assets/images/photos/20240703_phd_defense_cb.JPG"
+
+- date: 2024-04-08
+  title: "PhD Defense: Tânia Esteves"
+  headline: "Tânia Esteves has defended her PhD thesis entitled <em>\"Flexible Tracing and Analysis of Applications' I/O Behavior\"</em>. Congratulations!"
+  type: defense
+  image: "/assets/images/photos/20240408_phd_defense_te.JPG"
+
+- date: 2023-10-20
+  title: "Paper Accepted at IEEE Access"
+  headline: "The paper <em>\"Toward a practical and timely diagnosis of applications' I/O behavior\"</em> was accepted at the IEEE Access Journal!"
+  type: paper
+  link: "https://doi.org/10.1109/ACCESS.2023.3322104"
+
+- date: 2023-06-28
+  title: "CRIBA Accepted at SRDS'23"
+  headline: "The paper <em>\"CRIBA: A Tool for Comprehensive Analysis of Cryptographic Ransomware's I/O Behavior\"</em> was accepted at the SRDS'23 conference!"
+  type: paper
+  link: "https://doi.org/10.1109/SRDS60354.2023.00015"
+  image: "/assets/images/photos/20230927_criba_presentation_srds.jpg"
+
+- date: 2023-06-01
+  title: "DIO Paper Accepted at DCDS'23"
+  headline: "The paper <em>\"Diagnosing applications' I/O behavior through system call observability\"</em>  was accepted at the DCDS workshop colocated with DSN!"
+  type: paper
+  link: "https://doi.org/10.1109/DSN-W58399.2023.00022"
+  image: "/assets/images/photos/20230627_dio_presentation_dcds.jpg"
+
+- date: 2023-02-01
+  title: "Paper Accepted at CCGrid'23"
+  headline: "The paper <em>\"Taming Metadata-intensive HPC Jobs Through Dynamic, Application-agnostic QoS Control\"</em> was accepted at the CCGrid'23 conference!"
+  type: paper
+  link: "https://doi.org/10.1109/CCGrid57682.2023.00015"
+
+- date: 2023-01-21
+  title: "PhD Defense: Ricardo Macedo"
+  headline: "Ricardo Macedo has defended his PhD thesis entitled <em>\"User-level Software-Defined Storage Data Planes\"</em>. Congratulations!"
+  type: defense
+  image: "/assets/images/photos/20230120_phd_defense_rm.png"
+
+- date: 2022-05-25
+  title: "Monarch Presented at CCGrid'22"
+  headline: "The paper <em>\"Accelerating Deep Learning Training Through Transparent Storage Tiering\"</em> was presented at the CCGrid'22 conference!"
+  type: paper
+  link: "https://doi.org/10.1109/CCGrid54584.2022.00011"
+  image: "/assets/images/photos/20220517_monarch_presentation_ccgrid.jpg"
+
+- date: 2022-02-24
+  title: "PAIO Presented at USENIX FAST'22"
+  headline: "The paper <em>\"PAIO: General, Portable I/O Optimizations With Minor Application Modifications\"</em> was presented at the USENIX FAST'22 conference!"
+  type: paper
+  link: "https://www.usenix.org/conference/fast22/presentation/macedo"
+  image: "/assets/images/photos/20220224_paio_presentation_fast.jpg"
+
+- date: 2022-01-01
+  title: "PAStor and ACTPM Projects Concluded"
+  headline: "The PAStor and ACTPM projects were concluded with success!"
+  type: project
+  link: "/projects/"
+
+- date: 2021-11-01
+  title: "CaT Accepted at Middleware'21"
+  headline: "The paper <em>\"CaT: Content-aware Tracing and Analysis for Distributed Systems\"</em> was accepted at the Middleware'21 conference!"
+  type: paper
+  link: "https://doi.org/10.1145/3464298.3493396"
+
+- date: 2021-09-01
+  title: "Three Papers Accepted at REX-IO and HPBD"
+  headline: "We got three new papers accepted at the REX-IO and HPBD Workshops!"
+  type: paper
+  link: "/publications/"
+
+- date: 2021-05-21
+  title: "Two Papers Accepted at SYSTOR'21"
+  headline: "We got two papers -- <em>\"BDUS: Implementing Block Devices in User Space\"</em> and <em>\"S2Dedup: SGX-enabled Secure Deduplication\"</em> -- accepted at the SYSTOR'21 conference!"
+  type: paper
+  link: "/publications/"
+
+- date: 2020-10-10
+  title: "PAStor Project Kickoff"
+  headline: "The PAStor project started on October 1st and will research new solutions to speedup storage performance for AI-oriented HPC services. We are very happy to be part of this collaboration between INESC TEC, TACC, MACC and Hood College."
+  type: project
+  link: "/projects/Pastor"
+
+- date: 2020-05-14
+  title: "GenoDedup Accepted at IEEE TC"
+  headline: "The paper entitled <em>\"GenoDedup: Similarity-Based Deduplication and Delta-Encoding for Genome Sequencing Data\"</em>, resulting from a collaboration with Vinicius Cogo and Alysson Bessani from LASIGE, was accepted in IEEE Transactions on Computers."
+  type: paper
+  link: "https://doi.org/10.1109/TC.2020.2994774"
+
+- date: 2020-04-20
+  title: "BigHPC Project Kickoff"
+  headline: "The BigHPC project kicked off on April 20 via videoconference. With $2M for 3 years, the project will develop new tools for improving the management of storage and computational resources at HPC infrastructures."
+  type: project
+  link: "/projects/BigHPC"
+
+- date: 2020-03-30
+  title: "SDS Survey Accepted at ACM CSUR"
+  headline: "Our survey about software-defined storage was accepted in ACM CSUR"
+  type: paper
+  link: "https://doi.org/10.1145/3385896"
+
+- date: 2019-11-17
+  title: "PhD Grant for Ricardo Macedo"
+  headline: "Ricardo Macedo earned a PhD grant from Fundação para a Ciência e Tecnologia!"
+  type: grant
+
+- date: 2019-10-10
+  title: "Two Papers Accepted at DRSS'19"
+  headline: "We have published two new papers at the DRSS workshop colocated with SRDS'19!"
+  type: paper
+  link: "/publications/"

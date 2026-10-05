@@ -158,6 +158,7 @@ exclude:
   - package-lock.json
   - Rakefile
   - README
+  - UPDATING.md
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
@@ -200,7 +201,7 @@ timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Pagination with jekyll-paginate
-paginate: 3 # amount of posts to show
+# paginate: 3 # disabled: the homepage shows the latest posts and links to /news/
 paginate_path: /page:num/
 
 # Pagination with jekyll-paginate-v2

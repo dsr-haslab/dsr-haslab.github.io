@@ -1,7 +1,7 @@
 ---
 ---
 
-{% if entry.web_pubtype %}{% assign pubtype = entry.web_pubtype | downcase %}{% endif %}
+{% if entry.web_pubtype %}{% comment %}web_pubtype may list several types, e.g. {workshop, poster}{% endcomment %}{% assign pubtype = entry.web_pubtype | downcase | replace: ",", " " | split: " " | join: " " %}{% endif %}
 <div class="pub"{% if entry.web_pubtype %} data-pubtype="{{ pubtype }}"{% endif %}>
     <p>
     {% assign ref_html = reference %}

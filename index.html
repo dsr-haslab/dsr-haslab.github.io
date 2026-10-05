@@ -12,21 +12,21 @@ feature_row:
     title: "Research Topics"
     url: "/research"
     excerpt: "Our research is directed towards building efficient, reliable, and secure storage systems."
-    btn_label: "Read More"
+    btn_label: "Explore topics"
     btn_class: "btn--inverse"
   - image_path: /assets/images/home/publications.png
     alt: "placeholder publications"
     title: "Publications"
     url: "/publications"
     excerpt: "Explore DSR groundbreaking publications in distributed storage research."
-    btn_label: "Read More"
+    btn_label: "Browse publications"
     btn_class: "btn--inverse"
   - image_path: /assets/images/home/projects.png
     alt: "placeholder projects"
     title: "Projects"
     excerpt: "DSR is involved in several research projects aimed at delivering novel storage solutions."
     url: "/projects"
-    btn_label: "Read More"
+    btn_label: "See projects"
     btn_class: "btn--inverse"
 ---
 
@@ -34,32 +34,18 @@ feature_row:
 
 {% include feature_row %}
 
-<h1>LATEST NEWS</h1>
+<h1 class="home-section-title">Latest News</h1>
 
 
-<div id="news">
-  {% if paginator %}
-    {% assign posts = paginator.posts %}
-  {% else %}
-    {% assign posts = site.posts %}
-  {% endif %}
+<div id="news" class="news-list">
+  {% assign news = site.data.news | sort: "date" | reverse %}
+  {% for item in news limit: 3 %}
+    {% include news_item.html post=item %}
+  {% endfor %}
+</div>
 
-  {% assign entries_layout = page.entries_layout | default: 'list' %}
-  <div class="entries-{{ entries_layout }}">
-    {% for post in posts %}
-      <time datetime="{{ post.date }}" class="catalogue-time">{{ post.date | date: "%B %d, %Y" }}</time>
-      <h3 class="catalogue-title">{{ post.title }}</h3>
-      <div class="catalogue-line"></div>
-      <div class="catalogue-headline">{{post.headline}}</div>
-    {% endfor %}
-
-  <!-- Pagination links -->
-
-  <div class="pag_container">
-    <div class="center">
-      {% include paginator.html %}
-    </div>
-  </div>
+<div class="news-more">
+  <a href="{{ '/news/' | relative_url }}" class="btn btn--inverse">See all news</a>
 </div>
 
 {% include carousel.html height="50" unit="%" duration="7" number="1" %}
@@ -67,7 +53,7 @@ feature_row:
 <br>
 <hr>
 <br>
-<h1>COLLABORATIONS</h1>
+<h1 class="home-section-title">Collaborations</h1>
 
 <div class="collab-grid">
   {% for collab in site.data.collaborations %}

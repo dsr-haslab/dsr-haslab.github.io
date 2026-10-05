@@ -1,0 +1,21 @@
+---
+title: "News"
+layout: base
+permalink: /news/
+classes: wide
+author_profile: false
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+---
+
+{% assign news = site.data.news | sort: "date" | reverse %}
+{% assign news_by_year = news | group_by_exp: "item", "item.date | date: '%Y'" %}
+{% for year in news_by_year %}
+  <h2 class="news-year" id="{{ year.name }}">{{ year.name }}</h2>
+  <div class="news-list">
+    {% for item in year.items %}
+      {% include news_item.html post=item %}
+    {% endfor %}
+  </div>
+{% endfor %}

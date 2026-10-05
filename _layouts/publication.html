@@ -37,9 +37,12 @@ layout: default
 
   var TYPES = [
     ['conference', 'Conference'], ['journal', 'Journal'], ['workshop', 'Workshop'],
-    ['doctoral', 'Doctoral Workshop'], ['poster', 'Poster'], ['preprint', 'Preprint']
+    ['poster', 'Poster'], ['preprint', 'Preprint']
   ];
   var pubs = Array.prototype.slice.call(root.querySelectorAll('.pub'));
+  // data-pubtype is a space-separated list (a paper can be e.g. both workshop and poster)
+  function typesOf(p) { return (p.dataset.pubtype || '').split(' ').filter(Boolean); }
+  function hasType(p, t) { return !t || typesOf(p).indexOf(t) !== -1; }
   var years = Array.prototype.slice.call(root.querySelectorAll('h2.bibliography'));
   var filterBox = root.querySelector('.pub-filter');
 
@@ -58,8 +61,7 @@ layout: default
   // Type filter chips (only for types present on this page)
   var counts = {};
   pubs.forEach(function (p) {
-    var t = p.dataset.pubtype;
-    if (t) counts[t] = (counts[t] || 0) + 1;
+    typesOf(p).forEach(function (t) { counts[t] = (counts[t] || 0) + 1; });
   });
 
   function chip(type, label) {
@@ -80,7 +82,7 @@ layout: default
   function apply() {
     pubs.forEach(function (p) {
       var li = p.closest('li') || p;
-      li.hidden = !inYear(p) || (!!state.type && p.dataset.pubtype !== state.type);
+      li.hidden = !inYear(p) || !hasType(p, state.type);
     });
     years.forEach(function (h) {
       var list = h.nextElementSibling;
@@ -91,7 +93,7 @@ layout: default
     // Chip counts reflect the selected year
     filterBox.querySelectorAll('.pub-chip').forEach(function (c) {
       var n = pubs.filter(function (p) {
-        return inYear(p) && (!c.dataset.type || p.dataset.pubtype === c.dataset.type);
+        return inYear(p) && hasType(p, c.dataset.type);
       }).length;
       c.querySelector('.pub-chip__count').textContent = n;
       c.disabled = !n && c.dataset.type !== state.type;
