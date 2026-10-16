@@ -1,3 +1,28 @@
+
+
+- title: Research on energy-efficient, QoS-aware scheduler for disaggregated storage
+  author: edgar.araujo
+  year: 2024 # TODO validar
+  type: other
+  supervisors:
+    - ricardo.g.macedo
+
+- title: Research on storage fault injection
+  author: afonso.martins
+  year: 2025
+  type: other
+  supervisors:
+    - joao.t.paulo
+    - tania.c.esteves
+
+- title: Research on static analysis of CI/CD pipelines
+  author: henrique.s.fernandes
+  year: 2025
+  type: other
+  supervisors:
+    - tania.c.esteves
+    - claudia.v.brito
+
 - title: Efficient fault tolerant storage solutions for AI training in HPC
   author: goncalo.sousa
   year: 2026 # 2026.04.09

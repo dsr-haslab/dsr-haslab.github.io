@@ -51,13 +51,15 @@ layout: default
         <div class="col-sm-12 text-center contIt rel shSec it5">
             <div class="item pb50">
                 <div class="lineBox pb10">
+                    {% assign member_url = member.personal_webpage | default: member.inesctec_webpage %}{% if member_url %}<a class="team-member-link" href="{{ member_url }}" title="{{ member.name }}'s webpage" aria-label="{{ member.name }}'s webpage">{% endif %}
                     <div class="img bgi lazyload" data-src="{{ site.url }}{{ site.baseurl }}/assets/images/teampic/{{ member.photo }}" style="background-image: url(&quot;{{ site.url }}{{ site.baseurl }}/assets/images/teampic/{{ member.photo }}&quot;);"></div>
+                    {% if member_url %}</a>{% endif %}
                     <div class="cont sh" style="height: 118px;">
                         <div class="int">
-                        <h5>{{ member.name }}</h5>
+                        <h5>{% if member_url %}<a class="team-member-link" href="{{ member_url }}">{{ member.name }}</a>{% else %}{{ member.name }}{% endif %}</h5>
                         <p>{{ member.info }}</p>
                         <div class="social-links">
-                            <a href="mailto:{{ member.email }}"><i class="fas fa-envelope"></i></a>
+                            {% if member.email %}<a href="mailto:{{ member.email }}"><i class="fas fa-envelope"></i></a>{% endif %}
                             {% if member.git %} <a href="{{ member.git }}"><i class="fab fa-github"></i></a>{% endif %}
                             {% if member.ldin %} <a href="{{ member.ldin }}"><i class="fab fa-linkedin"></i></a>{% endif %}
                         </div>

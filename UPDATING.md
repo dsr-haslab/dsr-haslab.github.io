@@ -170,7 +170,7 @@ Edit `_data/tools.yml`:
 
 Edit `_data/team_members.yml`. The file has three lists:
 
-- `team_members`: current members, shown on the People page in file order.
+- `team_members`: current members, shown on the People page in file order. Keep faculty and researchers first, then PhD, MSc and BSc students. Within each level, list thesis students first and then research collaborators, each in alphabetical order.
 - `previous_team_members`: former members, used by the Alumni page.
 - `external_collaborators`: co-supervisors from outside the team, used by the Alumni page.
 
@@ -179,10 +179,17 @@ Edit `_data/team_members.yml`. The file has three lists:
   id: jane.d.doe                 # unique; used by alumni.yml, projects and domains
   photo: janedoe.jpg             # file in assets/images/teampic/
   info: PhD Student
-  email: jane.d.doe@inesctec.pt
+  email: jane.d.doe@inesctec.pt   # optional
   git: https://github.com/...    # optional
   ldin: https://linkedin.com/... # optional
+  personal_webpage: https://...   # optional; the photo and name on the card link here
+  inesctec_webpage: https://www.inesctec.pt/en/people/...  # optional; used for the card link if there is no personal_webpage
+  role: thesis                   # optional, for students: thesis | research
 ```
+
+For students, set `role: thesis` if they are doing a thesis or project with us, or `role: research` if they only collaborate. Collaborators show "Research Collaborator" on the People page, with their title (`info`) in smaller text below it. Thesis students show only their title, with a graduation cap icon. Leave `role` out for faculty and researchers.
+
+The counts at the top of the People page (Faculty & Researchers, PhD Students, MSc Students, Research Collaborators) are calculated from this list when the site is built. Collaborators count only as collaborators, not in their level.
 
 Use a square photo, about 400×400px and under 200 KB.
 
