@@ -45,12 +45,13 @@ Edit `_data/news.yml` and add a block anywhere in the file. Items are sorted by 
   title: "Paper Accepted at EuroSys'27"
   type: paper            # paper | award | defense | project | grant
   headline: "Our paper <em>\"Title\"</em> was accepted at EuroSys'27!"
-  link: "/publications/" # optional: a site path or a full URL
+  link: "/publications/#jdoe2026conf" # optional: a site path or a full URL
   image: "/assets/images/photos/20261002_some_photo.jpg"   # optional
 ```
 
 - `headline` accepts HTML, such as `<em>` for paper titles.
-- The `type` sets the tag and icon. It also sets the link text: "Read the paper" for papers and awards, "Project page" for projects, and "Learn more" otherwise.
+- The `type` sets the tag and icon. It also sets the link text: "Read the paper" for papers and awards, "Project page" for projects, and "Learn more" otherwise. To use different link text, add `link_label: "Read more"`.
+- For a paper, link to its entry on the publications page with `link: "/publications/#<bibtex-key>"`, even if it has a DOI. That entry already links to the DOI, PDF and slides. For an item about several papers, use `link: "/publications/"`, which shows "Read the papers".
 - For `image`, use a photo from `assets/images/photos/`. Keep it under about 500 KB (around 1600px wide) so the page loads quickly.
 
 ## Photo carousel (homepage)

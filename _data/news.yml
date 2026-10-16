@@ -2,25 +2,46 @@
 # Add new items at the top. Fields: date, title, type (paper | award | defense |
 # project | grant), headline (HTML allowed), and optionally link and image.
 
+
+- date: 2026-10-08
+  title: "Paper Accepted at Middleware'26"
+  headline: "Our paper <em>\"A Tale of Scale: Enabling Scalable and Holistic Storage QoS for Exascale HPC Systems\"</em> was accepted at the 27th ACM International Middleware Conference (Middleware'26)!"
+  type: paper
+  link: "/publications/#mmiranda2026taleofscale"
+
+- date: 2026-10-07
+  title: "Pedagogical Merit Recognition for Prof. João Paulo"
+  headline: "Prof. João Paulo received the Diploma of Recognition of Pedagogical Merit (<em>Diploma de Reconhecimento de Mérito Pedagógico</em>) in the Department of Informatics, awarded at the ceremony celebrating the 51st anniversary of the School of Engineering of the University of Minho (EEUM). Congratulations!"
+  type: award
+  link: "https://www.linkedin.com/posts/universidade-do-minho_eeum-uminho-engenharia-ugcPost-7513908745836494849-NcnK"
+  link_label: "Read more"
+  image: "/assets/images/photos/20261007_joao_paulo_pedagogical_merit_award.jpg"
+
+- date: 2026-08-04
+  title: "Paper Accepted at SBAC-PAD'26"
+  headline: "Our paper <em>\"Phoning Home: Repatriating output from cloud jobs with a user-level, provider-agnostic data transfer tool\"</em> was accepted at the 38th IEEE/SBC International Symposium on Computer Architecture and High Performance Computing (SBAC-PAD'26)!"
+  type: paper
+  link: "/publications/#fsouza2026phoninghome"
+
 - date: 2026-07-06
   title: "Best Presentation Award at WoRMA 2026"
   headline: "Our paper <em>\"It Works on My Machine: A Systematization of Knowledge on Reproducibility and Replicability in ML-Based Ransomware Detection\"</em> won the best presentation award at WoRMA 2026!"
   type: award
-  link: "https://doi.org/10.1109/EuroSPW72509.2026.00032"
+  link: "/publications/#bpereira2026worma"
   image: "/assets/images/photos/20260706_best_presentation_worma26.jpeg"
 
 - date: 2026-05-13
   title: "Best Poster Award at EuroSys 2026"
   headline: "Our poster (of the paper) <em>\"MinatoLoader: Accelerating Machine Learning Training Through Efficient Data Preprocessing\"</em> won the best poster award at EuroSys 2026!"
   type: award
-  link: "https://doi.org/10.1145/3767295.3769376"
+  link: "/publications/#rnouaji2026minatoloader"
   image: "/assets/images/photos/20260430_best_poster_eurosys26.jpeg"
 
 - date: 2026-05-04
   title: "Paper Accepted at WoRMA'26"
   headline: "Our paper <em>\"It Works on My Machine: A Systematization of Knowledge on Reproducibility and Replicability in ML-Based Ransomware Detection\"</em> was accepted at the WORMA'26 workshop, co-located with IEEE EuroS&P'26!"
   type: paper
-  link: "https://doi.org/10.1109/EuroSPW72509.2026.00032"
+  link: "/publications/#bpereira2026worma"
   image: "/assets/images/photos/20260706_bruno_presentation.jpeg"
 
 - date: 2026-04-09
@@ -68,14 +89,14 @@
   title: "Paper Accepted at eBPF'25"
   headline: "The paper <em>\"No Two Snowflakes Are Alike: Studying eBPF Libraries' Performance, Fidelity and Resource Usage\"</em> was accepted at the eBPF'25 workshop, co-located with SIGCOMM'25!"
   type: paper
-  link: "https://doi.org/10.1145/3748355.3748364"
+  link: "/publications/#machado2025snowflakes"
   image: "/assets/images/photos/20250908_carlos_machado_presentation.jpg"
 
 - date: 2025-07-08
   title: "Keigo Accepted at VLDB'25"
   headline: "The paper <em>\"Keigo: Co-designing Log-Structured Merge Key-Value Stores with a Non-Volatile, Concurrency-aware Storage Hierarchy\"</em> was accepted at the VLDB'25 conference!"
   type: paper
-  link: "https://doi.org/10.14778/3746405.3746414"
+  link: "/publications/#adao2025keigo"
 
 - date: 2025-05-26
   title: "MSc Defense: José Fernandes"
@@ -101,14 +122,14 @@
   title: "Paper Accepted at IXPUG'24"
   headline: "The paper <em>\"Can Current SDS Controllers Scale To Modern HPC Infrastructures?\"</em> was accepted at the IXPUG'24 workshop, colocated with the SC conference!"
   type: paper
-  link: "https://doi.org/10.1109/SCW63240.2024.00123"
+  link: "/publications/#miranda2024can"
   image: "/assets/images/photos/20241118_mariana_miranda_presentation_sc_ixpug.jpg"
 
 - date: 2024-07-25
   title: "LazyFS Paper Accepted at VLDB'24"
   headline: "The paper <em>\"When Amnesia Strikes: Understanding and Reproducing Data Loss Bugs with Fault Injection\"</em> was accepted at the VLDB'24 conference!"
   type: paper
-  link: "https://doi.org/10.14778/3681954.3681980"
+  link: "/publications/#ramos2024amnesia"
   image: "/assets/images/photos/20240827_lazyfs_presentation_vldb.jpg"
 
 - date: 2024-07-15
@@ -132,27 +153,27 @@
   title: "Paper Accepted at IEEE Access"
   headline: "The paper <em>\"Toward a practical and timely diagnosis of applications' I/O behavior\"</em> was accepted at the IEEE Access Journal!"
   type: paper
-  link: "https://doi.org/10.1109/ACCESS.2023.3322104"
+  link: "/publications/#esteves2023toward"
 
 - date: 2023-06-28
   title: "CRIBA Accepted at SRDS'23"
   headline: "The paper <em>\"CRIBA: A Tool for Comprehensive Analysis of Cryptographic Ransomware's I/O Behavior\"</em> was accepted at the SRDS'23 conference!"
   type: paper
-  link: "https://doi.org/10.1109/SRDS60354.2023.00015"
+  link: "/publications/#esteves2023criba"
   image: "/assets/images/photos/20230927_criba_presentation_srds.jpg"
 
 - date: 2023-06-01
   title: "DIO Paper Accepted at DCDS'23"
   headline: "The paper <em>\"Diagnosing applications' I/O behavior through system call observability\"</em>  was accepted at the DCDS workshop colocated with DSN!"
   type: paper
-  link: "https://doi.org/10.1109/DSN-W58399.2023.00022"
+  link: "/publications/#esteves2023diagnosing"
   image: "/assets/images/photos/20230627_dio_presentation_dcds.jpg"
 
 - date: 2023-02-01
   title: "Paper Accepted at CCGrid'23"
   headline: "The paper <em>\"Taming Metadata-intensive HPC Jobs Through Dynamic, Application-agnostic QoS Control\"</em> was accepted at the CCGrid'23 conference!"
   type: paper
-  link: "https://doi.org/10.1109/CCGrid57682.2023.00015"
+  link: "/publications/#macedo2023taming"
 
 - date: 2023-01-21
   title: "PhD Defense: Ricardo Macedo"
@@ -164,14 +185,14 @@
   title: "Monarch Presented at CCGrid'22"
   headline: "The paper <em>\"Accelerating Deep Learning Training Through Transparent Storage Tiering\"</em> was presented at the CCGrid'22 conference!"
   type: paper
-  link: "https://doi.org/10.1109/CCGrid54584.2022.00011"
+  link: "/publications/#dantas2022accelerating"
   image: "/assets/images/photos/20220517_monarch_presentation_ccgrid.jpg"
 
 - date: 2022-02-24
   title: "PAIO Presented at USENIX FAST'22"
   headline: "The paper <em>\"PAIO: General, Portable I/O Optimizations With Minor Application Modifications\"</em> was presented at the USENIX FAST'22 conference!"
   type: paper
-  link: "https://www.usenix.org/conference/fast22/presentation/macedo"
+  link: "/publications/#macedo2022paio"
   image: "/assets/images/photos/20220224_paio_presentation_fast.jpg"
 
 - date: 2022-01-01
@@ -184,7 +205,7 @@
   title: "CaT Accepted at Middleware'21"
   headline: "The paper <em>\"CaT: Content-aware Tracing and Analysis for Distributed Systems\"</em> was accepted at the Middleware'21 conference!"
   type: paper
-  link: "https://doi.org/10.1145/3464298.3493396"
+  link: "/publications/#esteves2021cat"
 
 - date: 2021-09-01
   title: "Three Papers Accepted at REX-IO and HPBD"
@@ -208,7 +229,7 @@
   title: "GenoDedup Accepted at IEEE TC"
   headline: "The paper entitled <em>\"GenoDedup: Similarity-Based Deduplication and Delta-Encoding for Genome Sequencing Data\"</em>, resulting from a collaboration with Vinicius Cogo and Alysson Bessani from LASIGE, was accepted in IEEE Transactions on Computers."
   type: paper
-  link: "https://doi.org/10.1109/TC.2020.2994774"
+  link: "/publications/#cogo2020genodedup"
 
 - date: 2020-04-20
   title: "BigHPC Project Kickoff"
@@ -220,7 +241,7 @@
   title: "SDS Survey Accepted at ACM CSUR"
   headline: "Our survey about software-defined storage was accepted in ACM CSUR"
   type: paper
-  link: "https://doi.org/10.1145/3385896"
+  link: "/publications/#macedo2020survey"
 
 - date: 2019-11-17
   title: "PhD Grant for Ricardo Macedo"

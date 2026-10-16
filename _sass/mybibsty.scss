@@ -255,3 +255,14 @@ ol.bibliography { margin-bottom: 0.5em; }
     }
   }
 }
+
+// jekyll-scholar gives each entry a <span id="<bibtex-key>">, so news items can
+// link to /publications/#<bibtex-key>
+.pub span[id] {
+  scroll-margin-top: 5em;
+}
+
+.pub:has(span:target) {
+  border-radius: 4px;
+  background-color: rgba(255, 200, 0, 0.15);
+}

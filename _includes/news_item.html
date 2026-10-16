@@ -1,6 +1,6 @@
 {% comment %}
   Renders a single news item from _data/news.yml. Usage: {% include news_item.html post=item %}
-  Optional fields: type (paper | award | defense | project | grant), link, image
+  Optional fields: type (paper | award | defense | project | grant), link, link_label, image
 {% endcomment %}
 {% assign item = include.post %}
 {% case item.type %}
@@ -11,8 +11,9 @@
   {% when 'grant' %}{% assign tag_label = 'Grant' %}{% assign tag_icon = 'fa-medal' %}{% assign link_label = 'Learn more' %}
   {% else %}{% assign tag_label = 'News' %}{% assign tag_icon = 'fa-bullhorn' %}{% assign link_label = 'Learn more' %}
 {% endcase %}
-{% if item.link == '/publications/' %}{% assign link_label = 'See publications' %}{% endif %}
+{% if item.link == '/publications/' %}{% assign link_label = 'Read the papers' %}{% endif %}
 {% if item.link == '/projects/' %}{% assign link_label = 'See projects' %}{% endif %}
+{% if item.link_label %}{% assign link_label = item.link_label %}{% endif %}
 
 <article class="news-item">
   <time class="news-item__date" datetime="{{ item.date | date_to_xmlschema }}">
