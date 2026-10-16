@@ -7,6 +7,17 @@
   supervisors:
     - ricardo.g.macedo
 
+- title: Research on eBPF applied to ransomware detection
+  author: carlos.s.pinto
+  year: 2025 # between 2025-2026
+  type: other
+  supervisors:
+    - tania.c.esteves
+  next_step:
+    type: academic
+    title: MSc Student
+    institution: Faculty of Engineering - University of Porto
+
 - title: Research on storage fault injection
   author: afonso.martins
   year: 2025
@@ -22,6 +33,10 @@
   supervisors:
     - tania.c.esteves
     - claudia.v.brito
+  next_step:
+    type: academic
+    title: MSc Student
+    institution: Faculty of Engineering - University of Porto
 
 - title: Efficient fault tolerant storage solutions for AI training in HPC
   author: goncalo.sousa
