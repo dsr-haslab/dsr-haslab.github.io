@@ -19,10 +19,10 @@ header:
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
-<!-- # People -->
+<!-- # People 
 
 We are looking for new Postdocs, PhD students and Master/Bachelor students to join HASLab and work on storage research topics.<br>
-If you are interested in working with us, please send me an [email](mailto:jtpaulo@inesctec.pt).
+If you are interested in working with us, please send me an [email](mailto:jtpaulo@inesctec.pt). -->
 
 <!-- HASLab members involved in distributed storage research: -->
 <div class="row">
