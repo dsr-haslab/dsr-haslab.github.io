@@ -33,8 +33,8 @@ visiting-researchers:
     photo: /assets/images/visiting/alexis-gonzalez.jpg
     website: https://caescir.cs.fiu.edu/staff-members/alexis-gonzalez/
     visits:
-      - start: 2024-05-04
-        end: 2024-07-30
+      - start: 2025-05-04
+        end: 2025-07-30
         talk: Generalized, Fault-Tolerant Cache
         program: INESC TEC International Visiting Researcher Programme (IIVRP)
 
@@ -55,7 +55,7 @@ visiting-researchers:
     photo: /assets/images/visiting/edgar-martinez.jpg
     website: https://www.linkedin.com/in/edgar-josafat-martinez-noriega-abb76378
     visits:
-      - start: 2025-04-16
-        end: 2025-06-15
+      - start: 2026-04-16
+        end: 2026-06-15
         talk: "A GPU Journey: From Scientific Visualization to Large-Scale Deep Learning (to be held in May 2026)"
         program: INESC TEC International Visiting Researcher Programme (IIVRP)
