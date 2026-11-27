@@ -75,8 +75,8 @@ team_members:
   info: PhD Student
   role: thesis
   email: alicia.oliveira@inesctec.pt
-  git:
-  ldin:
+  git: https://github.com/aliciasoliveira
+  ldin: https://www.linkedin.com/in/aliciasoaresoliveira/
   number_educ: 2
 
 - name: André Ferreira
@@ -87,6 +87,16 @@ team_members:
   email: pg52672@alunos.uminho.pt
   git: https://github.com/Lucenix
   ldin:
+  number_educ: 2
+
+- name: Beatriz Cepa
+  id: beatriz.cepa
+  photo: beatrizcepa.jpg
+  info: PhD Student
+  role: thesis
+  email: beatriz.cepa@inesctec.pt
+  git: https://github.com/beatrizcepa26
+  ldin: https://www.linkedin.com/in/beatriz-cepa/
   number_educ: 2
 
 - name: Bruno Pereira
